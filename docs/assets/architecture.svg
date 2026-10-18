@@ -6,10 +6,10 @@
 <g fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)">
 <path d="M280 70 H320 V115 H360"/>
 <path d="M280 195 H320 V140 H360"/>
-<path d="M500 172 V235 H140 V290"/>
-<path d="M500 235 H380 V290"/>
-<path d="M500 235 H620 V290"/>
-<path d="M500 235 H860 V290"/>
+<path d="M500 172 V265 H140 V290"/>
+<path d="M500 265 H380 V290"/>
+<path d="M500 265 H620 V290"/>
+<path d="M500 265 H860 V290"/>
 <path d="M140 360 V400 H440 V435"/>
 <path d="M380 360 V410 H480 V435"/>
 <path d="M620 360 V410 H520 V435"/>
