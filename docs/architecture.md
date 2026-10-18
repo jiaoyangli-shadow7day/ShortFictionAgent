@@ -4,6 +4,11 @@
 
 ## 模块协作
 
+![ShortFictionAgent 模块架构：工作流、研究规则、模型接口、本地状态与投稿导出](assets/architecture.svg)
+
+<details>
+<summary>查看可编辑的 Mermaid 架构图</summary>
+
 ```mermaid
 flowchart TD
     A[作者简报与命令行] --> W[StoryWorkflow：编排创作与修订]
@@ -21,6 +26,8 @@ flowchart TD
     S --> X[发布准备与 StoryExporter]
     X --> T[TXT 正文、投稿信息与检查记录]
 ```
+
+</details>
 
 图中的模块通过同一工作流调用模型；不同写作和审读任务使用各自的提示词与校验规则。作者可以在大纲阶段查看方案，确认后再执行全文生成。
 
