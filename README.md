@@ -4,12 +4,27 @@
 
 支持男生情感、都市关系、家庭世情、校园、悬疑和幻想等题材；篇幅可按作者目标和投稿要求调整。
 
+如果这个项目对你的创作有帮助，欢迎点击仓库右上角的 **Star**，收藏项目并支持后续更新。[前往 GitHub 仓库](https://github.com/jiaoyangli-shadow7day/ShortFictionAgent)
+
 ## 创作流程
 
-```text
-作者简报 → 选题与开篇比较 → 大纲预审 → 逐章写作与检查
-         → 独立导语 → 全文主审与集中修订 → 发布准备 → TXT 投稿包
+```mermaid
+flowchart TD
+    A[作者简报：题材、读者、篇幅与投稿渠道] --> B[选题与开篇比较]
+    B --> C[大纲规划与预审]
+    C --> D[逐章写作与读者审读]
+    D -->|章节通过后继续，直至正文完成| E[依据正文生成独立导语]
+    D -->|局部问题| F[修订本章]
+    F --> D
+    D -->|结构问题| C
+    E --> G[全文主审与集中修订]
+    G -->|未通过| H[按问题修订并复核]
+    H --> G
+    G -->|通过| I[发布准备：标题、简介与渠道检查]
+    I --> J[导出 TXT 投稿包，由作者确认投稿]
 ```
+
+各模块如何协作、检查失败后如何处理，见[架构说明](docs/architecture.md)。
 
 - 选题明确目标读者、核心期待、人物欲望和可兑现的故事卖点。
 - 大纲提前安排主要交锋、关系转折、阻碍、回报和章节衔接。
@@ -92,3 +107,11 @@ PYTHONPATH=ShortFictionAgent:ShortFictionAgent/tests python -m unittest discover
 原创代码、提示词和分析摘要使用 [MIT 许可证](LICENSE)，允许商用、修改和分发，保留版权及许可声明即可。第三方短引文和外部服务适用各自权利与条款，见[来源说明](THIRD_PARTY_NOTICES.md)。
 
 项目内的投稿指南为有来源的原创执行摘要；正式投稿前核对目标平台的当前要求。生成小说和投稿资料由作者审定，工具不承诺平台签约、推荐量或收益。
+
+## 交流与反馈
+
+欢迎交流中短篇小说创作、提示词和使用体验。微信：**`JiaoyangLifly`**，添加时请备注 `ShortFictionAgent`。
+
+<img src="docs/assets/wechat.png" alt="作者微信二维码，微信号 JiaoyangLifly" width="240" />
+
+使用问题和功能建议请优先提交 [Issue](https://github.com/jiaoyangli-shadow7day/ShortFictionAgent/issues)，方便检索和跟进。愿意参与开发可查看[贡献说明](CONTRIBUTING.md)。
