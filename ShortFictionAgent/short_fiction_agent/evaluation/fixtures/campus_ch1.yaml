@@ -1,0 +1,40 @@
+fixture_id: campus_ch1
+genre: 青春校园恋爱
+title: 评测·校园
+setting:
+  protagonist_male:
+    name: 陈屿
+    personality: 不善表达但观察力强，习惯用行动代替语言
+    speaking_style: 话少，每句话都有分量
+    forbidden_behaviors: [禁止突然浪漫化, 禁止油腻发言]
+  protagonist_female:
+    name: 林栀
+    personality: 表面要强内心敏感
+    speaking_style: 条理清晰，偶尔引用书里的句子
+    forbidden_behaviors: [禁止突然恋爱脑, 禁止降智]
+  relationship_state:
+    relationship_stage: 初识
+    romance_level: 5
+    trust_level: 8
+    conflict_level: 10
+  world_setting:
+    school_name: 江城市第一中学
+    location: 江苏某地级市
+    features: [百年老校区梧桐多, 教学楼五层没电梯, 1-4班为理科重点班]
+    daily_schedule: ["7:20早读", "18:30-21:00晚自习"]
+chapter_outline:
+  chapter_id: 1
+  reader_hook: 转学生被安排到年级前三后座，第一天就暴露语文强、数学短板的反差
+  story_question: 林栀能不能不被偏科标签压住？陈屿为什么注意到她的错题？
+  character_desire: 林栀想在新班级不被看轻
+  main_event: 班主任介绍转学生林栀，安排她坐在陈屿后面；班级私下议论她数学分数
+  obstacle: 重点班看重成绩，她的数学短板被同学议论
+  action: 林栀稳住语文小测，陈屿把多印的数学笔记留在桌角
+  cost: 林栀被贴上偏科标签，陈屿的异常关注被周诚看见
+  relationship_turn: 陈屿从不关注新同学转为记住她的名字、强项和短板
+  irreversible_change: 林栀不再只是转学生，而成为陈屿视野里第一个矛盾具体的人
+  viral_scene: 全班议论林栀数学分数时，陈屿把多印笔记推到桌角
+  emotional_intensity: 3
+  ending_hook: 放学后林栀发现抽屉里有一颗薄荷糖，糖纸背面写着她数学错题的页码
+  next_chapter_question: 是谁知道她那道题错在哪里，又为什么不署名？
+  forbidden_items: [禁止让陈屿过于热情, 禁止出现明显暧昧对话]

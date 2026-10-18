@@ -1,0 +1,9 @@
+provider: openai_compatible
+# 填写兼容 Chat Completions 格式的服务地址及实际可用模型名。
+base_url: https://api.example.com/v1
+model: your-model-name
+api_key: ''
+temperature: 0.8
+max_tokens: 16000
+# 本地估算预算；请确认服务商模型支持此输入规模及单次输出额度。
+max_prompt_tokens: 150000

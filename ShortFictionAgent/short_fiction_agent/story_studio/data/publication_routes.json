@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-08",
+  "authority": "fanqie_official_pages_and_embedded_rule_tables",
+  "scope": "投稿目标与已核对条件；不预测审核、签约、活动入选、保底、推荐、流量或改编",
+  "counting": {
+    "platform_unit": "author_backend_word_count",
+    "local_unit": "visible_char_v1",
+    "local_scope": "非空白可见字符，包含标点、章标题和导语；分集协议标记不计入",
+    "equivalence": "本地可见字符不等于平台最终计字；平台计字需绑定当前正文单独确认"
+  },
+  "ordinary_short_story": {
+    "min": 6000,
+    "max": 80000,
+    "suggested_min": 10000,
+    "suggested_max": 30000,
+    "completion": "一次完结、故事完整且审核符合规范可获得签约机会；签约后有初期推荐",
+    "boundary": "教程写达到6000字；没有普通推荐必须超过20000字的统一规则",
+    "source": "https://fanqienovel.com/writer/zone/article/7409917439607062553"
+  },
+  "routes": {
+    "fanqie_app_reading": {
+      "name": "普通APP阅读",
+      "channel": "fanqie_short",
+      "activity_ids": [],
+      "metrics": ["展现到阅读", "早期阅读承接", "触底与完读"],
+      "guidance": "让目标读者知道具体事件为何值得看，交锋持续改变关系或利益，结尾兑现承诺。真实阅读数据另行验证。"
+    },
+    "fanqie_new_media": {
+      "name": "新媒体阅读",
+      "channel": "fanqie_short",
+      "activity_ids": ["thousand_words_gold"],
+      "metrics": ["新媒体渠道收益", "渠道适配", "情绪与事件承接"],
+      "guidance": "重点核验情绪密度、节奏和渠道适配。抖音/微信小程序信息流收益与番茄APP阅读指标分别记录。"
+    },
+    "fanqie_ip": {
+      "name": "IP活动与改编评估",
+      "channel": "fanqie_short",
+      "activity_ids": ["ip_gold", "ip_echo"],
+      "metrics": ["人物成长", "情节延展", "可改编交锋", "实际渠道收益与授权"],
+      "guidance": "核验人物成长、结构延展和可改编交锋，保留因果、能力来源与结尾兑现。入选和改编须平台实际评估。"
+    }
+  },
+  "activities": {
+    "thousand_words_gold": {
+      "name": "千字万金第四期",
+      "period": "4",
+      "starts_at": "2026-10-01T00:00:00+08:00",
+      "ends_at": "2026-11-30T23:59:59+08:00",
+      "window_event": "签约完成与核算",
+      "programs": ["general_rewards", "high_guarantee_evaluation"],
+      "default_program": "general_rewards",
+      "word_min": 8000,
+      "word_max": 80000,
+      "word_tiers": [{"name": "超短", "min": 8000, "max": 24900}, {"name": "中短", "min": 25000, "max": 80000}],
+      "unexplained_word_counts": {"min": 24901, "max": 24999},
+      "category_scope": "general_rewards_unrestricted_in_announcement",
+      "categories": [],
+      "potential_bonus_categories": ["现言甜宠", "青春虐恋", "虐心婚恋", "悬疑惊悚", "都市日常", "古言虐恋", "古言甜宠"],
+      "rights_requirements": {"general_rewards": "follow_actual_signed_contract", "high_guarantee_evaluation": "exclusive_original_first_publication"},
+      "requirements": ["按首次投稿字数判档", "超短需完结；中短高保底可完结交付或先交一万字试稿及后续大纲", "高保底须编辑试稿评估", "稿费翻倍须安全上架且新媒体收益大于0", "爆款奖须当月新媒体收益至少1000元且单本TOP600", "潜力品类额外奖还须对应类TOP10；七类不是全部短故事题材限制"],
+      "source": "https://fanqienovel.com/writer/zone/article/7690522089802973246",
+      "evidence": ["official-activity/thousand-rewards.png"]
+    },
+    "ip_gold": {
+      "name": "中短IP金品共创",
+      "period": "2026-10",
+      "starts_at": "2026-10-01T00:00:00+08:00",
+      "ends_at": "2026-10-31T23:59:59+08:00",
+      "window_event": "签约完成",
+      "programs": ["activity_evaluation"],
+      "default_program": "activity_evaluation",
+      "word_min": 20000,
+      "word_max": 80000,
+      "word_boundary": {"specific_reward_rules": ">=20000", "embedded_reward_table": ">=20000", "introduction": ">20000", "interpretation": "具体奖励条款及图表含20000；保留介绍措辞差异，恰好20000的适用以平台确认最终为准"},
+      "category_scope": "listed_categories_and_editor_operator_evaluation",
+      "categories": ["男频脑洞", "女频脑洞", "玄幻仙侠", "现言甜宠", "历史古代", "都市日常", "宫斗宅斗", "古风世情", "年代", "婚姻家庭", "女生生活", "男生生活"],
+      "category_count_note": "公告将男频/女频脑洞合列为一类，总称11类；展开后台名称为12个标签",
+      "category_definitions": {"现言甜宠": "现代背景爱情主线，允许男主或女主恋爱", "男生生活": "男性视角现代关系故事，无言情主线"},
+      "rights_requirements": {"activity_evaluation": "exclusive_original_first_publication"},
+      "requirements": ["运营认定符合本期目录", "首次投稿字数决定奖励档位", "明珠/宝藏/启航激励还须正常上架及当月非保底纯分成稿费至少100元", "至少30000字进入较高档，最终以平台核算为准", "保底须编辑评估，达到字数不自动获得保底、入选或推荐"],
+      "source": "https://fanqienovel.com/writer/zone/article/7690402951050838078",
+      "evidence": ["official-activity/gold-rewards.png", "official-activity/gold-genres.png"]
+    },
+    "ip_echo": {
+      "name": "IP回响第三期",
+      "period": "3",
+      "starts_at": "2026-10-01T00:00:00+08:00",
+      "ends_at": "2026-11-30T23:59:59+08:00",
+      "window_event": "签约完成",
+      "programs": ["activity_evaluation"],
+      "default_program": "activity_evaluation",
+      "word_min": 6000,
+      "word_max": 80000,
+      "word_min_basis": "未另设统一两万字活动准入门槛；6000来自普通短故事教程范围",
+      "word_tiers": [{"name": "文字激励低档", "min": 6000, "max": 19999}, {"name": "文字激励高档", "min": 20000, "max": 80000}],
+      "category_scope": "listed_categories_and_editor_operator_evaluation",
+      "categories": ["宫斗宅斗", "古言甜宠", "男频脑洞", "女频脑洞", "年代", "现言甜宠", "虐心婚恋", "女生生活", "女性成长", "婚姻家庭"],
+      "category_definitions": {"年代": "本期限定九零年代", "现言甜宠": "幸福结局的现代恋爱主线", "古言甜宠": "幸福结局的古代恋爱主线", "脑洞": "设定实际推进主线", "女性成长": "偏非感情主线"},
+      "rights_requirements": {"activity_evaluation": "exclusive_original_first_publication"},
+      "requirements": ["编辑/运营评估目录适配", "首次投稿不足20000与至少20000分别为10%/30%文字激励档位，仍须当月非保底纯分成全渠道稿费至少300元", "好文奖还须文字激励条件、至少20000字及番茄累计点赞TOP300", "改编奖须实际授权第三方真人短剧改编并签约", "优先渠道资源及改编评估不保证站内展现"],
+      "source": "https://fanqienovel.com/writer/zone/article/7690521379786997822",
+      "evidence": ["official-activity/echo-rewards.png", "official-activity/echo-genres.png"]
+    }
+  }
+}

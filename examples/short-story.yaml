@@ -1,0 +1,28 @@
+title: 离婚那天，她发现我早已搬空了家
+genre:
+  primary: romance
+format: short_story
+story_engine: relationship_choice
+point_of_view: 男性第一人称
+length:
+  target: 30000
+  min: 27000
+  max: null
+audience:
+  description: 喜欢都市情感、关系反转和人物主动选择的短篇读者
+  expectations:
+    - 主角明确止损，关系变化由双方具体行动造成
+    - 矛盾持续发展，每次交锋带来新信息或不同后果
+reader_promise: 看一个被当成理所当然的人主动离开，双方在真实代价中重新认识这段婚姻，最终给出明确选择。
+channels: [fanqie_short]
+author_input:
+  premise: 妻子约我第二天办理离婚，回家却发现我的东西已经全部搬走。她以为我在赌气，直到她想挽回的一次安排，让我确认过去三年她一直误解了我的工作与生活。
+  locked_facts: []
+constraints:
+  must_keep:
+    - 导语独立放在第一章之前，使用正文能够兑现的具体情节
+    - 主角有自己的欲望与行动，故事围绕同一个核心关系问题推进
+  avoid:
+    - 反复误会却不发生行动
+    - 用心理总结替代关系转折
+    - 凭空出现财富和权力解决所有问题

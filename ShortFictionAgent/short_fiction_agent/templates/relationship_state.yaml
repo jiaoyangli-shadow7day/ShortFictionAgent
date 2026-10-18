@@ -1,0 +1,24 @@
+# 关系状态模板
+relationship_stage: "陌生人"
+stage_description: ""
+romance_level: 0
+trust_level: 0
+conflict_level: 0
+
+male_to_female:
+  current_attitude: ""
+  hidden_feeling: ""
+  recent_change: ""
+
+female_to_male:
+  current_attitude: ""
+  hidden_feeling: ""
+  recent_change: ""
+
+unresolved_tensions: []
+
+forbidden_progress:
+  - "当前阶段禁止直接表白"
+  - "当前阶段禁止暧昧身体接触"
+
+recent_changes: []

@@ -1,0 +1,3267 @@
+{
+  "version": "lead-research-2026-10-11-v5-preserve-prior-evidence",
+  "scope": "正文导语与第一章的编辑经验；汇总已有研究及本次用户截图。阅读范围不同的资料分列，不把上百条作品记录当上百篇全文，不把热门身份当写法优越或推流因果证明。",
+  "sources": [
+    {
+      "id": "opening-23",
+      "path": "local-research-snapshot-not-distributed",
+      "scope": "23案例，21公开导语/预览、2评论描述；非23篇完整首屏或全文"
+    },
+    {
+      "id": "hot-20261003",
+      "path": "local-research-snapshot-not-distributed",
+      "scope": "现实、甜宠、悬疑幻想的官网预览及选段；各条保留阅读边界"
+    },
+    {
+      "id": "tag-145",
+      "path": "local-research-snapshot-not-distributed",
+      "scope": "145新增作品：57正文分析、32开篇、56元数据；全篇连续读完0；不由分类数量推市场份额"
+    },
+    {
+      "id": "continuous-12",
+      "path": "local-research-snapshot-not-distributed",
+      "scope": "12篇连续阅读、205推进单元，2篇完整结尾、10公开试读；用于导语后的持续推进"
+    },
+    {
+      "id": "screenshots-44",
+      "path": "local-research-snapshot-not-distributed",
+      "scope": "44个去重短篇入口，标题/导语/首场；未验证全部中后段与结尾"
+    },
+    {
+      "id": "screenshots-20261007",
+      "path": "local-research-snapshot-not-distributed",
+      "scope": "用户上传13图，可识别6作品、5明确导语/章界；第7未见，破产妻子未见章界。用户称榜单前7，不独立核验排名"
+    },
+    {
+      "id": "lead-enrichment-20261008",
+      "path": "local-research-snapshot-not-distributed",
+      "scope": "66个去重作品：46官网开篇（30男生情感；43有独立导语章界、2直接第一章、1章界未见）+20官方例文。39书有第三方历史likeCnt≥1000，7低热度对照；31相对已索引旧台账新增。均未本轮连续读完整篇；热度不证明导语引流因果。"
+    },
+    {
+      "id": "lead-sentence-study-20261008",
+      "path": "local-research-snapshot-not-distributed",
+      "scope": "38已有官网开篇逐句复核（30男生情感、6现言甜宠、2男生生活），14去重新增官方课堂样例；13官方教程分段或全文复核。均非本轮完整小说阅读；热门不是首句质量或引流因果证据。"
+    }
+  ],
+  "principles": [
+    "导语属于投稿小说正文，置于第一章之前；发布简介是另一个文件/字段，不可互代。导语可以浓缩前史、预告结局方向或截入高潮，第一章用现场展开人物行动。",
+    "先让陌生读者看懂具体关系或处境，再给异常、立场变化或反常选择及一个追读问题。事件先于履历；必要背景解释正在发生的行动，不集中列设定。",
+    "熟悉套路与反常回应可以组合，但反常须由人物自己的欲望、经历、生活优先级或边界支撑；只说我不按套路来不能成立。",
+    "可预告离开、上岸或追悔，不必一律隐瞒结果；把追读问题转为为何、怎么做到、对方怎样回应、代价是什么。悬疑保留关键解释和推理过程，不把完整谜底、行动链和情感回收全部讲完。",
+    "导语末尾留下具体待发生的变化或代价，不强制反问句，不用他们不知道/更大的秘密/所有人后悔等无对象口号。前三句有可复述的信息，而不是反复改写标题。",
+    "导语与第一章有三种衔接：预告后回到起点、同场接续、必要重述后展开。明确时序；角色只能按当时已知信息行动，不能因导语预告而提前知情。",
+    "第一章单读也可理解首场：地点、关系、行动、压力有足够交代。与导语重叠的信息需增加对白、物件、反应或后果，不逐段重播摘要。",
+    "生活细节参与关系或判断：等待中续水、被替换的座位、固定衣着香味、纪念日与升职宴对照、替人留的汤；学习作用，不复制原文或整组人物道具。",
+    "不同情绪用不同吸引方式：甜宠可用照顾和话语的差异、私人习惯被发现；家庭可用撤回劳动或资源；日常可用价值判断；悬疑用可以核对的异常；不统一升级羞辱、创伤或性暗示。",
+    "导语吸引之后，首场要回应一项局部期待，再引出真实的新行动或关系问题。安静互动也可以推进；不固定每300字反转或每场打脸。",
+    "每项事实与情绪承诺须在实际成稿有支撑，特别是资源取得、退出、追悔与新关系；大纲、标题和作者自评不能替正文举证。",
+    "预算长短按信息必要性，短句不是质量的充分条件。80—600字符仅为当前生成预算；截图阅读分钟数不能换算成导语/正文最优字数。",
+    "先确定读者继续读的具体收获：一场双方交锋、一个证据解释、一项失衡被纠正，或一次私人关心被看见；写出具体人物下一步会做什么。笼统的能否幸福/能否平稳落地不构成独有收获。",
+    "对照标题逐句检查信息增量：标题已给的关系或设定，只需让读者入场，不再复述一遍；导语至少增加一次有效行动、证据、接招、限制或重估。不是必须三个反转。",
+    "从实际正文挑出可支撑承诺的几个高潜场面，再决定三候选的信息安排。不同候选可分别靠接招、信息差、选择代价；不要把同一早餐场景换三种形容词。",
+    "具体性不由细节数量决定：金额说明利益差额，账单核对认知，手语改变谁知道秘密，时钟限制选择；与判断和下一步行动无关的品牌、食材、衣架、履历清单要删。",
+    "导语可以给第一次小胜利或一个完整笑点。此后要有值得继续看的局面、人物交锋或兑现过程；不把所有过程讲完，再用抽象反问装成悬念。也不强制每篇结尾留恐惧或秘密。",
+    "按route_profiles选择同类情绪与机制的对照。男生情感覆盖止损、关系轻喜、角色碰撞、错位身份、证据翻转、亲情与利益等；平台大类与编辑机制分开，不把男生生活/古风男频例改标为男生情感。",
+    "独立审查先复述读者此刻已知什么、尚需看到哪场具体行动，检查题目和导语是否已经消解全部期待；有对白、道具、事实正确、结构完整都不是吸引力充分条件。",
+    "若正文只有平稳互动、没有可兑现的高潜变化，指出需要上游增补或重写的具体场面；当前导语候选可全部不通过。事实约束不能靠编造承诺解决，编辑也不能为了放行把标准降到句子通顺。",
+    "首句先找有内容的具体冒犯、异常证据、关系错位或反常选择；写了差评/受了委屈/发现秘密是事件名称，不能隐藏正文已有的尖锐原话或证据。强度来自实际内容，不靠劲爆、毒舌、惊呆等评价词。",
+    "把首句、前三句、整段分别读：首句可以短或搭处境，紧随的句子须让这一安排有意义。每句标出新增事实与仍值得看的具体回应；不要借后段对白证明首句够吸引，也不机械把三句都写成反转。",
+    "热度只能用于选样。sentence_study逐例记录弱首句、后置笑点和导语缺兑现；benchmark需学具体信息作用，不能因热门样本泛化开头也这样写就放行。",
+    "对具体性做删减判断：删掉食材名、金额、职业后，冲突是否仍成立？改变双方权限、判断、去留或下一步行动的内容才有作用；纯道具清单、近身呼吸和无对象斗嘴不能替代关系变化。",
+    "主题范围保留男生情感的止损、亲情责任、职业碰撞、身份错位、利益变化与轻喜偏爱；可以用从容回应与务实目标，不把各类一律转成甜宠或复仇。",
+    "导语与第一章的增量要比较行动和结果，不能只比较措辞：演完同一场挑战、验证、结果和新邀约后，正文若仅重播，应缩回一次接招与未兑现局面。结果预告允许保留尚未揭示的独有原因；不按字数一刀切。"
+  ],
+  "patterns": [
+    {
+      "style": "outcome_preview",
+      "use": "关系决裂、追悔、身份退出、成长；短前史积累→主角决断→结果方向→留下过程/代价",
+      "evidence": [
+        "screenshots-44:B02-04/B02-06/B02-08",
+        "screenshots-20261007:成了小说男二后，我直接选择上岸！"
+      ],
+      "warning": "不要逐条复述所有羞辱；预告后第一章须有明确起点；不直接公布所有兑现过程"
+    },
+    {
+      "style": "expectation_reversal",
+      "use": "读者以为主角会争宠、吃醋或顺从，主角因自己的目标作出另一选择",
+      "evidence": [
+        "screenshots-44:B02-01/B01-25",
+        "screenshots-20261007:妻子白月光回国，全家都怕我提桶跑路"
+      ],
+      "warning": "反常理由要具体；不能只有不争不抢的正确宣言，也不能误将轻喜剧写成沉重背叛"
+    },
+    {
+      "style": "scene_continuation",
+      "use": "从一段具体冲突与回应截入，第一章继续后果，不必倒叙",
+      "evidence": [
+        "screenshots-44:B01-35",
+        "screenshots-20261007:将虐文玩成爽文，京圈大小姐懵了！"
+      ],
+      "warning": "章节数字不产生吸引力；现场回应后必须有新变化，不能反复殴打/辱骂代替剧情"
+    },
+    {
+      "style": "rule_anomaly",
+      "use": "日常事出现无法同时成立的事实，或特殊规则引发与通常预期相反的选择",
+      "evidence": [
+        "opening-23:高考考场那边到底是黑夜还是白天？",
+        "hot-20261003:独居女生的生存规则怪谈/重度强迫症患者勇闯恐怖游戏",
+        "screenshots-44:B01-02/B01-11"
+      ],
+      "warning": "说清规则边界与可见线索；弹幕不是已验证事实；第一章不重复规则说明书"
+    },
+    {
+      "style": "relationship_reframing",
+      "use": "小动作或物件揭示私人关注、家庭位置或长期不公，让读者重估关系",
+      "evidence": [
+        "continuous-12:我把暗恋写成小说，他把重逢变成蓄谋/和死对头联姻后，先婚后爱了！",
+        "screenshots-44:B01-05/B01-08/B01-29",
+        "tag-145:female/analysis.md"
+      ],
+      "warning": "照顾不自动证明爱情，道歉不自动完成修复；保留有作用的生活细节和边界，不强行添危险"
+    },
+    {
+      "style": "expectation_reversal",
+      "use": "穿书前只交代解释本次选择必需的前史，突出对既定悲剧的主动改选",
+      "evidence": [
+        "screenshots-20261007:开局穿书，我又不傻等你虐我。/成了小说男二后，我直接选择上岸！/妻子破产后要离婚，我就是不离！"
+      ],
+      "warning": "知道原剧情与当前实际发生分开；不要让穿书标签免除人物动机和因果；破产妻子截图未见章界，不能当独立导语确证"
+    }
+  ],
+  "counterexamples": [
+    "热门不代表每个句子都值得学：样本中的强迫亲密、伤害升级、凭空富豪解决或含混指代，不作为质量奖励。",
+    "无法证明导语是上榜原因；没有对照曝光、题材、发布时间和读者留存。独立编辑通过仍不等于不差于热门、获得推荐或爆款。",
+    "照搬热门结局方向但正文未兑现，会制造虚假承诺；只加第一章标记、把简介移到前面，也不构成有效导语。",
+    "禁止用首次现场前80字检查误杀结果预告；需要分别审读导语、章首、衔接和整篇兑现。",
+    "一段甜蜜互动完整结束，再补后来我也动心了，不能自动算有追读动力；判断后续还有没有独有的互动或兑现过程。",
+    "终句你猜下一句话是什么/到底能否幸福，若没有前置矛盾与具体对象，只是藏句子或问方向。",
+    "热门正例也有弱处：长品牌清单、只重复标题、章首姓名履历铺陈、靠性暗示、因小事极端翻脸，均不能由榜位豁免。",
+    {
+      "id": "compressed_premise_example",
+      "role": "illustrative_counterexample_not_popularity_evidence",
+      "match_terms": [
+        "穿越",
+        "穿回",
+        "未来三十年",
+        "香港",
+        "巨星",
+        "赌马"
+      ],
+      "example": "我带着未来记录穿回香港，救下巨星，又押中一匹马。从此她开始注意我。",
+      "problem": "摘要省略了能吸引陌生读者的身份、危险、收益和人物回应；事件名称不能代替事件内容。",
+      "repair": "选一条行动链，交代必要身份、具体事件和它带来的变化；不设200字硬上限，不另造事故。"
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "runaway-question",
+      "source": "screenshots-20261007:01-02",
+      "title": "妻子白月光回国，全家都怕我提桶跑路",
+      "excerpt": "就在我犹豫着要不要提桶跑路的时候。\n发现自己好像跑不了了……",
+      "mechanism": "前文建立婚姻可能被替换、主角考虑退出的预期；结尾引入退出受阻，留下为何跑不了的具体变化。",
+      "use": "关系喜剧的收尾：已有目标遇到新阻力。",
+      "limit": "这里只摘结尾；不能凭空给新稿加堵门、监控或强迫，也不能由榜位证明推流因果。"
+    },
+    {
+      "id": "runaway-voice",
+      "source": "screenshots-20261007:01",
+      "title": "妻子白月光回国，全家都怕我提桶跑路",
+      "excerpt": "“白月光，回国，我姐还是冰山女总裁。”\n“这不是妥妥的虐文套餐吗？”\n我很想说她是短剧入脑了，以后少看点。",
+      "mechanism": "小姨子套用虐文预测与男主生活化吐槽碰撞，人物说话带自己的判断，而非作者概括情感。",
+      "use": "轻喜导语：对白建立常见预期，人物用具体口吻回应。",
+      "limit": "不把所有甜宠加成白月光或虐文；不照搬短剧吐槽。"
+    },
+    {
+      "id": "exam-choice",
+      "source": "screenshots-20261007:06",
+      "title": "成了小说男二后，我直接选择上岸！",
+      "excerpt": "随后一头扎入了考题的海洋。\n人生艰难，唯有上岸。\n我上岸之前你说我是男二我不挑你的理。\n我上岸之后你该叫我什么？",
+      "mechanism": "悲情男二拒绝感情竞争，以考试行动改变目标；收尾让人追问身份变化后的回应。",
+      "use": "反常回应必须有新目标和具体行动，允许预告结果。",
+      "limit": "不是每个故事都考公，不把身份上岸口号移植到普通合租恋爱。"
+    },
+    {
+      "id": "courier-priority",
+      "source": "screenshots-20261007:05",
+      "title": "开局穿书，我又不傻等你虐我。",
+      "excerpt": "被书穿到了小说里，我发现情况不妙赶紧逃跑，剧情啥的爱谁谁，我可是扎针都怕疼，你们自己玩吧。",
+      "mechanism": "前文快递员的劳累经历解释拒绝受虐；怕扎针的小习惯具体支撑逃跑选择。",
+      "use": "人物自身的偏好或生活优先级，让反常选择可信。",
+      "limit": "截图有粗口与重复；只学习惯如何支撑选择，不复制语病或夸张语气。"
+    },
+    {
+      "id": "rules-response",
+      "source": "screenshots-20261007:07-09",
+      "title": "将虐文玩成爽文，京圈大小姐懵了！",
+      "excerpt": "“立规矩是吧？”\n“哈巴狗是吧？”\n“上交财产是吧？”\n“跪下道歉是吧？”",
+      "mechanism": "前文具体规矩制造压力，主角当场回应逐项回扣，数字1之后继续同场后果。",
+      "use": "现场导语可回应冲突后继续，不必全部写成概括后倒叙。",
+      "limit": "样例暴力不是甜宠质量标准；不能给轻喜故事添加羞辱或殴打来冒充张力。"
+    },
+    {
+      "id": "three-chances",
+      "source": "user-provided: earlier Image #9/#10",
+      "title": "我说过只给她三次机会，她却笃定我不会走",
+      "excerpt": "我问她：“你确定要这么做？”\n她说：“确定。”\n我点头：“好，这是第三次。”",
+      "mechanism": "前文约定三次与具体三次违约形成计数压力，一段对白触发明确决定；正文留离开的实施及对方回应。",
+      "use": "规则有具体边界，临界选择让结局方向的预告仍有过程问题。",
+      "limit": "不把每篇都改成三次机会，也不用爱情计数替代人物动机。"
+    },
+    {
+      "id": "fq-7562067687090687000",
+      "source": "https://fanqienovel.com/page/7562067687090687000",
+      "title": "我摆烂同意分手，高冷女总裁破防了",
+      "excerpt": "「不是你说，腻了吗？」",
+      "route": "stop_loss",
+      "category": "男生情感",
+      "read_scope": "明确独立导语及章界",
+      "popularity_scope": "第三方历史榜单且likeCnt≥1000",
+      "mechanism": "把对方的具体冒犯放在前面，让主角的简短回应改变关系；轻喜可用同一句话的后续回收。",
+      "use": "以一项真实付出和失衡证据立住退出理由；预告选择后，把期待留给利益撤回、对方回应或新生活的具体变化。",
+      "limit": "首句和回应有效，求复合原因在导语里仍通用；不能把所有关系变化都写成离开后对方后悔。",
+      "benchmark_eligible": true,
+      "sentence_study": {
+        "first_sentence_quality": "首句有具体对话，人物回应形成吸引点",
+        "first_sentence_analysis": "先直接给出女方的分手理由，再跟上扔卡动作。理由把感情说成消费后的厌倦，卡把这种态度落到交易上；比只说她提出分手多了一层可识别的冒犯。",
+        "reader_default_expectation": "拿钱打发伴侣的一方占据主动，被甩者会追问原因、讨价还价或挽留。",
+        "second_sentence_analysis": "男方点头并立即答应，信息从她提出要求变成双方当场结束；极短回应有用，是因为前句已经给出足够具体的要求。",
+        "third_sentence_analysis": "女方没料到他答应得如此快，确认双方对这段关系的预期不同；这句是反应说明，具体程度低于前两句。",
+        "actual_change": "立即答应改变去留；半夜砸门求复合又改变请求方。末尾重提她自己给出的理由，使拒绝具有对象。",
+        "deletion_test": [
+          "删掉厌倦理由，分手会变成无差别背景，最后回话也失去回扣对象。",
+          "删掉立即答应，女方后悔只剩单边概述，无法看见男方选择。"
+        ],
+        "transferable_mechanism": "把对方的具体冒犯放在前面，让主角的简短回应改变关系；轻喜可用同一句话的后续回收。",
+        "limitations": "首句和回应有效，求复合原因在导语里仍通用；不能把所有关系变化都写成离开后对方后悔。",
+        "sentence_windows": [
+          {
+            "unit": 1,
+            "new_information": "女方用厌倦为理由分手并扔卡。",
+            "reader_attraction": "一句原话和配套动作使冒犯可见，读者等男方怎样回应。",
+            "scope": "导语"
+          },
+          {
+            "unit": 2,
+            "new_information": "男方立即同意分手。",
+            "reader_attraction": "拒绝预设的挽留流程，去留状态已改变。",
+            "scope": "导语"
+          },
+          {
+            "unit": 3,
+            "new_information": "女方没有预料男方答应得快。",
+            "reader_attraction": "确认她的控制预期落空；主要是反应说明，新事实较少。",
+            "scope": "导语"
+          }
+        ],
+        "benchmark_role": "concrete_content_positive",
+        "evidence_scope": "明确独立导语及章界",
+        "analysis_kind": "original_analysis_of_public_opening; not_verbatim_full_lead"
+      }
+    },
+    {
+      "id": "fq-7641880584926546968",
+      "source": "https://fanqienovel.com/page/7641880584926546968",
+      "title": "娶了个哑妻，学会手语后我人傻了",
+      "excerpt": "她愣了三秒。\n手速翻了一倍。",
+      "route": "comic_exchange",
+      "category": "男生情感",
+      "read_scope": "明确独立导语及章界",
+      "popularity_scope": "第三方历史榜单且likeCnt≥1000",
+      "mechanism": "概括辱骂要改成一条有对象、有比喻的攻击内容；更关键的是让被攻击者证明自己已经听懂。",
+      "use": "设定双方想做但不能同时做成的事，用一次接招改变场面；笑点后留下新难题、身份暴露或下一次必须回答的话，不以一句心动总结结束。",
+      "limit": "听障与嫌弃措辞不是笑点质量证据；不能据此奖励对残障的贬损。首句较弱不影响后面的翻译与接招有效。",
+      "benchmark_eligible": true,
+      "sentence_study": {
+        "first_sentence_quality": "首句主要交代设定，具体笑点后置",
+        "first_sentence_analysis": "企业联姻加听障妻子是关系设定，没有直接亮出她怎样对待丈夫；带有嫌弃的称谓不能替代有辨识度的行动。",
+        "reader_default_expectation": "婚姻因利益成立，妻子无法说话，丈夫可能占有沟通上的优势。",
+        "second_sentence_analysis": "三个月里妻子持续做激烈手势，补出可见行为，但尚不知道手势内容。",
+        "third_sentence_analysis": "丈夫把行为归因为脾气差，留下一个错误解释；它只在后面翻译出具体骂法时成立。",
+        "actual_change": "丈夫学会手语后，过去的手势被重新理解；他当面用手语接招，妻子愣住再加速，交流从单向隐秘输出变成双方互知的交锋。",
+        "deletion_test": [
+          "删掉具体骂法，只剩她一直骂我，幽默由读者自行脑补。",
+          "删掉当面回话与妻子反应，学会手语只是信息揭晓，关系没有实际回应。"
+        ],
+        "transferable_mechanism": "概括辱骂要改成一条有对象、有比喻的攻击内容；更关键的是让被攻击者证明自己已经听懂。",
+        "limitations": "听障与嫌弃措辞不是笑点质量证据；不能据此奖励对残障的贬损。首句较弱不影响后面的翻译与接招有效。",
+        "sentence_windows": [
+          {
+            "unit": 1,
+            "new_information": "男方为企业利益与听障妻子成婚。",
+            "reader_attraction": "只有关系来历，尚未亮出她究竟做了什么。",
+            "scope": "导语"
+          },
+          {
+            "unit": 2,
+            "new_information": "妻子三个月里不断做激烈手势。",
+            "reader_attraction": "可见行为持续出现，读者需要它的意义。",
+            "scope": "导语"
+          },
+          {
+            "unit": 3,
+            "new_information": "男方把手势解释为坏脾气。",
+            "reader_attraction": "给出待推翻的解释；具体攻击内容仍后置。",
+            "scope": "导语"
+          }
+        ],
+        "benchmark_role": "context_then_concrete_payoff",
+        "evidence_scope": "明确独立导语及章界",
+        "analysis_kind": "original_analysis_of_public_opening; not_verbatim_full_lead"
+      }
+    },
+    {
+      "id": "fq-7637923177661746201",
+      "source": "https://fanqienovel.com/page/7637923177661746201",
+      "title": "急诊科苟了三年，刑警老婆翻出了我的军功章",
+      "excerpt": "\"铐走！连他一起！\"",
+      "route": "role_collision",
+      "category": "男生情感",
+      "read_scope": "明确独立导语及章界",
+      "popularity_scope": "第三方历史榜单且likeCnt≥1000",
+      "mechanism": "身份标签要落到具体命令，让一个人的工作动作改变另一个人的处境。",
+      "use": "先给眼前任务，再让另一种身份或另一方目标阻挡它；读者要能想象紧接着必须处理的场面。",
+      "limit": "标题的军功章没有在导语中亮出；结尾婚姻是否合法的问句与逮捕原因衔接偏弱，不能作为完整因果范例。",
+      "benchmark_eligible": true,
+      "sentence_study": {
+        "first_sentence_quality": "首句主要交代设定，具体冲突后置",
+        "first_sentence_analysis": "催婚和只见过一面便领证给出决策背景，尚未提供这一对为何与其他闪婚夫妻不同。",
+        "reader_default_expectation": "仓促结婚后会发现配偶的隐藏习惯或身份。",
+        "second_sentence_analysis": "婚后得知妻子是重案组队长，补身份信息，为警务行为提供来源。",
+        "third_sentence_analysis": "丈夫救人、妻子抓人建立职业对称；只是角色差别，还没有相互干扰。",
+        "actual_change": "妻子带队进入丈夫工作现场，并把丈夫连同女患者一起列入带走对象；夫妻身份开始干预职业行为。耳尖发红暗示感情因素，但不构成抓人的因果证明。",
+        "deletion_test": [
+          "删掉她要求连丈夫一起带走，只剩两人职业各异，碰撞没有发生。",
+          "删掉急诊室与女患者，无法定位执法为何闯进丈夫的救人现场。"
+        ],
+        "transferable_mechanism": "身份标签要落到具体命令，让一个人的工作动作改变另一个人的处境。",
+        "limitations": "标题的军功章没有在导语中亮出；结尾婚姻是否合法的问句与逮捕原因衔接偏弱，不能作为完整因果范例。",
+        "sentence_windows": [
+          {
+            "unit": 1,
+            "new_information": "男方为应付催婚与只见一面者领证。",
+            "reader_attraction": "是常见闪婚背景，首句缺少本例特殊内容。",
+            "scope": "导语"
+          },
+          {
+            "unit": 2,
+            "new_information": "新妻子是重案组刑警队长。",
+            "reader_attraction": "给一个职业身份，可能干预相处但还未发生。",
+            "scope": "导语"
+          },
+          {
+            "unit": 3,
+            "new_information": "丈夫救人而妻子抓人。",
+            "reader_attraction": "形成职业参照；对称句不等于双方目标已经冲突。",
+            "scope": "导语"
+          }
+        ],
+        "benchmark_role": "context_then_concrete_payoff",
+        "evidence_scope": "明确独立导语及章界",
+        "analysis_kind": "original_analysis_of_public_opening; not_verbatim_full_lead"
+      }
+    },
+    {
+      "id": "fq-7495604620195004990",
+      "source": "https://fanqienovel.com/page/7495604620195004990",
+      "title": "邻家病娇姐姐对我的囚爱",
+      "excerpt": "1 邻家姐姐的阴影\n从小，我就生活在",
+      "route": "relationship_mystery",
+      "category": "男生情感",
+      "read_scope": "直接第一章",
+      "popularity_scope": "第三方历史榜单且likeCnt≥1000",
+      "mechanism": "童年阴影应落到一条具体谎言及一个被切断的关系；从结论转为能看见的证据。",
+      "use": "拿一项与原关系解释不相容的证据，说明这个矛盾为何影响主角；留下原因或处理选择，避免只有我震惊了。",
+      "limit": "这是第一章开篇，不能纳入独立导语质量统计；前几句较慢，即使有历史榜单热度也不应视为强首句。",
+      "benchmark_eligible": false,
+      "sentence_study": {
+        "first_sentence_quality": "首句弱，直接第一章的泛化铺陈",
+        "first_sentence_analysis": "章标题后第一句只说童年受邻家姐姐影响，阴影是结论，没提供谁做了什么。",
+        "reader_default_expectation": "邻家姐姐通常是玩伴或照顾者，负面概括使读者预期后面会举伤害事例。",
+        "second_sentence_analysis": "第一次见面时只有年龄与名字，补履历而未加重困境。",
+        "third_sentence_analysis": "母亲介绍新邻居并把姐姐安排为玩伴，建立家庭认可的正常关系；场景多于事件。",
+        "actual_change": "姐姐向朋友编造偷橡皮的指控，导致朋友不再理主角；随后威胁不许告状，才真正改变他的交友与申诉条件。",
+        "deletion_test": [
+          "删掉具体诬陷内容，控制只剩性格标签，没有读者能判断的行为。",
+          "删掉朋友不再来往，恶意有了但后果没有落地。"
+        ],
+        "transferable_mechanism": "童年阴影应落到一条具体谎言及一个被切断的关系；从结论转为能看见的证据。",
+        "limitations": "这是第一章开篇，不能纳入独立导语质量统计；前几句较慢，即使有历史榜单热度也不应视为强首句。",
+        "sentence_windows": [
+          {
+            "unit": 1,
+            "new_information": "主角概称童年受邻家姐姐压制。",
+            "reader_attraction": "只有阴影结论，没有值得追问的具体行为。",
+            "scope": "仅开篇；未计为独立导语"
+          },
+          {
+            "unit": 2,
+            "new_information": "他五岁第一次见到她。",
+            "reader_attraction": "补年龄和时间，事件仍未启动。",
+            "scope": "仅开篇；未计为独立导语"
+          },
+          {
+            "unit": 3,
+            "new_information": "母亲把姐姐安排成玩伴。",
+            "reader_attraction": "建立受家庭认可的正常位置，为后文控制行为提供对照。",
+            "scope": "仅开篇；未计为独立导语"
+          }
+        ],
+        "benchmark_role": "chapter_opening_weak_counterexample",
+        "evidence_scope": "直接第一章",
+        "analysis_kind": "original_analysis_of_public_opening; not_verbatim_full_lead"
+      }
+    },
+    {
+      "id": "fq-7678715373985778712",
+      "source": "https://fanqienovel.com/page/7678715373985778712",
+      "title": "月薪八千的牛马误入恋综后，全网求我别下班",
+      "excerpt": "“我问加班怎么算。”",
+      "route": "comic_priority",
+      "category": "男生情感",
+      "read_scope": "明确独立导语及章界",
+      "popularity_scope": "第三方历史榜单且likeCnt≥1000",
+      "mechanism": "需要比较时给一两个具体参照，再让主角用另一套计算标准回答；笑点可来自加班费用而非灾难。",
+      "use": "先立周围人默认的目标，再给主角自己的生活优先级和实际选择；这种选择要持续制造人物碰撞，不能只有我不走套路的宣言。",
+      "limit": "605字独立导语较长，前三句只是搭台；全网反应与热搜是文内效果描述，不是首句质量证据。",
+      "benchmark_eligible": true,
+      "sentence_study": {
+        "first_sentence_quality": "首句普通，具体比较与回应在后文成立",
+        "first_sentence_analysis": "恋综首日自我介绍是常规程序，只建立众人将被比较的场景。",
+        "reader_default_expectation": "恋综嘉宾会展示学历、职业与择偶优势，逐个介绍应当各有光鲜履历。",
+        "second_sentence_analysis": "第一名嘉宾拥有名校学历、投资职业与百万收入，把比较标准具体化。",
+        "third_sentence_analysis": "第二名继续用医院、职级、博士学历增强同一标准；仍是同方向累积，没有反转。",
+        "actual_change": "主角只报普通运营身份，被追问后给出8700工资和500餐补；再解释参与节目源自公司合作名额和调休，恋爱舞台被他当成工作任务。",
+        "deletion_test": [
+          "删掉嘉宾履历的参照，主角普通收入不再构成现场落差。",
+          "删掉餐补与调休，牛马只是标签，无法看见他按什么标准作决定。"
+        ],
+        "transferable_mechanism": "需要比较时给一两个具体参照，再让主角用另一套计算标准回答；笑点可来自加班费用而非灾难。",
+        "limitations": "605字独立导语较长，前三句只是搭台；全网反应与热搜是文内效果描述，不是首句质量证据。",
+        "sentence_windows": [
+          {
+            "unit": 1,
+            "new_information": "恋综首日要八人介绍自己。",
+            "reader_attraction": "提供比较场景，独立看是普通程序。",
+            "scope": "导语"
+          },
+          {
+            "unit": 2,
+            "new_information": "首位嘉宾名校毕业、做投资且高薪。",
+            "reader_attraction": "亮出场内展示优势的具体标准。",
+            "scope": "导语"
+          },
+          {
+            "unit": 3,
+            "new_information": "下一位嘉宾是高学历医生。",
+            "reader_attraction": "强化同一标准，尚未亮出主角不同的答法。",
+            "scope": "导语"
+          }
+        ],
+        "benchmark_role": "context_then_concrete_payoff",
+        "evidence_scope": "明确独立导语及章界",
+        "analysis_kind": "original_analysis_of_public_opening; not_verbatim_full_lead"
+      }
+    },
+    {
+      "id": "fq-7543162212735536153",
+      "source": "https://fanqienovel.com/page/7543162212735536153",
+      "title": "一缕青丝千年痴缠",
+      "excerpt": "可十年后，我开始发现我不会老。",
+      "route": "relationship_mystery",
+      "category": "女生生活",
+      "read_scope": "明确独立导语及章界",
+      "popularity_scope": "第三方历史榜单且likeCnt≥1000",
+      "mechanism": "多年恩爱婚姻应一起老去→妻子发现只有自己不衰老；继续读看：丈夫知不知道；两人怎样面对不同寿命",
+      "use": "拿一项与原关系解释不相容的证据，说明这个矛盾为何影响主角；留下原因或处理选择，避免只有我震惊了。",
+      "limit": "第一章用头发、眼尾对照验证异常；不靠再添羞辱制造追读",
+      "benchmark_eligible": true
+    },
+    {
+      "id": "fq-7473705586152964633",
+      "source": "https://fanqienovel.com/page/7473705586152964633",
+      "title": "你好，死了吗保洁，上门服务",
+      "excerpt": "我们还要开泳池派对呢，真晦气。",
+      "route": "anomaly",
+      "category": "女生生活",
+      "read_scope": "明确独立导语及章界",
+      "popularity_scope": "第三方历史榜单且likeCnt≥1000",
+      "mechanism": "夜间清理者与白天受欺负者似乎无关→清理现场死者正是白天施暴者；继续读看：主角与死亡的关系；此刻会作什么选择",
+      "use": "让两个可核对事实无法同时成立，或让主角反应与危险处境冲突；留可追查证据及它改变的利益，不在导语交出完整解释。",
+      "limit": "章首先处理现场后再认死者，预告与当时知情要分开；犯罪设定不作事实建议",
+      "benchmark_eligible": true
+    },
+    {
+      "id": "fq-7683429909343079448",
+      "source": "https://fanqienovel.com/page/7683429909343079448",
+      "title": "石头缝里的星星",
+      "excerpt": "我让梨能得到什么？",
+      "route": "comic_priority",
+      "category": "女生生活",
+      "read_scope": "明确独立导语及章界",
+      "popularity_scope": "第三方历史榜单且likeCnt≥1000",
+      "mechanism": "福利院孩子应感恩、谦让→主角用吃饱与实际所得反问教化；继续读看：下一次被要求让步时她怎样争取自己",
+      "use": "先立周围人默认的目标，再给主角自己的生活优先级和实际选择；这种选择要持续制造人物碰撞，不能只有我不走套路的宣言。",
+      "limit": "人物判断比列履历鲜明；首章有馒头证据，但举报后巨大案件结果铺垫不足",
+      "benchmark_eligible": true
+    },
+    {
+      "id": "fq-7488325054602674712",
+      "source": "https://fanqienovel.com/page/7488325054602674712",
+      "title": "校园头号凶杀案（整改版）",
+      "excerpt": "我等这一天好久了。",
+      "route": "anomaly",
+      "category": "悬疑惊悚",
+      "read_scope": "明确独立导语及章界",
+      "popularity_scope": "第三方历史榜单且likeCnt≥1000",
+      "mechanism": "被列凶案嫌疑人应害怕→主角反而期待警察来找自己；继续读看：她期待被抓的理由，以及掌握什么证据",
+      "use": "让两个可核对事实无法同时成立，或让主角反应与危险处境冲突；留可追查证据及它改变的利益，不在导语交出完整解释。",
+      "limit": "首章审讯接住冲突；法律程序真实性未核验",
+      "benchmark_eligible": true
+    },
+    {
+      "id": "fq-7529814789015473176",
+      "source": "https://fanqienovel.com/page/7529814789015473176",
+      "title": "绝对公平AA制立法",
+      "excerpt": "花了5块，你要A给我",
+      "route": "rule_consequence",
+      "category": "男生生活",
+      "read_scope": "明确独立导语及章界",
+      "popularity_scope": "第三方历史榜单且likeCnt≥1000",
+      "mechanism": "绝对AA似乎会满足叙述者→他立刻用规则追讨向女友骑车的开销；继续读看：同样规则会怎样回到他自己身上",
+      "use": "只交代本次行动必需的规则和限制，马上给一次运用或反常后果；设定改变角色处境，不能以规则说明书代替故事。",
+      "limit": "讽刺依赖不可靠叙述者；不能把虚构立法当现行法规",
+      "benchmark_eligible": true
+    },
+    {
+      "id": "fq-7645344671513709630",
+      "source": "https://fanqienovel.com/page/7645344671513709630",
+      "title": "被盗刷二十万没挂失，我去银行取了五百块",
+      "excerpt": "取了五百现金，拿着凭条",
+      "route": "strategic_response",
+      "category": "男生生活",
+      "read_scope": "明确独立导语及章界",
+      "popularity_scope": "第三方历史榜单且likeCnt≥1000",
+      "mechanism": "异常反应要跟具体替代动作，读者可先不知道原理，但必须知道他做的是哪一步。",
+      "use": "让主角作一项表面不划算但改变对抗条件的行动；可以给结果，保留方法为何有效和对方下一步的代价。",
+      "limit": "只作为叙事机制对照；小说中的银行处理方式未经法律与金融事实验证，不能外推为真实建议。",
+      "benchmark_eligible": true,
+      "sentence_study": {
+        "first_sentence_quality": "首句有具体损失与异常选择",
+        "first_sentence_analysis": "20万元盗刷是明确损失，主角同时拒绝常规的挂失和报警，句内已形成问题。",
+        "reader_default_expectation": "受害者立刻止损并请求银行或警方追查。",
+        "second_sentence_analysis": "室友以为他被吓坏，把常规读者解释投射为现场人物判断；仍只是反应。",
+        "third_sentence_analysis": "主角要求去ATM，是替代行动，不只说自己不慌；但为何这一步有用仍未知。",
+        "actual_change": "取500元并带凭条到银行，随后总行主动谈判，主角从被动受损转为迫使对方介入。导语暂不揭示凭条的制度依据。",
+        "deletion_test": [
+          "删掉不挂失不报警，盗刷变成普通求偿开场。",
+          "删掉ATM与凭条，冷静只有口头姿态，不能追踪他做了什么。"
+        ],
+        "transferable_mechanism": "异常反应要跟具体替代动作，读者可先不知道原理，但必须知道他做的是哪一步。",
+        "limitations": "只作为叙事机制对照；小说中的银行处理方式未经法律与金融事实验证，不能外推为真实建议。",
+        "sentence_windows": [
+          {
+            "unit": 1,
+            "new_information": "男主遭20万元盗刷却不挂失报警。",
+            "reader_attraction": "损失与常规止损选择同句冲突，读者等替代方案。",
+            "scope": "导语"
+          },
+          {
+            "unit": 2,
+            "new_information": "室友以为他受到惊吓。",
+            "reader_attraction": "代读者提出解释，没有证明男主为何如此。",
+            "scope": "导语"
+          },
+          {
+            "unit": 3,
+            "new_information": "男主让室友陪去ATM。",
+            "reader_attraction": "亮出一个明确替代动作，原理可暂留后文。",
+            "scope": "导语"
+          }
+        ],
+        "benchmark_role": "concrete_content_positive",
+        "evidence_scope": "明确独立导语及章界",
+        "analysis_kind": "original_analysis_of_public_opening; not_verbatim_full_lead"
+      }
+    },
+    {
+      "id": "fq-7651653886943431742",
+      "source": "https://fanqienovel.com/page/7651653886943431742",
+      "title": "我爹混了半辈子，看完我成绩单后连夜把纹身洗了",
+      "excerpt": "神，像看一个卧底。\n【",
+      "route": "family_reframing",
+      "category": "男生生活",
+      "read_scope": "明确独立导语及章界",
+      "popularity_scope": "第三方历史榜单且likeCnt≥1000",
+      "mechanism": "轻喜可把普遍正常的动作放进一个局部标准相反的家庭，再用日常物证触发他人停顿。",
+      "use": "用钱、劳动、席位或证据让谁被当家人变得可见；在一个触发点作选择，允许亲情修复，不能自动断亲复仇。",
+      "limit": "首句与第二句都偏概括，低危反常成立也不能据此称首句本身强；标题动作不能补算导语事实。",
+      "benchmark_eligible": true,
+      "sentence_study": {
+        "first_sentence_quality": "首句是背景标签，第三句出现低危反常",
+        "first_sentence_analysis": "父母不守规矩只建立家庭常态，尚未有冲突；以往混混身份不是现场行动。",
+        "reader_default_expectation": "孩子将重复父母的生活方式，父母会嫌他不够听话或学习不好。",
+        "second_sentence_analysis": "主角自认大家期待他也这样，重复预期，未给新证据。",
+        "third_sentence_analysis": "六年级时父母发现孩子从不逃学，正常守规矩在这家成为反常；偏差不需要危及生命。",
+        "actual_change": "成绩单与分数使父母停止喧闹，父亲把好学生看作潜入家庭的异类。导语改变的是父母对孩子的理解；标题洗纹身尚未在导语发生。",
+        "deletion_test": [
+          "删掉家庭常态，孩子不逃学只是一条普通优点。",
+          "删掉成绩单和停下的反应，父母觉得他像卧底就缺触发物。"
+        ],
+        "transferable_mechanism": "轻喜可把普遍正常的动作放进一个局部标准相反的家庭，再用日常物证触发他人停顿。",
+        "limitations": "首句与第二句都偏概括，低危反常成立也不能据此称首句本身强；标题动作不能补算导语事实。",
+        "sentence_windows": [
+          {
+            "unit": 1,
+            "new_information": "父母曾不守规矩。",
+            "reader_attraction": "家庭常态是背景标签，需要孩子实际行为来偏离。",
+            "scope": "导语"
+          },
+          {
+            "unit": 2,
+            "new_information": "大家认为孩子也会这样。",
+            "reader_attraction": "重复局部预期，新增事实较少。",
+            "scope": "导语"
+          },
+          {
+            "unit": 3,
+            "new_information": "六年级发现孩子从不逃学。",
+            "reader_attraction": "日常优点在本家庭变成反常，轻喜无需重大灾难。",
+            "scope": "导语"
+          }
+        ],
+        "benchmark_role": "context_then_concrete_payoff",
+        "evidence_scope": "明确独立导语及章界",
+        "analysis_kind": "original_analysis_of_public_opening; not_verbatim_full_lead"
+      }
+    },
+    {
+      "id": "fq-7640426341682121790",
+      "source": "https://fanqienovel.com/page/7640426341682121790",
+      "title": "异能随便编，被猜出就死，但没限制字数啊",
+      "excerpt": "它没说字数限制啊。",
+      "route": "rule_consequence",
+      "category": "男生生活",
+      "read_scope": "明确独立导语及章界",
+      "popularity_scope": "第三方历史榜单且likeCnt≥1000",
+      "mechanism": "自编异能越短越方便→被猜出会死，写手注意到不限字数；继续读看：他怎样利用写作能力让观众猜不透",
+      "use": "只交代本次行动必需的规则和限制，马上给一次运用或反常后果；设定改变角色处境，不能以规则说明书代替故事。",
+      "limit": "首章亮规则并见其他选择；导语已重复标题，须用行动补信息增量",
+      "benchmark_eligible": true
+    },
+    {
+      "id": "fq-7638089829665754137",
+      "source": "https://fanqienovel.com/page/7638089829665754137",
+      "title": "偷生死对头的崽后，他追疯了",
+      "excerpt": "我揣着三个月的肚子",
+      "route": "secret_exposure",
+      "category": "现言甜宠",
+      "read_scope": "明确独立导语及章界",
+      "popularity_scope": "第三方历史榜单且likeCnt≥1000",
+      "mechanism": "带孩子归国以为可以避开旧恋人→对方接机并质疑孩子与自己的相似处；继续读看：怎样解释身份；双方关系如何重启",
+      "use": "明确谁知道什么、谁以为安全；让一项秘密被当面准确提及，逼出眼前回应，保留暴露范围及后果。",
+      "limit": "仅核对开篇；不能由相似外貌直接证明亲子关系",
+      "benchmark_eligible": true
+    },
+    {
+      "id": "fq-7642649731373485118",
+      "source": "https://fanqienovel.com/page/7642649731373485118",
+      "title": "傲娇竹马送我共感尾戒，转动一下他在机场疯了",
+      "excerpt": "我把戒指套在食指上",
+      "route": "comic_exchange",
+      "category": "现言甜宠",
+      "read_scope": "明确独立导语及章界",
+      "popularity_scope": "第三方历史榜单且likeCnt≥1000",
+      "mechanism": "具体轻视说法加一个可操作物件，再让主角试一次并获得当场回声；轻喜不必升级成严重危机。",
+      "use": "设定双方想做但不能同时做成的事，用一次接招改变场面；笑点后留下新难题、身份暴露或下一次必须回答的话，不以一句心动总结结束。",
+      "limit": "能力由弹幕直给，真实题材应改成合理的信息来源；不把身体反应本身当人物关系全部改变。",
+      "benchmark_eligible": true,
+      "sentence_study": {
+        "first_sentence_quality": "首句给具体礼物，第二句给可被戳破的说法",
+        "first_sentence_analysis": "死对头出国前硬塞一枚尾戒，人物行为与关系称谓有轻微不一致，但物件含义尚未知。",
+        "reader_default_expectation": "口头不在乎的旧识送一件廉价纪念品，接受者可能藏起珍惜。",
+        "second_sentence_analysis": "他说戒指是10元地摊货，把不在乎变成可被检验的具体价格与敷衍语气。",
+        "third_sentence_analysis": "女孩看见弹幕，只提供新信息通道；后面弹幕才说明礼物是昂贵定制且转动可引起共感。",
+        "actual_change": "女孩连转三圈，远在机场的男方立即打电话求停，验证礼物规则并反转谁掌握对方身体反应；价格谎言被具体试验戳破。",
+        "deletion_test": [
+          "删掉10元的说法，女孩的故意试验失去针对性的回击对象。",
+          "删掉机场来电求停，共感只是规则介绍，没有经过行动验证。"
+        ],
+        "transferable_mechanism": "具体轻视说法加一个可操作物件，再让主角试一次并获得当场回声；轻喜不必升级成严重危机。",
+        "limitations": "能力由弹幕直给，真实题材应改成合理的信息来源；不把身体反应本身当人物关系全部改变。",
+        "sentence_windows": [
+          {
+            "unit": 1,
+            "new_information": "死对头出国前给女孩尾戒。",
+            "reader_attraction": "关系称谓与送礼行为略不一致，有可追踪物件。",
+            "scope": "导语"
+          },
+          {
+            "unit": 2,
+            "new_information": "他宣称只是10元廉价货。",
+            "reader_attraction": "提供可被戳破的具体说法，后续回击有对象。",
+            "scope": "导语"
+          },
+          {
+            "unit": 3,
+            "new_information": "女孩看见弹幕。",
+            "reader_attraction": "打开信息来源；共感内容与规则尚未展示。",
+            "scope": "导语"
+          }
+        ],
+        "benchmark_role": "concrete_content_positive",
+        "evidence_scope": "明确独立导语及章界",
+        "analysis_kind": "original_analysis_of_public_opening; not_verbatim_full_lead"
+      }
+    },
+    {
+      "id": "fq-7642953168648670232",
+      "source": "https://fanqienovel.com/page/7642953168648670232",
+      "title": "我有crush后，竹马天天给我发腹肌照",
+      "excerpt": "摸他像摸自己的身体。",
+      "route": "relationship_reframing",
+      "category": "现言甜宠",
+      "read_scope": "明确独立导语及章界",
+      "popularity_scope": "第三方历史榜单且likeCnt≥1000",
+      "mechanism": "毒舌应给一条别人能针对着回应的具体断言；后续用同一对象或同一测试改变断言。",
+      "use": "以一个只能解释为私人关注或关系变化的动作、话语、物件重估熟人；可以预告心动，留下怎样被看见、怎样当面回应的过程。",
+      "limit": "此例靠身体亲近兑现，使用前要符合人物边界；可学习回击对准原话，不必照搬身体桥段。",
+      "benchmark_eligible": true,
+      "sentence_study": {
+        "first_sentence_quality": "首句已经亮出有对象的具体否定",
+        "first_sentence_analysis": "女孩对竹马说身体接触毫无区别感，把没有爱情的概括变成一个能伤人的具体比较；两人熟悉到接触缺感觉。",
+        "reader_default_expectation": "竹马将退回朋友位置，或生气争辩这句否定。",
+        "second_sentence_analysis": "竹马红眼显示这句对他有实际情感影响，但单看红眼仍是常见反应。",
+        "third_sentence_analysis": "他拉女孩的手去触自己的胸肌，要求她重新判断同一比较，身体动作与问话都瞄准首句内容。",
+        "actual_change": "女孩主动靠近并产生欲望，首句否认的感受被自己的行为推翻；不是凭一句我后悔了宣布反转。",
+        "deletion_test": [
+          "删掉首句的身体比较，男方展示胸肌变成随机撩拨，无法看见他在纠正哪一判定。",
+          "删掉女孩主动靠近，男方单方面展示仍可能失败，互相吸引没有回应证据。"
+        ],
+        "transferable_mechanism": "毒舌应给一条别人能针对着回应的具体断言；后续用同一对象或同一测试改变断言。",
+        "limitations": "此例靠身体亲近兑现，使用前要符合人物边界；可学习回击对准原话，不必照搬身体桥段。",
+        "sentence_windows": [
+          {
+            "unit": 1,
+            "new_information": "女孩用身体比较否定对竹马的异性感觉。",
+            "reader_attraction": "具体断言可被回应，不需要先加一场危机。",
+            "scope": "导语"
+          },
+          {
+            "unit": 2,
+            "new_information": "男方当场红眼。",
+            "reader_attraction": "证明这条断言影响到他；反应自身仍通用。",
+            "scope": "导语"
+          },
+          {
+            "unit": 3,
+            "new_information": "男方拉她的手触自己胸肌再要求比较。",
+            "reader_attraction": "同一测试被重新执行，对方在针对她原话接招。",
+            "scope": "导语"
+          }
+        ],
+        "benchmark_role": "concrete_content_positive",
+        "evidence_scope": "明确独立导语及章界",
+        "analysis_kind": "original_analysis_of_public_opening; not_verbatim_full_lead"
+      }
+    },
+    {
+      "id": "fq-7502091962846036505",
+      "source": "https://fanqienovel.com/page/7502091962846036505",
+      "title": "分手可以，给我找个男人",
+      "excerpt": "能不能给我介绍个男人？",
+      "route": "comic_exchange",
+      "category": "现言甜宠",
+      "read_scope": "明确独立导语及章界",
+      "popularity_scope": "第三方历史榜单且likeCnt≥1000",
+      "mechanism": "先呈现读者熟悉的请求前提，再换请求的对象或目标；轻声说话也能造成选择后果。",
+      "use": "设定双方想做但不能同时做成的事，用一次接招改变场面；笑点后留下新难题、身份暴露或下一次必须回答的话，不以一句心动总结结束。",
+      "limit": "前三句中只有第三句完成偏差；不能规定所有有效首句必须即刻爆炸，也不能把温和语气判作无力度。",
+      "benchmark_eligible": true,
+      "sentence_study": {
+        "first_sentence_quality": "首句普通，第三句改写挽留目标",
+        "first_sentence_analysis": "分手且舍不得是通用情绪，没直接亮出舍不得哪项相处内容。",
+        "reader_default_expectation": "女主会请求保留现有伴侣，男方准备应付挽留。",
+        "second_sentence_analysis": "男方外貌与财富补她舍不得的价值标准，但仍是属性列表。",
+        "third_sentence_analysis": "她请现男友介绍另一个男人，继续索取同类价值却不要求留住此人；请求功能改变，主语气仍很温和。",
+        "actual_change": "男方的分手说辞与主动权失灵，女方按自己所付费用结账离开；实际退出证明她不是用介绍对象赌气。",
+        "deletion_test": [
+          "删掉介绍新男人的具体请求，舍不得只会落回常见挽留。",
+          "删掉结账离开，男方可能把请求当激将法，女方退出选择未被行为证明。"
+        ],
+        "transferable_mechanism": "先呈现读者熟悉的请求前提，再换请求的对象或目标；轻声说话也能造成选择后果。",
+        "limitations": "前三句中只有第三句完成偏差；不能规定所有有效首句必须即刻爆炸，也不能把温和语气判作无力度。",
+        "sentence_windows": [
+          {
+            "unit": 1,
+            "new_information": "女方被提分手并舍不得。",
+            "reader_attraction": "通用情绪，读者预期请求挽留。",
+            "scope": "导语"
+          },
+          {
+            "unit": 2,
+            "new_information": "对方英俊且富有。",
+            "reader_attraction": "明确她想保留的价值，仍是人物属性。",
+            "scope": "导语"
+          },
+          {
+            "unit": 3,
+            "new_information": "她要前男友介绍另一个男人。",
+            "reader_attraction": "保留目标却替换对象，挽留预期失效。",
+            "scope": "导语"
+          }
+        ],
+        "benchmark_role": "context_then_concrete_payoff",
+        "evidence_scope": "明确独立导语及章界",
+        "analysis_kind": "original_analysis_of_public_opening; not_verbatim_full_lead"
+      }
+    },
+    {
+      "id": "fq-7498693014169059865",
+      "source": "https://fanqienovel.com/page/7498693014169059865",
+      "title": "姐姐结婚，我也结",
+      "excerpt": "我又没出轨，我不离！",
+      "route": "role_collision",
+      "category": "现言甜宠",
+      "read_scope": "明确独立导语及章界",
+      "popularity_scope": "第三方历史榜单且likeCnt≥1000",
+      "mechanism": "姐姐婚姻出轨应只影响姐姐→妹子跟着要离婚，清白丈夫提出抗议；继续读看：姐妹共同进退与丈夫诉求怎样冲突",
+      "use": "先给眼前任务，再让另一种身份或另一方目标阻挡它；读者要能想象紧接着必须处理的场面。",
+      "limit": "关系规则产生两方相反目标；不要靠控制身体证明感情",
+      "benchmark_eligible": true
+    },
+    {
+      "id": "fq-7439279802923631166",
+      "source": "https://fanqienovel.com/page/7439279802923631166",
+      "title": "假失忆后，静静看死对头装我对象",
+      "excerpt": "我馋他的钱，他馋我嘴巴子！！",
+      "route": "comic_exchange",
+      "category": "现言甜宠",
+      "read_scope": "明确独立导语及章界",
+      "popularity_scope": "第三方历史榜单且likeCnt≥1000",
+      "mechanism": "让主角先实施一项小计谋，再让对手利用同一个信息缺口提出更具体的身份主张。",
+      "use": "设定双方想做但不能同时做成的事，用一次接招改变场面；笑点后留下新难题、身份暴露或下一次必须回答的话，不以一句心动总结结束。",
+      "limit": "有效变化在第四信息单元；前三句不能替代对手的回应，事故只提供条件，不是喜剧内容本身。",
+      "benchmark_eligible": true,
+      "sentence_study": {
+        "first_sentence_quality": "首句有事故，第二句给具体计谋",
+        "first_sentence_analysis": "争吵后被坠物砸晕，亮出中断与潜在记忆问题；死对头关系让对方反应有疑问。",
+        "reader_default_expectation": "她会在醒来后讨赔偿或继续争吵，对方需要解释。",
+        "second_sentence_analysis": "女孩决定装失忆骗钱，主动把事故转换成可以实施的策略。",
+        "third_sentence_analysis": "她问对方是谁，是策略的执行；单看话短而普通，因前句动机才有戏。",
+        "actual_change": "男方趁她装作不记得，编造交往8年的身份并要求亲近；双方各自利用对方不知道的事，主动欺骗者变成也要接招的人。",
+        "deletion_test": [
+          "删掉女孩已决定装失忆，读者会把男方的话当真实认亲，双向误算不成立。",
+          "删掉男方自称具体恋爱时长，回应只剩暧昧，没有可被追问的伪造关系。"
+        ],
+        "transferable_mechanism": "让主角先实施一项小计谋，再让对手利用同一个信息缺口提出更具体的身份主张。",
+        "limitations": "有效变化在第四信息单元；前三句不能替代对手的回应，事故只提供条件，不是喜剧内容本身。",
+        "sentence_windows": [
+          {
+            "unit": 1,
+            "new_information": "女孩与死对头争吵后被坠物砸晕。",
+            "reader_attraction": "事故提供装失忆的条件，尚未有关系计谋。",
+            "scope": "导语"
+          },
+          {
+            "unit": 2,
+            "new_information": "她计划假失忆骗取对方钱财。",
+            "reader_attraction": "主角目标与方法具体，读者能追踪她的实施。",
+            "scope": "导语"
+          },
+          {
+            "unit": 3,
+            "new_information": "她假装不认识对方。",
+            "reader_attraction": "策略已落地；男方接下来是否上当成为问题。",
+            "scope": "导语"
+          }
+        ],
+        "benchmark_role": "context_then_concrete_payoff",
+        "evidence_scope": "明确独立导语及章界",
+        "analysis_kind": "original_analysis_of_public_opening; not_verbatim_full_lead"
+      }
+    },
+    {
+      "id": "fq-7496767768163795480",
+      "source": "https://fanqienovel.com/page/7496767768163795480",
+      "title": "亲姐逃婚，我被迫嫁给黑道太子爷",
+      "excerpt": "\n 「夸我厉害？」\n ",
+      "route": "secret_exposure",
+      "category": "现言甜宠",
+      "read_scope": "明确独立导语及章界",
+      "popularity_scope": "第三方历史榜单且likeCnt≥1000",
+      "mechanism": "与男生情感手语例对照：具体攻击、错误翻译、对方学会、当面复述形成连续因果，互知后必须有人接招。",
+      "use": "明确谁知道什么、谁以为安全；让一项秘密被当面准确提及，逼出眼前回应，保留暴露范围及后果。",
+      "limit": "带有残障辱称与强制婚姻设定，分析只取信息权限转移；性暗示句的数量不能当幽默力度指标。",
+      "benchmark_eligible": true,
+      "sentence_study": {
+        "first_sentence_quality": "首句信息较多，具体互骂与揭穿后置",
+        "first_sentence_analysis": "姐姐逃婚、妹妹替嫁、装作听不见一次交代三项因果；能理解她为何隐瞒，却没展示她如何实际利用隐瞒。",
+        "reader_default_expectation": "对方以为她听不见，会当面泄漏真实评价，她可以假装无事。",
+        "second_sentence_analysis": "男方当着她评价她，概括仍需原话落地；随后具体给昵称。",
+        "third_sentence_analysis": "男方用发面食物比身体触感，给私人评价的实际内容；它证明他因误判她无法听见而失去顾忌。",
+        "actual_change": "女孩用手语骂他并故意把意思解释成夸奖；男方学会手语后准确复述她的骂法和谎译，她原有安全通道消失。",
+        "deletion_test": [
+          "删掉她把辱骂谎译成称赞，后面的复述只能揭穿骂人，无法同时追究欺骗。",
+          "删掉男方学会后准确复述，脸色变化不能证明她的秘密被识破。"
+        ],
+        "transferable_mechanism": "与男生情感手语例对照：具体攻击、错误翻译、对方学会、当面复述形成连续因果，互知后必须有人接招。",
+        "limitations": "带有残障辱称与强制婚姻设定，分析只取信息权限转移；性暗示句的数量不能当幽默力度指标。",
+        "sentence_windows": [
+          {
+            "unit": 1,
+            "new_information": "女主替逃婚姐姐嫁人并装听不见自保。",
+            "reader_attraction": "连续因果可懂，具体交锋仍未亮出。",
+            "scope": "导语"
+          },
+          {
+            "unit": 2,
+            "new_information": "男方当着她评论并取听障昵称。",
+            "reader_attraction": "误以为对方无法理解，公开输出评价的权限出现。",
+            "scope": "导语"
+          },
+          {
+            "unit": 3,
+            "new_information": "男方用发面食物比身体触感。",
+            "reader_attraction": "概括评论变成具体内容；后续谎译与学懂才是接招。",
+            "scope": "导语"
+          }
+        ],
+        "benchmark_role": "context_then_concrete_payoff",
+        "evidence_scope": "明确独立导语及章界",
+        "analysis_kind": "original_analysis_of_public_opening; not_verbatim_full_lead"
+      }
+    },
+    {
+      "id": "fq-7635283925513817150",
+      "source": "https://fanqienovel.com/page/7635283925513817150",
+      "title": "我的小太阳竹马竟然是阴湿男鬼",
+      "excerpt": "笔记本密密麻麻，\n全都是好喜欢。",
+      "route": "relationship_reframing",
+      "category": "现言甜宠",
+      "read_scope": "明确独立导语及章界",
+      "popularity_scope": "第三方历史榜单且likeCnt≥1000",
+      "mechanism": "理想人设的反面要用具体私人痕迹，且痕迹必须准确指向关系对象；叙述者评价不等于证据。",
+      "use": "以一个只能解释为私人关注或关系变化的动作、话语、物件重估熟人；可以预告心动，留下怎样被看见、怎样当面回应的过程。",
+      "limit": "前三句弱，主要价值是后段留痕；暗恋被读者看见与人物关系已经变了必须分开判断。",
+      "benchmark_eligible": true,
+      "sentence_study": {
+        "first_sentence_quality": "首句弱，前三句在堆理想人设",
+        "first_sentence_analysis": "完美青梅竹马是价值判断，没说明他为谁做了什么。",
+        "reader_default_expectation": "他普遍受欢迎，普通女孩只是其众多旧识之一。",
+        "second_sentence_analysis": "外貌、小虎牙与像太阳一样照顾众人的比喻扩展理想形象，但仍未提供具体事件。",
+        "third_sentence_analysis": "众人因女孩普通而不认为两人会相恋，补阶层式自我评价及外界认定，仍是关系距离的概括。",
+        "actual_change": "夜里反复念女孩名字、笔记本写满好感，公开形象被私人痕迹反证；这是读者知道而当事人未必知道的暗恋证据，导语没有现场交锋。",
+        "deletion_test": [
+          "删掉指向女孩的名字，私下癖好仍可能与她无关。",
+          "删掉笔记本这类留痕物，疯狂喜欢只剩作者形容。"
+        ],
+        "transferable_mechanism": "理想人设的反面要用具体私人痕迹，且痕迹必须准确指向关系对象；叙述者评价不等于证据。",
+        "limitations": "前三句弱，主要价值是后段留痕；暗恋被读者看见与人物关系已经变了必须分开判断。",
+        "sentence_windows": [
+          {
+            "unit": 1,
+            "new_information": "主角说竹马完美。",
+            "reader_attraction": "纯评价，需要具体证据，首句单独较弱。",
+            "scope": "导语"
+          },
+          {
+            "unit": 2,
+            "new_information": "太阳比喻、俊美与小虎牙。",
+            "reader_attraction": "堆理想形象，尚未给他针对她的行动。",
+            "scope": "导语"
+          },
+          {
+            "unit": 3,
+            "new_information": "众人不认为普通的她能与他配对。",
+            "reader_attraction": "关系距离仍是评价；私人笔记才提供可指认的反证。",
+            "scope": "导语"
+          }
+        ],
+        "benchmark_role": "weak_prefix_counterexample",
+        "evidence_scope": "明确独立导语及章界",
+        "analysis_kind": "original_analysis_of_public_opening; not_verbatim_full_lead"
+      }
+    },
+    {
+      "id": "fq-7649512015542619161",
+      "source": "https://fanqienovel.com/page/7649512015542619161",
+      "title": "娶了女刑警半年形同陌路，提离婚那晚我看见她身上的疤",
+      "excerpt": "那一刻，我的手开始发抖。",
+      "route": "relationship_mystery",
+      "category": "男生情感",
+      "read_scope": "明确独立导语及章界",
+      "popularity_scope": "第三方历史榜单且likeCnt≥1000",
+      "mechanism": "先展示一次有后果的错过或一个持续异常，再给人物改变策略的选择；次数与时间必须指向关系成本。",
+      "use": "拿一项与原关系解释不相容的证据，说明这个矛盾为何影响主角；留下原因或处理选择，避免只有我震惊了。",
+      "limit": "导语停在发抖反应，疤痕只在标题提示；标题信息不能算首句已展示的证据。高危职业也不能自动等同感人。",
+      "benchmark_eligible": false,
+      "sentence_study": {
+        "first_sentence_quality": "首句弱，履历式交代",
+        "first_sentence_analysis": "年龄、催婚、相识月份、闪婚堆在一句里；信息不少，但都属于成婚来历，没有具体异常。",
+        "reader_default_expectation": "闪婚夫妻需要磨合；妻子职业忙碌可能导致时间不足。",
+        "second_sentence_analysis": "婚礼当晚出警提供第一次可见打断，比首句背景更有事件性。",
+        "third_sentence_analysis": "丈夫长期体谅是态度概述，未给具体代价；后面的半年未同房才把落差量化。",
+        "actual_change": "丈夫提出离婚，妻子首次显出情绪并掀衣，终止冷淡状态、开启原因揭露；导语只写丈夫发抖，没说他看见什么。",
+        "deletion_test": [
+          "删掉半年未同房，忍让与离婚之间缺少具体积累。",
+          "删掉妻子主动掀衣，她从冷淡转为解释的动作就不存在。"
+        ],
+        "transferable_mechanism": "先展示一次有后果的错过或一个持续异常，再给人物改变策略的选择；次数与时间必须指向关系成本。",
+        "limitations": "导语停在发抖反应，疤痕只在标题提示；标题信息不能算首句已展示的证据。高危职业也不能自动等同感人。",
+        "sentence_windows": [
+          {
+            "unit": 1,
+            "new_information": "被催婚者与女警短期相识后闪婚。",
+            "reader_attraction": "年龄与月份增加履历，不构成本次婚姻的特殊异常。",
+            "scope": "导语"
+          },
+          {
+            "unit": 2,
+            "new_information": "婚礼当晚她因任务离开。",
+            "reader_attraction": "第一次给出具体中断，读者开始看到关系成本。",
+            "scope": "导语"
+          },
+          {
+            "unit": 3,
+            "new_information": "男方说自己长期体谅。",
+            "reader_attraction": "补态度，尚未提供代价；半年未同房才是后续证据。",
+            "scope": "导语"
+          }
+        ],
+        "benchmark_role": "weak_prefix_counterexample",
+        "evidence_scope": "明确独立导语及章界",
+        "analysis_kind": "original_analysis_of_public_opening; not_verbatim_full_lead"
+      }
+    },
+    {
+      "id": "fq-7637628739387395097",
+      "source": "https://fanqienovel.com/page/7637628739387395097",
+      "title": "喝断片睡错房，前女友扣着我脚踝说别跑",
+      "excerpt": "\"裴砚，好久不见。\"",
+      "route": "secret_exposure",
+      "category": "男生情感",
+      "read_scope": "明确独立导语及章界",
+      "popularity_scope": "第三方历史榜单且likeCnt≥1000",
+      "mechanism": "误入场景要尽快亮出错到谁身边及对方怎样阻止纠错；小动作可以比身份概括更有力度。",
+      "use": "明确谁知道什么、谁以为安全；让一项秘密被当面准确提及，逼出眼前回应，保留暴露范围及后果。",
+      "limit": "首句单独并不强，主要靠后段控制动作；伤害性动作不应直接当成可复用的甜宠表达。",
+      "benchmark_eligible": true,
+      "sentence_study": {
+        "first_sentence_quality": "首句普通，实际约束后置",
+        "first_sentence_analysis": "喝到失去记忆只交代易出错的状态，还没有对象、错误内容或后果。",
+        "reader_default_expectation": "在朋友家睡一夜，醒来后会发现醉酒造成的小尴尬。",
+        "second_sentence_analysis": "朋友保证家大可以随便睡，给主角信任这个地点的理由。",
+        "third_sentence_analysis": "主角相信保证，接续因果但几乎不增加外部事实；推门睡下仍是准备动作。",
+        "actual_change": "醒来发现枕边是消失五年的前女友，身份揭晓改变误会；主角想拿裤子离开时脚踝被扣住，才从尴尬重逢变成行动受阻。",
+        "deletion_test": [
+          "删掉五年失联，重逢缺少时间差与关系未解的问题。",
+          "删掉扣脚踝，后面的问话只是招呼，主角仍能走开。"
+        ],
+        "transferable_mechanism": "误入场景要尽快亮出错到谁身边及对方怎样阻止纠错；小动作可以比身份概括更有力度。",
+        "limitations": "首句单独并不强，主要靠后段控制动作；伤害性动作不应直接当成可复用的甜宠表达。",
+        "sentence_windows": [
+          {
+            "unit": 1,
+            "new_information": "主角和朋友喝醉失去记忆。",
+            "reader_attraction": "只有犯错条件，尚不知道错到了谁身边。",
+            "scope": "导语"
+          },
+          {
+            "unit": 2,
+            "new_information": "朋友说家里可以随便睡。",
+            "reader_attraction": "建立相信住宿安全的理由。",
+            "scope": "导语"
+          },
+          {
+            "unit": 3,
+            "new_information": "主角相信朋友。",
+            "reader_attraction": "接续因果，几乎不增加新外部信息。",
+            "scope": "导语"
+          }
+        ],
+        "benchmark_role": "context_then_concrete_payoff",
+        "evidence_scope": "明确独立导语及章界",
+        "analysis_kind": "original_analysis_of_public_opening; not_verbatim_full_lead"
+      }
+    },
+    {
+      "id": "fq-7592301611842554905",
+      "source": "https://fanqienovel.com/page/7592301611842554905",
+      "title": "青梅很野",
+      "excerpt": "“给你看个好看的。”",
+      "route": "relationship_reframing",
+      "category": "男生情感",
+      "read_scope": "明确独立导语及章界",
+      "popularity_scope": "第三方历史榜单且likeCnt≥1000",
+      "mechanism": "场景氛围之后需要一个明确指向对方的邀请，不能只靠暗灯与独处替代事件。",
+      "use": "以一个只能解释为私人关注或关系变化的动作、话语、物件重估熟人；可以预告心动，留下怎样被看见、怎样当面回应的过程。",
+      "limit": "邀请内容仍靠遮掩，前三句弱于后段；仅有身体暗示不能证明人物个性或后续关系因果。",
+      "benchmark_eligible": false,
+      "sentence_study": {
+        "first_sentence_quality": "首句普通，前三句只营造亲近条件",
+        "first_sentence_analysis": "高考后青梅邀主角到家，是生活安排，没有具体反常内容。",
+        "reader_default_expectation": "熟悉的异性单独相处，可能出现表白或亲近。",
+        "second_sentence_analysis": "父母不在使邀请变成没有长辈在场的私人空间，增加暧昧可能。",
+        "third_sentence_analysis": "两人并肩看电影只让距离变近，尚未有关系选择。",
+        "actual_change": "女孩主动拉低领口并提出给主角看东西，交往从普通共处进入带有身体暗示的邀约；导语没亮出东西是什么，也没给主角决定。",
+        "deletion_test": [
+          "删掉主动展示的动作，只剩观影环境，期待没有被推进。",
+          "删掉她说要给他看东西，动作可能只是整理衣服，指向性降低。"
+        ],
+        "transferable_mechanism": "场景氛围之后需要一个明确指向对方的邀请，不能只靠暗灯与独处替代事件。",
+        "limitations": "邀请内容仍靠遮掩，前三句弱于后段；仅有身体暗示不能证明人物个性或后续关系因果。",
+        "sentence_windows": [
+          {
+            "unit": 1,
+            "new_information": "高考后女孩邀男主到家。",
+            "reader_attraction": "普通邀约，需要后句提供特殊目的。",
+            "scope": "导语"
+          },
+          {
+            "unit": 2,
+            "new_information": "她父母都不在。",
+            "reader_attraction": "减少旁观者，让私人邀请有暧昧可能。",
+            "scope": "导语"
+          },
+          {
+            "unit": 3,
+            "new_information": "两人并肩看电影。",
+            "reader_attraction": "补接近距离，但没有谁改变相处方式。",
+            "scope": "导语"
+          }
+        ],
+        "benchmark_role": "weak_prefix_counterexample",
+        "evidence_scope": "明确独立导语及章界",
+        "analysis_kind": "original_analysis_of_public_opening; not_verbatim_full_lead"
+      }
+    },
+    {
+      "id": "fq-7650168982875409433",
+      "source": "https://fanqienovel.com/page/7650168982875409433",
+      "title": "相亲吃了八盘虾，对面千金说嫁了",
+      "excerpt": "等一下，这盘还没吃完。",
+      "route": "comic_priority",
+      "category": "男生情感",
+      "read_scope": "明确独立导语及章界",
+      "popularity_scope": "第三方历史榜单且likeCnt≥1000",
+      "mechanism": "先设一项具体社会成本，再让人物坚持一件很小的当前需求；女方的选择把小需求变成关系依据。",
+      "use": "先立周围人默认的目标，再给主角自己的生活优先级和实际选择；这种选择要持续制造人物碰撞，不能只有我不走套路的宣言。",
+      "limit": "首句能提供成本，不能把金额本身当反转；女方为什么被吸引仍留在后文。",
+      "benchmark_eligible": true,
+      "sentence_study": {
+        "first_sentence_quality": "首句有具体成本，后句转变评价标准",
+        "first_sentence_analysis": "母亲支付3.8万元把主角送入高端相亲会，亮出异常高的入场成本与非自愿状态。",
+        "reader_default_expectation": "如此昂贵的场合要求主角展示身价、谈吐并认真选伴侣。",
+        "second_sentence_analysis": "名贵食物排列在眼前，将高端具体化，也把主角关注点从人移到吃。",
+        "third_sentence_analysis": "他已经吃了八盘虾再抬头，实际行动违背精英社交预期；数量让偏心食物可见。",
+        "actual_change": "女方直接选中他，他仍请求先吃完当前这盘；被挑选的一方没有转去表现自己，女方却认可他的原样。",
+        "deletion_test": [
+          "删掉高价与高端场合，吃饭和相亲之间的偏差变小。",
+          "删掉剩下一盘的回答，选中他会变成单纯女方看上男方，主角的食物标准未持续。"
+        ],
+        "transferable_mechanism": "先设一项具体社会成本，再让人物坚持一件很小的当前需求；女方的选择把小需求变成关系依据。",
+        "limitations": "首句能提供成本，不能把金额本身当反转；女方为什么被吸引仍留在后文。",
+        "sentence_windows": [
+          {
+            "unit": 1,
+            "new_information": "母亲付3.8万元把儿子送进高端相亲会。",
+            "reader_attraction": "明确高成本和非自愿，读者等他如何面对这个场合。",
+            "scope": "导语"
+          },
+          {
+            "unit": 2,
+            "new_information": "昂贵海鲜与牛肉陈列。",
+            "reader_attraction": "把高端具体为主角看得见的食物。",
+            "scope": "导语"
+          },
+          {
+            "unit": 3,
+            "new_information": "他吃了八盘虾才抬头。",
+            "reader_attraction": "用食量证明他在按吃饭而非择偶标准行动。",
+            "scope": "导语"
+          }
+        ],
+        "benchmark_role": "concrete_content_positive",
+        "evidence_scope": "明确独立导语及章界",
+        "analysis_kind": "original_analysis_of_public_opening; not_verbatim_full_lead"
+      }
+    },
+    {
+      "id": "fq-7639578920903248920",
+      "source": "https://fanqienovel.com/page/7639578920903248920",
+      "title": "前女友成了影后想看我多惨，结果录像带一播全网笑疯了",
+      "excerpt": "手里的羊腰子掉在了地上。",
+      "route": "comic_exchange",
+      "category": "男生情感",
+      "read_scope": "明确独立导语及章界",
+      "popularity_scope": "第三方历史榜单且likeCnt≥1000",
+      "mechanism": "概括开心应变成具体抱怨对象与正在做的庆祝动作；先证明前一解释不符事实，再产生喜剧。",
+      "use": "设定双方想做但不能同时做成的事，用一次接招改变场面；笑点后留下新难题、身份暴露或下一次必须回答的话，不以一句心动总结结束。",
+      "limit": "前三句的目标是建立受众误判，吸引点需要整段才能兑现；毒舌夸张必须连着相处内容，不能随机辱骂。",
+      "benchmark_eligible": true,
+      "sentence_study": {
+        "first_sentence_quality": "首句有具体道德负担，笑点内容后置",
+        "first_sentence_analysis": "主角在女友最穷时分手，给出会受责备的时机，不只是两人分开。",
+        "reader_default_expectation": "负心前任在对方成功后将遭报复，或其实为绝症而隐忍离开。",
+        "second_sentence_analysis": "女方一年后成为影后并与另一明星上节目，补地位变化和公开舞台。",
+        "third_sentence_analysis": "主持人问遗憾只是抛话题，没有新增事件；女方具体点名前任才发动追责。",
+        "actual_change": "主持人先宣布死亡并提供录像，引发苦情解释；录像里的主角具体嘲讽烹饪并庆祝单身，而真人在烧烤摊看到直播，死亡信息与苦情评价同时被推翻。",
+        "deletion_test": [
+          "删掉录像中对饭菜的具体攻击，庆祝单身只能概括他很高兴，笑声缺对象。",
+          "删掉活着的主角看到直播，死亡虚报缺可见纠错，也失去公开翻车的当场反应。"
+        ],
+        "transferable_mechanism": "概括开心应变成具体抱怨对象与正在做的庆祝动作；先证明前一解释不符事实，再产生喜剧。",
+        "limitations": "前三句的目标是建立受众误判，吸引点需要整段才能兑现；毒舌夸张必须连着相处内容，不能随机辱骂。",
+        "sentence_windows": [
+          {
+            "unit": 1,
+            "new_information": "男主在女友最穷时提出分手。",
+            "reader_attraction": "时机给男主道德负担，读者容易预判报复或隐忍。",
+            "scope": "导语"
+          },
+          {
+            "unit": 2,
+            "new_information": "一年后她成影后并带另一明星上综艺。",
+            "reader_attraction": "地位翻转且有公开舞台，原有预判得到强化。",
+            "scope": "导语"
+          },
+          {
+            "unit": 3,
+            "new_information": "主持人问她还有什么遗憾。",
+            "reader_attraction": "只是提出话题；点名前任的追责尚未出现。",
+            "scope": "导语"
+          }
+        ],
+        "benchmark_role": "context_then_concrete_payoff",
+        "evidence_scope": "明确独立导语及章界",
+        "analysis_kind": "original_analysis_of_public_opening; not_verbatim_full_lead"
+      }
+    },
+    {
+      "id": "fq-7643446631370591294",
+      "source": "https://fanqienovel.com/page/7643446631370591294",
+      "title": "结婚三年，我看见了老婆头顶的弹幕",
+      "excerpt": "【他怎么还不睡，烦死了。】",
+      "route": "relationship_mystery",
+      "category": "男生情感",
+      "read_scope": "明确独立导语及章界",
+      "popularity_scope": "第三方历史榜单且likeCnt≥1000",
+      "mechanism": "展示异常载体时紧接一条具体内容，并给与之不一致的现场行为；知识差本身可启动轻喜。",
+      "use": "拿一项与原关系解释不相容的证据，说明这个矛盾为何影响主角；留下原因或处理选择，避免只有我震惊了。",
+      "limit": "导语确认了观察权限，尚未改变双方公开关系；不能把能力获得自动算成关系反转。",
+      "benchmark_eligible": false,
+      "sentence_study": {
+        "first_sentence_quality": "首句有具体异常，第三句给可核对内容",
+        "first_sentence_analysis": "结婚三年后第一次见妻子头顶文字，提出具体超常现象；但文字尚未显示内容，第一句更像入口。",
+        "reader_default_expectation": "妻子表面温柔，头顶文字可能泄露隐藏心声。",
+        "second_sentence_analysis": "妻子在床头刷手机并向丈夫笑，给出可对照的日常外表。",
+        "third_sentence_analysis": "文字嫌丈夫还不睡觉，内容与笑容冲突；读者能立即判断她外显与内心不同。",
+        "actual_change": "信息变化是丈夫单独获得妻子心声。导语让次日早餐时的另一条文字确认能力持续，但没有写丈夫据此怎样行动或妻子如何回应。",
+        "deletion_test": [
+          "删掉文字的具体内容，只剩我看见弹幕，不能知道异常对婚姻有什么影响。",
+          "删掉表面的笑与关心，内心抱怨失去同时刻的对照。"
+        ],
+        "transferable_mechanism": "展示异常载体时紧接一条具体内容，并给与之不一致的现场行为；知识差本身可启动轻喜。",
+        "limitations": "导语确认了观察权限，尚未改变双方公开关系；不能把能力获得自动算成关系反转。",
+        "sentence_windows": [
+          {
+            "unit": 1,
+            "new_information": "丈夫第一次看见妻子头顶的文字。",
+            "reader_attraction": "具体异常载体出现，读者等文字内容。",
+            "scope": "导语"
+          },
+          {
+            "unit": 2,
+            "new_information": "妻子刷手机并向他笑。",
+            "reader_attraction": "建立同一时刻的温柔外表。",
+            "scope": "导语"
+          },
+          {
+            "unit": 3,
+            "new_information": "文字嫌他还不睡觉。",
+            "reader_attraction": "内容与外表相撞，读者得到可核对的心口差异。",
+            "scope": "导语"
+          }
+        ],
+        "benchmark_role": "concrete_content_positive",
+        "evidence_scope": "明确独立导语及章界",
+        "analysis_kind": "original_analysis_of_public_opening; not_verbatim_full_lead"
+      }
+    },
+    {
+      "id": "fq-7661926268576844862",
+      "source": "https://fanqienovel.com/page/7661926268576844862",
+      "title": "妻子白月光回国，全家都怕我提桶跑路",
+      "excerpt": "发现自己好像跑不了了",
+      "route": "stop_loss",
+      "category": "男生情感",
+      "read_scope": "明确独立导语及章界",
+      "popularity_scope": "第三方历史榜单且likeCnt≥1000",
+      "mechanism": "通用危机要补妻子当下做了什么；若要用离开作为选择，需给具体阻碍或她的反应。",
+      "use": "以一项真实付出和失衡证据立住退出理由；预告选择后，把期待留给利益撤回、对方回应或新生活的具体变化。",
+      "limit": "这一例不能作为已兑现的具体选择后果范例；历史热度无法补足导语里缺失的事实。",
+      "benchmark_eligible": true,
+      "sentence_study": {
+        "first_sentence_quality": "首句是通用类型信号",
+        "first_sentence_analysis": "妻子的旧情人回国仅触发常见婚姻危机预期，没有见面、联系或妻子的具体行为。",
+        "reader_default_expectation": "丈夫地位将受威胁，妻子可能偏向旧情人。",
+        "second_sentence_analysis": "小姨子直接询问危机感，把类型预期交给剧中人物说出。",
+        "third_sentence_analysis": "丈夫不理解为何有危机，制造态度差；此时只是认知不同，尚未有能验证妻子立场的行动。",
+        "actual_change": "后段补出婚姻像是捡来的及妻子未明确说爱；最后宣称无法离开，未展示阻止离开的对象或措施。",
+        "deletion_test": [
+          "删掉他从未听过爱意，犹豫跑路只像被旁人随口说动，缺关系弱点。",
+          "即使删掉最后不能跑的概括，具体事实损失很少，说明这个结尾未提供原因。"
+        ],
+        "transferable_mechanism": "通用危机要补妻子当下做了什么；若要用离开作为选择，需给具体阻碍或她的反应。",
+        "limitations": "这一例不能作为已兑现的具体选择后果范例；历史热度无法补足导语里缺失的事实。",
+        "sentence_windows": [
+          {
+            "unit": 1,
+            "new_information": "妻子的旧情人回国。",
+            "reader_attraction": "通用情敌信号，尚无妻子当下行为。",
+            "scope": "导语"
+          },
+          {
+            "unit": 2,
+            "new_information": "小姨子问丈夫有没有婚姻危机感。",
+            "reader_attraction": "把类型预期说出来，没有独立证据。",
+            "scope": "导语"
+          },
+          {
+            "unit": 3,
+            "new_information": "丈夫不理解为何有危机。",
+            "reader_attraction": "态度差出现，尚未有行动或立场发生变化。",
+            "scope": "导语"
+          }
+        ],
+        "benchmark_role": "weak_prefix_counterexample",
+        "evidence_scope": "明确独立导语及章界",
+        "analysis_kind": "original_analysis_of_public_opening; not_verbatim_full_lead"
+      }
+    },
+    {
+      "id": "fq-7655368153093901336",
+      "source": "https://fanqienovel.com/page/7655368153093901336",
+      "title": "民政局第二次被放鸽子，角落姑娘问我：领不领？",
+      "excerpt": "还有十五分钟下班。",
+      "route": "role_collision",
+      "category": "男生情感",
+      "read_scope": "明确独立导语及章界",
+      "popularity_scope": "第三方历史榜单且likeCnt≥1000",
+      "mechanism": "用地点、重复次数和旁观者组成尴尬证据，再给一个能当场执行的替代选择。",
+      "use": "先给眼前任务，再让另一种身份或另一方目标阻挡它；读者要能想象紧接着必须处理的场面。",
+      "limit": "结尾向读者问信不信比较通用；可学习的是替代方案和时间条件，不能只学反问语气。",
+      "benchmark_eligible": true,
+      "sentence_study": {
+        "first_sentence_quality": "首句有具体场景与重复损失",
+        "first_sentence_analysis": "主角在民政局第二次等待落空；领证场景和第二次共同说明承诺已经重复失败。",
+        "reader_default_expectation": "他会继续等同一人、争吵，或取消婚约后离开。",
+        "second_sentence_analysis": "登记人员认出他，私人挫败变成被第三人记住的尴尬，重复有了外部证人。",
+        "third_sentence_analysis": "工作人员指向同样等了一天的女孩，把单方羞耻改成两个处境相似的人；后续配对具有入口。",
+        "actual_change": "陌生女孩提出当场领证，时钟显示只剩15分钟，主角点头；原计划与原对象一起被替换，选择发生在实际办事期限内。",
+        "deletion_test": [
+          "删掉第二次，被爽约会少一层主角为何愿意换方案的积累。",
+          "删掉下班期限，领证邀请仍成立，但立即决定的压力变弱。"
+        ],
+        "transferable_mechanism": "用地点、重复次数和旁观者组成尴尬证据，再给一个能当场执行的替代选择。",
+        "limitations": "结尾向读者问信不信比较通用；可学习的是替代方案和时间条件，不能只学反问语气。",
+        "sentence_windows": [
+          {
+            "unit": 1,
+            "new_information": "男主在民政局第二次被爽约。",
+            "reader_attraction": "地点、次数与承诺失败同时明确，读者等他改不改计划。",
+            "scope": "导语"
+          },
+          {
+            "unit": 2,
+            "new_information": "工作人员认出他且更加同情。",
+            "reader_attraction": "重复挫败被外部证人确认，尴尬进一步可见。",
+            "scope": "导语"
+          },
+          {
+            "unit": 3,
+            "new_information": "另一女孩也在角落等了一天。",
+            "reader_attraction": "引入能共享处境的人，替代方案有对象。",
+            "scope": "导语"
+          }
+        ],
+        "benchmark_role": "concrete_content_positive",
+        "evidence_scope": "明确独立导语及章界",
+        "analysis_kind": "original_analysis_of_public_opening; not_verbatim_full_lead"
+      }
+    },
+    {
+      "id": "fq-7451484620782043710",
+      "source": "https://fanqienovel.com/page/7451484620782043710",
+      "title": "同事死后，我娶了他的老婆",
+      "excerpt": "我知道，我可以离开了。",
+      "route": "stop_loss",
+      "category": "男生情感",
+      "read_scope": "明确独立导语及章界",
+      "popularity_scope": "第三方历史榜单且likeCnt≥1000",
+      "mechanism": "具体伤害要能取消一个此前建立的角色；让他人的说法直接改变主角在现场的身份。",
+      "use": "以一项真实付出和失衡证据立住退出理由；预告选择后，把期待留给利益撤回、对方回应或新生活的具体变化。",
+      "limit": "导语前段铺恩债较长；不能把照顾年份和受苦形容词堆积等同于首句强度。",
+      "benchmark_eligible": true,
+      "sentence_study": {
+        "first_sentence_quality": "首句有具体救命动作，真正拒认较晚",
+        "first_sentence_analysis": "车祸中同事把主角推出车外，亮出救命动作；首先建立的是恩债而非夫妻冲突。",
+        "reader_default_expectation": "主角会替牺牲者照顾家人，并难以撤回责任。",
+        "second_sentence_analysis": "车起火且一死一生，把恩债从推测变成不可逆后果。",
+        "third_sentence_analysis": "遗孀怀孕九个月并要求孩子有父亲，给主角接受家庭角色的具体理由。",
+        "actual_change": "主角照顾孩子六年后，孩子在派出所否认认识他并指为拐卖者，照顾者被公开取消身份；他随后作出离开的选择。",
+        "deletion_test": [
+          "删掉救命恩债，六年照顾难以解释，也少了放下责任的阻力。",
+          "删掉孩子具体向警方否认身份的原话，受到伤害只是主角自述，不足以看见亲子角色被撤销。"
+        ],
+        "transferable_mechanism": "具体伤害要能取消一个此前建立的角色；让他人的说法直接改变主角在现场的身份。",
+        "limitations": "导语前段铺恩债较长；不能把照顾年份和受苦形容词堆积等同于首句强度。",
+        "sentence_windows": [
+          {
+            "unit": 1,
+            "new_information": "同事在车祸中将男主推出去。",
+            "reader_attraction": "救命动作具体，读者预期主角承接恩债。",
+            "scope": "导语"
+          },
+          {
+            "unit": 2,
+            "new_information": "同事死去而主角生还。",
+            "reader_attraction": "恩债不可撤回，后续付出有根源。",
+            "scope": "导语"
+          },
+          {
+            "unit": 3,
+            "new_information": "遗孀怀孕九个月并说孩子需要父亲。",
+            "reader_attraction": "照护责任有具体对象和时点。",
+            "scope": "导语"
+          }
+        ],
+        "benchmark_role": "context_then_concrete_payoff",
+        "evidence_scope": "明确独立导语及章界",
+        "analysis_kind": "original_analysis_of_public_opening; not_verbatim_full_lead"
+      }
+    },
+    {
+      "id": "fq-7577163696724528152",
+      "source": "https://fanqienovel.com/page/7577163696724528152",
+      "title": "我俩互演穷B，联姻宴上我俩都傻眼了",
+      "excerpt": "那张脸，赫然是我那天天跟我吃泡面",
+      "route": "double_identity",
+      "category": "男生情感",
+      "read_scope": "明确独立导语及章界",
+      "popularity_scope": "第三方历史榜单且likeCnt≥1000",
+      "mechanism": "社会评价后紧跟不相容的物件或行为，使概括自己变得不可信；最后用同一场合让双方秘密撞上。",
+      "use": "读者可先知道双方身份，角色暂时不知；选择两套身份必须碰面的具体场合，留穿帮后的解释与动机，不靠资产清单撑吸引力。",
+      "limit": "首句单看较弱，靠紧随的具体豪车信息补强；大量奢侈品不能替代身份冲突。",
+      "benchmark_eligible": true,
+      "sentence_study": {
+        "first_sentence_quality": "首句普通，第二句立即揭示身份矛盾",
+        "first_sentence_analysis": "第一句宣称情侣公认贫穷，是社会评价；本身没给证明。",
+        "reader_default_expectation": "两人将因缺钱受轻视、为爱情互相牺牲。",
+        "second_sentence_analysis": "紧接着说主角卖豪车换共享单车、女友拒绝富家追求；豪车暴露男方原本不穷，使第一句的评价开始可疑。",
+        "third_sentence_analysis": "二人把对方理解成轻财的伴侣，建立双方都在误判的状态。",
+        "actual_change": "商业联姻对象竟是已交往的女友，双方原有身份在同一现场暴露；她反过来指责他隐藏财富，私下贫穷关系与家族安排合并。",
+        "deletion_test": [
+          "删掉豪车，共享单车只证明节省，男方隐藏财富没有入口。",
+          "删掉彼此认出，联姻只是另一条剧情，两个身份无法相撞。"
+        ],
+        "transferable_mechanism": "社会评价后紧跟不相容的物件或行为，使概括自己变得不可信；最后用同一场合让双方秘密撞上。",
+        "limitations": "首句单看较弱，靠紧随的具体豪车信息补强；大量奢侈品不能替代身份冲突。",
+        "sentence_windows": [
+          {
+            "unit": 1,
+            "new_information": "二人被公认为贫穷情侣。",
+            "reader_attraction": "是社会标签，需具体行为支持。",
+            "scope": "导语"
+          },
+          {
+            "unit": 2,
+            "new_information": "男方卖豪车换共享车，女方拒绝富家追求。",
+            "reader_attraction": "男方资产与贫穷评价相撞，首句开始可疑。",
+            "scope": "导语"
+          },
+          {
+            "unit": 3,
+            "new_information": "二人都把对方理解成不重钱的伴侣。",
+            "reader_attraction": "建立双方误判，等待在同一现场识别真实身份。",
+            "scope": "导语"
+          }
+        ],
+        "benchmark_role": "context_then_concrete_payoff",
+        "evidence_scope": "明确独立导语及章界",
+        "analysis_kind": "original_analysis_of_public_opening; not_verbatim_full_lead"
+      }
+    },
+    {
+      "id": "fq-7546159534478216216",
+      "source": "https://fanqienovel.com/page/7546159534478216216",
+      "title": "未婚妻被保姆偷换后，我偷偷换回来了",
+      "excerpt": "所以我换回来了。",
+      "route": "strategic_response",
+      "category": "男生情感",
+      "read_scope": "明确独立导语及章界",
+      "popularity_scope": "第三方历史榜单且likeCnt≥1000",
+      "mechanism": "前三句可以先亮出异常，再让主角已采取一个改正动作；后续用对手仍按旧信息行动来兑现。",
+      "use": "让主角作一项表面不划算但改变对抗条件的行动；可以给结果，保留方法为何有效和对方下一步的代价。",
+      "limit": "反击结果在开篇已透露，不必机械扣住真相；童年能够独立换婴是设定便利，不能照搬到现实题材的可信度判断。",
+      "benchmark_eligible": true,
+      "sentence_study": {
+        "first_sentence_quality": "首句背景，第三句已做出因果选择",
+        "first_sentence_analysis": "五岁时娃娃亲对象出生，只确定人物关系与主角年龄，没有偏差事实。",
+        "reader_default_expectation": "孩子不懂成人婚约，也无力干预家族安排。",
+        "second_sentence_analysis": "主角在医院发现两个女童被人互换，具体侵害与亲眼见证同时出现。",
+        "third_sentence_analysis": "他马上把孩子换回，主动纠正了错误；读者提前掌握一项反派不知道的行动。",
+        "actual_change": "成年订婚宴上保姆企图用掉包真相夺聘礼，主角把早年的纠正行动公开；保姆预设的胜利失效。",
+        "deletion_test": [
+          "删掉主角幼年换回的行动，订婚宴上的打脸没有原因，只靠作者临时解释。",
+          "删掉保姆索取聘礼的目的，揭露身份只剩曝光，没有当场利益被阻止。"
+        ],
+        "transferable_mechanism": "前三句可以先亮出异常，再让主角已采取一个改正动作；后续用对手仍按旧信息行动来兑现。",
+        "limitations": "反击结果在开篇已透露，不必机械扣住真相；童年能够独立换婴是设定便利，不能照搬到现实题材的可信度判断。",
+        "sentence_windows": [
+          {
+            "unit": 1,
+            "new_information": "五岁男孩的娃娃亲对象出生。",
+            "reader_attraction": "是童年关系背景，异常还没出现。",
+            "scope": "导语"
+          },
+          {
+            "unit": 2,
+            "new_information": "他在医院目睹两个女童被互换。",
+            "reader_attraction": "行为与受害对象明示，读者知道他掌握谁也未说的事实。",
+            "scope": "导语"
+          },
+          {
+            "unit": 3,
+            "new_information": "他把孩子又换回来。",
+            "reader_attraction": "前三句就有主动纠正，后文对手会在错误信息上行动。",
+            "scope": "导语"
+          }
+        ],
+        "benchmark_role": "context_then_concrete_payoff",
+        "evidence_scope": "明确独立导语及章界",
+        "analysis_kind": "original_analysis_of_public_opening; not_verbatim_full_lead"
+      }
+    },
+    {
+      "id": "fq-7644233786086919230",
+      "source": "https://fanqienovel.com/page/7644233786086919230",
+      "title": "给妹妹的零花钱，转出了个女朋友",
+      "excerpt": "但收款人不是苏棠。",
+      "route": "secret_exposure",
+      "category": "男生情感",
+      "read_scope": "明确独立导语及章界",
+      "popularity_scope": "第三方历史榜单且likeCnt≥1000",
+      "mechanism": "先给可核对的行为账目，再由另一个当事人否认，最后亮出真正对象和它造成的关系后果。",
+      "use": "明确谁知道什么、谁以为安全；让一项秘密被当面准确提及，逼出眼前回应，保留暴露范围及后果。",
+      "limit": "感情由长期收款产生仍需正文解释；导语里的好感是新事实，不等于整段行为可信。",
+      "benchmark_eligible": true,
+      "sentence_study": {
+        "first_sentence_quality": "首句有具体固定账目，第二第三句建立矛盾",
+        "first_sentence_analysis": "主角固定每月给妹妹800元，展示关系义务及自认履约的规律；尚未异常，但金额和频率能被核对。",
+        "reader_default_expectation": "他确实在供给妹妹零花钱，家中可能围绕钱多少起争执。",
+        "second_sentence_analysis": "饭桌上妹妹委屈发问只是引入反证人，内容到下一句才给出。",
+        "third_sentence_analysis": "妹妹说五个月未收到，直接否定首句；比我转错钱了更强，因为两个具体记录先互相冲突。",
+        "actual_change": "主角查记录确认按月转出却发现收款人是陌生姑娘；姑娘表达好感，使记账错误带来必须处理的新关系。",
+        "deletion_test": [
+          "删掉800元的固定频率，金额差或偶尔忘付也能解释冲突，误转证据变弱。",
+          "删掉陌生收款人明确表达喜欢，转错只是一笔退钱事务，没有情感行动要求。"
+        ],
+        "transferable_mechanism": "先给可核对的行为账目，再由另一个当事人否认，最后亮出真正对象和它造成的关系后果。",
+        "limitations": "感情由长期收款产生仍需正文解释；导语里的好感是新事实，不等于整段行为可信。",
+        "sentence_windows": [
+          {
+            "unit": 1,
+            "new_information": "哥哥固定每月转给妹妹800元。",
+            "reader_attraction": "给可查的金额与频率，等待反证或记录差。",
+            "scope": "导语"
+          },
+          {
+            "unit": 2,
+            "new_information": "饭桌上妹妹委屈发问。",
+            "reader_attraction": "引入另一个当事人，具体质疑到下句才出现。",
+            "scope": "导语"
+          },
+          {
+            "unit": 3,
+            "new_information": "妹妹说五个月未收到。",
+            "reader_attraction": "两个具体事实互不相容，读者等账目到底错在哪。",
+            "scope": "导语"
+          }
+        ],
+        "benchmark_role": "concrete_content_positive",
+        "evidence_scope": "明确独立导语及章界",
+        "analysis_kind": "original_analysis_of_public_opening; not_verbatim_full_lead"
+      }
+    },
+    {
+      "id": "fq-7642502815025220633",
+      "source": "https://fanqienovel.com/page/7642502815025220633",
+      "title": "我俩互演穷鬼，领证那天民政局笑疯了",
+      "excerpt": "我叫陈默，今年二十六，坐标深圳南山，",
+      "route": "double_identity",
+      "category": "男生情感",
+      "read_scope": "前1700字符未见章界，仅开篇",
+      "popularity_scope": "第三方历史榜单且likeCnt≥1000",
+      "mechanism": "别只写身份藏得很深，要给一个同时无法满足两种身份的账目或物件；明知而不说也是行动选择。",
+      "use": "读者可先知道双方身份，角色暂时不知；选择两套身份必须碰面的具体场合，留穿帮后的解释与动机，不靠资产清单撑吸引力。",
+      "limit": "缓存前1700字符未见章界，本例仅作开篇对照。低薪不能自动推出贫穷；标题的领证场景未在所读开篇出现。",
+      "benchmark_eligible": false,
+      "sentence_study": {
+        "first_sentence_quality": "首句是履历，第三句给矛盾事实；无独立导语章界",
+        "first_sentence_analysis": "姓名、年龄、城市和月薪组合像自我介绍，3000元在南山形成低收入预期，但没有当场难题。",
+        "reader_default_expectation": "主角是收入拮据的普通打工人。",
+        "second_sentence_analysis": "再次强调薪水属实，只增加语气强度，没有新事实。",
+        "third_sentence_analysis": "主角却拥有多栋楼、上市公司和巨额集团权益，资产与工资不相容；这是前三句最实质的信息。",
+        "actual_change": "前文说明父亲安排基层历练，后文用新同事的昂贵腕表暴露她也在隐藏资产。主角已经认出她，却选择不揭穿；这不是双方一起发现秘密。",
+        "deletion_test": [
+          "删掉工资与资产的不相容，只剩富人履历，假扮普通人的意图不成立。",
+          "删掉腕表这个可见证据，主角认出女方身份会变成无依据读心。"
+        ],
+        "transferable_mechanism": "别只写身份藏得很深，要给一个同时无法满足两种身份的账目或物件；明知而不说也是行动选择。",
+        "limitations": "缓存前1700字符未见章界，本例仅作开篇对照。低薪不能自动推出贫穷；标题的领证场景未在所读开篇出现。",
+        "sentence_windows": [
+          {
+            "unit": 1,
+            "new_information": "男主介绍姓名年龄城市和3000元月薪。",
+            "reader_attraction": "低薪可形成普通打工人的初始判断，主要还是履历。",
+            "scope": "仅开篇；未计为独立导语"
+          },
+          {
+            "unit": 2,
+            "new_information": "再次确认工资确实3000元。",
+            "reader_attraction": "仅语气强调，没有新增事实。",
+            "scope": "仅开篇；未计为独立导语"
+          },
+          {
+            "unit": 3,
+            "new_information": "他名下却有楼宇、公司与集团权益。",
+            "reader_attraction": "资产与月薪形成可核对的矛盾，读者等低薪的原因。",
+            "scope": "仅开篇；未计为独立导语"
+          }
+        ],
+        "benchmark_role": "chapter_opening_boundary",
+        "evidence_scope": "前1700字符未见章界，仅开篇",
+        "analysis_kind": "original_analysis_of_public_opening; not_verbatim_full_lead"
+      }
+    },
+    {
+      "id": "fq-7644344379049528345",
+      "source": "https://fanqienovel.com/page/7644344379049528345",
+      "title": "拿植物人老婆当树洞三年，她醒了",
+      "excerpt": "\"你昨天说暗恋谁？\"",
+      "route": "secret_exposure",
+      "category": "男生情感",
+      "read_scope": "明确独立导语及章界",
+      "popularity_scope": "第三方历史榜单且likeCnt≥1000",
+      "mechanism": "给出一件曾因对方不知情而敢说的具体内容，再让对方准确引用它并要求回答。",
+      "use": "明确谁知道什么、谁以为安全；让一项秘密被当面准确提及，逼出眼前回应，保留暴露范围及后果。",
+      "limit": "前三句能展示尴尬风险，亲密关系仍需正文发展；不要把对昏迷者失去知觉的判断当医学事实。",
+      "benchmark_eligible": true,
+      "sentence_study": {
+        "first_sentence_quality": "首句有关系设定，第三句亮出尴尬证据",
+        "first_sentence_analysis": "为了还债与昏迷女总裁结婚，给出利益动机和对方无法回应的状态；重点还没到主角说了什么。",
+        "reader_default_expectation": "付费陪护中主角可说话但对方不会追责，私人倾诉似乎安全。",
+        "second_sentence_analysis": "他因为自认对方听不见而倾诉，建立一个可以被推翻的前提。",
+        "third_sentence_analysis": "列出失恋、面试时身体失控及怕虫报警，黑历史有了不同场合的具体内容；比我说了很多秘密能形成更明确的尴尬。",
+        "actual_change": "妻子醒来抓住他手腕，要求重复前一天暗恋对象，证明她不仅醒了，还可能听见并记住内容；单向倾诉变成要当场回答的追问。",
+        "deletion_test": [
+          "删掉具体黑历史，倾诉的风险和主角羞耻只剩标签。",
+          "删掉关于昨日暗恋对象的追问，苏醒只是医学事件，不能证明此前秘密落入对方手里。"
+        ],
+        "transferable_mechanism": "给出一件曾因对方不知情而敢说的具体内容，再让对方准确引用它并要求回答。",
+        "limitations": "前三句能展示尴尬风险，亲密关系仍需正文发展；不要把对昏迷者失去知觉的判断当医学事实。",
+        "sentence_windows": [
+          {
+            "unit": 1,
+            "new_information": "男主为偿债与昏迷者结婚。",
+            "reader_attraction": "明确动机与无法回应的关系条件。",
+            "scope": "导语"
+          },
+          {
+            "unit": 2,
+            "new_information": "他以为对方听不见，开始放心倾诉。",
+            "reader_attraction": "错误安全前提建立，读者等前提什么时候失效。",
+            "scope": "导语"
+          },
+          {
+            "unit": 3,
+            "new_information": "他讲过失恋、面试失态和怕虫报警。",
+            "reader_attraction": "羞耻内容变得具体，醒来后的追问才有风险。",
+            "scope": "导语"
+          }
+        ],
+        "benchmark_role": "context_then_concrete_payoff",
+        "evidence_scope": "明确独立导语及章界",
+        "analysis_kind": "original_analysis_of_public_opening; not_verbatim_full_lead"
+      }
+    },
+    {
+      "id": "fq-7640921082676907070",
+      "source": "https://fanqienovel.com/page/7640921082676907070",
+      "title": "我说没有家属，影后穿着礼裙踹了我的病房门",
+      "excerpt": "一脚踹开了我的病房门。",
+      "route": "relationship_reframing",
+      "category": "男生情感",
+      "read_scope": "明确独立导语及章界",
+      "popularity_scope": "第三方历史榜单且likeCnt≥1000",
+      "mechanism": "先让人物在一个具体流程里说出关系空缺，再让对方付出可见成本填上它。",
+      "use": "以一个只能解释为私人关注或关系变化的动作、话语、物件重估熟人；可以预告心动，留下怎样被看见、怎样当面回应的过程。",
+      "limit": "首单元与标题不能混算；主角无人可联系与影后到场形成反证，但尚未说明她是谁、为何来。",
+      "benchmark_eligible": true,
+      "sentence_study": {
+        "first_sentence_quality": "首个短单元弱，第三单元才亮出关系空缺",
+        "first_sentence_analysis": "车祸只是事件名，独立看没有人物选择或新鲜事实；原文刻意用短片段推进。",
+        "reader_default_expectation": "受伤住院者会联系家人处理照护。",
+        "second_sentence_analysis": "两根肋骨骨折量化伤势，只补事故后果。",
+        "third_sentence_analysis": "医生问家属而主角答没有，常规照护流程出现空位；这才给后文有人闯进来的对照。",
+        "actual_change": "颁奖直播被中断，影后穿着典礼服来到病房，公开成本和行动否定主角无人管的自认。导语没有确认影后与主角的法定或旧有关系。",
+        "deletion_test": [
+          "删掉家属栏为空，她来病房只是明星探视，没有补上主角自认的关系空缺。",
+          "删掉颁奖典礼与服装，她来探视的时间代价降低，行动偏差变小。"
+        ],
+        "transferable_mechanism": "先让人物在一个具体流程里说出关系空缺，再让对方付出可见成本填上它。",
+        "limitations": "首单元与标题不能混算；主角无人可联系与影后到场形成反证，但尚未说明她是谁、为何来。",
+        "sentence_windows": [
+          {
+            "unit": 1,
+            "new_information": "只出现车祸这个短片段。",
+            "reader_attraction": "提供事件名，独立看没有关系信息或具体选择。",
+            "scope": "导语"
+          },
+          {
+            "unit": 2,
+            "new_information": "两根肋骨受伤。",
+            "reader_attraction": "补身体后果，尚未提供情感吸引点。",
+            "scope": "导语"
+          },
+          {
+            "unit": 3,
+            "new_information": "医生要家属电话而主角说没有。",
+            "reader_attraction": "具体照护流程出现关系空位，后文来访能形成反证。",
+            "scope": "导语"
+          }
+        ],
+        "benchmark_role": "context_then_concrete_payoff",
+        "evidence_scope": "明确独立导语及章界",
+        "analysis_kind": "original_analysis_of_public_opening; not_verbatim_full_lead"
+      }
+    },
+    {
+      "id": "fq-7643196263273352217",
+      "source": "https://fanqienovel.com/page/7643196263273352217",
+      "title": "老婆含泪提离婚，我怕她反悔当场签了字",
+      "excerpt": "她准备好的台词还有三页没念呢。",
+      "route": "stop_loss",
+      "category": "男生情感",
+      "read_scope": "明确独立导语及章界",
+      "popularity_scope": "较低热度榜单探索，不计热门正例",
+      "mechanism": "先给对方完整的说服目标与代价，再用主角真实需要使整套说辞落空；一件白准备的具体物可显示后果。",
+      "use": "以一项真实付出和失衡证据立住退出理由；预告选择后，把期待留给利益撤回、对方回应或新生活的具体变化。",
+      "limit": "首句有关系问题但不独特；喜剧来自双方目标判断出错，不能单靠冷漠回应标为优质。",
+      "benchmark_eligible": true,
+      "sentence_study": {
+        "first_sentence_quality": "首句有明确关系断裂，主角选择较晚",
+        "first_sentence_analysis": "妻子当面说明爱上别人，红眼与下班归家给情绪和现场；比泛称婚姻不好有具体对象，但出轨告白仍是常见开头。",
+        "reader_default_expectation": "丈夫会受伤、追问或阻止离婚，妻子需要说服他。",
+        "second_sentence_analysis": "妻子明确要与那人在一起，告白变成解除婚姻的要求。",
+        "third_sentence_analysis": "她愿意放弃财产，进一步排除物质顾虑，表现其已作决定。",
+        "actual_change": "丈夫看协议后感到轻松并立即同意，妻子准备的长篇说辞失去作用；离婚变成双方想结束，随后丈夫也喜新厌旧的自述解释动机。",
+        "deletion_test": [
+          "删掉妻子准备长篇说辞这个剩余物，立即答应仍成立，但期待被挫败的喜剧证据变弱。",
+          "删掉丈夫松气，只说同意仍可能是赌气，主角真实动机不清。"
+        ],
+        "transferable_mechanism": "先给对方完整的说服目标与代价，再用主角真实需要使整套说辞落空；一件白准备的具体物可显示后果。",
+        "limitations": "首句有关系问题但不独特；喜剧来自双方目标判断出错，不能单靠冷漠回应标为优质。",
+        "sentence_windows": [
+          {
+            "unit": 1,
+            "new_information": "妻子当面说爱上别人。",
+            "reader_attraction": "关系断裂明确，但仍是常见出轨告白。",
+            "scope": "导语"
+          },
+          {
+            "unit": 2,
+            "new_information": "她提出离婚去和那人在一起。",
+            "reader_attraction": "感情信息变成要求主角回应的实际选择。",
+            "scope": "导语"
+          },
+          {
+            "unit": 3,
+            "new_information": "她愿意放弃财产。",
+            "reader_attraction": "提高其决定的代价，后文男方轻松同意更偏离预期。",
+            "scope": "导语"
+          }
+        ],
+        "benchmark_role": "context_then_concrete_payoff",
+        "evidence_scope": "明确独立导语及章界",
+        "analysis_kind": "original_analysis_of_public_opening; not_verbatim_full_lead"
+      }
+    },
+    {
+      "id": "fq-7652027194897615896",
+      "source": "https://fanqienovel.com/page/7652027194897615896",
+      "title": "拿了一个亿离婚费跑路，两个月后被前妻连人带卡收走了",
+      "excerpt": "——谁的家？我已经离职了啊？！",
+      "route": "stop_loss",
+      "category": "男生情感",
+      "read_scope": "明确独立导语及章界",
+      "popularity_scope": "较低热度榜单探索，不计热门正例",
+      "mechanism": "关系概括后给一条可数的相处缺失，再把退出报酬具体化；对方的反应要实际改变退出条件。",
+      "use": "以一项真实付出和失衡证据立住退出理由；预告选择后，把期待留给利益撤回、对方回应或新生活的具体变化。",
+      "limit": "一亿与保镖抓人是设定夸张，不能作为现实轻喜必需配件；前妻为何反悔仍需正文说明。",
+      "benchmark_eligible": true,
+      "sentence_study": {
+        "first_sentence_quality": "首句通用身份，第三单元才补量化关系事实",
+        "first_sentence_analysis": "三年替身丈夫是类型标签，具体替代谁、怎样受冷落仍未知。",
+        "reader_default_expectation": "男方因被工具化受苦，离婚时会心痛或抗争。",
+        "second_sentence_analysis": "再次单独强调三年只重复时间，不增加事实；短句数量不等于力度。",
+        "third_sentence_analysis": "从未牵手、总共不到十句话、隔墙而睡，把空婚姻变成可见的接触缺失。",
+        "actual_change": "男方看到一亿元补偿立即签字，把离婚按退休收益处理；两个月后被保镖带走、银行卡被剪，退出选择被前妻撤销。",
+        "deletion_test": [
+          "删掉一亿元，只剩替身离婚，极快签字没有明确收益动机。",
+          "删掉银行卡被剪，强制回家仍成立，但已经到手的退出资源被拿走这一层后果消失。"
+        ],
+        "transferable_mechanism": "关系概括后给一条可数的相处缺失，再把退出报酬具体化；对方的反应要实际改变退出条件。",
+        "limitations": "一亿与保镖抓人是设定夸张，不能作为现实轻喜必需配件；前妻为何反悔仍需正文说明。",
+        "sentence_windows": [
+          {
+            "unit": 1,
+            "new_information": "男主做了三年替身丈夫。",
+            "reader_attraction": "通用身份标签，缺少具体相处。",
+            "scope": "导语"
+          },
+          {
+            "unit": 2,
+            "new_information": "再强调一次三年。",
+            "reader_attraction": "没有新增内容；拆行与重复不自动形成力度。",
+            "scope": "导语"
+          },
+          {
+            "unit": 3,
+            "new_information": "没有牵手、话少且分墙睡。",
+            "reader_attraction": "把空婚姻落实为三项接触缺失。",
+            "scope": "导语"
+          }
+        ],
+        "benchmark_role": "context_then_concrete_payoff",
+        "evidence_scope": "明确独立导语及章界",
+        "analysis_kind": "original_analysis_of_public_opening; not_verbatim_full_lead"
+      }
+    },
+    {
+      "id": "fq-7662888095414488126",
+      "source": "https://fanqienovel.com/page/7662888095414488126",
+      "title": "我去相亲，对面坐着前女友的闺蜜",
+      "excerpt": "你猜，她下一句话说了什么？",
+      "route": "comic_exchange",
+      "category": "男生情感",
+      "read_scope": "明确独立导语及章界",
+      "popularity_scope": "较低热度榜单探索，不计热门正例",
+      "mechanism": "别用我愣住了代替对象信息；尽快说出对面是谁及此前站在哪一方，再展示一条可回应的攻击。",
+      "use": "设定双方想做但不能同时做成的事，用一次接招改变场面；笑点后留下新难题、身份暴露或下一次必须回答的话，不以一句心动总结结束。",
+      "limit": "结尾让读者猜下一句话属于通用扣留；这例不能证明导语已完成双向接招，首句也不因热度变强。",
+      "benchmark_eligible": false,
+      "sentence_study": {
+        "first_sentence_quality": "首句普通，第三句给具体尴尬身份",
+        "first_sentence_analysis": "母亲强迫相亲、主角准备敷衍是常规动机，未亮出本次约会的特殊对象。",
+        "reader_default_expectation": "主角和陌生女孩礼貌聊几句后散场。",
+        "second_sentence_analysis": "见对方的脸后愣住，只给反应，暂未给反应来源。",
+        "third_sentence_analysis": "对方是前女友的好友，把陌生社交改成带旧有立场的再见；这一个关系事实比前句的惊讶更有用。",
+        "actual_change": "男主用嘲讽话先出招，女方笑；导语不呈现女方的下一句话，因此只建立双方对抗，尚未完成她的反击或关系转变。",
+        "deletion_test": [
+          "删掉与前任的具体联系，她的不友好只像无由来的挑剔。",
+          "删掉男主先出招，女方笑不一定是对他的回应，交锋链条中断。"
+        ],
+        "transferable_mechanism": "别用我愣住了代替对象信息；尽快说出对面是谁及此前站在哪一方，再展示一条可回应的攻击。",
+        "limitations": "结尾让读者猜下一句话属于通用扣留；这例不能证明导语已完成双向接招，首句也不因热度变强。",
+        "sentence_windows": [
+          {
+            "unit": 1,
+            "new_information": "被催去相亲，男主想敷衍。",
+            "reader_attraction": "常规相亲动机，没有本次特殊对象。",
+            "scope": "导语"
+          },
+          {
+            "unit": 2,
+            "new_information": "他开门看见对方后愣住。",
+            "reader_attraction": "只亮反应，把关键对象仍藏着。",
+            "scope": "导语"
+          },
+          {
+            "unit": 3,
+            "new_information": "对面是前女友的好友。",
+            "reader_attraction": "明确旧立场，陌生礼貌社交变成带历史的冲突。",
+            "scope": "导语"
+          }
+        ],
+        "benchmark_role": "context_then_concrete_payoff",
+        "evidence_scope": "明确独立导语及章界",
+        "analysis_kind": "original_analysis_of_public_opening; not_verbatim_full_lead"
+      }
+    },
+    {
+      "id": "fq-7254768527666577955",
+      "source": "https://fanqienovel.com/page/7254768527666577955",
+      "title": "和女上司出差的一周",
+      "excerpt": "我和你正好符合要求。",
+      "route": "role_collision",
+      "category": "男生情感",
+      "read_scope": "明确独立导语及章界",
+      "popularity_scope": "较低热度榜单探索，不计热门正例",
+      "mechanism": "任务型首句要给可执行指令，再用既有关系或退出意图使指令产生成本；对方回应要关闭或打开一个选项。",
+      "use": "先给眼前任务，再让另一种身份或另一方目标阻挡它；读者要能想象紧接着必须处理的场面。",
+      "limit": "前三句的讨厌理由仍空泛；女上司身份与美貌描述本身不能证明冲突，保护动作属于第一章而非导语。",
+      "benchmark_eligible": false,
+      "sentence_study": {
+        "first_sentence_quality": "首句是具体工作指令，特殊含义依赖后文",
+        "first_sentence_analysis": "女上司点名要男主随行培训，明确明天、同行者和任务；它能推进动作，但单独是普通工作安排。",
+        "reader_default_expectation": "下属被安排出差，通常遵从任务并讨论行程。",
+        "second_sentence_analysis": "主角后背发凉只给情绪，没有说明哪件经历使指令异常。",
+        "third_sentence_analysis": "主角称她最讨厌且差点整死自己，交代负面关系仍用概括；他为何怕同行尚未具体化。",
+        "actual_change": "主角询问同行名额为何是自己，上司以职位恰好符合回答，把他已准备跳槽却必须同处一周的矛盾落到制度条件。正文前段拉住他、拒绝换座才出现她对他的具体保护。",
+        "deletion_test": [
+          "删掉明天随行的命令，讨厌上司只是常态，没有即将发生的强制共处。",
+          "删掉职位符合的答复，他是否有拒绝空间不清，同行只是作者安排。"
+        ],
+        "transferable_mechanism": "任务型首句要给可执行指令，再用既有关系或退出意图使指令产生成本；对方回应要关闭或打开一个选项。",
+        "limitations": "前三句的讨厌理由仍空泛；女上司身份与美貌描述本身不能证明冲突，保护动作属于第一章而非导语。",
+        "sentence_windows": [
+          {
+            "unit": 1,
+            "new_information": "上司命令男主次日一起培训。",
+            "reader_attraction": "具体可执行任务；为什么这次任务特殊还未知。",
+            "scope": "导语"
+          },
+          {
+            "unit": 2,
+            "new_information": "他听后发凉。",
+            "reader_attraction": "只有情绪反应，没有证据解释成本。",
+            "scope": "导语"
+          },
+          {
+            "unit": 3,
+            "new_information": "他说她最讨厌且差点整死自己。",
+            "reader_attraction": "负面关系仍为概括，需要一件可核对过往。",
+            "scope": "导语"
+          }
+        ],
+        "benchmark_role": "weak_prefix_counterexample",
+        "evidence_scope": "明确独立导语及章界",
+        "analysis_kind": "original_analysis_of_public_opening; not_verbatim_full_lead"
+      }
+    },
+    {
+      "id": "fq-7582788669392571416",
+      "source": "https://fanqienovel.com/page/7582788669392571416",
+      "title": "我手滑把催我妈打钱的微信，错发给了冰山女上司",
+      "excerpt": "【苏总向您转账10000元】",
+      "route": "relationship_mystery",
+      "category": "男生情感",
+      "read_scope": "明确独立导语及章界",
+      "popularity_scope": "较低热度榜单探索，不计热门正例",
+      "mechanism": "误发不是笑点完成态：必须展示误发的原话关键内容，再让错误对象作出可核对且违背预期的回应。",
+      "use": "拿一项与原关系解释不相容的证据，说明这个矛盾为何影响主角；留下原因或处理选择，避免只有我震惊了。",
+      "limit": "首句已经有事故，但更直接的入口是消息本身；巨额金额是本文设定，学习时应转成适合人物的回应成本。",
+      "benchmark_eligible": true,
+      "sentence_study": {
+        "first_sentence_quality": "首句有具体误投对象，第二句亮出消息内容",
+        "first_sentence_analysis": "主角把催母亲转钱的微信误发给上司，发送人、真正目的和错误收件人齐全；但催钱内容仍是概括。",
+        "reader_default_expectation": "上司会训斥上班摸鱼，或把消息误会成下属讨薪、借钱。",
+        "second_sentence_analysis": "直接展示向母亲索取一万元的称呼和金额，尴尬来源可见；喊妈和对方职级产生冲突。",
+        "third_sentence_analysis": "微信响只是接收回声，直到下一条一万元转账才给意外回答。",
+        "actual_change": "上司照金额转账，又追问是否不够并追加九万，惩罚预期被供给行为取代；主角必须重新理解双方关系。",
+        "deletion_test": [
+          "删掉具体称呼与金额，上司的精确转账不再能对上误发内容。",
+          "删掉追加九万，只转一万尚可能是一次工作援助，异常偏爱程度减弱。"
+        ],
+        "transferable_mechanism": "误发不是笑点完成态：必须展示误发的原话关键内容，再让错误对象作出可核对且违背预期的回应。",
+        "limitations": "首句已经有事故，但更直接的入口是消息本身；巨额金额是本文设定，学习时应转成适合人物的回应成本。",
+        "sentence_windows": [
+          {
+            "unit": 1,
+            "new_information": "催母亲转钱的消息误发给女上司。",
+            "reader_attraction": "对象错位明确，读者预期训斥或误会。",
+            "scope": "导语"
+          },
+          {
+            "unit": 2,
+            "new_information": "消息具体喊妈、要一万元并说急用。",
+            "reader_attraction": "错位内容明示，上司可以针对称呼、金额或用途回应。",
+            "scope": "导语"
+          },
+          {
+            "unit": 3,
+            "new_information": "收到微信提示声。",
+            "reader_attraction": "只有回声信号，具体转账在下一单元才兑现。",
+            "scope": "导语"
+          }
+        ],
+        "benchmark_role": "concrete_content_positive",
+        "evidence_scope": "明确独立导语及章界",
+        "analysis_kind": "original_analysis_of_public_opening; not_verbatim_full_lead"
+      }
+    },
+    {
+      "id": "fq-7533112905567308824",
+      "source": "https://fanqienovel.com/page/7533112905567308824",
+      "title": "好兄弟变成美女后",
+      "excerpt": "醒后成了大美女。",
+      "route": "rule_consequence",
+      "category": "男生情感",
+      "read_scope": "明确独立导语及章界",
+      "popularity_scope": "较低热度榜单探索，不计热门正例",
+      "mechanism": "首句可直接给异常因果，后文只需测试旧习惯在新条件下怎样失效；不要强行补足三句导语。",
+      "use": "只交代本次行动必需的规则和限制，马上给一次运用或反常后果；设定改变角色处境，不能以规则说明书代替故事。",
+      "limit": "一行设定仍需要后续具体相处来兑现；不把外表女性化自动当关系转变，也不照搬生理与穿衣方面的夸张判断。",
+      "benchmark_eligible": false,
+      "sentence_study": {
+        "first_sentence_quality": "首句有具体超常因果；独立导语只有一句",
+        "first_sentence_analysis": "好兄弟喝不明液体后变成女性，载体与结果直接亮出；没有故意藏住发生什么。",
+        "reader_default_expectation": "同伴外表改变后，旧友相处方式会出现身份与身体不匹配的尴尬。",
+        "second_sentence_analysis": "本例独立导语已结束。第一章第二分析单元是清晨听到响动醒来，恢复普通悬疑场景。",
+        "third_sentence_analysis": "第一章接着写想骂人却看见人影，延迟认人；属于章内重演，不能声称是导语第三句的加码。",
+        "actual_change": "主角看见穿前女友裙子的女子，误当入侵者；认出朋友面孔与说话语气后，重新分配称呼与衣物。开篇并未说明两人已形成恋爱。",
+        "deletion_test": [
+          "删掉兄弟的旧身份，变化只有美女出现，失去熟人原有关系的不匹配。",
+          "删掉粉色液体，结果仍异常，但启动变化的具体对象消失。"
+        ],
+        "transferable_mechanism": "首句可直接给异常因果，后文只需测试旧习惯在新条件下怎样失效；不要强行补足三句导语。",
+        "limitations": "一行设定仍需要后续具体相处来兑现；不把外表女性化自动当关系转变，也不照搬生理与穿衣方面的夸张判断。",
+        "sentence_windows": [
+          {
+            "unit": 1,
+            "new_information": "朋友喝粉色液体后变成女性。",
+            "reader_attraction": "因果和具体异常结果一起给出，可期待旧友如何适应。",
+            "scope": "导语"
+          },
+          {
+            "unit": 2,
+            "new_information": "独立导语结束，正文写清晨响动。",
+            "reader_attraction": "这是章内展开，不能伪称第二句导语。",
+            "scope": "第一章；独立导语已结束"
+          },
+          {
+            "unit": 3,
+            "new_information": "正文写主角看见人影。",
+            "reader_attraction": "章内暂缓认人，没有新的导语单元。",
+            "scope": "第一章；独立导语已结束"
+          }
+        ],
+        "benchmark_role": "single_sentence_lead_boundary",
+        "evidence_scope": "明确独立导语及章界",
+        "analysis_kind": "original_analysis_of_public_opening; not_verbatim_full_lead"
+      }
+    },
+    {
+      "id": "fq-7642071104420334617",
+      "source": "https://fanqienovel.com/page/7642071104420334617",
+      "title": "她为别人守孝三年，回来时我女儿问：这阿姨谁呀",
+      "excerpt": "爸爸，这个阿姨是谁呀？",
+      "route": "stop_loss",
+      "category": "男生情感",
+      "read_scope": "明确独立导语及章界",
+      "popularity_scope": "较低热度榜单探索，不计热门正例",
+      "mechanism": "把关系损伤具体为一项承诺被取消，再用已形成的新生活和第三人的称呼证明选择后果。",
+      "use": "以一项真实付出和失衡证据立住退出理由；预告选择后，把期待留给利益撤回、对方回应或新生活的具体变化。",
+      "limit": "首句自身没有冲突；不必复制死亡与终止妊娠来获得力度，可学习的是承诺取消和位置被占用。",
+      "benchmark_eligible": true,
+      "sentence_study": {
+        "first_sentence_quality": "首句普通时间地点，第三句给具体撤约理由",
+        "first_sentence_analysis": "婚前三天从医院出来只给临近婚礼的医疗场景，单句尚不知谁出了什么问题。",
+        "reader_default_expectation": "医院信息会影响马上到来的婚礼或怀孕安排。",
+        "second_sentence_analysis": "她攥手术单且不哭，物件使医疗后果可疑；表情仍不能确定做了什么手术。",
+        "third_sentence_analysis": "她说另一男子已死，要守孝三年并取消婚约，明确把对旧人的义务置于现有婚约之上。",
+        "actual_change": "后文说明孩子被终止妊娠，男主婚礼照办并换新娘；三年后旧未婚妻返回，女儿把她当陌生阿姨，家庭位置已经被新关系填满。",
+        "deletion_test": [
+          "删掉换新娘，旧人归来被排除只剩主角态度，而没有生活已经继续的证据。",
+          "删掉女儿的陌生称呼，三年后的身份失效会变成作者概括。"
+        ],
+        "transferable_mechanism": "把关系损伤具体为一项承诺被取消，再用已形成的新生活和第三人的称呼证明选择后果。",
+        "limitations": "首句自身没有冲突；不必复制死亡与终止妊娠来获得力度，可学习的是承诺取消和位置被占用。",
+        "sentence_windows": [
+          {
+            "unit": 1,
+            "new_information": "婚前三天女方从医院出来。",
+            "reader_attraction": "时间让医疗事项可能影响婚礼，异常内容仍未知。",
+            "scope": "导语"
+          },
+          {
+            "unit": 2,
+            "new_information": "她攥手术单且眼眶干燥。",
+            "reader_attraction": "给物证和反应，不能据此确定手术内容。",
+            "scope": "导语"
+          },
+          {
+            "unit": 3,
+            "new_information": "她要为另一人守孝并取消婚约。",
+            "reader_attraction": "具体义务替换现有承诺，读者等男方怎样作决定。",
+            "scope": "导语"
+          }
+        ],
+        "benchmark_role": "context_then_concrete_payoff",
+        "evidence_scope": "明确独立导语及章界",
+        "analysis_kind": "original_analysis_of_public_opening; not_verbatim_full_lead"
+      }
+    },
+    {
+      "id": "fq-7644605073082829848",
+      "source": "https://fanqienovel.com/page/7644605073082829848",
+      "title": "老婆别烧了，阎王都开始管我借钱了",
+      "excerpt": "屋顶没了。\n判官翻着册子",
+      "route": "comic_priority",
+      "category": "男生情感",
+      "read_scope": "明确独立导语及章界",
+      "popularity_scope": "第三方历史榜单且likeCnt≥1000",
+      "mechanism": "轻喜可以把小生活需求放大到打破现场规则，再让来源指向某个人的关系表达。",
+      "use": "先立周围人默认的目标，再给主角自己的生活优先级和实际选择；这种选择要持续制造人物碰撞，不能只有我不走套路的宣言。",
+      "limit": "死亡在这里是世界条件，喜剧不依赖悲剧浓度；本文未在导语展示标题所说阎王借钱，不能将其计为开篇已兑现。",
+      "benchmark_eligible": true,
+      "sentence_study": {
+        "first_sentence_quality": "首句有具体异界生活落差，第三句改变条件",
+        "first_sentence_analysis": "死亡后被分到最破的通铺，将超自然世界写成可感的住房待遇；既给异常世界，也给低起点。",
+        "reader_default_expectation": "死者要适应贫困的集体住宿，生活环境不会立刻改变。",
+        "second_sentence_analysis": "老鬼劝习惯，代表当地常态并封住抱怨的作用；反应小但明确稳固低待遇预期。",
+        "third_sentence_analysis": "第二天一整座钱山砸下来，夸张规模与前一天破宿舍形成物质冲突；紧随的屋顶损毁把夸张变成后果。",
+        "actual_change": "判官询问哪家亲属在阳间烧钱，主角举手，妻子对丈夫的思念从想念概括变成造成地府事故的具体供给。",
+        "deletion_test": [
+          "删掉通铺和老鬼的常态，钱山仍夸张，但从低待遇变到超量财富的落差变小。",
+          "删掉屋顶和判官询问，钱山只是形容数量，没有扰动现场。"
+        ],
+        "transferable_mechanism": "轻喜可以把小生活需求放大到打破现场规则，再让来源指向某个人的关系表达。",
+        "limitations": "死亡在这里是世界条件，喜剧不依赖悲剧浓度；本文未在导语展示标题所说阎王借钱，不能将其计为开篇已兑现。",
+        "sentence_windows": [
+          {
+            "unit": 1,
+            "new_information": "死后的男主住进最破的地府通铺。",
+            "reader_attraction": "异界被写成差住房，生活落差可见。",
+            "scope": "导语"
+          },
+          {
+            "unit": 2,
+            "new_information": "老鬼叫他适应。",
+            "reader_attraction": "当地的正常标准被确认，短期改善似乎无望。",
+            "scope": "导语"
+          },
+          {
+            "unit": 3,
+            "new_information": "第二天钱山砸下来。",
+            "reader_attraction": "超量供给打破贫困基线，读者等它对现场造成什么结果。",
+            "scope": "导语"
+          }
+        ],
+        "benchmark_role": "concrete_content_positive",
+        "evidence_scope": "明确独立导语及章界",
+        "analysis_kind": "original_analysis_of_public_opening; not_verbatim_full_lead"
+      }
+    },
+    {
+      "id": "fq-7655735456444714046",
+      "source": "https://fanqienovel.com/page/7655735456444714046",
+      "title": "青梅偷改我志愿送我进军校，十年后她的婚礼全场安静了",
+      "excerpt": "【第一章】\n请帖是周五下午送到营区的",
+      "route": "stop_loss",
+      "category": "男生情感",
+      "read_scope": "直接第一章",
+      "popularity_scope": "第三方历史榜单且likeCnt≥1000",
+      "mechanism": "普通到件不应只写主人公认出名字；尽快亮出寄件人曾怎样改变他的道路，再给回不回、带谁回的选择。",
+      "use": "以一项真实付出和失衡证据立住退出理由；预告选择后，把期待留给利益撤回、对方回应或新生活的具体变化。",
+      "limit": "本例直接第一章，不能用于独立导语计数；前三句弱，且缓存里婚礼日期出现八号与十八号不一致，应记录为文本限制。",
+      "benchmark_eligible": false,
+      "sentence_study": {
+        "first_sentence_quality": "首句弱，直接第一章的延迟身份揭晓",
+        "first_sentence_analysis": "第一章中请帖周五送到营区，是普通到件事件；地点能提示职业，但不知道它为什么值得讲。",
+        "reader_default_expectation": "军人收到朋友婚礼邀请，休假回乡参加。",
+        "second_sentence_analysis": "请帖颜色、烫金与天鹅只补外观，没有与主角关系相连的异样。",
+        "third_sentence_analysis": "信封是熟悉女孩的笔迹，加上十年仍认得使旧关系浮现；仍未交代伤害内容。",
+        "actual_change": "战友点出寄件人曾篡改志愿，主角仍决定带现任妻子赴约；旧伤信息改变请帖含义，带妻子去的决定才是可执行行动。",
+        "deletion_test": [
+          "删掉篡改志愿的具体过往，请帖只会触发泛泛怀旧。",
+          "删掉带现任一起去，主角的独立生活没有能进入现场的证据。"
+        ],
+        "transferable_mechanism": "普通到件不应只写主人公认出名字；尽快亮出寄件人曾怎样改变他的道路，再给回不回、带谁回的选择。",
+        "limitations": "本例直接第一章，不能用于独立导语计数；前三句弱，且缓存里婚礼日期出现八号与十八号不一致，应记录为文本限制。",
+        "sentence_windows": [
+          {
+            "unit": 1,
+            "new_information": "请帖周五送进营区。",
+            "reader_attraction": "普通到件，仅职业场景明确。",
+            "scope": "仅开篇；未计为独立导语"
+          },
+          {
+            "unit": 2,
+            "new_information": "请帖红色且有烫金和天鹅。",
+            "reader_attraction": "补外观而没有针对主角的特殊事实。",
+            "scope": "仅开篇；未计为独立导语"
+          },
+          {
+            "unit": 3,
+            "new_information": "女孩笔迹写着收件人的名字。",
+            "reader_attraction": "旧识出现，具体旧伤仍延迟到战友讲话。",
+            "scope": "仅开篇；未计为独立导语"
+          }
+        ],
+        "benchmark_role": "chapter_opening_weak_counterexample",
+        "evidence_scope": "直接第一章",
+        "analysis_kind": "original_analysis_of_public_opening; not_verbatim_full_lead"
+      }
+    },
+    {
+      "id": "fq-7662125288049904665",
+      "source": "https://fanqienovel.com/page/7662125288049904665",
+      "title": "全校笑我是穷鬼，我在自家宴会上撞见女友在擦桌子",
+      "excerpt": "我俩四目相对。\n空气，死了。",
+      "route": "double_identity",
+      "category": "男生情感",
+      "read_scope": "明确独立导语及章界",
+      "popularity_scope": "第三方历史榜单且likeCnt≥1000",
+      "mechanism": "生活证据可先让误判合理，再亮出一个明确归属词推翻男方身份；对方是否同样伪装要有独立证据。",
+      "use": "读者可先知道双方身份，角色暂时不知；选择两套身份必须碰面的具体场合，留穿帮后的解释与动机，不靠资产清单撑吸引力。",
+      "limit": "不能用标题或同类剧情替女友补财富身份；导语四目相对只证明尴尬相遇，尚不等于双向秘密全部曝光。",
+      "benchmark_eligible": true,
+      "sentence_study": {
+        "first_sentence_quality": "首句社会标签，第二句给生活证据",
+        "first_sentence_analysis": "全校认定主角穷是外部评价，未给谁具体说过什么；独立看较通用。",
+        "reader_default_expectation": "贫穷情侣会面对攀比、嘲笑，男主难以进入富人场合。",
+        "second_sentence_analysis": "二手自行车、街边饭和30元衣服补出可见消费习惯，使穷的判断有依据。",
+        "third_sentence_analysis": "女友也穷让关系对称；下一句年度最惨情侣仍是外部标签。",
+        "actual_change": "男主穿保安服进入自家集团宴会，证实他在遮掩资产；发现女友穿保洁服擦桌子，只证明她也以服务身份出现，导语尚未证实她也是富人。",
+        "deletion_test": [
+          "删掉自家集团，保安制服只是求职或兼职，男主假穷没有证据。",
+          "删掉女友的保洁服与抹布，偶遇不再与他的伪装形成现场平行。"
+        ],
+        "transferable_mechanism": "生活证据可先让误判合理，再亮出一个明确归属词推翻男方身份；对方是否同样伪装要有独立证据。",
+        "limitations": "不能用标题或同类剧情替女友补财富身份；导语四目相对只证明尴尬相遇，尚不等于双向秘密全部曝光。",
+        "sentence_windows": [
+          {
+            "unit": 1,
+            "new_information": "全校评价男主贫穷。",
+            "reader_attraction": "外部标签，没有具体嘲笑内容或异常。",
+            "scope": "导语"
+          },
+          {
+            "unit": 2,
+            "new_information": "旧车、廉价衣服和街边饭支持评价。",
+            "reader_attraction": "生活行为使误判合理，后面推翻才有依据。",
+            "scope": "导语"
+          },
+          {
+            "unit": 3,
+            "new_information": "他的女友同样被视为穷。",
+            "reader_attraction": "关系对称建立，但两人隐藏的事实还没出现。",
+            "scope": "导语"
+          }
+        ],
+        "benchmark_role": "context_then_concrete_payoff",
+        "evidence_scope": "明确独立导语及章界",
+        "analysis_kind": "original_analysis_of_public_opening; not_verbatim_full_lead"
+      }
+    },
+    {
+      "id": "official-7673335215351152702-0",
+      "source": "https://fanqienovel.com/writer/zone/article/7673335215351152702",
+      "title": "见鬼，这版霸总不对劲！",
+      "excerpt": "医生诊断书出来了吗？",
+      "route": "comic_exchange",
+      "category": "官方例文；未单独核验书页分类",
+      "read_scope": "官方文章明确标为导语；未核对作品第一章",
+      "popularity_scope": "官方热门/优秀改编案例；不等于当前App实时榜",
+      "mechanism": "白月光失忆应把丈夫从妻子身边叫走→丈夫询问医生诊断，回应偏离预期；继续读看：他会如何处理这通电话",
+      "use": "设定双方想做但不能同时做成的事，用一次接招改变场面；笑点后留下新难题、身份暴露或下一次必须回答的话，不以一句心动总结结束。",
+      "limit": "学具体反应，不复制三角关系",
+      "benchmark_eligible": true
+    },
+    {
+      "id": "official-7673335215351152702-2",
+      "source": "https://fanqienovel.com/writer/zone/article/7673335215351152702",
+      "title": "带球跑了八个月，被孩子他爹堵在手术台上",
+      "excerpt": "他看着我肚子，嘴唇动了动",
+      "route": "secret_exposure",
+      "category": "官方例文；未单独核验书页分类",
+      "read_scope": "官方文章明确标为导语；未核对作品第一章",
+      "popularity_scope": "官方热门/优秀改编案例；不等于当前App实时榜",
+      "mechanism": "隐瞒孩子身份还能保持距离→手术现场遇孩子父亲，周数引发判断；继续读看：当下怎么解释且无法从场景离开",
+      "use": "明确谁知道什么、谁以为安全；让一项秘密被当面准确提及，逼出眼前回应，保留暴露范围及后果。",
+      "limit": "医疗可行性未核验，不学习巧合频率",
+      "benchmark_eligible": true
+    },
+    {
+      "id": "official-7688608349599825982-0",
+      "source": "https://fanqienovel.com/writer/zone/article/7688608349599825982",
+      "title": "我的女儿，你要向前走",
+      "excerpt": "我点了点头，那就好。",
+      "route": "family_reframing",
+      "category": "官方例文；未单独核验书页分类",
+      "read_scope": "官方文章明确标为导语；未核对作品第一章",
+      "popularity_scope": "官方热门/优秀改编案例；不等于当前App实时榜",
+      "mechanism": "被亲女起诉断亲应愤怒争辩→母亲同意，只问女儿过得好不好；继续读看：为何宁愿断关系仍关心她",
+      "use": "用钱、劳动、席位或证据让谁被当家人变得可见；在一个触发点作选择，允许亲情修复，不能自动断亲复仇。",
+      "limit": "法律设定未核验；平静也能有动机悬念",
+      "benchmark_eligible": true
+    },
+    {
+      "id": "official-7688608349599825982-2",
+      "source": "https://fanqienovel.com/writer/zone/article/7688608349599825982",
+      "title": "为救她，岳父被罚到破产，六年后她入职合同我直接打回",
+      "excerpt": "把合同扔进了碎纸机。",
+      "route": "strategic_response",
+      "category": "官方例文；未单独核验书页分类",
+      "read_scope": "官方文章明确标为导语；未核对作品第一章",
+      "popularity_scope": "官方热门/优秀改编案例；不等于当前App实时榜",
+      "mechanism": "对方曾凭规则获利→多年后掌规则的人变了，同一句规则回到她身上；继续读看：主角怎样用具体权力改变利益关系",
+      "use": "让主角作一项表面不划算但改变对抗条件的行动；可以给结果，保留方法为何有效和对方下一步的代价。",
+      "limit": "不是鼓励任意报复；需正文因果与资源铺垫",
+      "benchmark_eligible": true
+    },
+    {
+      "id": "official-7652285832664973374-6",
+      "source": "https://fanqienovel.com/writer/zone/article/7652285832664973374",
+      "title": "兄长逃婚，害我娶双妻",
+      "excerpt": "两家同时进门，你跑快点",
+      "route": "role_collision",
+      "category": "官方例文；未单独核验书页分类",
+      "read_scope": "官方文章明确标为导语；未核对作品第一章",
+      "popularity_scope": "官方热门/优秀改编案例；不等于当前App实时榜",
+      "mechanism": "赐婚不可逃且两家同日婚礼→兄长要相貌相同的弟弟替自己娶；继续读看：弟弟怎样解决无法同时到场的任务",
+      "use": "先给眼前任务，再让另一种身份或另一方目标阻挡它；读者要能想象紧接着必须处理的场面。",
+      "limit": "古风情感例，不能标为官网男生情感分类",
+      "benchmark_eligible": true
+    },
+    {
+      "id": "official-7652285832664973374-7",
+      "source": "https://fanqienovel.com/writer/zone/article/7652285832664973374",
+      "title": "王爷心腹一语炸穿真相：王妃八年养病竟是八年囚牢！",
+      "excerpt": "你刚才说，囚期？",
+      "route": "relationship_mystery",
+      "category": "官方例文；未单独核验书页分类",
+      "read_scope": "官方文章明确标为导语；未核对作品第一章",
+      "popularity_scope": "官方热门/优秀改编案例；不等于当前App实时榜",
+      "mechanism": "以为妻子在外养病→心腹一句囚期让八年关系性质变了；继续读看：谁把养病变成囚禁，主角将怎样面对",
+      "use": "拿一项与原关系解释不相容的证据，说明这个矛盾为何影响主角；留下原因或处理选择，避免只有我震惊了。",
+      "limit": "抓关键词解释翻转，勿复制全部伤害",
+      "benchmark_eligible": true
+    },
+    {
+      "id": "official-7655218642967085118-0",
+      "source": "https://fanqienovel.com/writer/zone/article/7655218642967085118",
+      "title": "苏太太高调离婚了",
+      "excerpt": "他是陆景深身边待得最久的",
+      "route": "relationship_mystery",
+      "category": "官方例文；未单独核验书页分类",
+      "read_scope": "官方文章明确标为导语；未核对作品第一章",
+      "popularity_scope": "官方热门/优秀改编案例；不等于当前App实时榜",
+      "mechanism": "司机收入被评价为丈夫供养的浪费→司机待遇与夫妻权利形成不对等；继续读看：资源给谁、妻子的付出如何被计价",
+      "use": "拿一项与原关系解释不相容的证据，说明这个矛盾为何影响主角；留下原因或处理选择，避免只有我震惊了。",
+      "limit": "学利益分配而非只靠工资金额",
+      "benchmark_eligible": true
+    },
+    {
+      "id": "official-7655218642967085118-2",
+      "source": "https://fanqienovel.com/writer/zone/article/7655218642967085118",
+      "title": "第一次带女朋友回家，我妈：她不对劲",
+      "excerpt": "有三个细节不对劲。",
+      "route": "relationship_mystery",
+      "category": "官方例文；未单独核验书页分类",
+      "read_scope": "官方文章明确标为导语；未核对作品第一章",
+      "popularity_scope": "官方热门/优秀改编案例；不等于当前App实时榜",
+      "mechanism": "第一次见父母应按礼貌评价恋人→有监狱工作经验的母亲指出异常；继续读看：具体证据是什么，能否改变关系判断",
+      "use": "拿一项与原关系解释不相容的证据，说明这个矛盾为何影响主角；留下原因或处理选择，避免只有我震惊了。",
+      "limit": "身份只提供观察依据；不能只说三个疑点却没有证据",
+      "benchmark_eligible": true
+    },
+    {
+      "id": "official-7619152165428281406-2",
+      "source": "https://fanqienovel.com/writer/zone/article/7619152165428281406",
+      "title": "邻居盖房子不留出路，我反手挖鱼塘",
+      "excerpt": "反手挖了鱼塘养鱼。",
+      "route": "strategic_response",
+      "category": "官方例文；未单独核验书页分类",
+      "read_scope": "官方文章明确标为导语；未核对作品第一章",
+      "popularity_scope": "官方热门/优秀改编案例；不等于当前App实时榜",
+      "mechanism": "邻居要求他人让路却不自留→主角将建设选择改成鱼塘；继续读看：邻居如何面对自己的规则后果",
+      "use": "让主角作一项表面不划算但改变对抗条件的行动；可以给结果，保留方法为何有效和对方下一步的代价。",
+      "limit": "公开导语给了办法；过程仍要有成本与可行性",
+      "benchmark_eligible": true
+    },
+    {
+      "id": "official-7619152165428281406-5",
+      "source": "https://fanqienovel.com/writer/zone/article/7619152165428281406",
+      "title": "深夜给小叔递热面，他连连磕头，我傻眼了",
+      "excerpt": "我撬开了他床底下那个",
+      "route": "family_reframing",
+      "category": "官方例文；未单独核验书页分类",
+      "read_scope": "官方文章明确标为导语；未核对作品第一章",
+      "popularity_scope": "官方热门/优秀改编案例；不等于当前App实时榜",
+      "mechanism": "家人都排斥出狱小叔→主角记得小糖果而送面，对方反应过度；继续读看：当年发生什么，铁盒为何改变解释",
+      "use": "用钱、劳动、席位或证据让谁被当家人变得可见；在一个触发点作选择，允许亲情修复，不能自动断亲复仇。",
+      "limit": "铁盒是证据容器；浑身发抖本身仍泛",
+      "benchmark_eligible": true
+    },
+    {
+      "id": "official-7644388408453759038-2",
+      "source": "https://fanqienovel.com/writer/zone/article/7644388408453759038",
+      "title": "我的车想要我的命.",
+      "excerpt": "上个月开始，那东西就出现",
+      "route": "anomaly",
+      "category": "官方例文；未单独核验书页分类",
+      "read_scope": "官方文章明确标为导语；未核对作品第一章",
+      "popularity_scope": "官方热门/优秀改编案例；不等于当前App实时榜",
+      "mechanism": "长期忠诚司机正常辞职→临走折返警告常检查的车底出现新东西；继续读看：是什么，谁动了手脚",
+      "use": "让两个可核对事实无法同时成立，或让主角反应与危险处境冲突；留可追查证据及它改变的利益，不在导语交出完整解释。",
+      "limit": "职业习惯使线索可信，不能只复制最后震惊",
+      "benchmark_eligible": true
+    },
+    {
+      "id": "official-7644388408453759038-3",
+      "source": "https://fanqienovel.com/writer/zone/article/7644388408453759038",
+      "title": "赡养11年拆迁款没我份？我反手送他回老家，大伯崩溃了",
+      "excerpt": "来，放进了行李袋。",
+      "route": "family_reframing",
+      "category": "官方例文；未单独核验书页分类",
+      "read_scope": "官方文章明确标为导语；未核对作品第一章",
+      "popularity_scope": "官方热门/优秀改编案例；不等于当前App实时榜",
+      "mechanism": "赡养多年以为被算作儿子→分钱不给主角，却继续要求主角妻子做饭；继续读看：他如何结束被默认的赡养与劳动",
+      "use": "用钱、劳动、席位或证据让谁被当家人变得可见；在一个触发点作选择，允许亲情修复，不能自动断亲复仇。",
+      "limit": "布鞋装袋是转折行动，金额提供不公尺度",
+      "benchmark_eligible": true
+    },
+    {
+      "id": "official-7660072238174978110-0",
+      "source": "https://fanqienovel.com/writer/zone/article/7660072238174978110",
+      "title": "嫡姐总拿我当绿叶，可让王爷一见钟情的是我啊",
+      "excerpt": "把本王真正的心上人交出来",
+      "route": "relationship_reframing",
+      "category": "官方例文；未单独核验书页分类",
+      "read_scope": "官方文章明确标为导语；未核对作品第一章",
+      "popularity_scope": "官方热门/优秀改编案例；不等于当前App实时榜",
+      "mechanism": "外貌评价和婚配待遇固定了姐妹位置→婚礼上王爷要求纠正新娘身份；继续读看：如何纠正错误配对、谁承担后果",
+      "use": "以一个只能解释为私人关注或关系变化的动作、话语、物件重估熟人；可以预告心动，留下怎样被看见、怎样当面回应的过程。",
+      "limit": "预告王爷选择仍留婚配处置过程",
+      "benchmark_eligible": true
+    },
+    {
+      "id": "official-7660072238174978110-3",
+      "source": "https://fanqienovel.com/writer/zone/article/7660072238174978110",
+      "title": "被强夺后位后，我不争了，他却急了",
+      "excerpt": "做个有钱有闲的孀居佳人",
+      "route": "stop_loss",
+      "category": "官方例文；未单独核验书页分类",
+      "read_scope": "官方文章明确标为导语；未核对作品第一章",
+      "popularity_scope": "官方热门/优秀改编案例；不等于当前App实时榜",
+      "mechanism": "失去后位应极力夺回→重来后把寡妇身份看成自由生活机会；继续读看：她退出争夺后别人怎样回应",
+      "use": "以一项真实付出和失衡证据立住退出理由；预告选择后，把期待留给利益撤回、对方回应或新生活的具体变化。",
+      "limit": "不是所有退出都要悲惨控诉",
+      "benchmark_eligible": true
+    },
+    {
+      "id": "official-7670363158518693950-1",
+      "source": "https://fanqienovel.com/writer/zone/article/7670363158518693950",
+      "title": "他让我家疼他的师妹，我爸让他滚出女婿位",
+      "excerpt": "原本也是我们的订婚宴预演",
+      "route": "family_reframing",
+      "category": "官方例文；未单独核验书页分类",
+      "read_scope": "官方文章明确标为导语；未核对作品第一章",
+      "popularity_scope": "官方热门/优秀改编案例；不等于当前App实时榜",
+      "mechanism": "生日席位被第三者占，只像一般偏袒→当天同时是主角订婚彩排，越界重新定性；继续读看：家人怎样处理已经失格的未婚夫",
+      "use": "用钱、劳动、席位或证据让谁被当家人变得可见；在一个触发点作选择，允许亲情修复，不能自动断亲复仇。",
+      "limit": "最后加一个事实改变前情，不堆多件同等级侮辱",
+      "benchmark_eligible": true
+    },
+    {
+      "id": "official-7670363158518693950-3",
+      "source": "https://fanqienovel.com/writer/zone/article/7670363158518693950",
+      "title": "绑定反派系统后，佛系真千金靠长了嘴整顿豪门",
+      "excerpt": "不会就是不会，被笑两句",
+      "route": "comic_priority",
+      "category": "官方例文；未单独核验书页分类",
+      "read_scope": "官方文章明确标为导语；未核对作品第一章",
+      "popularity_scope": "官方热门/优秀改编案例；不等于当前App实时榜",
+      "mechanism": "系统要真千金嫉妒争资源→主角用自己判断回应，认可合理照顾；继续读看：不能激怒主角的系统下一步怎么办",
+      "use": "先立周围人默认的目标，再给主角自己的生活优先级和实际选择；这种选择要持续制造人物碰撞，不能只有我不走套路的宣言。",
+      "limit": "不复制佛系标签，写她为何如此判断",
+      "benchmark_eligible": true
+    },
+    {
+      "id": "official-7634367089855184958-2",
+      "source": "https://fanqienovel.com/writer/zone/article/7634367089855184958",
+      "title": "未婚妻与他人领证，我撤资离场",
+      "excerpt": "签并购协议的时候",
+      "route": "stop_loss",
+      "category": "官方例文；未单独核验书页分类",
+      "read_scope": "官方文章明确标为导语；未核对作品第一章",
+      "popularity_scope": "官方热门/优秀改编案例；不等于当前App实时榜",
+      "mechanism": "两家联姻和并购默认会推进→签并购时未婚妻提出改嫁；继续读看：感情退出怎样影响正在执行的合作",
+      "use": "以一项真实付出和失衡证据立住退出理由；预告选择后，把期待留给利益撤回、对方回应或新生活的具体变化。",
+      "limit": "同一场景把爱情和利益绑在可执行动作上",
+      "benchmark_eligible": true
+    },
+    {
+      "id": "official-7634367089855184958-3",
+      "source": "https://fanqienovel.com/writer/zone/article/7634367089855184958",
+      "title": "人间难小满",
+      "excerpt": "而房主的名字，是我的。",
+      "route": "family_reframing",
+      "category": "官方例文；未单独核验书页分类",
+      "read_scope": "官方文章明确标为导语；未核对作品第一章",
+      "popularity_scope": "官方热门/优秀改编案例；不等于当前App实时榜",
+      "mechanism": "老人似乎在儿子家寄住→老人离开并掌握该房屋产权；继续读看：家庭失去依赖后怎样重新面对老人",
+      "use": "用钱、劳动、席位或证据让谁被当家人变得可见；在一个触发点作选择，允许亲情修复，不能自动断亲复仇。",
+      "limit": "资源底牌须真实铺垫，不能只搬一张证就解决一切",
+      "benchmark_eligible": true
+    },
+    {
+      "id": "official-7683816556886753342-1",
+      "source": "https://fanqienovel.com/writer/zone/article/7683816556886753342",
+      "title": "我把保时捷藏起来，开五菱宏光去接亲弟，他嫌弃得要命",
+      "excerpt": "本年度绩效评级S+",
+      "route": "double_identity",
+      "category": "官方例文；未单独核验书页分类",
+      "read_scope": "官方文章明确标为导语；未核对作品第一章",
+      "popularity_scope": "官方热门/优秀改编案例；不等于当前App实时榜",
+      "mechanism": "家人看到工资就应了解主角处境→主角主动低报收入，读者知道实际奖金；继续读看：家人的态度怎样与隐瞒的条件形成对照",
+      "use": "读者可先知道双方身份，角色暂时不知；选择两套身份必须碰面的具体场合，留穿帮后的解释与动机，不靠资产清单撑吸引力。",
+      "limit": "正文还要证明试探动机，不只预设亲属皆恶",
+      "benchmark_eligible": true
+    },
+    {
+      "id": "official-7683816556886753342-4",
+      "source": "https://fanqienovel.com/writer/zone/article/7683816556886753342",
+      "title": "我年薪百万全交亲妈，老婆病危那晚，她说：没钱",
+      "excerpt": "等你用的时候，一分不少",
+      "route": "family_reframing",
+      "category": "官方例文；未单独核验书页分类",
+      "read_scope": "官方文章明确标为导语；未核对作品第一章",
+      "popularity_scope": "官方热门/优秀改编案例；不等于当前App实时榜",
+      "mechanism": "高工资委托母亲保存应在需要时可支取→口袋只剩零花，母亲掌握所有卡；继续读看：母亲代管承诺遇紧急需求时能否兑现",
+      "use": "用钱、劳动、席位或证据让谁被当家人变得可见；在一个触发点作选择，允许亲情修复，不能自动断亲复仇。",
+      "limit": "这段导语只铺资源分配，危机在标题；不是每个热门导语都充分",
+      "benchmark_eligible": false
+    }
+  ],
+  "route_profiles": [
+    {
+      "id": "stop_loss",
+      "keywords": [
+        "离婚",
+        "分手",
+        "背叛",
+        "白月光",
+        "止损",
+        "追悔",
+        "退出",
+        "解除婚约"
+      ],
+      "instruction": "以一项真实付出和失衡证据立住退出理由；预告选择后，把期待留给利益撤回、对方回应或新生活的具体变化。"
+    },
+    {
+      "id": "comic_exchange",
+      "keywords": [
+        "轻喜",
+        "搞笑",
+        "合租",
+        "室友",
+        "排练",
+        "表白",
+        "死对头",
+        "手语",
+        "斗嘴"
+      ],
+      "instruction": "设定双方想做但不能同时做成的事，用一次接招改变场面；笑点后留下新难题、身份暴露或下一次必须回答的话，不以一句心动总结结束。"
+    },
+    {
+      "id": "role_collision",
+      "keywords": [
+        "相亲",
+        "闪婚",
+        "出差",
+        "上司",
+        "刑警",
+        "医生",
+        "领证",
+        "逃婚"
+      ],
+      "instruction": "先给眼前任务，再让另一种身份或另一方目标阻挡它；读者要能想象紧接着必须处理的场面。"
+    },
+    {
+      "id": "relationship_mystery",
+      "keywords": [
+        "冷淡",
+        "失忆",
+        "真相",
+        "秘密",
+        "伤疤",
+        "疤",
+        "弹幕",
+        "读心",
+        "囚",
+        "不对劲"
+      ],
+      "instruction": "拿一项与原关系解释不相容的证据，说明这个矛盾为何影响主角；留下原因或处理选择，避免只有我震惊了。"
+    },
+    {
+      "id": "comic_priority",
+      "keywords": [
+        "躺平",
+        "摆烂",
+        "牛马",
+        "下班",
+        "恋综",
+        "调休",
+        "反套路",
+        "咸鱼"
+      ],
+      "instruction": "先立周围人默认的目标，再给主角自己的生活优先级和实际选择；这种选择要持续制造人物碰撞，不能只有我不走套路的宣言。"
+    },
+    {
+      "id": "anomaly",
+      "keywords": [
+        "悬疑",
+        "惊悚",
+        "凶案",
+        "保洁",
+        "底盘",
+        "嫌疑人",
+        "怪谈"
+      ],
+      "instruction": "让两个可核对事实无法同时成立，或让主角反应与危险处境冲突；留可追查证据及它改变的利益，不在导语交出完整解释。"
+    },
+    {
+      "id": "rule_consequence",
+      "keywords": [
+        "系统",
+        "规则",
+        "异能",
+        "穿越",
+        "重生",
+        "AA",
+        "变成",
+        "地府"
+      ],
+      "instruction": "只交代本次行动必需的规则和限制，马上给一次运用或反常后果；设定改变角色处境，不能以规则说明书代替故事。"
+    },
+    {
+      "id": "strategic_response",
+      "keywords": [
+        "撤资",
+        "利益",
+        "反击",
+        "凭条",
+        "盗刷",
+        "协议",
+        "调令",
+        "博弈"
+      ],
+      "instruction": "让主角作一项表面不划算但改变对抗条件的行动；可以给结果，保留方法为何有效和对方下一步的代价。"
+    },
+    {
+      "id": "family_reframing",
+      "keywords": [
+        "父母",
+        "亲妈",
+        "儿子",
+        "女儿",
+        "偏心",
+        "赡养",
+        "小叔",
+        "大伯",
+        "退休",
+        "亲情"
+      ],
+      "instruction": "用钱、劳动、席位或证据让谁被当家人变得可见；在一个触发点作选择，允许亲情修复，不能自动断亲复仇。"
+    },
+    {
+      "id": "secret_exposure",
+      "keywords": [
+        "错发",
+        "错转",
+        "误转",
+        "黑历史",
+        "植物人",
+        "假装",
+        "隐瞒",
+        "偷生",
+        "前女友",
+        "手卡"
+      ],
+      "instruction": "明确谁知道什么、谁以为安全；让一项秘密被当面准确提及，逼出眼前回应，保留暴露范围及后果。"
+    },
+    {
+      "id": "relationship_reframing",
+      "keywords": [
+        "暗恋",
+        "竹马",
+        "青梅",
+        "甜宠",
+        "心动",
+        "照顾",
+        "影后",
+        "恩爱"
+      ],
+      "instruction": "以一个只能解释为私人关注或关系变化的动作、话语、物件重估熟人；可以预告心动，留下怎样被看见、怎样当面回应的过程。"
+    },
+    {
+      "id": "double_identity",
+      "keywords": [
+        "装穷",
+        "联姻",
+        "马甲",
+        "隐藏身份",
+        "富二代",
+        "真假",
+        "身份",
+        "穷鬼"
+      ],
+      "instruction": "读者可先知道双方身份，角色暂时不知；选择两套身份必须碰面的具体场合，留穿帮后的解释与动机，不靠资产清单撑吸引力。"
+    }
+  ],
+  "selection_policy": {
+    "max_examples": 8,
+    "max_routes": 3,
+    "scope": "按作者合同及正文词项检索参考，最多8例；这是上下文预算，不是写作公式。弱例留在完整案例库中，检索时排除，不由关键词改变作者题材。",
+    "defaults": [
+      "comic_exchange",
+      "stop_loss",
+      "family_reframing"
+    ]
+  },
+  "official_sentence_cases": [
+    {
+      "case_id": "N01",
+      "source_id": "S09",
+      "work_title": "我爸群发祝福，暴露秘密",
+      "source_url": "https://fanqienovel.com/writer/zone/article/7634367089855184958",
+      "official_article_group": "短剧女频：母女互助",
+      "analyst_themes": [
+        "亲情",
+        "婚姻秘密"
+      ],
+      "classification_note": "课堂/改编栏目分组；未复核独立作品页的官网分类，不能计入官网男生情感样本数。",
+      "short_story_identity_evidence": "官方在短故事课堂/改编风向文中以原著或优秀作品标明，并明确引用导语。",
+      "hotness_evidence": "官方优秀/爆款/热播改编引例；不宣称当前上榜，无首句点击率或留存因果数据。",
+      "reading_boundary": "完整读官方引述导语及相邻点评；未读作品全文。",
+      "new_to_prior_66": true,
+      "first_sentence_paraphrase": "父亲在家族群向一个儿子送出祝福。",
+      "next_few_units_paraphrase": "唯一女儿的身份直接否定消息中的称谓。主人公暂时盯住消息，表现出当场的停顿。",
+      "information_change_analysis": "祝福称谓与已知家庭成员不符；公开场合让冲突已无法私下抹掉。",
+      "specific_continuation_question": "这个儿子是谁，母女如何处理全家都看到的信息。",
+      "transfer_to_agent": "用具体消息内容与已有身份相冲突；反应可以克制。",
+      "limits_and_weakness": "群体沉默不等于所有人早知真相；不能把尚未证明的解释写成事实。",
+      "direct_quote": "",
+      "later_opening_sequence_paraphrase": "紧接着点明讲述者是唯一的女儿，随后群体沉默并出现撤回消息。",
+      "first_three_units_paraphrase": [
+        "父亲在家族群向一个儿子送出祝福。",
+        "唯一女儿的身份直接否定消息中的称谓。",
+        "主人公暂时盯住消息，表现出当场的停顿。"
+      ],
+      "first_three_units_analysis": "第2个单位形成信息矛盾，第3个单位只增加反应；公开曝光压力主要由后面的群体沉默及撤回动作补足。",
+      "unit_definition": "按官方引例前三个非空段/行作语义单位，删除导语标签；某个段内可能有两句。均为自写语义复述，不保存原文窗口。"
+    },
+    {
+      "case_id": "N02",
+      "source_id": "S09",
+      "work_title": "说好对半分两百万分我十万",
+      "source_url": "https://fanqienovel.com/writer/zone/article/7634367089855184958",
+      "official_article_group": "漫剧男频：创业成长",
+      "analyst_themes": [
+        "利益",
+        "熟人关系",
+        "成长"
+      ],
+      "classification_note": "课堂/改编栏目分组；未复核独立作品页的官网分类，不能计入官网男生情感样本数。",
+      "short_story_identity_evidence": "官方在短故事课堂/改编风向文中以原著或优秀作品标明，并明确引用导语。",
+      "hotness_evidence": "官方优秀/爆款/热播改编引例；不宣称当前上榜，无首句点击率或留存因果数据。",
+      "reading_boundary": "完整读官方引述导语及相邻点评；未读作品全文。",
+      "new_to_prior_66": true,
+      "first_sentence_paraphrase": "与发小跑运输，交代一年合伙的收益。",
+      "next_few_units_paraphrase": "分红时对方拿大头，主人公只得极少部分。对方用自己有车和本金来正当化不对等分配。",
+      "information_change_analysis": "数字同时显示合作成果及付出被排除，矛盾落在劳动如何计价。",
+      "specific_continuation_question": "拿走少量分红后怎样独立经营，对方为何害怕他另起炉灶。",
+      "transfer_to_agent": "数量应体现比较与规则冲突，再用主角实际选择开启下一段。",
+      "limits_and_weakness": "原标题已给出分红落差；正文预告买车单干增加方法期待，不能只重报金额。",
+      "direct_quote": "",
+      "later_opening_sequence_paraphrase": "实际分红极不对等，对方又用车与本金属于自己的理由贬低劳动价值。",
+      "first_three_units_paraphrase": [
+        "与发小跑运输，交代一年合伙的收益。",
+        "分红时对方拿大头，主人公只得极少部分。",
+        "对方用自己有车和本金来正当化不对等分配。"
+      ],
+      "first_three_units_analysis": "第2个单位给可比的损失，第3个单位提供对劳动价值的否定，不是重复把对方形容成坏人。",
+      "unit_definition": "按官方引例前三个非空段/行作语义单位，删除导语标签；某个段内可能有两句。均为自写语义复述，不保存原文窗口。"
+    },
+    {
+      "case_id": "N03",
+      "source_id": "S11",
+      "work_title": "三十八年后，我为她撑腰!",
+      "source_url": "https://fanqienovel.com/writer/zone/article/7655218642967085118",
+      "official_article_group": "漫剧男频：年代温情",
+      "analyst_themes": [
+        "亲情以外的善意",
+        "成长",
+        "报恩"
+      ],
+      "classification_note": "课堂/改编栏目分组；未复核独立作品页的官网分类，不能计入官网男生情感样本数。",
+      "short_story_identity_evidence": "官方在短故事课堂/改编风向文中以原著或优秀作品标明，并明确引用导语。",
+      "hotness_evidence": "官方优秀/爆款/热播改编引例；不宣称当前上榜，无首句点击率或留存因果数据。",
+      "reading_boundary": "完整读官方引述导语及相邻点评；未读作品全文。",
+      "new_to_prior_66": true,
+      "first_sentence_paraphrase": "少年带着卖猪筹来的少量钱，走远路去报到。",
+      "next_few_units_paraphrase": "报名老师核对名册，主人公即将办理入学。报出的费用高于首段筹来的钱。",
+      "information_change_analysis": "钱和路程证明求学成本，援手成为足以改变人生的行动。",
+      "specific_continuation_question": "多年后的聚会传来关于恩人的消息，他为何必须为她行动。",
+      "transfer_to_agent": "温情先让一个帮助真正解决眼前需求，再建立新的需要回应的场面。",
+      "limits_and_weakness": "末尾消息仍未具体，是较弱的局部留白；不能仅套用多年后命运改变的泛化句。",
+      "direct_quote": "",
+      "later_opening_sequence_paraphrase": "学费高于所带的钱，他将失去入学机会；同桌替他补上缺口。",
+      "first_three_units_paraphrase": [
+        "少年带着卖猪筹来的少量钱，走远路去报到。",
+        "报名老师核对名册，主人公即将办理入学。",
+        "报出的费用高于首段筹来的钱。"
+      ],
+      "first_three_units_analysis": "前三个单位已建立可理解的资源缺口；温情尚未发生，后面同桌支付才完成第一次局部兑现。",
+      "unit_definition": "按官方引例前三个非空段/行作语义单位，删除导语标签；某个段内可能有两句。均为自写语义复述，不保存原文窗口。"
+    },
+    {
+      "case_id": "N04",
+      "source_id": "S11",
+      "work_title": "晚来景琛，念你成暖",
+      "source_url": "https://fanqienovel.com/writer/zone/article/7655218642967085118",
+      "official_article_group": "漫剧女频：养娃甜宠",
+      "analyst_themes": [
+        "职业",
+        "轻松情感",
+        "现实需求"
+      ],
+      "classification_note": "课堂/改编栏目分组；未复核独立作品页的官网分类，不能计入官网男生情感样本数。",
+      "short_story_identity_evidence": "官方在短故事课堂/改编风向文中以原著或优秀作品标明，并明确引用导语。",
+      "hotness_evidence": "官方优秀/爆款/热播改编引例；不宣称当前上榜，无首句点击率或留存因果数据。",
+      "reading_boundary": "完整读官方引述导语及相邻点评；未读作品全文。",
+      "new_to_prior_66": true,
+      "first_sentence_paraphrase": "普通照料幼童工作给出异常高的月薪及食宿待遇。",
+      "next_few_units_paraphrase": "主人公怀疑自己看错了招聘待遇。反复核对后确认待遇确实如此。",
+      "information_change_analysis": "工作难度与报酬之间差距已可感知，让人想知道条件与代价。",
+      "specific_continuation_question": "谁在招聘，为什么给这么高，主人公接下后会遇到什么条件。",
+      "transfer_to_agent": "把待遇与具体任务放在同一语义单位，异常无需再解释为震惊。",
+      "limits_and_weakness": "数次复述同一金额没有新信息；本例可学首句，但后几句不宜全部复制。",
+      "direct_quote": "",
+      "later_opening_sequence_paraphrase": "主人公核对招聘信息，确认薪酬并反复强调金额。",
+      "first_three_units_paraphrase": [
+        "普通照料幼童工作给出异常高的月薪及食宿待遇。",
+        "主人公怀疑自己看错了招聘待遇。",
+        "反复核对后确认待遇确实如此。"
+      ],
+      "first_three_units_analysis": "首段已给任务与报酬的异常比较；后两段没有新增条件，只作确认，需防止继续拖长同一信息。",
+      "unit_definition": "按官方引例前三个非空段/行作语义单位，删除导语标签；某个段内可能有两句。均为自写语义复述，不保存原文窗口。"
+    },
+    {
+      "case_id": "N05",
+      "source_id": "S10",
+      "work_title": "被送去和亲后，我选择摆烂，暴君傻眼了",
+      "source_url": "https://fanqienovel.com/writer/zone/article/7644388408453759038",
+      "official_article_group": "短剧女频：轻喜治愈",
+      "analyst_themes": [
+        "轻喜",
+        "人物反差"
+      ],
+      "classification_note": "课堂/改编栏目分组；未复核独立作品页的官网分类，不能计入官网男生情感样本数。",
+      "short_story_identity_evidence": "官方在短故事课堂/改编风向文中以原著或优秀作品标明，并明确引用导语。",
+      "hotness_evidence": "官方优秀/爆款/热播改编引例；不宣称当前上榜，无首句点击率或留存因果数据。",
+      "reading_boundary": "完整读官方引述导语及相邻点评；未读作品全文。",
+      "new_to_prior_66": true,
+      "first_sentence_paraphrase": "交代主人公在皇帝众多女儿中的排行。",
+      "next_few_units_paraphrase": "别人学礼仪手艺时，主人公去树上玩。别人训练舞蹈时，主人公在园中捉鱼。",
+      "information_change_analysis": "真正反常在面对威胁仍先睡觉，生活态度改变高压关系的互动。",
+      "specific_continuation_question": "暴君如何应对一个不按预想恐惧或争宠的新娘。",
+      "transfer_to_agent": "轻喜可由双方目的无法同步产生，笑点是一次实际接招。",
+      "limits_and_weakness": "排行数字只是身份入口；本例独特回应在后段，前三句并未完成全部吸引任务。",
+      "direct_quote": "",
+      "later_opening_sequence_paraphrase": "姐姐们学礼仪，她只做户外玩乐；被选去和亲后仍按自己的生活优先级行动。",
+      "first_three_units_paraphrase": [
+        "交代主人公在皇帝众多女儿中的排行。",
+        "别人学礼仪手艺时，主人公去树上玩。",
+        "别人训练舞蹈时，主人公在园中捉鱼。"
+      ],
+      "first_three_units_analysis": "前3个单位在建立不符合公主规范的人设，后2个单位功能近似；和亲压力与独特接招尚未出现。",
+      "unit_definition": "按官方引例前三个非空段/行作语义单位，删除导语标签；某个段内可能有两句。均为自写语义复述，不保存原文窗口。"
+    },
+    {
+      "case_id": "N06",
+      "source_id": "S10",
+      "work_title": "力大无穷黑面丫鬟，奸臣他藏不住啦",
+      "source_url": "https://fanqienovel.com/writer/zone/article/7644388408453759038",
+      "official_article_group": "漫剧女频：人设反差与双向情感",
+      "analyst_themes": [
+        "能力",
+        "职业",
+        "轻喜"
+      ],
+      "classification_note": "课堂/改编栏目分组；未复核独立作品页的官网分类，不能计入官网男生情感样本数。",
+      "short_story_identity_evidence": "官方在短故事课堂/改编风向文中以原著或优秀作品标明，并明确引用导语。",
+      "hotness_evidence": "官方优秀/爆款/热播改编引例；不宣称当前上榜，无首句点击率或留存因果数据。",
+      "reading_boundary": "完整读官方引述导语及相邻点评；未读作品全文。",
+      "new_to_prior_66": true,
+      "first_sentence_paraphrase": "姑娘扛着两个极重的麻袋到侯府侧门，旁人惊讶。",
+      "next_few_units_paraphrase": "继续确认麻袋的重量，并描写姑娘负重轻松及外貌。她自报来应聘厨房的低位工作。",
+      "information_change_analysis": "具体力量展示与低位工作错配，使人物不等于一个力气大的标签。",
+      "specific_continuation_question": "这样的人进入侯府后，会怎样改变日常任务与人际关系。",
+      "transfer_to_agent": "用人物完成一件事及旁人反应承载人设，不必先列全部性格形容词。",
+      "limits_and_weakness": "外貌铺陈中只有一部分推进能力反差；后文情感兑现未由本轮全文阅读核验。",
+      "direct_quote": "",
+      "later_opening_sequence_paraphrase": "重量与她的轻松状态对照；她开口说明自己来应聘烧火工作。",
+      "first_three_units_paraphrase": [
+        "姑娘扛着两个极重的麻袋到侯府侧门，旁人惊讶。",
+        "继续确认麻袋的重量，并描写姑娘负重轻松及外貌。",
+        "她自报来应聘厨房的低位工作。"
+      ],
+      "first_three_units_analysis": "首段行动证明能力，第2段一部分强化能力、一部分静态铺陈，第3段把能力放入与其错配的工作。",
+      "unit_definition": "按官方引例前三个非空段/行作语义单位，删除导语标签；某个段内可能有两句。均为自写语义复述，不保存原文窗口。"
+    },
+    {
+      "case_id": "N07",
+      "source_id": "S12",
+      "work_title": "认了7个黄毛当义父后，他们供我读书上浙大",
+      "source_url": "https://fanqienovel.com/writer/zone/article/7688608349599825982",
+      "official_article_group": "漫剧女频：成长与教育",
+      "analyst_themes": [
+        "亲情",
+        "成长",
+        "温暖"
+      ],
+      "classification_note": "课堂/改编栏目分组；未复核独立作品页的官网分类，不能计入官网男生情感样本数。",
+      "short_story_identity_evidence": "官方在短故事课堂/改编风向文中以原著或优秀作品标明，并明确引用导语。",
+      "hotness_evidence": "官方优秀/爆款/热播改编引例；不宣称当前上榜，无首句点击率或留存因果数据。",
+      "reading_boundary": "完整读官方引述导语及相邻点评；未读作品全文。",
+      "new_to_prior_66": true,
+      "first_sentence_paraphrase": "刚回豪门便被指控偷耳环，亲属选择责骂并赶她走。",
+      "next_few_units_paraphrase": "父亲拒绝接纳并贬低她。母亲继续指责她的品性。",
+      "information_change_analysis": "传统身份认可需求转为具体教育机会，救助关系也有了可执行目标。",
+      "specific_continuation_question": "被社会标签轻视的少年们怎样实际支持她完成学业。",
+      "transfer_to_agent": "区别性目标可落在人物索取的具体帮助，温暖通过行动成立。",
+      "limits_and_weakness": "前三个指责近似重复，独特性在求学愿望出现后才建立；不可把羞辱数量当优势。",
+      "direct_quote": "",
+      "later_opening_sequence_paraphrase": "无处可归时被陌生少年邀请分一口饭；她提出自己真正需要的是继续读书。",
+      "first_three_units_paraphrase": [
+        "刚回豪门便被指控偷耳环，亲属选择责骂并赶她走。",
+        "父亲拒绝接纳并贬低她。",
+        "母亲继续指责她的品性。"
+      ],
+      "first_three_units_analysis": "第1个单位具体到指控，第2、3个单位的排斥作用重复；教育目标和陌生人的善意都在后段才出现。",
+      "unit_definition": "按官方引例前三个非空段/行作语义单位，删除导语标签；某个段内可能有两句。均为自写语义复述，不保存原文窗口。"
+    },
+    {
+      "case_id": "N08",
+      "source_id": "S12",
+      "work_title": "我举报邻居堆杂物，她搬走后才知道电梯是她家的",
+      "source_url": "https://fanqienovel.com/writer/zone/article/7688608349599825982",
+      "official_article_group": "漫剧女频：邻里权益",
+      "analyst_themes": [
+        "利益",
+        "日常关系"
+      ],
+      "classification_note": "课堂/改编栏目分组；未复核独立作品页的官网分类，不能计入官网男生情感样本数。",
+      "short_story_identity_evidence": "官方在短故事课堂/改编风向文中以原著或优秀作品标明，并明确引用导语。",
+      "hotness_evidence": "官方优秀/爆款/热播改编引例；不宣称当前上榜，无首句点击率或留存因果数据。",
+      "reading_boundary": "完整读官方引述导语及相邻点评；未读作品全文。",
+      "new_to_prior_66": true,
+      "first_sentence_paraphrase": "晒被子的日常被物业登门打断。",
+      "next_few_units_paraphrase": "告诉读者门外有几个人。列出物业、社区人士与一位邻居。",
+      "information_change_analysis": "公共管理流程与私人投入之间矛盾，资源归属提供后续行动筹码。",
+      "specific_continuation_question": "举报者正在享用的便利会因自己的投诉怎样变化。",
+      "transfer_to_agent": "对方的行为与主角可控的资源相连，比单说邻居欺负我更具体。",
+      "limits_and_weakness": "前几句主要布置场景，核心权属信息出现较晚；官方选例不证明首句已强。",
+      "direct_quote": "",
+      "later_opening_sequence_paraphrase": "来人指出投诉，投诉者也在场；后文揭示被投诉的设施由主人公出资安装。",
+      "first_three_units_paraphrase": [
+        "晒被子的日常被物业登门打断。",
+        "告诉读者门外有几个人。",
+        "列出物业、社区人士与一位邻居。"
+      ],
+      "first_three_units_analysis": "前三个单位尚未说明投诉内容、权属或主角选择，属于现场布置；后段才出现可迁移的资源矛盾。",
+      "unit_definition": "按官方引例前三个非空段/行作语义单位，删除导语标签；某个段内可能有两句。均为自写语义复述，不保存原文窗口。"
+    },
+    {
+      "case_id": "N09",
+      "source_id": "S04",
+      "work_title": "全班穿越大秦，就我历史17分还活着",
+      "source_url": "https://fanqienovel.com/writer/zone/article/7652285832664973374",
+      "official_article_group": "历史古代篇",
+      "analyst_themes": [
+        "群体比较",
+        "务实选择",
+        "成长"
+      ],
+      "classification_note": "课堂/改编栏目分组；未复核独立作品页的官网分类，不能计入官网男生情感样本数。",
+      "short_story_identity_evidence": "官方在短故事课堂/改编风向文中以原著或优秀作品标明，并明确引用导语。",
+      "hotness_evidence": "官方优秀/爆款/热播改编引例；不宣称当前上榜，无首句点击率或留存因果数据。",
+      "reading_boundary": "完整读官方引述导语及相邻点评；未读作品全文。",
+      "new_to_prior_66": true,
+      "first_sentence_paraphrase": "高考结束后一整个班级进入异时代。",
+      "next_few_units_paraphrase": "擅长历史的同学迅速辨认时代。这位同学提出投奔名人的路线，并带走多数人。",
+      "information_change_analysis": "按读者预期应占优的人群反而失败，务实生存成为需验证的新路径。",
+      "specific_continuation_question": "不懂历史的人靠什么持续活下去，怎样避开同学的判断陷阱。",
+      "transfer_to_agent": "让比较结果推翻显而易见的成功路径，留下另一套方法。",
+      "limits_and_weakness": "不应把集体穿越和低分标签搬进现实情感；可迁移的是选择与结果的反差。",
+      "direct_quote": "",
+      "later_opening_sequence_paraphrase": "懂历史的同学迅速选择追随名人，随后存活结果与知识优势形成反差。",
+      "first_three_units_paraphrase": [
+        "高考结束后一整个班级进入异时代。",
+        "擅长历史的同学迅速辨认时代。",
+        "这位同学提出投奔名人的路线，并带走多数人。"
+      ],
+      "first_three_units_analysis": "首段给共同条件，后2个单位给看似可靠的解决法；失败结果到第4个单位才推翻知识优势预期。",
+      "unit_definition": "按官方引例前三个非空段/行作语义单位，删除导语标签；某个段内可能有两句。均为自写语义复述，不保存原文窗口。"
+    },
+    {
+      "case_id": "N10",
+      "source_id": "S04",
+      "work_title": "我戍边两年，归来侯府多了个嫡兄",
+      "source_url": "https://fanqienovel.com/writer/zone/article/7652285832664973374",
+      "official_article_group": "古言逆袭篇",
+      "analyst_themes": [
+        "身份",
+        "家庭",
+        "关系失衡"
+      ],
+      "classification_note": "课堂/改编栏目分组；未复核独立作品页的官网分类，不能计入官网男生情感样本数。",
+      "short_story_identity_evidence": "官方在短故事课堂/改编风向文中以原著或优秀作品标明，并明确引用导语。",
+      "hotness_evidence": "官方优秀/爆款/热播改编引例；不宣称当前上榜，无首句点击率或留存因果数据。",
+      "reading_boundary": "完整读官方引述导语及相邻点评；未读作品全文。",
+      "new_to_prior_66": true,
+      "first_sentence_paraphrase": "征战归来的主人公发现家中正在为世子办生辰宴。",
+      "next_few_units_paraphrase": "主人公指出这并非自己的生辰。父母把当前的庆祝对象视为珍宝。",
+      "information_change_analysis": "庆祝对象改变意味着家庭角色被替代，身份与亲密关系同时受损。",
+      "specific_continuation_question": "新身份为何得到全家承认，主人公的当众反击会怎样改写局面。",
+      "transfer_to_agent": "从一个本该属于主角的仪式出现错误，迅速让读者感到位置被夺。",
+      "limits_and_weakness": "第一句单独看只是回家；第二句才揭出矛盾，不能只统计首句有没有大数字。",
+      "direct_quote": "",
+      "later_opening_sequence_paraphrase": "立刻指出当天与自己的生辰不符，再呈现父母妻儿都围绕另一个人。",
+      "first_three_units_paraphrase": [
+        "征战归来的主人公发现家中正在为世子办生辰宴。",
+        "主人公指出这并非自己的生辰。",
+        "父母把当前的庆祝对象视为珍宝。"
+      ],
+      "first_three_units_analysis": "第2个单位已经明确角色位置冲突，第3个单位增加家人选择；妻儿归属与当场反击在后段继续加重。",
+      "unit_definition": "按官方引例前三个非空段/行作语义单位，删除导语标签；某个段内可能有两句。均为自写语义复述，不保存原文窗口。"
+    },
+    {
+      "case_id": "N11",
+      "source_id": "S05",
+      "work_title": "霍少，太太又去打架了",
+      "source_url": "https://fanqienovel.com/writer/zone/article/7673335215351152702",
+      "official_article_group": "紧凑型节奏设计",
+      "analyst_themes": [
+        "轻喜",
+        "婚恋",
+        "接招"
+      ],
+      "classification_note": "课堂/改编栏目分组；未复核独立作品页的官网分类，不能计入官网男生情感样本数。",
+      "short_story_identity_evidence": "官方在短故事课堂/改编风向文中以原著或优秀作品标明，并明确引用导语。",
+      "hotness_evidence": "官方优秀/爆款/热播改编引例；不宣称当前上榜，无首句点击率或留存因果数据。",
+      "reading_boundary": "完整读官方引述导语及相邻点评；未读作品全文。",
+      "new_to_prior_66": true,
+      "first_sentence_paraphrase": "先给出拒绝婚姻的强势商业人物。",
+      "next_few_units_paraphrase": "母亲安排他结婚。他认为新妻子应当温顺。",
+      "information_change_analysis": "冲突双方没有按强者惩罚弱者的惯常方式行动。",
+      "specific_continuation_question": "丈夫为何这样接招，妻子的下一轮行为会怎样改变关系。",
+      "transfer_to_agent": "人物反应推翻读者预期，比单加反差称号更有吸引力。",
+      "limits_and_weakness": "首句及婚姻安排较常见，强点在后面的具体回应；不能据官选身份直接全部过审。",
+      "direct_quote": "",
+      "later_opening_sequence_paraphrase": "被安排结婚后错误地把妻子当成温顺的人；她破坏房间，他却帮助她出气。",
+      "first_three_units_paraphrase": [
+        "先给出拒绝婚姻的强势商业人物。",
+        "母亲安排他结婚。",
+        "他认为新妻子应当温顺。"
+      ],
+      "first_three_units_analysis": "前三个单位都是常见婚恋前提，尚未反转；不能因后段接招有趣就认定这3个单位已经完成区别任务。",
+      "unit_definition": "按官方引例前三个非空段/行作语义单位，删除导语标签；某个段内可能有两句。均为自写语义复述，不保存原文窗口。"
+    },
+    {
+      "case_id": "N12",
+      "source_id": "S05",
+      "work_title": "暗恋他两年，读心后我听到两个字：真烦",
+      "source_url": "https://fanqienovel.com/writer/zone/article/7673335215351152702",
+      "official_article_group": "多脉络剧情搭建",
+      "analyst_themes": [
+        "关系误读",
+        "职业",
+        "成长"
+      ],
+      "classification_note": "课堂/改编栏目分组；未复核独立作品页的官网分类，不能计入官网男生情感样本数。",
+      "short_story_identity_evidence": "官方在短故事课堂/改编风向文中以原著或优秀作品标明，并明确引用导语。",
+      "hotness_evidence": "官方优秀/爆款/热播改编引例；不宣称当前上榜，无首句点击率或留存因果数据。",
+      "reading_boundary": "完整读官方引述导语及相邻点评；未读作品全文。",
+      "new_to_prior_66": true,
+      "first_sentence_paraphrase": "先明确暗恋对象与持续时间。",
+      "next_few_units_paraphrase": "主人公长期借送文件接近，对方不给回应；随后她突然听到一个男人的声音。声音嫌弃她频繁来访，否定她的接近行为。",
+      "information_change_analysis": "原先对关系的想象遭遇可听见的具体评价，产生退出或求证的选择。",
+      "specific_continuation_question": "主人公怎样处理这份信息，官方评述所述心意错位怎样在后文揭开。",
+      "transfer_to_agent": "如果吸引点是话语内容，应让读者知道对方具体怎样评价这段关系。",
+      "limits_and_weakness": "官方解释包含信息错位，但本轮只读导语与点评，不能据此杜撰正文隐藏原因。",
+      "direct_quote": "",
+      "later_opening_sequence_paraphrase": "送文件的接近方式长期得不到回应，读心功能突然给出带职业轻视的厌烦判断。",
+      "first_three_units_paraphrase": [
+        "先明确暗恋对象与持续时间。",
+        "主人公长期借送文件接近，对方不给回应；随后她突然听到一个男人的声音。",
+        "声音嫌弃她频繁来访，否定她的接近行为。"
+      ],
+      "first_three_units_analysis": "第2个单位把日常接近转为新能力的触发，第3个单位给出具体评价；职业轻视在后续内容中加重。",
+      "unit_definition": "按官方引例前三个非空段/行作语义单位，删除导语标签；某个段内可能有两句。均为自写语义复述，不保存原文窗口。"
+    },
+    {
+      "case_id": "N13",
+      "source_id": "S08",
+      "work_title": "公婆7套房全给小叔子？老公反手甩新疆调令，全家崩溃",
+      "source_url": "https://fanqienovel.com/writer/zone/article/7683816556886753342",
+      "official_article_group": "待遇悬殊与亲情拉扯",
+      "analyst_themes": [
+        "亲情",
+        "利益",
+        "主动生活"
+      ],
+      "classification_note": "课堂/改编栏目分组；未复核独立作品页的官网分类，不能计入官网男生情感样本数。",
+      "short_story_identity_evidence": "官方在短故事课堂/改编风向文中以原著或优秀作品标明，并明确引用导语。",
+      "hotness_evidence": "官方优秀/爆款/热播改编引例；不宣称当前上榜，无首句点击率或留存因果数据。",
+      "reading_boundary": "完整读官方引述导语及相邻点评；未读作品全文。",
+      "new_to_prior_66": true,
+      "first_sentence_paraphrase": "父亲公开把全部房产分给小儿子，长子没有份。",
+      "next_few_units_paraphrase": "没有分得房产的丈夫主动赞成父亲。其他家人把他的反应理解成愚笨。",
+      "information_change_analysis": "反常赞成与利益责任失配并置，平静反应需要一个后手解释。",
+      "specific_continuation_question": "已安排远行的夫妻离开后，家庭责任如何回到作分配的人手上。",
+      "transfer_to_agent": "让人物回应成为悬念，情绪可以平静，筹码可以是自己的生活安排。",
+      "limits_and_weakness": "可学反常回应，但需正文提供早有准备的真实依据；数字本身不保证厚度。",
+      "direct_quote": "",
+      "later_opening_sequence_paraphrase": "长子主动鼓掌，母亲却仍把未来养老责任压给长子。",
+      "first_three_units_paraphrase": [
+        "父亲公开把全部房产分给小儿子，长子没有份。",
+        "没有分得房产的丈夫主动赞成父亲。",
+        "其他家人把他的反应理解成愚笨。"
+      ],
+      "first_three_units_analysis": "第2个单位立即形成反常回应；第3个单位增加旁人误读，养老责任与早有准备的行动在后段补充。",
+      "unit_definition": "按官方引例前三个非空段/行作语义单位，删除导语标签；某个段内可能有两句。均为自写语义复述，不保存原文窗口。"
+    },
+    {
+      "case_id": "N14",
+      "source_id": "S07",
+      "work_title": "一觉醒来，十四亿人消失了",
+      "source_url": "https://fanqienovel.com/writer/zone/article/7630658594882453528",
+      "official_article_group": "闭环式反转情节",
+      "analyst_themes": [
+        "日常反常",
+        "亲情秘密",
+        "调查"
+      ],
+      "classification_note": "课堂/改编栏目分组；未复核独立作品页的官网分类，不能计入官网男生情感样本数。",
+      "short_story_identity_evidence": "官方在短故事课堂/改编风向文中以原著或优秀作品标明，并明确引用导语。",
+      "hotness_evidence": "官方优秀/爆款/热播改编引例；不宣称当前上榜，无首句点击率或留存因果数据。",
+      "reading_boundary": "完整读官方引述导语及相邻点评；未读作品全文。",
+      "new_to_prior_66": true,
+      "first_sentence_paraphrase": "用一次普通睡眠设立前后变化的界面。",
+      "next_few_units_paraphrase": "醒来后发现大范围的人群消失。环境空无一人，证明变化已经发生。",
+      "information_change_analysis": "异常并非仅剩空城奇观，还牵涉谁曾作出让他留下的选择。",
+      "specific_continuation_question": "视频中的父母为何决定留下他，寻人过程能否解释这一句嘱咐。",
+      "transfer_to_agent": "首句普通仍可成立，前提是紧接着提供不可兼容的事实与可追查线索。",
+      "limits_and_weakness": "第一句可删是否更有效需要编辑试读；官选例不能证实每个铺垫都必要。",
+      "direct_quote": "",
+      "later_opening_sequence_paraphrase": "醒来后人群全部消失，环境及电话测试提供确认；视频再把父母的主动离开引入。",
+      "first_three_units_paraphrase": [
+        "用一次普通睡眠设立前后变化的界面。",
+        "醒来后发现大范围的人群消失。",
+        "环境空无一人，证明变化已经发生。"
+      ],
+      "first_three_units_analysis": "第1个单位普通，第2个单位立即异常，第3个单位作视觉确认；亲情矛盾须等后面视频才能出现。",
+      "unit_definition": "按官方引例前三个非空段/行作语义单位，删除导语标签；某个段内可能有两句。均为自写语义复述，不保存原文窗口。"
+    }
+  ],
+  "official_sentence_guidance": [
+    {
+      "source_url": "https://fanqienovel.com/writer/zone/article/7571725833107144766",
+      "official_guidance": "前三行至少完成情绪、悬念、共鸣或创新之一；可选择悬念、梗概、引入三类。教材以转账用途、帖文和身份线索示范具体发现。",
+      "editorial_inference": "把文本载体的判断性内容提前，让读者在解释之前先有可判断的材料。不同类型允许提前透露不同程度的结果。",
+      "limits": "超短故事创作建议；200—500字为通常范围，同时建议尽量300字以内，并非当前产品硬限制。"
+    },
+    {
+      "source_url": "https://fanqienovel.com/writer/zone/article/7614020727024386110",
+      "official_guidance": "批评导语重复书名信息；具体事件要关联核心利益和情绪；量化不公仍需解释伤害分量，极端结局需有积累。",
+      "editorial_inference": "标题已交代差评与留人，首句应新增差评内容或对方处理它的异常方式。具象化与冲突分量应分开审查。",
+      "limits": "适用世情爽文。不能把其中隐忍、反击或3个左右细节推广为所有情感故事公式。"
+    },
+    {
+      "source_url": "https://fanqienovel.com/writer/zone/article/7624047712786202686",
+      "official_guidance": "开篇需聚焦核心利益、设定功能与剧情预期；主角选择需有动机；初期基调与后续发展应匹配。",
+      "editorial_inference": "惊人设定只是事件条件，还要让它改变人物眼下能作的选择。轻喜开头需由正文连续接住人物交锋。",
+      "limits": "适用脑洞文。求生、获益、反制是文中建议，不应排除温情、修复与成长目标。"
+    },
+    {
+      "source_url": "https://fanqienovel.com/writer/zone/article/7652285832664973374",
+      "official_guidance": "男频含历史古代、古言逆袭、古风情感、仙侠等方向；以代表性处境建立情绪；反套路可通过务实选择而非直接复仇实现。",
+      "editorial_inference": "首句可先给异常条件，前几句再给反常选择或比较结果；研究应涵盖生活目标，不把男频等同于背叛复仇。",
+      "limits": "官方方向名来自课堂，未据此推定作品页一定标为男生情感。"
+    },
+    {
+      "source_url": "https://fanqienovel.com/writer/zone/article/7673335215351152702",
+      "official_guidance": "人物反差需落在行为；生活与专业场景应有现实逻辑；轻喜应减少重复巧合和误会。",
+      "editorial_inference": "轻喜吸引力常在人物怎样接招。只展示嘴贫台词而没有改变下一轮互动，难以持续。",
+      "limits": "现言甜宠课堂指导；官方亮点评述不是对任何新稿吸引力的实测结论。"
+    },
+    {
+      "source_url": "https://fanqienovel.com/writer/zone/article/7660072238174978110",
+      "official_guidance": "导语后的正文应沿已建立的悬念或情绪继续推进；感情变化须有可信原因；读者提前知道关键身份仍可期待揭晓场面。",
+      "editorial_inference": "验收需要同时看导语结束处与正文第一场。留白可保留过程、反应或代价，不要求藏住所有结局。",
+      "limits": "古代女频课堂。其虐恋比例、宫斗路径不推广为本Agent统一流程。"
+    },
+    {
+      "source_url": "https://fanqienovel.com/writer/zone/article/7630658594882453528",
+      "official_guidance": "日常条件与反常细节可制造悬疑；线索、主角行动和后续揭晓需彼此呼应。",
+      "editorial_inference": "前几句应让读者知道两个事实怎样不相容，避免仅告诉读者有秘密。悬疑目标可以具体到追查一段视频。",
+      "limits": "适用悬疑元素短故事。危机、死亡循环和封闭空间不是甜文必备。"
+    },
+    {
+      "source_url": "https://fanqienovel.com/writer/zone/article/7683816556886753342",
+      "official_guidance": "不公待遇可与主角从容回应并置；钱物细节需承载生活重量；家庭人物应保留复杂动机及关系修复空间。",
+      "editorial_inference": "人物不发火也能吸引；关键是反应与处境之间存在需解释的差距。数字有用与否取决于它改变什么关系判断。",
+      "limits": "世情组合参考。不能把全部亲情故事强制写成测试亲戚或断亲。"
+    },
+    {
+      "source_url": "https://fanqienovel.com/writer/zone/article/7634367089855184958",
+      "official_guidance": "官方提供婚恋、母女互助、男频家庭和创业等短故事改编引例。",
+      "editorial_inference": "同为现实题材，开局可以依赖信息矛盾、分配落差或成长行动，不必统一为被抛弃。",
+      "limits": "公开原著导语引例；未读取原作完整正文或独立作品页。"
+    },
+    {
+      "source_url": "https://fanqienovel.com/writer/zone/article/7644388408453759038",
+      "official_guidance": "官方引例包含轻喜治愈与以力量反差塑造人物的短故事。",
+      "editorial_inference": "人物能力和生活态度应以正在发生的动作表现；身份标签只是理解动作的入口。",
+      "limits": "公开原著导语引例；未独立复核作品字数、当前排名或全文兑现。"
+    },
+    {
+      "source_url": "https://fanqienovel.com/writer/zone/article/7655218642967085118",
+      "official_guidance": "官方引例包含职业、养娃、婚姻与年代温情；指导鼓励细腻情感积累及认知错位。",
+      "editorial_inference": "温情可以通过具体资源缺口、实际帮助和迟来的新事件建立阅读期待；无需先制造仇恨。",
+      "limits": "公开原著导语引例；不以官方推荐代替首句单独质量判断。"
+    },
+    {
+      "source_url": "https://fanqienovel.com/writer/zone/article/7688608349599825982",
+      "official_guidance": "官方改编引例涵盖家庭亲情、教育成长、邻里权益和历史智谋；成长依赖行动及实际支持。",
+      "editorial_inference": "辨认开篇最独特的愿望或筹码，再判断它出现是否太晚。官选例也可有首句或前三句较弱的位置。",
+      "limits": "公开原著导语引例；官文原著名与改编名可能不同，应记录原著名。"
+    },
+    {
+      "source_url": "https://fanqienovel.com/writer/zone/article/7176894591558221861",
+      "official_guidance": "历史通知建议开头100字直接呈现强看点，减少无关铺垫；常见题材之外也欢迎探索。",
+      "editorial_inference": "首句可设置冲突条件，后两句应立即提供导致兴趣的证据；年代较旧的字数、签约、分发规则不能作当前硬规则。",
+      "limits": "2023年历史参考；字数定义已与2025教材不同，本研究不将其当现行投稿限制。"
+    }
+  ],
+  "editorial_guidance": {
+    "checks": [
+      "首句交代本篇有辨识度的行动或异常，后半段仍须提供新的具体信息。",
+      "具体互动不能由笨拙认真、先乱阵脚等通用概括替代。",
+      "导语保留人物的接招和回应，结尾指向本篇尚待展开的变化。",
+      "事实与因果须由实际正文支持，不能合并互相否定的方案。",
+      "避免为去重删除全部对白；从正文选择另一处有效场面。",
+      "首句直接展示事件有辨识度的具体内容，并接上针对性的回应，不让后段替首句补足吸引点。",
+      "导语可以预告小胜利，但应把值得亲历的交锋留给正文，不将完整第一章压成摘要。",
+      "保留改变人物判断的身份、收益及行动因果，不能以主题口号替代具体接招。"
+    ],
+    "acceptance": "候选比较与独立审读依据实际原文；修改导语或正文后重新核对版本。"
+  }
+}

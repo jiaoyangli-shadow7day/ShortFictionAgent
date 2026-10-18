@@ -1,0 +1,1923 @@
+{
+  "version": "screenshot-openings-2026-10-06-v1",
+  "source": "local-research-snapshot-not-distributed",
+  "counts": {
+    "total_screenshot_files": 53,
+    "unique_image_hashes": 52,
+    "short_story_candidates_after_visible_title_dedup": 44,
+    "short_candidates_with_likes": 43,
+    "new_short_candidates": 7,
+    "updated_previous_candidates": 1,
+    "separate_unknown_chapter_fragment_groups": 1,
+    "new_short_like_counts": [
+      283,
+      366,
+      95,
+      63,
+      212,
+      33,
+      506
+    ],
+    "combined_like_median": 1892,
+    "combined_likes_above_1000": 27,
+    "likes_count_note": "Descriptive selected-sample statistics only; rounded values retained; no exposure or publication-age adjustment."
+  },
+  "scope": "用户选择性截图中的选题、标题、导语和首场观察；作为编辑假设。未验证全文波折、结尾、曝光或热度因果。",
+  "limits": [
+    "预计阅读分钟数不是正文篇幅；标签按实际可见情绪与题材核对。",
+    "可见点赞只在归档中保留，不用于经验检索排序或生成评分；低赞样本不等于失败，44条不等于44篇爆款。",
+    "书名未知的第34章片段不进入本短篇经验库。只迁移机制，不复制人物、物件组合、连续剧情或原文。"
+  ],
+  "stage_rules": {
+    "ideation": [
+      "四案比较人物想要什么、如何解释处境和决定怎样行动；更换职业、文件和奖项不足以形成差异。",
+      "反常选择须有个人理由；退出竞争、经营生活、照顾与亲近都可成立，不统一转成身份翻盘或清算。"
+    ],
+    "opening": [
+      "区分正文导语与现场开场：导语可以预告结果，现场须呈现能继续发展的事件、反应和选择。",
+      "标题、导语和第一场的身份、时间与关键行动一致；已发生与将发生不可互相矛盾。",
+      "人物口吻来自欲望和经历；生活细节参与关系变化，不靠密集技术名词或作者概念解释代替性格。"
+    ],
+    "plan": [
+      "此处只核对拟定标题、正文导语和首场承诺；截图未显示的中段与结尾不能当成已验证经验。",
+      "正文导语可预告结果；发布简介按渠道要求分别处理，不把两种文本合并为同一禁剧透规则。"
+    ],
+    "package": [
+      "标题可直接写关系事件与反常回应，也可含蓄表达情绪；按本篇内容选择，不强制长标题。",
+      "标题、正文导语和首场承诺一致，发布简介按渠道要求处理；不将导语预告当作标题点击效果的证据。"
+    ]
+  },
+  "mechanisms": [
+    {
+      "id": "own_priority",
+      "domains": [
+        "family",
+        "fantasy"
+      ],
+      "keywords": [
+        "争宠",
+        "认亲",
+        "少主",
+        "豪门",
+        "飞升",
+        "父母",
+        "假千金"
+      ],
+      "evidence_ids": [
+        "B02-01",
+        "B01-25",
+        "B01-34",
+        "B01-07",
+        "B01-30"
+      ],
+      "ideation_rule": "人物先有自己的生活、欲望和判断，面对被强加的目标选择另一个优先级；新鲜感来自选择理由。",
+      "opening_rule": "用正在做的事和自己的说话方式立住人物，再让外界要求撞上该目标；态度须有处境支撑。"
+    },
+    {
+      "id": "relationship_position",
+      "domains": [
+        "relationship"
+      ],
+      "keywords": [
+        "婚约",
+        "婚姻",
+        "未婚妻",
+        "前任",
+        "男闺蜜",
+        "背叛",
+        "分手",
+        "退出"
+      ],
+      "evidence_ids": [
+        "B01-08",
+        "B01-36",
+        "B02-05",
+        "B01-01",
+        "B01-12",
+        "B01-06",
+        "B01-13",
+        "B01-14",
+        "B01-33",
+        "B01-35",
+        "B02-04"
+      ],
+      "ideation_rule": "确定具体被替代的位置、被索取的资源或失约的事情，主角如何回应须体现自己的需求。",
+      "opening_rule": "用等待、位置变化和物件参与的行动呈现关系；前史解释当下选择，避免同一种羞辱反复罗列。"
+    },
+    {
+      "id": "announced_outcome",
+      "domains": [
+        "relationship",
+        "family"
+      ],
+      "keywords": [
+        "追悔",
+        "后悔",
+        "离开",
+        "机会",
+        "三次",
+        "虐",
+        "矫正所",
+        "替身"
+      ],
+      "evidence_ids": [
+        "B02-06",
+        "B02-08",
+        "B01-36",
+        "B02-04",
+        "B02-05",
+        "B02-07",
+        "B01-04"
+      ],
+      "ideation_rule": "可预告退出或追悔方向；具体继续阅读问题转为人物如何走到该决定、对方如何回应。",
+      "opening_rule": "次数、等待和前后行为差异让积累可见；导语预告不能冒充已发生的现场，第一场须与预告事实一致。"
+    },
+    {
+      "id": "care_and_self_worth",
+      "domains": [
+        "care",
+        "campus",
+        "family"
+      ],
+      "keywords": [
+        "照顾",
+        "亲情",
+        "成长",
+        "自尊",
+        "福利院",
+        "姐弟",
+        "温暖",
+        "领养"
+      ],
+      "evidence_ids": [
+        "B01-29",
+        "B01-05",
+        "B01-18"
+      ],
+      "ideation_rule": "自我价值、具体照顾和被选择也能构成读者期待；人物可坚持自身需求，同时珍惜善意。",
+      "opening_rule": "从普通生活动作或一句有理由的回应呈现性格，照顾产生可见反馈；保留有关系作用的细节。"
+    },
+    {
+      "id": "rule_changes_action",
+      "domains": [
+        "speculative"
+      ],
+      "keywords": [
+        "系统",
+        "弹幕",
+        "规则",
+        "换命",
+        "改文",
+        "抹杀"
+      ],
+      "evidence_ids": [
+        "B01-11",
+        "B01-02",
+        "B01-17",
+        "B01-10",
+        "B01-07",
+        "B01-22",
+        "B01-31"
+      ],
+      "ideation_rule": "异常规则要给人物一个实际能使用的选择，说明信息或能力怎样改变当前事件。",
+      "opening_rule": "在可理解的行动中展示规则及直接后果；弹幕提供信息后由人物作出选择，不替代人物行动。"
+    },
+    {
+      "id": "fantasy_relationship",
+      "domains": [
+        "fantasy"
+      ],
+      "keywords": [
+        "修仙",
+        "师尊",
+        "师弟",
+        "魔尊",
+        "女帝",
+        "丹药",
+        "娘子"
+      ],
+      "evidence_ids": [
+        "B01-24",
+        "B01-09",
+        "B01-03",
+        "B01-19",
+        "B01-20"
+      ],
+      "ideation_rule": "修仙身份、资源和关系能相互改变；提前知道潜力或获得好感后，人物仍须决定如何介入。",
+      "opening_rule": "用当前处境展示一项关键异常及回应，控制开头名词负担；身份标签不能替代人物欲望。"
+    },
+    {
+      "id": "unexpected_interpretation",
+      "domains": [
+        "relationship",
+        "campus",
+        "care"
+      ],
+      "keywords": [
+        "欣喜",
+        "喜剧",
+        "赘婿",
+        "反常",
+        "甜宠",
+        "重生",
+        "接盘"
+      ],
+      "evidence_ids": [
+        "B02-02",
+        "B01-13",
+        "B01-37",
+        "B01-27",
+        "B01-28",
+        "B01-18"
+      ],
+      "ideation_rule": "熟悉处境可以被人物解释成另一种机会；解释来自已有需求，不能只有一句反常台词。",
+      "opening_rule": "让通常反应与本人的选择形成可理解反差；即使暂缓解释，也给具体线索，避免空泛卖关子。"
+    },
+    {
+      "id": "authority_and_voice",
+      "domains": [
+        "historical",
+        "social",
+        "campus",
+        "family"
+      ],
+      "keywords": [
+        "皇帝",
+        "太子",
+        "养女",
+        "压力",
+        "羞辱",
+        "学校",
+        "外卖"
+      ],
+      "evidence_ids": [
+        "B01-21",
+        "B01-26",
+        "B01-15",
+        "B01-16",
+        "B01-23",
+        "B01-32"
+      ],
+      "ideation_rule": "身份、处境与人物态度的反差可形成问题；反击与照顾是不同回报，不强制所有选题成为专业举证。",
+      "opening_rule": "用人物自己的判断、口吻和能做到的动作回应压力；现有截图的极端伤害情节只作风险反例，不迁移实施方式。"
+    }
+  ],
+  "evidence": {
+    "B01-01": {
+      "source_id": "user-screenshot:B01-01",
+      "title": "她说男闺蜜不要她，难道我就得要？",
+      "source_refs": [
+        "local-research-snapshot-not-distributed"
+      ],
+      "observed_date": "2026-10-06",
+      "read_scope": "visible_title_lead_or_first_scene_only",
+      "full_text_read": false,
+      "ending_observed": false,
+      "title_complete": true,
+      "app_category": "追夫火葬场",
+      "domains": [
+        "relationship"
+      ],
+      "opening_observation": "借婚纱照推广酒吧，在众人面前侵犯婚约边界",
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "package"
+      ],
+      "likes_snapshot": {
+        "value": 616,
+        "rounded": false,
+        "display": "616",
+        "exposure": null,
+        "publication_date": null
+      },
+      "limit": "仅截图可见片段，未核实完整故事、作者归属和热度成因。",
+      "mechanism_ids": [
+        "relationship_position"
+      ],
+      "emotional_paths": [
+        "conflict_or_growth"
+      ]
+    },
+    "B01-02": {
+      "source_id": "user-screenshot:B01-02",
+      "title": "贫困生给我的换命茶，我反手给瘫痪多年的老奶喝",
+      "source_refs": [
+        "local-research-snapshot-not-distributed"
+      ],
+      "observed_date": "2026-10-06",
+      "read_scope": "visible_title_lead_or_first_scene_only",
+      "full_text_read": false,
+      "ending_observed": false,
+      "title_complete": true,
+      "app_category": "家庭",
+      "domains": [
+        "speculative"
+      ],
+      "opening_observation": "喝茶前弹幕揭露换命规则，标题承诺把规则转用于反击",
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "package"
+      ],
+      "likes_snapshot": {
+        "value": 2579,
+        "rounded": false,
+        "display": "2579",
+        "exposure": null,
+        "publication_date": null
+      },
+      "limit": "仅截图可见片段，未核实完整故事、作者归属和热度成因。",
+      "mechanism_ids": [
+        "rule_changes_action"
+      ],
+      "emotional_paths": [
+        "conflict_or_growth"
+      ]
+    },
+    "B01-03": {
+      "source_id": "user-screenshot:B01-03",
+      "title": "把修仙虐文玩成爽文，男女主懵了！",
+      "source_refs": [
+        "local-research-snapshot-not-distributed"
+      ],
+      "observed_date": "2026-10-06",
+      "read_scope": "visible_title_lead_or_first_scene_only",
+      "full_text_read": false,
+      "ending_observed": false,
+      "title_complete": true,
+      "app_category": "穿越",
+      "domains": [
+        "fantasy"
+      ],
+      "opening_observation": "亲密关系中提出给师弟祖传丹药，关系与资源冲突相连",
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "package"
+      ],
+      "likes_snapshot": {
+        "value": 2793,
+        "rounded": false,
+        "display": "2793",
+        "exposure": null,
+        "publication_date": null
+      },
+      "limit": "仅截图可见片段，未核实完整故事、作者归属和热度成因。",
+      "mechanism_ids": [
+        "fantasy_relationship"
+      ],
+      "emotional_paths": [
+        "conflict_or_growth"
+      ]
+    },
+    "B01-04": {
+      "source_id": "user-screenshot:B01-04",
+      "title": "我只是用你们对我的方式对你们，怎么就破防了",
+      "source_refs": [
+        "local-research-snapshot-not-distributed"
+      ],
+      "observed_date": "2026-10-06",
+      "read_scope": "visible_title_lead_or_first_scene_only",
+      "full_text_read": false,
+      "ending_observed": false,
+      "title_complete": true,
+      "app_category": "家庭",
+      "domains": [
+        "family"
+      ],
+      "opening_observation": "亲友公开羞辱受害者，标题预告对称回应；另显示7605人读过",
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "package"
+      ],
+      "likes_snapshot": {
+        "value": 30,
+        "rounded": false,
+        "display": "30",
+        "exposure": null,
+        "publication_date": null
+      },
+      "limit": "仅截图可见片段，未核实完整故事、作者归属和热度成因。",
+      "mechanism_ids": [
+        "announced_outcome"
+      ],
+      "emotional_paths": [
+        "conflict_or_growth"
+      ]
+    },
+    "B01-05": {
+      "source_id": "user-screenshot:B01-05",
+      "title": "荆棘地里开出了双生花",
+      "source_refs": [
+        "local-research-snapshot-not-distributed"
+      ],
+      "observed_date": "2026-10-06",
+      "read_scope": "visible_title_lead_or_first_scene_only",
+      "full_text_read": false,
+      "ending_observed": false,
+      "title_complete": true,
+      "app_category": "家庭",
+      "domains": [
+        "family",
+        "care"
+      ],
+      "opening_observation": "舅舅拿出月嫂证，自称家生子，用具体行动呈现姐弟关系",
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "package"
+      ],
+      "likes_snapshot": {
+        "value": 15000,
+        "rounded": true,
+        "display": "1.5万",
+        "exposure": null,
+        "publication_date": null
+      },
+      "limit": "仅截图可见片段，未核实完整故事、作者归属和热度成因。",
+      "mechanism_ids": [
+        "care_and_self_worth"
+      ],
+      "emotional_paths": [
+        "care"
+      ]
+    },
+    "B01-06": {
+      "source_id": "user-screenshot:B01-06",
+      "title": "公司卖出8千万，未婚妻临时加30万彩礼要给竹马治病？",
+      "source_refs": [
+        "local-research-snapshot-not-distributed"
+      ],
+      "observed_date": "2026-10-06",
+      "read_scope": "visible_title_lead_or_first_scene_only",
+      "full_text_read": false,
+      "ending_observed": false,
+      "title_complete": true,
+      "app_category": "打脸逆袭",
+      "domains": [
+        "relationship"
+      ],
+      "opening_observation": "财富已经兑现，师兄建议隐瞒卖公司，形成关系检验的条件",
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "package"
+      ],
+      "likes_snapshot": {
+        "value": 1231,
+        "rounded": false,
+        "display": "1231",
+        "exposure": null,
+        "publication_date": null
+      },
+      "limit": "仅截图可见片段，未核实完整故事、作者归属和热度成因。",
+      "mechanism_ids": [
+        "relationship_position"
+      ],
+      "emotional_paths": [
+        "conflict_or_growth"
+      ]
+    },
+    "B01-07": {
+      "source_id": "user-screenshot:B01-07",
+      "title": "爸妈怕我争宠，我干脆换了一对父母",
+      "source_refs": [
+        "local-research-snapshot-not-distributed"
+      ],
+      "observed_date": "2026-10-06",
+      "read_scope": "visible_title_lead_or_first_scene_only",
+      "full_text_read": false,
+      "ending_observed": false,
+      "title_complete": true,
+      "app_category": "萌宝",
+      "domains": [
+        "family",
+        "speculative"
+      ],
+      "opening_observation": "全家福撤椅子、禁称父母、家庭干扰源标签，继而出现无脸父母",
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "package"
+      ],
+      "likes_snapshot": {
+        "value": 6138,
+        "rounded": false,
+        "display": "6138",
+        "exposure": null,
+        "publication_date": null
+      },
+      "limit": "仅截图可见片段，未核实完整故事、作者归属和热度成因。",
+      "mechanism_ids": [
+        "own_priority",
+        "rule_changes_action"
+      ],
+      "emotional_paths": [
+        "conflict_or_growth"
+      ]
+    },
+    "B01-08": {
+      "source_id": "user-screenshot:B01-08",
+      "title": "男友车上我挂的平安符，被换成了拼豆",
+      "source_refs": [
+        "local-research-snapshot-not-distributed"
+      ],
+      "observed_date": "2026-10-06",
+      "read_scope": "visible_title_lead_or_first_scene_only",
+      "full_text_read": false,
+      "ending_observed": false,
+      "title_complete": true,
+      "app_category": "职场",
+      "domains": [
+        "relationship"
+      ],
+      "opening_observation": "物件替换暴露关系变化，争执升级为郊外弃置",
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "package"
+      ],
+      "likes_snapshot": {
+        "value": 7305,
+        "rounded": false,
+        "display": "7305",
+        "exposure": null,
+        "publication_date": null
+      },
+      "limit": "仅截图可见片段，未核实完整故事、作者归属和热度成因。",
+      "mechanism_ids": [
+        "relationship_position"
+      ],
+      "emotional_paths": [
+        "conflict_or_growth"
+      ]
+    },
+    "B01-09": {
+      "source_id": "user-screenshot:B01-09",
+      "title": "冰山师尊的官配男主回宗后，爱心怎么往我这冒？",
+      "source_refs": [
+        "local-research-snapshot-not-distributed"
+      ],
+      "observed_date": "2026-10-06",
+      "read_scope": "visible_title_lead_or_first_scene_only",
+      "full_text_read": false,
+      "ending_observed": false,
+      "title_complete": true,
+      "app_category": "甜宠",
+      "domains": [
+        "fantasy"
+      ],
+      "opening_observation": "炮灰应退场的预期，与师尊向我表达好感的标题相反",
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "package"
+      ],
+      "likes_snapshot": {
+        "value": 1538,
+        "rounded": false,
+        "display": "1538",
+        "exposure": null,
+        "publication_date": null
+      },
+      "limit": "仅截图可见片段，未核实完整故事、作者归属和热度成因。",
+      "mechanism_ids": [
+        "fantasy_relationship"
+      ],
+      "emotional_paths": [
+        "care"
+      ]
+    },
+    "B01-10": {
+      "source_id": "user-screenshot:B01-10",
+      "title": "养子是全家团宠？但这里是智斗世界啊！",
+      "source_refs": [
+        "local-research-snapshot-not-distributed"
+      ],
+      "observed_date": "2026-10-06",
+      "read_scope": "visible_title_lead_or_first_scene_only",
+      "full_text_read": false,
+      "ending_observed": false,
+      "title_complete": true,
+      "app_category": "家庭",
+      "domains": [
+        "family",
+        "speculative"
+      ],
+      "opening_observation": "养子预告假摔陷害，主角立即行动打断预设套路",
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "package"
+      ],
+      "likes_snapshot": {
+        "value": 2118,
+        "rounded": false,
+        "display": "2118",
+        "exposure": null,
+        "publication_date": null
+      },
+      "limit": "仅截图可见片段，未核实完整故事、作者归属和热度成因。",
+      "mechanism_ids": [
+        "rule_changes_action"
+      ],
+      "emotional_paths": [
+        "conflict_or_growth"
+      ]
+    },
+    "B01-11": {
+      "source_id": "user-screenshot:B01-11",
+      "title": "穿成虐文女主，但我有改文系统",
+      "source_refs": [
+        "local-research-snapshot-not-distributed"
+      ],
+      "observed_date": "2026-10-06",
+      "read_scope": "visible_title_lead_or_first_scene_only",
+      "full_text_read": false,
+      "ending_observed": false,
+      "title_complete": true,
+      "app_category": "系统",
+      "domains": [
+        "speculative"
+      ],
+      "opening_observation": "改动一个动词，能力直接产生可见后果",
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "package"
+      ],
+      "likes_snapshot": {
+        "value": 1032,
+        "rounded": false,
+        "display": "1032",
+        "exposure": null,
+        "publication_date": null
+      },
+      "limit": "仅截图可见片段，未核实完整故事、作者归属和热度成因。",
+      "mechanism_ids": [
+        "rule_changes_action"
+      ],
+      "emotional_paths": [
+        "conflict_or_growth"
+      ]
+    },
+    "B01-12": {
+      "source_id": "user-screenshot:B01-12",
+      "title": "他让我家疼他的师妹，我爸让他滚出女婿位",
+      "source_refs": [
+        "local-research-snapshot-not-distributed"
+      ],
+      "observed_date": "2026-10-06",
+      "read_scope": "visible_title_lead_or_first_scene_only",
+      "full_text_read": false,
+      "ending_observed": false,
+      "title_complete": true,
+      "app_category": "家庭",
+      "domains": [
+        "relationship"
+      ],
+      "opening_observation": "寿宴座位上写着主角名字，未婚夫把座位让给师妹；另显示724人读过",
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "package"
+      ],
+      "likes_snapshot": {
+        "value": 2,
+        "rounded": false,
+        "display": "2",
+        "exposure": null,
+        "publication_date": null
+      },
+      "limit": "仅截图可见片段，未核实完整故事、作者归属和热度成因。",
+      "mechanism_ids": [
+        "relationship_position"
+      ],
+      "emotional_paths": [
+        "conflict_or_growth"
+      ]
+    },
+    "B01-13": {
+      "source_id": "user-screenshot:B01-13",
+      "title": "女友要嫁白月光，让我当2+1或拿八千万走人？",
+      "source_refs": [
+        "local-research-snapshot-not-distributed"
+      ],
+      "observed_date": "2026-10-06",
+      "read_scope": "visible_title_lead_or_first_scene_only",
+      "full_text_read": false,
+      "ending_observed": false,
+      "title_complete": true,
+      "app_category": "打脸逆袭",
+      "domains": [
+        "relationship"
+      ],
+      "opening_observation": "关系背叛与主角欣喜准备退出形成预期反差",
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "package"
+      ],
+      "likes_snapshot": {
+        "value": 1278,
+        "rounded": false,
+        "display": "1278",
+        "exposure": null,
+        "publication_date": null
+      },
+      "limit": "仅截图可见片段，未核实完整故事、作者归属和热度成因。",
+      "mechanism_ids": [
+        "relationship_position",
+        "unexpected_interpretation"
+      ],
+      "emotional_paths": [
+        "comedy"
+      ]
+    },
+    "B01-14": {
+      "source_id": "user-screenshot:B01-14",
+      "title": "未婚妻婚后不打算要孩子，我找别人生，你又急？",
+      "source_refs": [
+        "local-research-snapshot-not-distributed"
+      ],
+      "observed_date": "2026-10-06",
+      "read_scope": "visible_title_lead_or_first_scene_only",
+      "full_text_read": false,
+      "ending_observed": false,
+      "title_complete": true,
+      "app_category": "追夫火葬场",
+      "domains": [
+        "relationship"
+      ],
+      "opening_observation": "误发消息换来视频，主角得知对方对不同对象持不同婚育选择",
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "package"
+      ],
+      "likes_snapshot": {
+        "value": 853,
+        "rounded": false,
+        "display": "853",
+        "exposure": null,
+        "publication_date": null
+      },
+      "limit": "仅截图可见片段，未核实完整故事、作者归属和热度成因。",
+      "mechanism_ids": [
+        "relationship_position"
+      ],
+      "emotional_paths": [
+        "conflict_or_growth"
+      ]
+    },
+    "B01-15": {
+      "source_id": "user-screenshot:B01-15",
+      "title": "我从不吃压力",
+      "source_refs": [
+        "local-research-snapshot-not-distributed"
+      ],
+      "observed_date": "2026-10-06",
+      "read_scope": "visible_title_lead_or_first_scene_only",
+      "full_text_read": false,
+      "ending_observed": false,
+      "title_complete": true,
+      "app_category": "打脸逆袭",
+      "domains": [
+        "family"
+      ],
+      "opening_observation": "偏心蛋糕和被抢玩具两个场景建立立即反击的人物态度",
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "package"
+      ],
+      "likes_snapshot": {
+        "value": 2648,
+        "rounded": false,
+        "display": "2648",
+        "exposure": null,
+        "publication_date": null
+      },
+      "limit": "仅截图可见片段，未核实完整故事、作者归属和热度成因。",
+      "mechanism_ids": [
+        "authority_and_voice"
+      ],
+      "emotional_paths": [
+        "conflict_or_growth"
+      ]
+    },
+    "B01-16": {
+      "source_id": "user-screenshot:B01-16",
+      "title": "外卖频繁被偷后，我顿顿点鱼生，寄生虫在学校杀疯了",
+      "source_refs": [
+        "local-research-snapshot-not-distributed"
+      ],
+      "observed_date": "2026-10-06",
+      "read_scope": "visible_title_lead_or_first_scene_only",
+      "full_text_read": false,
+      "ending_observed": false,
+      "title_complete": true,
+      "app_category": "校园",
+      "domains": [
+        "campus"
+      ],
+      "opening_observation": "反复被偷、投诉被嘲，标题预告借具体物品反击",
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "package"
+      ],
+      "likes_snapshot": {
+        "value": 9514,
+        "rounded": false,
+        "display": "9514",
+        "exposure": null,
+        "publication_date": null
+      },
+      "limit": "仅截图可见片段，未核实完整故事、作者归属和热度成因。",
+      "mechanism_ids": [
+        "authority_and_voice"
+      ],
+      "emotional_paths": [
+        "conflict_or_growth"
+      ]
+    },
+    "B01-17": {
+      "source_id": "user-screenshot:B01-17",
+      "title": "攻略失败，系统才告诉我要抹杀的是女主",
+      "source_refs": [
+        "local-research-snapshot-not-distributed"
+      ],
+      "observed_date": "2026-10-06",
+      "read_scope": "visible_title_lead_or_first_scene_only",
+      "full_text_read": false,
+      "ending_observed": false,
+      "title_complete": true,
+      "app_category": "穿越",
+      "domains": [
+        "speculative"
+      ],
+      "opening_observation": "长期付出遇婚礼白月光回归，标题预告系统惩罚对象反转",
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "package"
+      ],
+      "likes_snapshot": {
+        "value": 3176,
+        "rounded": false,
+        "display": "3176",
+        "exposure": null,
+        "publication_date": null
+      },
+      "limit": "仅截图可见片段，未核实完整故事、作者归属和热度成因。",
+      "mechanism_ids": [
+        "rule_changes_action"
+      ],
+      "emotional_paths": [
+        "conflict_or_growth"
+      ]
+    },
+    "B01-18": {
+      "source_id": "user-screenshot:B01-18",
+      "title": "我是马屁精，可联姻老公是高需求宝宝啊",
+      "source_refs": [
+        "local-research-snapshot-not-distributed"
+      ],
+      "observed_date": "2026-10-06",
+      "read_scope": "visible_title_lead_or_first_scene_only",
+      "full_text_read": false,
+      "ending_observed": false,
+      "title_complete": true,
+      "app_category": "民间奇闻",
+      "domains": [
+        "care"
+      ],
+      "opening_observation": "主角用讨好获得生存资源，标题让此性格与伴侣需求匹配",
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "package"
+      ],
+      "likes_snapshot": {
+        "value": 2516,
+        "rounded": false,
+        "display": "2516",
+        "exposure": null,
+        "publication_date": null
+      },
+      "limit": "仅截图可见片段，未核实完整故事、作者归属和热度成因。",
+      "mechanism_ids": [
+        "care_and_self_worth",
+        "unexpected_interpretation"
+      ],
+      "emotional_paths": [
+        "care",
+        "comedy"
+      ]
+    },
+    "B01-19": {
+      "source_id": "user-screenshot:B01-19",
+      "title": "弹幕谁说我是炮灰男配？我让我魔尊娘子打死你！",
+      "source_refs": [
+        "local-research-snapshot-not-distributed"
+      ],
+      "observed_date": "2026-10-06",
+      "read_scope": "visible_title_lead_or_first_scene_only",
+      "full_text_read": false,
+      "ending_observed": false,
+      "title_complete": true,
+      "app_category": "架空",
+      "domains": [
+        "fantasy",
+        "speculative"
+      ],
+      "opening_observation": "濒死对战突然获得对手喜欢自己的信息，提供关系出路",
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "package"
+      ],
+      "likes_snapshot": {
+        "value": 903,
+        "rounded": false,
+        "display": "903",
+        "exposure": null,
+        "publication_date": null
+      },
+      "limit": "仅截图可见片段，未核实完整故事、作者归属和热度成因。",
+      "mechanism_ids": [
+        "fantasy_relationship"
+      ],
+      "emotional_paths": [
+        "care"
+      ]
+    },
+    "B01-20": {
+      "source_id": "user-screenshot:B01-20",
+      "title": "冷艳师尊绝不屈服于魔修孽徒",
+      "source_refs": [
+        "local-research-snapshot-not-distributed"
+      ],
+      "observed_date": "2026-10-06",
+      "read_scope": "visible_title_lead_or_first_scene_only",
+      "full_text_read": false,
+      "ending_observed": false,
+      "title_complete": true,
+      "app_category": "穿越",
+      "domains": [
+        "fantasy"
+      ],
+      "opening_observation": "资深卧底用现代暗号试探新人，自嘲与诬陷冲突并置",
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "package"
+      ],
+      "likes_snapshot": {
+        "value": 1892,
+        "rounded": false,
+        "display": "1892",
+        "exposure": null,
+        "publication_date": null
+      },
+      "limit": "仅截图可见片段，未核实完整故事、作者归属和热度成因。",
+      "mechanism_ids": [
+        "fantasy_relationship"
+      ],
+      "emotional_paths": [
+        "comedy"
+      ]
+    },
+    "B01-21": {
+      "source_id": "user-screenshot:B01-21",
+      "title": "朕百万大军，能受这委屈？",
+      "source_refs": [
+        "local-research-snapshot-not-distributed"
+      ],
+      "observed_date": "2026-10-06",
+      "read_scope": "visible_title_lead_or_first_scene_only",
+      "full_text_read": false,
+      "ending_observed": false,
+      "title_complete": true,
+      "app_category": "穿越",
+      "domains": [
+        "historical"
+      ],
+      "opening_observation": "穿越皇帝醒来即面临死局，口语吐槽突出身份与处境反差",
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "package"
+      ],
+      "likes_snapshot": {
+        "value": 1093,
+        "rounded": false,
+        "display": "1093",
+        "exposure": null,
+        "publication_date": null
+      },
+      "limit": "仅截图可见片段，未核实完整故事、作者归属和热度成因。",
+      "mechanism_ids": [
+        "authority_and_voice"
+      ],
+      "emotional_paths": [
+        "comedy"
+      ]
+    },
+    "B01-22": {
+      "source_id": "user-screenshot:B01-22",
+      "title": "所有人都在等那个穿越女去死",
+      "source_refs": [
+        "local-research-snapshot-not-distributed"
+      ],
+      "observed_date": "2026-10-06",
+      "read_scope": "visible_title_lead_or_first_scene_only",
+      "full_text_read": false,
+      "ending_observed": false,
+      "title_complete": true,
+      "app_category": "系统",
+      "domains": [
+        "family",
+        "speculative"
+      ],
+      "opening_observation": "善良穿越女替恶女救家族，却遭亲友背叛，前史不断改变人物境遇",
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "package"
+      ],
+      "likes_snapshot": {
+        "value": 5491,
+        "rounded": false,
+        "display": "5491",
+        "exposure": null,
+        "publication_date": null
+      },
+      "limit": "仅截图可见片段，未核实完整故事、作者归属和热度成因。",
+      "mechanism_ids": [
+        "rule_changes_action"
+      ],
+      "emotional_paths": [
+        "conflict_or_growth"
+      ]
+    },
+    "B01-23": {
+      "source_id": "user-screenshot:B01-23",
+      "title": "绝版验货礼",
+      "source_refs": [
+        "local-research-snapshot-not-distributed"
+      ],
+      "observed_date": "2026-10-06",
+      "read_scope": "visible_title_lead_or_first_scene_only",
+      "full_text_read": false,
+      "ending_observed": false,
+      "title_complete": true,
+      "app_category": "打脸逆袭",
+      "domains": [
+        "social"
+      ],
+      "opening_observation": "羞辱后采取对称报复；含性暴力，不能把其报复方式作为创作奖励范本",
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "package"
+      ],
+      "likes_snapshot": {
+        "value": 2832,
+        "rounded": false,
+        "display": "2832",
+        "exposure": null,
+        "publication_date": null
+      },
+      "limit": "仅截图可见片段，未核实完整故事、作者归属和热度成因。",
+      "mechanism_ids": [
+        "authority_and_voice"
+      ],
+      "emotional_paths": [
+        "conflict_or_growth"
+      ]
+    },
+    "B01-24": {
+      "source_id": "user-screenshot:B01-24",
+      "title": "女帝挖矿，我挖女帝",
+      "source_refs": [
+        "local-research-snapshot-not-distributed"
+      ],
+      "observed_date": "2026-10-06",
+      "read_scope": "visible_title_lead_or_first_scene_only",
+      "full_text_read": false,
+      "ending_observed": false,
+      "title_complete": true,
+      "app_category": "打脸逆袭",
+      "domains": [
+        "fantasy"
+      ],
+      "opening_observation": "弹幕揭露矿工未来身份和等待救援的代价，主角获得提前介入机会",
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "package"
+      ],
+      "likes_snapshot": {
+        "value": 2629,
+        "rounded": false,
+        "display": "2629",
+        "exposure": null,
+        "publication_date": null
+      },
+      "limit": "仅截图可见片段，未核实完整故事、作者归属和热度成因。",
+      "mechanism_ids": [
+        "fantasy_relationship"
+      ],
+      "emotional_paths": [
+        "conflict_or_growth"
+      ]
+    },
+    "B01-25": {
+      "source_id": "user-screenshot:B01-25",
+      "title": "真少主一心飞升，全宗门都崩溃了",
+      "source_refs": [
+        "local-research-snapshot-not-distributed"
+      ],
+      "observed_date": "2026-10-06",
+      "read_scope": "visible_title_lead_or_first_scene_only",
+      "full_text_read": false,
+      "ending_observed": false,
+      "title_complete": true,
+      "app_category": "打脸逆袭",
+      "domains": [
+        "fantasy"
+      ],
+      "opening_observation": "亲生子被要求争宠，却询问少主宗务负担，改变读者期待的竞争目标",
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "package"
+      ],
+      "likes_snapshot": {
+        "value": 4143,
+        "rounded": false,
+        "display": "4143",
+        "exposure": null,
+        "publication_date": null
+      },
+      "limit": "仅截图可见片段，未核实完整故事、作者归属和热度成因。",
+      "mechanism_ids": [
+        "own_priority"
+      ],
+      "emotional_paths": [
+        "comedy"
+      ]
+    },
+    "B01-26": {
+      "source_id": "user-screenshot:B01-26",
+      "title": "朕是满级皇帝，四个养女却让太子跪下道歉？",
+      "source_refs": [
+        "local-research-snapshot-not-distributed"
+      ],
+      "observed_date": "2026-10-06",
+      "read_scope": "visible_title_lead_or_first_scene_only",
+      "full_text_read": false,
+      "ending_observed": false,
+      "title_complete": true,
+      "app_category": "穿越",
+      "domains": [
+        "historical"
+      ],
+      "opening_observation": "养女公开护外人逼太子道歉，皇帝的权力与被挑战的家规相遇",
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "package"
+      ],
+      "likes_snapshot": {
+        "value": 1954,
+        "rounded": false,
+        "display": "1954",
+        "exposure": null,
+        "publication_date": null
+      },
+      "limit": "仅截图可见片段，未核实完整故事、作者归属和热度成因。",
+      "mechanism_ids": [
+        "authority_and_voice"
+      ],
+      "emotional_paths": [
+        "conflict_or_growth"
+      ]
+    },
+    "B01-27": {
+      "source_id": "user-screenshot:B01-27",
+      "title": "娶了前女友男闺蜜的妹妹，我给他磕一个",
+      "source_refs": [
+        "local-research-snapshot-not-distributed"
+      ],
+      "observed_date": "2026-10-06",
+      "read_scope": "visible_title_lead_or_first_scene_only",
+      "full_text_read": false,
+      "ending_observed": false,
+      "title_complete": true,
+      "app_category": "甜宠",
+      "domains": [
+        "relationship",
+        "care"
+      ],
+      "opening_observation": "前任多次越界，标题将旧关系损失转向新婚姻机会",
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "package"
+      ],
+      "likes_snapshot": {
+        "value": 527,
+        "rounded": false,
+        "display": "527",
+        "exposure": null,
+        "publication_date": null
+      },
+      "limit": "仅截图可见片段，未核实完整故事、作者归属和热度成因。",
+      "mechanism_ids": [
+        "unexpected_interpretation"
+      ],
+      "emotional_paths": [
+        "care",
+        "comedy"
+      ]
+    },
+    "B01-28": {
+      "source_id": "user-screenshot:B01-28",
+      "title": "和妻子吵架重生后，她要骑脸输出是什么鬼？",
+      "source_refs": [
+        "local-research-snapshot-not-distributed"
+      ],
+      "observed_date": "2026-10-06",
+      "read_scope": "visible_title_lead_or_first_scene_only",
+      "full_text_read": false,
+      "ending_observed": false,
+      "title_complete": true,
+      "app_category": "重生",
+      "domains": [
+        "relationship",
+        "speculative",
+        "care"
+      ],
+      "opening_observation": "夫妻一起重生，互相发誓不再爱对方，誓言与标题预告相反",
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "package"
+      ],
+      "likes_snapshot": {
+        "value": 4752,
+        "rounded": false,
+        "display": "4752",
+        "exposure": null,
+        "publication_date": null
+      },
+      "limit": "仅截图可见片段，未核实完整故事、作者归属和热度成因。",
+      "mechanism_ids": [
+        "unexpected_interpretation"
+      ],
+      "emotional_paths": [
+        "care",
+        "comedy"
+      ]
+    },
+    "B01-29": {
+      "source_id": "user-screenshot:B01-29",
+      "title": "石头缝里的星星",
+      "source_refs": [
+        "local-research-snapshot-not-distributed"
+      ],
+      "observed_date": "2026-10-06",
+      "read_scope": "visible_title_lead_or_first_scene_only",
+      "full_text_read": false,
+      "ending_observed": false,
+      "title_complete": true,
+      "app_category": "校园",
+      "domains": [
+        "campus",
+        "care"
+      ],
+      "opening_observation": "福利院孩子坚持吃饱，用自己的公平逻辑回应大人的羞辱与训诫",
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "package"
+      ],
+      "likes_snapshot": {
+        "value": 23000,
+        "rounded": true,
+        "display": "2.3万",
+        "exposure": null,
+        "publication_date": null
+      },
+      "limit": "仅截图可见片段，未核实完整故事、作者归属和热度成因。",
+      "mechanism_ids": [
+        "care_and_self_worth"
+      ],
+      "emotional_paths": [
+        "care"
+      ]
+    },
+    "B01-30": {
+      "source_id": "user-screenshot:B01-30",
+      "title": "拿到大结果后，金丝雀她不干了",
+      "source_refs": [
+        "local-research-snapshot-not-distributed"
+      ],
+      "observed_date": "2026-10-06",
+      "read_scope": "visible_title_lead_or_first_scene_only",
+      "full_text_read": false,
+      "ending_observed": false,
+      "title_complete": true,
+      "app_category": "家庭",
+      "domains": [
+        "family"
+      ],
+      "opening_observation": "主角选择有钱父亲、转移继母继妹注意力，为自身长期目标争取空间",
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "package"
+      ],
+      "likes_snapshot": {
+        "value": 2994,
+        "rounded": false,
+        "display": "2994",
+        "exposure": null,
+        "publication_date": null
+      },
+      "limit": "仅截图可见片段，未核实完整故事、作者归属和热度成因。",
+      "mechanism_ids": [
+        "own_priority"
+      ],
+      "emotional_paths": [
+        "conflict_or_growth"
+      ]
+    },
+    "B01-31": {
+      "source_id": "user-screenshot:B01-31",
+      "title": "第三次被老婆踹下床，眼前出现了弹幕",
+      "source_refs": [
+        "local-research-snapshot-not-distributed"
+      ],
+      "observed_date": "2026-10-06",
+      "read_scope": "visible_title_lead_or_first_scene_only",
+      "full_text_read": false,
+      "ending_observed": false,
+      "title_complete": true,
+      "app_category": "家庭",
+      "domains": [
+        "relationship",
+        "speculative"
+      ],
+      "opening_observation": "婚姻羞辱后弹幕揭露妻子另有对象及未来危险",
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "package"
+      ],
+      "likes_snapshot": {
+        "value": 405,
+        "rounded": false,
+        "display": "405",
+        "exposure": null,
+        "publication_date": null
+      },
+      "limit": "仅截图可见片段，未核实完整故事、作者归属和热度成因。",
+      "mechanism_ids": [
+        "rule_changes_action"
+      ],
+      "emotional_paths": [
+        "conflict_or_growth"
+      ]
+    },
+    "B01-32": {
+      "source_id": "user-screenshot:B01-32",
+      "title": "中秋宴上被白莲嫂子当众羞辱，绿茶爸爸和她魔法对轰",
+      "source_refs": [
+        "local-research-snapshot-not-distributed"
+      ],
+      "observed_date": "2026-10-06",
+      "read_scope": "visible_title_lead_or_first_scene_only",
+      "full_text_read": false,
+      "ending_observed": false,
+      "title_complete": true,
+      "app_category": "家庭",
+      "domains": [
+        "family"
+      ],
+      "opening_observation": "剥虾被嫂子解读为越界，父亲拥有与对手匹配的应对能力",
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "package"
+      ],
+      "likes_snapshot": {
+        "value": 2280,
+        "rounded": false,
+        "display": "2280",
+        "exposure": null,
+        "publication_date": null
+      },
+      "limit": "仅截图可见片段，未核实完整故事、作者归属和热度成因。",
+      "mechanism_ids": [
+        "authority_and_voice"
+      ],
+      "emotional_paths": [
+        "conflict_or_growth"
+      ]
+    },
+    "B01-33": {
+      "source_id": "user-screenshot:B01-33",
+      "title": "重生后，我眼睁睁看着未婚妻为救白月光冲进火海",
+      "source_refs": [
+        "local-research-snapshot-not-distributed"
+      ],
+      "observed_date": "2026-10-06",
+      "read_scope": "visible_title_lead_or_first_scene_only",
+      "full_text_read": false,
+      "ending_observed": false,
+      "title_complete": true,
+      "app_category": "重生",
+      "domains": [
+        "relationship",
+        "speculative"
+      ],
+      "opening_observation": "前世救人后遭报复，标题预告今生改变救援选择",
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "package"
+      ],
+      "likes_snapshot": {
+        "value": 965,
+        "rounded": false,
+        "display": "965",
+        "exposure": null,
+        "publication_date": null
+      },
+      "limit": "仅截图可见片段，未核实完整故事、作者归属和热度成因。",
+      "mechanism_ids": [
+        "relationship_position"
+      ],
+      "emotional_paths": [
+        "conflict_or_growth"
+      ]
+    },
+    "B01-34": {
+      "source_id": "user-screenshot:B01-34",
+      "title": "还阳七天，假千金一心雌竞，我只一味给自己烧纸",
+      "source_refs": [
+        "local-research-snapshot-not-distributed"
+      ],
+      "observed_date": "2026-10-06",
+      "read_scope": "visible_title_lead_or_first_scene_only",
+      "full_text_read": false,
+      "ending_observed": false,
+      "title_complete": true,
+      "app_category": "女频脑洞",
+      "domains": [
+        "family",
+        "speculative"
+      ],
+      "opening_observation": "无人祭奠的富家女死后贫困，返阳目标变成给自己获取冥币",
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "package"
+      ],
+      "likes_snapshot": {
+        "value": 5011,
+        "rounded": false,
+        "display": "5011",
+        "exposure": null,
+        "publication_date": null
+      },
+      "limit": "仅截图可见片段，未核实完整故事、作者归属和热度成因。",
+      "mechanism_ids": [
+        "own_priority"
+      ],
+      "emotional_paths": [
+        "conflict_or_growth"
+      ]
+    },
+    "B01-35": {
+      "source_id": "user-screenshot:B01-35",
+      "title": "将虐文玩成爽文，京圈大小姐懵了！",
+      "source_refs": [
+        "local-research-snapshot-not-distributed"
+      ],
+      "observed_date": "2026-10-06",
+      "read_scope": "visible_title_lead_or_first_scene_only",
+      "full_text_read": false,
+      "ending_observed": false,
+      "title_complete": true,
+      "app_category": "穿越",
+      "domains": [
+        "relationship"
+      ],
+      "opening_observation": "生日宴男闺蜜公开占有未婚妻并向主角立规矩",
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "package"
+      ],
+      "likes_snapshot": {
+        "value": 2793,
+        "rounded": false,
+        "display": "2793",
+        "exposure": null,
+        "publication_date": null
+      },
+      "limit": "仅截图可见片段，未核实完整故事、作者归属和热度成因。",
+      "mechanism_ids": [
+        "relationship_position"
+      ],
+      "emotional_paths": [
+        "conflict_or_growth"
+      ]
+    },
+    "B01-36": {
+      "source_id": "user-screenshot:B01-36",
+      "title": "她第十次为实习生失约后，我留下婚戒离开",
+      "source_refs": [
+        "local-research-snapshot-not-distributed",
+        "local-research-snapshot-not-distributed",
+        "local-research-snapshot-not-distributed"
+      ],
+      "observed_date": "2026-10-06",
+      "read_scope": "visible_title_lead_or_first_scene_only",
+      "full_text_read": false,
+      "ending_observed": false,
+      "title_complete": true,
+      "app_category": "虐文",
+      "domains": [
+        "relationship"
+      ],
+      "opening_observation": "婚礼失约与等待以次数、消息和经理续水具象化，导语预告留下婚戒离开；标题由第二批图4补全。",
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "package"
+      ],
+      "likes_snapshot": {
+        "value": null,
+        "rounded": false,
+        "display": null,
+        "exposure": null,
+        "publication_date": null
+      },
+      "limit": "仅截图可见片段，未核实完整故事、作者归属和热度成因。",
+      "mechanism_ids": [
+        "relationship_position",
+        "announced_outcome"
+      ],
+      "emotional_paths": [
+        "conflict_or_growth"
+      ]
+    },
+    "B01-37": {
+      "source_id": "user-screenshot:B01-37",
+      "title": "校花怀孕找我接盘？我笑纳了",
+      "source_refs": [
+        "local-research-snapshot-not-distributed"
+      ],
+      "observed_date": "2026-10-06",
+      "read_scope": "visible_title_lead_or_first_scene_only",
+      "full_text_read": false,
+      "ending_observed": false,
+      "title_complete": true,
+      "app_category": "校园",
+      "domains": [
+        "campus"
+      ],
+      "opening_observation": "别人期待主角排斥的邀请，却让主角欣喜，原因留待正文",
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "package"
+      ],
+      "likes_snapshot": {
+        "value": 547,
+        "rounded": false,
+        "display": "547",
+        "exposure": null,
+        "publication_date": null
+      },
+      "limit": "仅截图可见片段，未核实完整故事、作者归属和热度成因。",
+      "mechanism_ids": [
+        "unexpected_interpretation"
+      ],
+      "emotional_paths": [
+        "comedy"
+      ]
+    },
+    "B02-01": {
+      "source_id": "user-screenshot:B02-01",
+      "title": "什么豪门真少爷，我懒得跟你们玩这种游戏",
+      "source_refs": [
+        "local-research-snapshot-not-distributed"
+      ],
+      "observed_date": "2026-10-06",
+      "read_scope": "visible_title_lead_or_first_scene_only",
+      "full_text_read": false,
+      "ending_observed": false,
+      "title_complete": true,
+      "app_category": "家庭",
+      "domains": [
+        "family"
+      ],
+      "opening_observation": "直播卖橘子的主角面对认亲与保留假少爷的条件，以不耐烦态度回应。",
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "package"
+      ],
+      "likes_snapshot": {
+        "value": 283,
+        "rounded": false,
+        "display": null,
+        "exposure": null,
+        "publication_date": null
+      },
+      "limit": "标题承诺退出，但截图未完整显示实际退出行动。",
+      "mechanism_ids": [
+        "own_priority"
+      ],
+      "emotional_paths": [
+        "comedy"
+      ]
+    },
+    "B02-02": {
+      "source_id": "user-screenshot:B02-02",
+      "title": "我以为自己是赘婿，没想到还有高手？！",
+      "source_refs": [
+        "local-research-snapshot-not-distributed"
+      ],
+      "observed_date": "2026-10-06",
+      "read_scope": "visible_title_lead_or_first_scene_only",
+      "full_text_read": false,
+      "ending_observed": false,
+      "title_complete": true,
+      "app_category": "虐文",
+      "domains": [
+        "relationship"
+      ],
+      "opening_observation": "银行指出结婚证异常，主角查到自己未婚而妻子已婚；他将被骗婚处境解释为获得好处。",
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "package"
+      ],
+      "likes_snapshot": {
+        "value": 366,
+        "rounded": false,
+        "display": null,
+        "exposure": null,
+        "publication_date": null
+      },
+      "limit": "只有导语；无法判断正文是否兑现身份谜题与喜剧效果。",
+      "mechanism_ids": [
+        "unexpected_interpretation"
+      ],
+      "emotional_paths": [
+        "comedy"
+      ]
+    },
+    "B02-04": {
+      "source_id": "user-screenshot:B02-04",
+      "title": "结婚五年，妻子在外有个家",
+      "source_refs": [
+        "local-research-snapshot-not-distributed",
+        "local-research-snapshot-not-distributed"
+      ],
+      "observed_date": "2026-10-06",
+      "read_scope": "visible_title_lead_or_first_scene_only",
+      "full_text_read": false,
+      "ending_observed": false,
+      "title_complete": true,
+      "app_category": "虐文",
+      "domains": [
+        "relationship"
+      ],
+      "opening_observation": "曾原谅妻子的出轨，四年后发现她另有丈夫式伴侣和称她妈妈的孩子；主角为给妻子惊喜出差，转而发现背叛。",
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "package"
+      ],
+      "likes_snapshot": {
+        "value": 95,
+        "rounded": false,
+        "display": null,
+        "exposure": null,
+        "publication_date": null
+      },
+      "limit": "只有导语与第一章起始；没有结尾。",
+      "mechanism_ids": [
+        "relationship_position",
+        "announced_outcome"
+      ],
+      "emotional_paths": [
+        "conflict_or_growth"
+      ]
+    },
+    "B02-05": {
+      "source_id": "user-screenshot:B02-05",
+      "title": "隐婚五年，公司上市后，妻子把我的位置给了她助理",
+      "source_refs": [
+        "local-research-snapshot-not-distributed",
+        "local-research-snapshot-not-distributed"
+      ],
+      "observed_date": "2026-10-06",
+      "read_scope": "visible_title_lead_or_first_scene_only",
+      "full_text_read": false,
+      "ending_observed": false,
+      "title_complete": true,
+      "app_category": "虐文",
+      "domains": [
+        "relationship"
+      ],
+      "opening_observation": "丈夫陪妻子创业，上市时其团队被交给男助理；纪念日等候与男助理升职宴形成对照。",
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "package"
+      ],
+      "likes_snapshot": {
+        "value": 63,
+        "rounded": false,
+        "display": null,
+        "exposure": null,
+        "publication_date": null
+      },
+      "limit": "无法判断主体故事的具体业务逻辑及退出后的结果。",
+      "mechanism_ids": [
+        "relationship_position",
+        "announced_outcome"
+      ],
+      "emotional_paths": [
+        "conflict_or_growth"
+      ]
+    },
+    "B02-06": {
+      "source_id": "user-screenshot:B02-06",
+      "title": "我说过只给她三次机会，她却笃定我不会走",
+      "source_refs": [
+        "local-research-snapshot-not-distributed",
+        "local-research-snapshot-not-distributed"
+      ],
+      "observed_date": "2026-10-06",
+      "read_scope": "visible_title_lead_or_first_scene_only",
+      "full_text_read": false,
+      "ending_observed": false,
+      "title_complete": true,
+      "app_category": "虐文",
+      "domains": [
+        "relationship"
+      ],
+      "opening_observation": "联姻前约定三次机会，竹马回国后经历夜不归宿、家宴羞辱、干预筹备三年的项目，主角决定离开。",
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "package"
+      ],
+      "likes_snapshot": {
+        "value": 212,
+        "rounded": false,
+        "display": null,
+        "exposure": null,
+        "publication_date": null
+      },
+      "limit": "现有截图主要是导语，并没有逐场展示三次事件及最终处理。",
+      "mechanism_ids": [
+        "announced_outcome"
+      ],
+      "emotional_paths": [
+        "conflict_or_growth"
+      ]
+    },
+    "B02-07": {
+      "source_id": "user-screenshot:B02-07",
+      "title": "替身两年，我先腻了",
+      "source_refs": [
+        "local-research-snapshot-not-distributed",
+        "local-research-snapshot-not-distributed"
+      ],
+      "observed_date": "2026-10-06",
+      "read_scope": "visible_title_lead_or_first_scene_only",
+      "full_text_read": false,
+      "ending_observed": false,
+      "title_complete": true,
+      "app_category": "追夫火葬场",
+      "domains": [
+        "relationship"
+      ],
+      "opening_observation": "主角要求妻子按固定衣着香味行事；妻子为另一男性弃置他，后来按要求讨好，他仍厌烦且不想再演深情丈夫。",
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "package"
+      ],
+      "likes_snapshot": {
+        "value": 33,
+        "rounded": false,
+        "display": null,
+        "exposure": null,
+        "publication_date": null
+      },
+      "limit": "不能仅凭导语认定男主全然无辜或判定两人最终关系。",
+      "mechanism_ids": [
+        "announced_outcome"
+      ],
+      "emotional_paths": [
+        "conflict_or_growth"
+      ]
+    },
+    "B02-08": {
+      "source_id": "user-screenshot:B02-08",
+      "title": "矫正所学了三年规矩后，他们反而后悔了",
+      "source_refs": [
+        "local-research-snapshot-not-distributed",
+        "local-research-snapshot-not-distributed"
+      ],
+      "observed_date": "2026-10-06",
+      "read_scope": "visible_title_lead_or_first_scene_only",
+      "full_text_read": false,
+      "ending_observed": false,
+      "title_complete": true,
+      "app_category": "虐文",
+      "domains": [
+        "family"
+      ],
+      "opening_observation": "主角被指害公司损失一亿，家人送其进矫正所；三年后衣着规整、安静回来，家人后悔在导语中预告。",
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "package"
+      ],
+      "likes_snapshot": {
+        "value": 506,
+        "rounded": false,
+        "display": null,
+        "exposure": null,
+        "publication_date": null
+      },
+      "limit": "字数未知，29分钟为平台预计阅读时间；创伤描写是否可信、是否兑现后悔尚未核实。",
+      "mechanism_ids": [
+        "announced_outcome"
+      ],
+      "emotional_paths": [
+        "conflict_or_growth"
+      ]
+    }
+  }
+}

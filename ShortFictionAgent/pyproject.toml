@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "short_fiction_agent"
+version = "0.1.0"
+license = {file = "LICENSE"}
+description = "面向中文中短篇小说的策划、写作、审读与投稿导出 Agent，主要支持约3万字故事"
+requires-python = ">=3.10"
+dependencies = [
+    "PyYAML>=6.0",
+    "requests[socks]>=2.28.0",
+    "Pillow>=10.0",
+]
+
+[project.scripts]
+short-fiction-agent = "short_fiction_agent.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["short_fiction_agent*"]
+
+[tool.setuptools.package-data]
+"short_fiction_agent" = ["prompts/*.md", "templates/*.yaml", "templates/regions/*.yaml", "evaluation/fixtures/*.yaml", "genres/*/prompts/*.md", "genres/archetype_prompts/*/*.md"]
+"short_fiction_agent.story_studio" = ["data/*.json"]

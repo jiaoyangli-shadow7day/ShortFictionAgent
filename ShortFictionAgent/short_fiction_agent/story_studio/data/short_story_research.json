@@ -1,0 +1,5588 @@
+{
+  "version": "topic-gap-enrichment-2026-10-06-v2",
+  "built_at": "2026-10-04T10:31:48.580028+08:00",
+  "coverage": {
+    "reader_tags": 115,
+    "family_count": 11,
+    "gap_tags": [
+      "婚恋",
+      "青春虐恋",
+      "纯爱",
+      "虐心婚恋",
+      "其他",
+      "无限流",
+      "男频衍生",
+      "万人迷",
+      "游戏动漫",
+      "姐弟恋",
+      "女频衍生",
+      "都市日常",
+      "团宠",
+      "都市异能",
+      "同人",
+      "现实生活",
+      "影视",
+      "民国",
+      "星际",
+      "狼人",
+      "校霸",
+      "反转",
+      "玄幻",
+      "升级流",
+      "特种兵",
+      "追夫",
+      "神医",
+      "明星",
+      "虐恋情深",
+      "打脸",
+      "历史武侠",
+      "外卖",
+      "古言虐恋",
+      "黑道",
+      "古言甜宠",
+      "奶爸",
+      "求生",
+      "幻想言情",
+      "鉴宝",
+      "历史",
+      "都市脑洞",
+      "仕途",
+      "武侠",
+      "热血",
+      "现言复仇",
+      "权谋",
+      "基建",
+      "十日衍生"
+    ],
+    "heat_scope": "截图官方读过/赞与第三方精确同书点赞分别记录；第三方 readCnt、官网状态 readCount 均不作官方读者数",
+    "limits": "有意分层抽样，非平台全量热门目录；公开试读不代表读完全文；无平台排序因果证明",
+    "topic_evidence_records": 66,
+    "continuous_readings": 115,
+    "gap_definition": "本次由连续正文库刷新；零命中指尚无实读证据，不意味着没有市场需求。"
+  },
+  "tags": {
+    "爽文": {
+      "families": [
+        "revenge_status"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "打脸逆袭": {
+      "families": [
+        "revenge_status"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "现代": {
+      "families": [],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "context_axis",
+      "limitation": "标签只是环境/情绪/人物属性，不能单独决定剧情；结合读者承诺路由"
+    },
+    "男生生活": {
+      "families": [
+        "daily_competence"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "大女主": {
+      "families": [
+        "family_growth"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "婚姻家庭": {
+      "families": [
+        "family_growth"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "女生生活": {
+      "families": [
+        "family_growth"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "重生": {
+      "families": [
+        "speculative_choice"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "悬疑惊悚": {
+      "families": [
+        "mystery_rules"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "虐文": {
+      "families": [
+        "grief_regret"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "古代": {
+      "families": [],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "context_axis",
+      "limitation": "标签只是环境/情绪/人物属性，不能单独决定剧情；结合读者承诺路由"
+    },
+    "现实情感": {
+      "families": [
+        "family_growth"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "甜宠": {
+      "families": [
+        "romance"
+      ],
+      "scope": "reader_discovery",
+      "priority": 30,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "现代言情": {
+      "families": [
+        "romance"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "玄幻仙侠": {
+      "families": [
+        "speculative_choice"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "追妻火葬场": {
+      "families": [
+        "grief_regret"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "穿越": {
+      "families": [
+        "speculative_choice"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "先虐后甜": {
+      "families": [
+        "grief_regret"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "励志": {
+      "families": [
+        "daily_competence"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "婚恋": {
+      "families": [],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "context_axis",
+      "limitation": "标签只是环境/情绪/人物属性，不能单独决定剧情；结合读者承诺路由"
+    },
+    "现言甜宠": {
+      "families": [
+        "romance"
+      ],
+      "scope": "reader_discovery",
+      "priority": 30,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "系统": {
+      "families": [
+        "speculative_choice"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "校园": {
+      "families": [
+        "romance"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "男生情感": {
+      "families": [
+        "male_relationship"
+      ],
+      "scope": "reader_discovery",
+      "priority": 10,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "豪门世家": {
+      "families": [],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "context_axis",
+      "limitation": "标签只是环境/情绪/人物属性，不能单独决定剧情；结合读者承诺路由"
+    },
+    "架空": {
+      "families": [],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "context_axis",
+      "limitation": "标签只是环境/情绪/人物属性，不能单独决定剧情；结合读者承诺路由"
+    },
+    "逆袭": {
+      "families": [
+        "revenge_status"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "古代言情": {
+      "families": [
+        "ancient_power"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "青春虐恋": {
+      "families": [
+        "grief_regret"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "脑洞": {
+      "families": [
+        "speculative_choice"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "惊悚": {
+      "families": [
+        "mystery_rules"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "暗恋": {
+      "families": [
+        "romance"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "推理": {
+      "families": [
+        "mystery_rules"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "independent_evidence_gap",
+      "limitation": "尚无足够独立短篇正文样本，需专项补证；不自动迁移具体职业或衍生世界设定"
+    },
+    "金手指": {
+      "families": [
+        "speculative_choice"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "女配": {
+      "families": [
+        "revenge_status"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "复仇": {
+      "families": [
+        "revenge_status"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "沙雕搞笑": {
+      "families": [
+        "comedy"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "豪门总裁": {
+      "families": [],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "context_axis",
+      "limitation": "标签只是环境/情绪/人物属性，不能单独决定剧情；结合读者承诺路由"
+    },
+    "悬疑灵异": {
+      "families": [
+        "mystery_rules"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "纯爱": {
+      "families": [
+        "romance"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "婆媳": {
+      "families": [
+        "family_growth"
+      ],
+      "scope": "reader_discovery",
+      "priority": 10,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "宫斗宅斗": {
+      "families": [
+        "ancient_power"
+      ],
+      "scope": "reader_discovery",
+      "priority": 10,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "民间奇闻": {
+      "families": [
+        "mystery_rules"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "虐心婚恋": {
+      "families": [
+        "grief_regret"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "其他": {
+      "families": [],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "context_axis",
+      "limitation": "标签只是环境/情绪/人物属性，不能单独决定剧情；结合读者承诺路由"
+    },
+    "青梅竹马": {
+      "families": [
+        "romance"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "先婚后爱": {
+      "families": [
+        "romance"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "替身": {
+      "families": [
+        "grief_regret"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "年代": {
+      "families": [],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "context_axis",
+      "limitation": "标签只是环境/情绪/人物属性，不能单独决定剧情；结合读者承诺路由"
+    },
+    "破镜重圆": {
+      "families": [
+        "romance"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "真假千金": {
+      "families": [
+        "family_growth"
+      ],
+      "scope": "reader_discovery",
+      "priority": 10,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "规则怪谈": {
+      "families": [
+        "mystery_rules"
+      ],
+      "scope": "reader_discovery",
+      "priority": 10,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "追妻": {
+      "families": [
+        "grief_regret"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "直播": {
+      "families": [],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "context_axis",
+      "limitation": "标签只是环境/情绪/人物属性，不能单独决定剧情；结合读者承诺路由"
+    },
+    "古风世情": {
+      "families": [
+        "ancient_power"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "病娇": {
+      "families": [],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "context_axis",
+      "limitation": "标签只是环境/情绪/人物属性，不能单独决定剧情；结合读者承诺路由"
+    },
+    "萌宝": {
+      "families": [
+        "daily_competence"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "医生": {
+      "families": [],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "context_axis",
+      "limitation": "标签只是环境/情绪/人物属性，不能单独决定剧情；结合读者承诺路由"
+    },
+    "科幻": {
+      "families": [
+        "speculative_choice"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "independent_evidence_gap",
+      "limitation": "尚无足够独立短篇正文样本，需专项补证；不自动迁移具体职业或衍生世界设定"
+    },
+    "追夫火葬场": {
+      "families": [
+        "grief_regret"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "无限流": {
+      "families": [
+        "mystery_rules"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "independent_evidence_gap",
+      "limitation": "尚无足够独立短篇正文样本，需专项补证；不自动迁移具体职业或衍生世界设定"
+    },
+    "历史古代": {
+      "families": [],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "context_axis",
+      "limitation": "标签只是环境/情绪/人物属性，不能单独决定剧情；结合读者承诺路由"
+    },
+    "男频衍生": {
+      "families": [],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "independent_evidence_gap",
+      "limitation": "尚无足够独立短篇正文样本，需专项补证；不自动迁移具体职业或衍生世界设定"
+    },
+    "女性成长": {
+      "families": [
+        "family_growth"
+      ],
+      "scope": "reader_discovery",
+      "priority": 30,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "犯罪": {
+      "families": [
+        "mystery_rules"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "娱乐圈": {
+      "families": [],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "context_axis",
+      "limitation": "标签只是环境/情绪/人物属性，不能单独决定剧情；结合读者承诺路由"
+    },
+    "科幻末世": {
+      "families": [
+        "survival"
+      ],
+      "scope": "reader_discovery",
+      "priority": 10,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "末日求生": {
+      "families": [
+        "survival"
+      ],
+      "scope": "reader_discovery",
+      "priority": 10,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "万人迷": {
+      "families": [],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "context_axis",
+      "limitation": "标签只是环境/情绪/人物属性，不能单独决定剧情；结合读者承诺路由"
+    },
+    "游戏动漫": {
+      "families": [],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "independent_evidence_gap",
+      "limitation": "尚无足够独立短篇正文样本，需专项补证；不自动迁移具体职业或衍生世界设定"
+    },
+    "悬疑": {
+      "families": [
+        "mystery_rules"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "姐弟恋": {
+      "families": [
+        "romance"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "搞笑轻松": {
+      "families": [
+        "comedy"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "赘婿": {
+      "families": [
+        "revenge_status"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "女频衍生": {
+      "families": [],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "independent_evidence_gap",
+      "limitation": "尚无足够独立短篇正文样本，需专项补证；不自动迁移具体职业或衍生世界设定"
+    },
+    "都市日常": {
+      "families": [
+        "daily_competence"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "养崽文": {
+      "families": [
+        "daily_competence"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "团宠": {
+      "families": [],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "context_axis",
+      "limitation": "标签只是环境/情绪/人物属性，不能单独决定剧情；结合读者承诺路由"
+    },
+    "都市异能": {
+      "families": [
+        "speculative_choice"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "同人": {
+      "families": [],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "independent_evidence_gap",
+      "limitation": "尚无足够独立短篇正文样本，需专项补证；不自动迁移具体职业或衍生世界设定"
+    },
+    "现实生活": {
+      "families": [
+        "family_growth"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "玄学": {
+      "families": [
+        "mystery_rules"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "independent_evidence_gap",
+      "limitation": "尚无足够独立短篇正文样本，需专项补证；不自动迁移具体职业或衍生世界设定"
+    },
+    "影视": {
+      "families": [],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "independent_evidence_gap",
+      "limitation": "尚无足够独立短篇正文样本，需专项补证；不自动迁移具体职业或衍生世界设定"
+    },
+    "民国": {
+      "families": [],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "context_axis",
+      "limitation": "标签只是环境/情绪/人物属性，不能单独决定剧情；结合读者承诺路由"
+    },
+    "奇妙物语": {
+      "families": [
+        "speculative_choice"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "星际": {
+      "families": [
+        "speculative_choice"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "independent_evidence_gap",
+      "limitation": "尚无足够独立短篇正文样本，需专项补证；不自动迁移具体职业或衍生世界设定"
+    },
+    "狼人": {
+      "families": [
+        "speculative_choice"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "independent_evidence_gap",
+      "limitation": "尚无足够独立短篇正文样本，需专项补证；不自动迁移具体职业或衍生世界设定"
+    },
+    "校霸": {
+      "families": [],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "context_axis",
+      "limitation": "标签只是环境/情绪/人物属性，不能单独决定剧情；结合读者承诺路由"
+    },
+    "反转": {
+      "families": [],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "context_axis",
+      "limitation": "标签只是环境/情绪/人物属性，不能单独决定剧情；结合读者承诺路由"
+    },
+    "玄幻": {
+      "families": [
+        "speculative_choice"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "升级流": {
+      "families": [
+        "speculative_choice"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "特种兵": {
+      "families": [],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "independent_evidence_gap",
+      "limitation": "尚无足够独立短篇正文样本，需专项补证；不自动迁移具体职业或衍生世界设定"
+    },
+    "追夫": {
+      "families": [
+        "grief_regret"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "神医": {
+      "families": [],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "independent_evidence_gap",
+      "limitation": "尚无足够独立短篇正文样本，需专项补证；不自动迁移具体职业或衍生世界设定"
+    },
+    "明星": {
+      "families": [],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "context_axis",
+      "limitation": "标签只是环境/情绪/人物属性，不能单独决定剧情；结合读者承诺路由"
+    },
+    "虐恋情深": {
+      "families": [
+        "grief_regret"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "打脸": {
+      "families": [
+        "revenge_status"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "历史武侠": {
+      "families": [],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "independent_evidence_gap",
+      "limitation": "尚无足够独立短篇正文样本，需专项补证；不自动迁移具体职业或衍生世界设定"
+    },
+    "外卖": {
+      "families": [
+        "daily_competence"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "古言虐恋": {
+      "families": [
+        "grief_regret"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "黑道": {
+      "families": [],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "independent_evidence_gap",
+      "limitation": "尚无足够独立短篇正文样本，需专项补证；不自动迁移具体职业或衍生世界设定"
+    },
+    "古言甜宠": {
+      "families": [
+        "romance"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "奶爸": {
+      "families": [
+        "daily_competence"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "求生": {
+      "families": [
+        "survival"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "幻想言情": {
+      "families": [
+        "speculative_choice"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "鉴宝": {
+      "families": [],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "independent_evidence_gap",
+      "limitation": "尚无足够独立短篇正文样本，需专项补证；不自动迁移具体职业或衍生世界设定"
+    },
+    "历史": {
+      "families": [],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "context_axis",
+      "limitation": "标签只是环境/情绪/人物属性，不能单独决定剧情；结合读者承诺路由"
+    },
+    "都市脑洞": {
+      "families": [
+        "speculative_choice"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "仕途": {
+      "families": [],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "independent_evidence_gap",
+      "limitation": "尚无足够独立短篇正文样本，需专项补证；不自动迁移具体职业或衍生世界设定"
+    },
+    "武侠": {
+      "families": [],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "independent_evidence_gap",
+      "limitation": "尚无足够独立短篇正文样本，需专项补证；不自动迁移具体职业或衍生世界设定"
+    },
+    "热血": {
+      "families": [],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "context_axis",
+      "limitation": "标签只是环境/情绪/人物属性，不能单独决定剧情；结合读者承诺路由"
+    },
+    "现言复仇": {
+      "families": [
+        "revenge_status"
+      ],
+      "scope": "reader_discovery",
+      "priority": 10,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "权谋": {
+      "families": [
+        "ancient_power"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "family_routed",
+      "limitation": "共享抽象机制；不代表此细标签已有独立热门样本证明"
+    },
+    "基建": {
+      "families": [
+        "survival"
+      ],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "independent_evidence_gap",
+      "limitation": "尚无足够独立短篇正文样本，需专项补证；不自动迁移具体职业或衍生世界设定"
+    },
+    "十日衍生": {
+      "families": [],
+      "scope": "reader_discovery",
+      "priority": 50,
+      "status": "independent_evidence_gap",
+      "limitation": "尚无足够独立短篇正文样本，需专项补证；不自动迁移具体职业或衍生世界设定"
+    }
+  },
+  "families": {
+    "romance": {
+      "label": "甜宠与双向偏爱",
+      "stages": {
+        "ideation": [
+          "围绕一个让双方持续接近的具体问题选题，列出两人各自欲望与主动行为。身份错位、假关系、熟人越界都可用；不能把所有甜宠写成背叛后换人。"
+        ],
+        "opening": [
+          "可从称呼越界、假关系遇见熟人、公开偏爱或一次意外相助切入；第一场给出亲近的理由及双方反应。短意象标题也成立，导语需要补清具体关系问题。"
+        ],
+        "plan": [
+          "推进要让一次照顾改变认识，一次试探获得回应，一次公开选择付出代价；避免靠同一个误会反复分开。确认关系后仍可写共同目标和日常偏爱。"
+        ],
+        "write": [
+          "对白带试探与回应；用距离、目光、手部动作和具体照顾呈现亲近。亲吻拥抱使关系发生变化，双方意愿可辨，不能用强迫或身份压迫替代吸引。"
+        ],
+        "review": [
+          "核对甜的承诺是否真的兑现、双方是否都作出选择、人物职业生活是否参与故事；检查暧昧与确认关系之后是否重复同一场互动。"
+        ],
+        "package": [
+          "标题备选分别尝试关系事件、反常反应、短意象；信息来自正文，标题导语与首次关系事件一致。不要为点击承诺正文没有的出轨或强制关系。"
+        ]
+      },
+      "evidence_ids": [
+        "fanqie:7484631111927071294",
+        "fanqie:7633659708116569150",
+        "fanqie:7606728686829571134",
+        "fanqie:7494244792503648830",
+        "fanqie:7602143674314542104",
+        "fanqie:7590967658690923544"
+      ],
+      "coverage_limit": "来源阅读深度见证据卡；迁移的是结构假设。此组不等于所有细标签都充分调研。"
+    },
+    "male_relationship": {
+      "label": "男频关系选择与价值回收",
+      "stages": {
+        "ideation": [
+          "明确男性读者合同后再使用本组：持续付出与尊严、被忽视与被主动选择、退出与新关系是不同承诺；先辨甜宠、遗憾还是反击。"
+        ],
+        "opening": [
+          "从协议到期、被放鸽子、服务多年宣布退出等关系节点入场；量化付出或时间只在确有作用时使用。立刻让主角作出改变关系的行动。"
+        ],
+        "plan": [
+          "撤回付出必须改变对方生活与主角机会；新人物有自己的意图和成本。不能把道歉、追赶、拒绝反复复制当成多轮推进。"
+        ],
+        "write": [
+          "男主的能力、边界和照顾落到具体行为，女主回应与偏爱也要可见；不依赖所有异性突然倒贴或金钱身份揭露。"
+        ],
+        "review": [
+          "区别责任回收、爱情双向兑现与虐情清算；样本热度不能证明某种性别攻击或强迫行为必需。核对新关系不是替代结尾兑现。"
+        ],
+        "package": [
+          "可用时间/身份+退出决定、日常小事+关系反应、低期待+被选择；保留短标题备选，不只生成“我不舔了”同构标题。"
+        ]
+      },
+      "evidence_ids": [
+        "fanqie:7655368153093901336",
+        "fanqie:7642502815025220633",
+        "fanqie:7650168982875409433"
+      ],
+      "coverage_limit": "来源阅读深度见证据卡；迁移的是结构假设。此组不等于所有细标签都充分调研。"
+    },
+    "family_growth": {
+      "label": "家庭世情与女性行动",
+      "stages": {
+        "ideation": [
+          "从住房、钱、署名、照护、升学等可识别利益选题；写清谁承担成本、谁得到好处，以及主角可执行的退出或争取路径。"
+        ],
+        "opening": [
+          "让差别待遇在一个饭桌、安排表、转账或名额事件中被看见；主角的第一反应是行动，不能只交代多年受苦。"
+        ],
+        "plan": [
+          "从发现分配规则到取得资源、改变安排，再到对方承担实际后果。女性互助、代际觉醒和温和解决也可成立，不强制全家反派。"
+        ],
+        "write": [
+          "动作戏应呈现主角改变局面：搬走物件、当面核对、取回资料、安排照护等；台词与举动结合，避免靠大段宣言宣布胜利。"
+        ],
+        "review": [
+          "检查反击有现实执行路径、家庭关系有具体差异、结果回到最初损失；证据不是万能工具，资源和支持必须有来源。"
+        ],
+        "package": [
+          "标题可突出具体利益争夺+主角选择；导语说清分配的不公平和当前决定。标签“女生生活”不等于只能写婚恋。"
+        ]
+      },
+      "evidence_ids": [
+        "fanqie:7474053813238759961",
+        "fanqie:7653726033375398936",
+        "fanqie:7447455579645166105",
+        "fanqie:7593538121354972222",
+        "fanqie:7624892191982242841",
+        "fanqie:7452552366517142078"
+      ],
+      "coverage_limit": "来源阅读深度见证据卡；迁移的是结构假设。此组不等于所有细标签都充分调研。"
+    },
+    "revenge_status": {
+      "label": "打脸逆袭与身份反转",
+      "stages": {
+        "ideation": [
+          "选一个可观察的权力或评价规则，设计主角可改变它的手段。身份隐瞒、拒绝服务、交换资源是不同机制，不只换反派名字。"
+        ],
+        "opening": [
+          "给出一项已经发生的不公与反常回应；标题展示矛盾或决定，开篇展示规则和代价。避免仅用“全场震惊”代替事件。"
+        ],
+        "plan": [
+          "每次反击改变资源、证据、联盟或选择；对手根据失利调整手段。反转应重解释已知事实，不能突然补出万能身份和证人。"
+        ],
+        "write": [
+          "爽感由动作、场面和实际结果承载；给主角操作过程与对手可见反应，但不重复围观者惊呼和跪求。"
+        ],
+        "review": [
+          "核对标题承诺的逆转在哪里发生、反派失去什么、主角获得什么；权力和知情来源成立，胜利后尽快收束。"
+        ],
+        "package": [
+          "可用关系/规则矛盾+反常决策、具体金额/时间+局面逆转；不要用大量标签和万能数字取代人物困境。"
+        ]
+      },
+      "evidence_ids": [
+        "fanqie:7645234294624881726",
+        "fanqie:7551072509202795582",
+        "fanqie:7544516788965346366",
+        "fanqie:7603586933201046553",
+        "fanqie:7612214828379147288"
+      ],
+      "coverage_limit": "来源阅读深度见证据卡；迁移的是结构假设。此组不等于所有细标签都充分调研。"
+    },
+    "grief_regret": {
+      "label": "虐情、追悔与失去",
+      "stages": {
+        "ideation": [
+          "先确定读者要经历的是挽回、彻底离开还是不可逆遗憾；相同追悔标签可能有不同结局合同。"
+        ],
+        "opening": [
+          "以被迟认的价值、已经错过的事件或当前抉择建立问题；回忆可用，但要让读者知道此刻的损失。"
+        ],
+        "plan": [
+          "新信息改变对过去付出的理解；失去逐项具体化，别反复用伤病/羞辱累加苦难。追悔不自动获得原谅。"
+        ],
+        "write": [
+          "用未被接住的行动、缺席的细节和决定后果呈现痛感；保留人物复杂性，不用旁白重复解释“他终于后悔”。"
+        ],
+        "review": [
+          "结尾兑现指定情绪，检验悔悟是否付出代价；不能擅自把遗憾变大团圆或把先虐后甜变持续虐待。"
+        ],
+        "package": [
+          "标题可给出失去与迟到、关系节点与异常反应；导语保留读者核心问题，避免泄露所有死亡和反转结果。"
+        ]
+      },
+      "evidence_ids": [
+        "fanqie:7665385794974075966",
+        "fanqie:7492025963224498750",
+        "fanqie:7434411367341244952",
+        "fanqie:7657957500146175000",
+        "fanqie:7451484620782043710"
+      ],
+      "coverage_limit": "来源阅读深度见证据卡；迁移的是结构假设。此组不等于所有细标签都充分调研。"
+    },
+    "ancient_power": {
+      "label": "古言、宫斗与古风世情",
+      "stages": {
+        "ideation": [
+          "把身份、婚约、继承、家产或制度转换为具体选择与代价；宫斗、古风家庭、甜宠分别确定情绪承诺。"
+        ],
+        "opening": [
+          "以赐婚、和离、赏罚、资源分配等已发生事件入场；短人物/称号标题可由导语补清困局，不强制现代口号标题。"
+        ],
+        "plan": [
+          "权力行动引发利益与联盟变化，制度限制也会约束主角；每次翻盘改变局面，不能不断入宫争吵而不改资源。"
+        ],
+        "write": [
+          "让礼仪、物件、证据与身份实际参与行动；控制背景名词量，少写解释制度的大段旁白。亲密关系有自愿回应。"
+        ],
+        "review": [
+          "检查称谓、身份、知情、移动和赏罚权限；惩罚与权力后果可推导，不靠临时圣旨解决核心矛盾。"
+        ],
+        "package": [
+          "标题可以短称号、婚约事件+反常决定、身份矛盾；不要把宫斗样本的胁迫当成甜宠必需。"
+        ]
+      },
+      "evidence_ids": [
+        "fanqie:7447774462579065369",
+        "fanqie:7435668527794635326",
+        "fanqie:7654102855837568062",
+        "fanqie:7434411367341244952",
+        "speculative:7659820525065210905"
+      ],
+      "coverage_limit": "来源阅读深度见证据卡；迁移的是结构假设。此组不等于所有细标签都充分调研。"
+    },
+    "speculative_choice": {
+      "label": "脑洞、系统与幻想选择",
+      "stages": {
+        "ideation": [
+          "一个易理解的异常规则加一个具体欲望；穿越、重生、系统是信息与选择机制，不能只出现在第一段。"
+        ],
+        "opening": [
+          "尽快显示异常如何改变日常判断、成本或关系；给出足以理解当前选择的规则，其余随行动揭示。"
+        ],
+        "plan": [
+          "主角利用规则作出选择，先兑现本篇许诺的实际收益或关系变化，再让所得改变后续冲突；限制与代价由已建立的规则产生。系统提示不能代替主角行动。拒绝金手指须有可见动机与后续兑现。"
+        ],
+        "write": [
+          "让异能、弹幕或穿书知识参与可见操作；控制设定说明，保留因果线索。避免“读者知道一切、主角等待结局”。"
+        ],
+        "review": [
+          "核对规则一直一致、能力有来源与限制、反转重解释旧线索；童年救助不能被写成成年关系占有权。"
+        ],
+        "package": [
+          "可用不可能命令、数值反差、常规能力+反常选择；数字具体且有后果，标题不得夸大能力。"
+        ]
+      },
+      "evidence_ids": [
+        "speculative:7552502440415726617",
+        "speculative:7626620058810207294",
+        "speculative:7639714095427505177",
+        "speculative:7595883812756655129",
+        "fanqie:7683339479330950206",
+        "speculative:7652603972187851838"
+      ],
+      "coverage_limit": "来源阅读深度见证据卡；迁移的是结构假设。此组不等于所有细标签都充分调研。"
+    },
+    "mystery_rules": {
+      "label": "悬疑、怪谈与验证",
+      "stages": {
+        "ideation": [
+          "选一个具体异常与可信的当前目标；怪谈、刑侦、民间奇闻可共享求证机制，但职业流程与世界规则需分别核验。"
+        ],
+        "opening": [
+          "通过异常消息、行为、物件或规则冲突入场；先让读者理解谁处于什么危险，再逐步补世界观。"
+        ],
+        "plan": [
+          "每轮取得线索、主动验证、发现限制并调整选择；线索改变含义。不能靠新增规则和结尾自述直接宣布真相。"
+        ],
+        "write": [
+          "恐惧落到声音、空间、时间和操作后果；调查需要动作，少靠旁人讲述与弹幕提示替代验证。"
+        ],
+        "review": [
+          "核对证据链、误导公平性、知情权限和结尾可回看线索；只有试读证据时不推断完整反转。"
+        ],
+        "package": [
+          "标题可呈现异常规则、日常物件与不可能结果；导语控制信息差，不把唯一解答直接说完。"
+        ]
+      },
+      "evidence_ids": [
+        "speculative:7437041543476691481",
+        "speculative:7478582451080069656",
+        "speculative:7551237414983846974",
+        "speculative:7481978466716369470",
+        "speculative:7652603972187851838",
+        "fanqie:7594791359270095896",
+        "fanqie:7473705586152964633"
+      ],
+      "coverage_limit": "来源阅读深度见证据卡；迁移的是结构假设。此组不等于所有细标签都充分调研。"
+    },
+    "survival": {
+      "label": "末日求生与准备兑现",
+      "stages": {
+        "ideation": [
+          "明确危险、有限资源和保全目标；读者可能期待安全储备或紧迫逃生，不能用同一个快反转规则审两者。"
+        ],
+        "opening": [
+          "交代危险依据与第一项不同寻常的准备/决策；清单可以建立能力感，但需能理解当前优先级。"
+        ],
+        "plan": [
+          "准备改变抗风险能力，随后灾难检验库存、基地或联盟；购物清单和日志若功能不再变化就压缩。"
+        ],
+        "write": [
+          "展示操作、空间、物资使用与失效后果；数量对应需求和代价，避免无关物资无限扩充。"
+        ],
+        "review": [
+          "检查时间、容量、资源来源和灾难机制，备货是否在后文使用；允许慢积累，不把每段无反转视作失败。"
+        ],
+        "package": [
+          "可用灾难来临+反常准备、能力获得+拒绝激活；摘要说清生存办法与限制，不能承诺正文没有的万能安全。"
+        ]
+      },
+      "evidence_ids": [
+        "speculative:7552502440415726617",
+        "speculative:7626620058810207294",
+        "speculative:7443439737274106392",
+        "speculative:7538672699489389630",
+        "speculative:7493122474373038617"
+      ],
+      "coverage_limit": "来源阅读深度见证据卡；迁移的是结构假设。此组不等于所有细标签都充分调研。"
+    },
+    "comedy": {
+      "label": "沙雕、误会与日常喜剧",
+      "stages": {
+        "ideation": [
+          "用一个清晰小目标与可持续误会选题；反差应来自人物认知或身份，不只写大家震惊。"
+        ],
+        "opening": [
+          "从已经做出的离谱选择或假话撞上现实入场，人物当前目的清楚；身份暴露必须影响下一步行动。"
+        ],
+        "plan": [
+          "每次处理误会产生新的具体成本或关系变化；升级方式要不同，不用重复尴尬反应凑篇幅。"
+        ],
+        "write": [
+          "对白留停顿与错位理解，动作让误会可见；笑点同时推进目标，不让主角始终靠旁白解释笑话。"
+        ],
+        "review": [
+          "检查误会可理解、澄清时机合理、人物不因剧情需要突然失智；主动沟通也能产生喜剧。"
+        ],
+        "package": [
+          "标题可用假话+现实撞车、严肃场景+反常回应；不要照搬样本的违法取巧当真实生活建议。"
+        ]
+      },
+      "evidence_ids": [
+        "speculative:7652603972187851838",
+        "speculative:7659820525065210905",
+        "fanqie:7650168982875409433",
+        "fanqie:7683339479330950206",
+        "speculative:7642224173053381657"
+      ],
+      "coverage_limit": "来源阅读深度见证据卡；迁移的是结构假设。此组不等于所有细标签都充分调研。"
+    },
+    "daily_competence": {
+      "label": "都市日常与能力情境",
+      "stages": {
+        "ideation": [
+          "从做饭、照护、工作、专业服务等能力如何改变关系选题；职业只是标签时应补入实际行动。"
+        ],
+        "opening": [
+          "从能力被需要、被低估或被误解的具体场景切入；主角先面对一个可处理的问题。"
+        ],
+        "plan": [
+          "能力产生成本与新机会，关系随合作改变；日常温暖可积累，不强制转成打脸或豪门揭身世。"
+        ],
+        "write": [
+          "呈现适量操作细节和对方响应；专业知识须可靠，生活细节服务当前目标。"
+        ],
+        "review": [
+          "核对技能有来源、行动有成本、职业差异真实影响选择；特殊职业未独立调研时明确限制。"
+        ],
+        "package": [
+          "标题可用日常行为+意外关系后果；小事的具体性优于堆叠职业与身份标签。"
+        ]
+      },
+      "evidence_ids": [
+        "fanqie:7612214828379147288",
+        "fanqie:7624892191982242841"
+      ],
+      "coverage_limit": "来源阅读深度见证据卡；迁移的是结构假设。此组不等于所有细标签都充分调研。"
+    }
+  },
+  "routes": [
+    {
+      "id": "female_family_resource_boundary",
+      "parent_family": "family_growth",
+      "track": "general",
+      "tags": [
+        "婚姻家庭",
+        "婆媳",
+        "现实情感",
+        "女生生活"
+      ],
+      "keywords": [],
+      "stages": {
+        "ideation": [
+          "关系身份+具体被索取资源+主角反常回应",
+          "常见家务/钱/房/名额/照护任务改成明确的权利争夺"
+        ],
+        "opening": [
+          "第一场把损失落到可见物件或选择权",
+          "交代主角过去为何维持关系，并尽快出现本次不同决定"
+        ],
+        "plan": [
+          "每场让责任、资产、选择权或盟友至少变化一项",
+          "对手失去无偿劳动后采取新办法，主角须付出行动与成本应对",
+          "家庭成员须有不同利益；可使用婆媳合作而非固定对立"
+        ],
+        "write": [
+          "每场让责任、资产、选择权或盟友至少变化一项",
+          "对手失去无偿劳动后采取新办法，主角须付出行动与成本应对",
+          "家庭成员须有不同利益；可使用婆媳合作而非固定对立"
+        ],
+        "review": [
+          "结尾核对主角是否得到安全、财物归属、住所或自主选择，不能只写全家后悔",
+          "标题里的具体资源必须有可辨结果",
+          "连续相同辱骂与抢东西",
+          "儿童伤亡必选开篇",
+          "以未经核验的医疗法律常识构造关键证据"
+        ],
+        "package": [
+          "关系身份+具体被索取资源+主角反常回应",
+          "常见家务/钱/房/名额/照护任务改成明确的权利争夺"
+        ]
+      },
+      "evidence_ids": [
+        "fanqie:7474053813238759961",
+        "fanqie:7653726033375398936",
+        "fanqie:7447455579645166105",
+        "fanqie:7593538121354972222"
+      ],
+      "limits": "来自公开正文选段的机制观察。热度若有仅为第三方精确身份点赞快照；不是平台因果规律或成功保证。"
+    },
+    {
+      "id": "female_growth_exit",
+      "parent_family": "family_growth",
+      "track": "general",
+      "tags": [
+        "女性成长",
+        "大女主",
+        "现实生活",
+        "复仇"
+      ],
+      "keywords": [],
+      "stages": {
+        "ideation": [
+          "退出身份/服务+新目标；或异常能力发现旧关系真实成本"
+        ],
+        "opening": [
+          "被限制的能力与个人目标同时具体化",
+          "读心/弹幕仅提供线索，主角仍须获取可供他人核查的证据"
+        ],
+        "plan": [
+          "停止原有服务后开启新的事业、教育或安全路线",
+          "资源取得须有来源，盟友须有动机，关键改变由主角行动造成"
+        ],
+        "write": [
+          "停止原有服务后开启新的事业、教育或安全路线",
+          "资源取得须有来源，盟友须有动机，关键改变由主角行动造成"
+        ],
+        "review": [
+          "自身生活改变要占收束空间",
+          "复仇后仍回答钱、照护、工作和下一步生活",
+          "单靠新有钱男主解决全部困境",
+          "无依据炒股暴富",
+          "精神障碍污名化与非法强制住院充当通用惩罚"
+        ],
+        "package": [
+          "退出身份/服务+新目标；或异常能力发现旧关系真实成本"
+        ]
+      },
+      "evidence_ids": [
+        "fanqie:7624892191982242841",
+        "fanqie:7614732144153218072",
+        "fanqie:7435668527794635326",
+        "fanqie:7513838702229979710"
+      ],
+      "limits": "来自公开正文选段的机制观察。热度若有仅为第三方精确身份点赞快照；不是平台因果规律或成功保证。"
+    },
+    {
+      "id": "female_heiress_identity_evidence",
+      "parent_family": "revenge_status",
+      "track": "general",
+      "tags": [
+        "真假千金",
+        "豪门世家",
+        "打脸逆袭",
+        "女配"
+      ],
+      "keywords": [],
+      "stages": {
+        "ideation": [
+          "身份揭露+异常事实；或平静退出与家人预期冲突"
+        ],
+        "opening": [
+          "提前埋下可追踪的年龄、时间、物件或身份线索",
+          "身份争夺背后明确继承、住所、名誉或认可的实际利益"
+        ],
+        "plan": [
+          "证据改变对象站队或资源分配，不只让全员吃惊",
+          "真/假千金可以结盟；反派行为用利益解释",
+          "能力展示须与争夺现场相关"
+        ],
+        "write": [
+          "证据改变对象站队或资源分配，不只让全员吃惊",
+          "真/假千金可以结盟；反派行为用利益解释",
+          "能力展示须与争夺现场相关"
+        ],
+        "review": [
+          "身份纠正与自我认可分别收束",
+          "标题承诺全家慌/破产/复仇必须核对具体后果",
+          "持续羞辱尚无行动",
+          "凭一张万能鉴定全员立即认输",
+          "把出身当作人格优劣"
+        ],
+        "package": [
+          "身份揭露+异常事实；或平静退出与家人预期冲突"
+        ]
+      },
+      "evidence_ids": [
+        "fanqie:7645234294624881726",
+        "fanqie:7551072509202795582",
+        "fanqie:7544516788965346366",
+        "fanqie:7603586933201046553"
+      ],
+      "limits": "来自公开正文选段的机制观察。热度若有仅为第三方精确身份点赞快照；不是平台因果规律或成功保证。"
+    },
+    {
+      "id": "female_sweet_information_gap",
+      "parent_family": "romance",
+      "track": "general",
+      "tags": [
+        "甜宠",
+        "现言甜宠",
+        "现代言情",
+        "暗恋",
+        "青梅竹马",
+        "校园"
+      ],
+      "keywords": [],
+      "stages": {
+        "ideation": [
+          "日常习惯意外公开+与口头关系不符",
+          "私密创作/通信遗痕被本人发现",
+          "短关系标题也可使用，正文须尽早给出独特问题"
+        ],
+        "opening": [
+          "同一人对不同人的反应形成独家偏爱证据",
+          "最初疑问与角色当下处境有关，避免先铺完整履历",
+          "角色年龄明确成年，亲密动作有自主意愿"
+        ],
+        "plan": [
+          "每次试探新增一条更难解释为巧合的事实或改变一项关系边界",
+          "工作/学业/活动推动再次相遇，使相遇有具体理由",
+          "亲吻拥抱体现安慰、坦白、主动回应或确认，动作后关系须发生变化"
+        ],
+        "write": [
+          "每次试探新增一条更难解释为巧合的事实或改变一项关系边界",
+          "工作/学业/活动推动再次相遇，使相遇有具体理由",
+          "亲吻拥抱体现安慰、坦白、主动回应或确认，动作后关系须发生变化"
+        ],
+        "review": [
+          "最终用可见选择对齐公开关系与私人感情",
+          "结束时回答开篇误会或旧记录来源",
+          "无限吃醋误会不核实",
+          "强吻作为唯一爱情证据",
+          "用娇弱或财富标签代替人物行动",
+          "未成年婚姻样本供成年恋爱桥段模仿"
+        ],
+        "package": [
+          "日常习惯意外公开+与口头关系不符",
+          "私密创作/通信遗痕被本人发现",
+          "短关系标题也可使用，正文须尽早给出独特问题"
+        ]
+      },
+      "evidence_ids": [
+        "fanqie:7484631111927071294",
+        "fanqie:7633659708116569150",
+        "fanqie:7606728686829571134",
+        "fanqie:7494244792503648830"
+      ],
+      "limits": "来自公开正文选段的机制观察。热度若有仅为第三方精确身份点赞快照；不是平台因果规律或成功保证。"
+    },
+    {
+      "id": "female_marriage_mutual_choice",
+      "parent_family": "romance",
+      "track": "general",
+      "tags": [
+        "先婚后爱",
+        "婚恋",
+        "破镜重圆",
+        "追妻",
+        "追妻火葬场",
+        "替身"
+      ],
+      "keywords": [],
+      "stages": {
+        "ideation": [
+          "契约宣言与实际关照矛盾",
+          "退出/到期/改志愿等不可逆节点迫使关系重新选择"
+        ],
+        "opening": [
+          "明确为什么此时结婚/离开/重逢，以及双方可退出边界",
+          "追妻前先明确伤害与主角的现实损失"
+        ],
+        "plan": [
+          "关照行为逐渐超出契约，而非一次救场认定深爱",
+          "重逢提供新行动证据与责任承担",
+          "标签可用于批判性拒绝复合，不能强迫所有破镜最终重圆"
+        ],
+        "write": [
+          "关照行为逐渐超出契约，而非一次救场认定深爱",
+          "重逢提供新行动证据与责任承担",
+          "标签可用于批判性拒绝复合，不能强迫所有破镜最终重圆"
+        ],
+        "review": [
+          "复合需要知情选择与修复行动；不复合也能完成成长承诺",
+          "得到自由、尊重与新生活比反派哭泣更可核查",
+          "纠缠绑架浪漫化",
+          "母亲逼婚替代主角同意",
+          "隐藏绝症一出就抵消所有旧伤害"
+        ],
+        "package": [
+          "契约宣言与实际关照矛盾",
+          "退出/到期/改志愿等不可逆节点迫使关系重新选择"
+        ]
+      },
+      "evidence_ids": [
+        "fanqie:7494244792503648830",
+        "fanqie:7441493365201322558",
+        "fanqie:7665385794974075966",
+        "fanqie:7492025963224498750"
+      ],
+      "limits": "来自公开正文选段的机制观察。热度若有仅为第三方精确身份点赞快照；不是平台因果规律或成功保证。"
+    },
+    {
+      "id": "female_ancient_power_capacity",
+      "parent_family": "ancient_power",
+      "track": "general",
+      "tags": [
+        "古代言情",
+        "古言甜宠",
+        "古风世情",
+        "宫斗宅斗",
+        "权谋",
+        "重生"
+      ],
+      "keywords": [],
+      "stages": {
+        "ideation": [
+          "婚约/圣旨/继承选择出现反常答复",
+          "短身份标题配被隐瞒的真正愿望"
+        ],
+        "opening": [
+          "个人感情与家族、军功、宫务、继承至少一项实际利益相连",
+          "女主权力来源具体：账目、人手、资产、救助交换、人脉或战功"
+        ],
+        "plan": [
+          "每次优势来自前文能力、人情或物件，制度约束仍有阻力",
+          "离开争宠后须有保护孩子、自立或政治目标",
+          "盟友有交换条件；反方会更换证据和策略"
+        ],
+        "write": [
+          "每次优势来自前文能力、人情或物件，制度约束仍有阻力",
+          "离开争宠后须有保护孩子、自立或政治目标",
+          "盟友有交换条件；反方会更换证据和策略"
+        ],
+        "review": [
+          "主角获得的生活路径与权力安排均应收束",
+          "大范围新政或继位要交代联盟、阻力及代价",
+          "没有铺垫人人拥护新政",
+          "把不愿结婚本身判为反派",
+          "将历史虚构制度当成现行事实",
+          "无行动的摆烂流水账"
+        ],
+        "package": [
+          "婚约/圣旨/继承选择出现反常答复",
+          "短身份标题配被隐瞒的真正愿望"
+        ]
+      },
+      "evidence_ids": [
+        "fanqie:7447774462579065369",
+        "fanqie:7435668527794635326",
+        "fanqie:7654102855837568062",
+        "fanqie:7434411367341244952",
+        "fanqie:7499773293440811582",
+        "fanqie:7593538121354972222",
+        "fanqie:7670212497537895486"
+      ],
+      "limits": "来自公开正文选段的机制观察。热度若有仅为第三方精确身份点赞快照；不是平台因果规律或成功保证。"
+    },
+    {
+      "id": "male_emotion_withdrawal",
+      "parent_family": "male_relationship",
+      "track": "male",
+      "tags": [
+        "男生情感",
+        "追夫",
+        "追夫火葬场"
+      ],
+      "keywords": [
+        "退出",
+        "代付",
+        "供养",
+        "撤回",
+        "离婚",
+        "追夫"
+      ],
+      "stages": {
+        "ideation": [
+          "男主撤回默认付出后，旧关系必须面对实际失去的便利与权力。",
+          "关系伤害＋本次退出行动＋后果预告；数字只能指真实存在的成本，不强制具体数量。"
+        ],
+        "opening": [
+          "开场直接让旧关系要求落空，正文第一页执行停止供养、离开、解除承诺中的一项。"
+        ],
+        "plan": [
+          "把不可见付出落在具体账户、物品、劳动或公共形象上。",
+          "后续每次追悔对应新失去的资源或新发现的信息。",
+          "第一次止损之后保留一个合乎前因的残留问题，要求主角继续选择。"
+        ],
+        "write": [
+          "把不可见付出落在具体账户、物品、劳动或公共形象上。",
+          "后续每次追悔对应新失去的资源或新发现的信息。",
+          "第一次止损之后保留一个合乎前因的残留问题，要求主角继续选择。"
+        ],
+        "review": [
+          "第一行动是否改变了对方能得到什么？",
+          "两次求复合之间，信息或代价是否变化？",
+          "主角退出后是否有自己的生活与目标？",
+          "多次电话和哭求没有新后果，不能算推进。",
+          "直播反转样本的录像在试读里尚未播放，不能假称见过最终兑现。"
+        ],
+        "package": [
+          "关系伤害＋本次退出行动＋后果预告；数字只能指真实存在的成本，不强制具体数量。"
+        ]
+      },
+      "evidence_ids": [
+        "fanqie:7657957500146175000",
+        "fanqie:7641643753958034457",
+        "fanqie:7639578920903248920"
+      ],
+      "limits": "公开正文的明确已读范围；不含未读结尾"
+    },
+    {
+      "id": "male_romance_choice",
+      "parent_family": "male_relationship",
+      "track": "male",
+      "tags": [
+        "男向甜宠",
+        "男生情感",
+        "婚恋"
+      ],
+      "keywords": [
+        "甜宠",
+        "偏爱",
+        "双向",
+        "恋爱"
+      ],
+      "stages": {
+        "ideation": [
+          "在失意、失去资源或身份未知时被明确选择，再用共同生活验证可信。",
+          "低处境触发事件＋女生主动改变关系；也可用鲜明行为和身份落差承诺喜剧。"
+        ],
+        "opening": [
+          "先出现可理解的主动选择或使选择迫近的具体事件，尽快改变关系条件。"
+        ],
+        "plan": [
+          "让女生有独立目标与拒绝能力，选择并非只因男主隐藏财富。",
+          "从约定、共同任务、见家人或相处障碍里产生变化。",
+          "亲密动作跟随关系决策，拥抱和亲吻各承担安慰、确认或主动表达。"
+        ],
+        "write": [
+          "让女生有独立目标与拒绝能力，选择并非只因男主隐藏财富。",
+          "从约定、共同任务、见家人或相处障碍里产生变化。",
+          "亲密动作跟随关系决策，拥抱和亲吻各承担安慰、确认或主动表达。"
+        ],
+        "review": [
+          "女生为什么此时选择此人，文本能否回答？",
+          "身份下降时是否仍有相互行动？",
+          "亲密场景是否改变理解或承诺？",
+          "相亲吃饭喜剧很长但选择理由尚未见，不能复制为无限拖延。",
+          "叙述者猜女生富有，不等于作者确认她富有。"
+        ],
+        "package": [
+          "低处境触发事件＋女生主动改变关系；也可用鲜明行为和身份落差承诺喜剧。"
+        ]
+      },
+      "evidence_ids": [
+        "fanqie:7655368153093901336",
+        "fanqie:7642502815025220633",
+        "fanqie:7650168982875409433"
+      ],
+      "limits": "公开正文的明确已读范围；不含未读结尾"
+    },
+    {
+      "id": "male_romance_triangle_misreading",
+      "parent_family": "male_relationship",
+      "track": "male",
+      "tags": [
+        "男生情感",
+        "先婚后爱",
+        "白月光"
+      ],
+      "keywords": [
+        "白月光",
+        "误读",
+        "三角"
+      ],
+      "stages": {
+        "ideation": [
+          "旧解释与当事人行动冲突，读者先察觉，主角随后重新理解关系。",
+          "熟悉关系标签＋人物归来＋代词或角色地位反常；正文必须说明歧义。"
+        ],
+        "opening": [
+          "让叙述者建立一个有依据但可被推翻的解释，马上给出不吻合的动作。"
+        ],
+        "plan": [
+          "每个误读场景提供不同证据，至少一次使主角采取错误但可理解的行动。",
+          "保留回看线索，揭示后能解释此前行为。"
+        ],
+        "write": [
+          "每个误读场景提供不同证据，至少一次使主角采取错误但可理解的行动。",
+          "保留回看线索，揭示后能解释此前行为。"
+        ],
+        "review": [
+          "解释是人物猜测还是事实，是否写清？",
+          "新场景有没有新证据？",
+          "结尾是否解决核心对象和选择？",
+          "公开试读尚未见最终感情对象，不把猜测写入事实库。"
+        ],
+        "package": [
+          "熟悉关系标签＋人物归来＋代词或角色地位反常；正文必须说明歧义。"
+        ]
+      },
+      "evidence_ids": [
+        "fanqie:7666722078548085822"
+      ],
+      "limits": "公开正文的明确已读范围；不含未读结尾"
+    },
+    {
+      "id": "male_marriage_boundary",
+      "parent_family": "male_relationship",
+      "track": "male",
+      "tags": [
+        "男生生活",
+        "婚姻家庭",
+        "赘婿",
+        "家庭"
+      ],
+      "keywords": [
+        "彩礼",
+        "家庭",
+        "赘婿"
+      ],
+      "stages": {
+        "ideation": [
+          "不公平要求侵占自己的未来，主角设定边界并承担改变的成本。",
+          "具体被侵占资源＋家庭受益者＋替代行动；避免把新伴侣当作可交换资源。"
+        ],
+        "opening": [
+          "明确金额、去向、谁决定和拒绝后会失去什么，然后执行拒绝。"
+        ],
+        "plan": [
+          "对方的施压方式由其利益解释，而非只说她坏。",
+          "主角有限资源形成选择，解决靠边界和行动。",
+          "新关系有双方主动意愿与相处依据。"
+        ],
+        "write": [
+          "对方的施压方式由其利益解释，而非只说她坏。",
+          "主角有限资源形成选择，解决靠边界和行动。",
+          "新关系有双方主动意愿与相处依据。"
+        ],
+        "review": [
+          "资源去向与受益者是否清楚？",
+          "反击是否真正切断不公平条件？",
+          "新伴侣是否有独立选择？",
+          "看到首尾不等于读完全文；本组彩礼样本中段未完整读。"
+        ],
+        "package": [
+          "具体被侵占资源＋家庭受益者＋替代行动；避免把新伴侣当作可交换资源。"
+        ]
+      },
+      "evidence_ids": [
+        "fanqie:7441942893285081624"
+      ],
+      "limits": "公开正文的明确已读范围；不含未读结尾"
+    },
+    {
+      "id": "male_emotion_debt_reversal",
+      "parent_family": "male_relationship",
+      "track": "male",
+      "tags": [
+        "男生情感",
+        "现实情感",
+        "家庭"
+      ],
+      "keywords": [
+        "救命",
+        "责任",
+        "偿还"
+      ],
+      "stages": {
+        "ideation": [
+          "自以为正确的长期偿还结束后，主角发现另一份需要修补的责任。",
+          "高代价关系与触发事件，承诺价值判断会被更深的事实改写。"
+        ],
+        "opening": [
+          "先让长期牺牲遭遇不可忽略的否认，推动具体退出行动。"
+        ],
+        "plan": [
+          "第一次翻盘之后揭出主角遗漏的责任，改变读者对他的单一评价。",
+          "主角用后续行动修补，不用所有旁人都坏来证明自己。"
+        ],
+        "write": [
+          "第一次翻盘之后揭出主角遗漏的责任，改变读者对他的单一评价。",
+          "主角用后续行动修补，不用所有旁人都坏来证明自己。"
+        ],
+        "review": [
+          "第二层信息是否改变前一层判断？",
+          "主角是否对真实过错承担行动成本？",
+          "标题含婚姻不等于温暖甜宠，样本试读的责任修复结尾未知。"
+        ],
+        "package": [
+          "高代价关系与触发事件，承诺价值判断会被更深的事实改写。"
+        ]
+      },
+      "evidence_ids": [
+        "fanqie:7451484620782043710"
+      ],
+      "limits": "公开正文的明确已读范围；不含未读结尾"
+    },
+    {
+      "id": "male_campus_familiarity",
+      "parent_family": "male_relationship",
+      "track": "male",
+      "tags": [
+        "男生情感",
+        "校园",
+        "青梅竹马",
+        "暗恋"
+      ],
+      "keywords": [
+        "校园",
+        "青梅",
+        "暗恋"
+      ],
+      "stages": {
+        "ideation": [
+          "熟悉关系中的旧动作被重新解释，或多年后的现实选择终止旧模式。",
+          "可选简短关系性格名，也可用关键人生事件＋时间跨度＋重逢预告。"
+        ],
+        "opening": [
+          "用礼物、请帖或习惯动作触发关系变化，避免先铺完人物履历。"
+        ],
+        "plan": [
+          "同一物件前后意义变化，承担过去与现在的联系。",
+          "重逢时主角先按当前人生作选择，旁人反应再展示变化。"
+        ],
+        "write": [
+          "同一物件前后意义变化，承担过去与现在的联系。",
+          "重逢时主角先按当前人生作选择，旁人反应再展示变化。"
+        ],
+        "review": [
+          "人物成年状态是否明确？",
+          "日期与年龄能否互相验证？",
+          "旁人反应是否提供关系或身份的新信息？",
+          "高考结束不能确认成年，原文性化动作不作默认模板。",
+          "滥用医疗检查及日期矛盾应被质量审核拦截。"
+        ],
+        "package": [
+          "可选简短关系性格名，也可用关键人生事件＋时间跨度＋重逢预告。"
+        ]
+      },
+      "evidence_ids": [
+        "fanqie:7592301611842554905",
+        "fanqie:7655735456444714046"
+      ],
+      "limits": "公开正文的明确已读范围；不含未读结尾"
+    },
+    {
+      "id": "male_workplace_evidence",
+      "parent_family": "male_relationship",
+      "track": "male",
+      "tags": [
+        "男生生活",
+        "职场",
+        "打脸逆袭"
+      ],
+      "keywords": [
+        "职场",
+        "公司",
+        "老板"
+      ],
+      "stages": {
+        "ideation": [
+          "普通员工以可查证证据破解指控，证据取得受权限与现实约束。",
+          "具体职场危机＋对手行为＋反向结果；结果要由证据链获得。"
+        ],
+        "opening": [
+          "公共指控给出证据、时限和后果，主角首先核对可掌握的时间线。"
+        ],
+        "plan": [
+          "从本人的记录查到组织权限，再转向外部证据。",
+          "每个证据说明来源、可取得性和它能证明什么。",
+          "反派阻挠改变取证路线，不靠反复辱骂撑章。"
+        ],
+        "write": [
+          "从本人的记录查到组织权限，再转向外部证据。",
+          "每个证据说明来源、可取得性和它能证明什么。",
+          "反派阻挠改变取证路线，不靠反复辱骂撑章。"
+        ],
+        "review": [
+          "关键权限是否预先存在？",
+          "证据是否只能证明文本声称的那一步？",
+          "涉及技术与法律流程是否需要核验？",
+          "ETC设定未经现实核验，不能复制操作细节当可信知识。",
+          "称谓混用会破坏指控场景的可信度。"
+        ],
+        "package": [
+          "具体职场危机＋对手行为＋反向结果；结果要由证据链获得。"
+        ]
+      },
+      "evidence_ids": [
+        "fanqie:7612214828379147288"
+      ],
+      "limits": "公开正文的明确已读范围；不含未读结尾"
+    },
+    {
+      "id": "male_absurd_loving_rule",
+      "parent_family": "male_relationship",
+      "track": "male",
+      "tags": [
+        "男生情感",
+        "系统",
+        "脑洞",
+        "都市日常"
+      ],
+      "keywords": [
+        "系统",
+        "脑洞",
+        "地府"
+      ],
+      "stages": {
+        "ideation": [
+          "离奇规则先改变熟悉生活，再通过新的权力与代价改变关系。",
+          "明确规则或亲密动作＋可视后果＋超出原预期的影响范围。"
+        ],
+        "opening": [
+          "先展示一次规则的物理或组织后果，然后让主角选择如何应对。"
+        ],
+        "plan": [
+          "资源变化必须改变主角能做什么或新增压力。",
+          "规则升级时增加目标冲突，不只增加奖励数字。",
+          "人物关系可通过互补目标合作推进。"
+        ],
+        "write": [
+          "资源变化必须改变主角能做什么或新增压力。",
+          "规则升级时增加目标冲突，不只增加奖励数字。",
+          "人物关系可通过互补目标合作推进。"
+        ],
+        "review": [
+          "去掉规则后是否仍是同一普通故事？",
+          "第二次触发是否改变行动条件？",
+          "喜剧后果是否连接人物牵挂与选择？",
+          "男性标签不意味女生没有主体性。",
+          "地府大额资源只用于虚构，不能把连续发钱当节奏。"
+        ],
+        "package": [
+          "明确规则或亲密动作＋可视后果＋超出原预期的影响范围。"
+        ]
+      },
+      "evidence_ids": [
+        "fanqie:7644605073082829848",
+        "fanqie:7683339479330950206"
+      ],
+      "limits": "公开正文的明确已读范围；不含未读结尾"
+    },
+    {
+      "id": "suspense_mystery",
+      "parent_family": "mystery_rules",
+      "track": "general",
+      "tags": [
+        "悬疑惊悚",
+        "犯罪",
+        "推理",
+        "民间奇闻",
+        "悬疑灵异"
+      ],
+      "keywords": [],
+      "stages": {
+        "ideation": [
+          "查明异常并通过主动求证赢得生存或道德结果",
+          "可用普通地点/职业＋异常后果；也保留《美人村》《唐僧之死》这类短名，不能强制所有标题两段反转。",
+          "标题提出核心谜面或威胁，不能许诺正文未出现的案件或身份。"
+        ],
+        "opening": [
+          "用当下可观察的异常、一个要完成的普通目标与无法立即离开的代价进入。",
+          "在同一场景给出至少一件可复查的物证，避免先叙童年或解释整个民俗世界。"
+        ],
+        "plan": [
+          "为关键线索登记首次出现、当时解释、后续新解释、谁能接触它。",
+          "每次安全解释之后，新事实应改变嫌疑人、危险位置或求救选择；同义恐惧句不算推进。",
+          "主角的验证动作要带回新证据或失去资源，不能只听旁人讲答案。",
+          "专业和法律细节只作为人物推理，事实核验不足时简化，不写成可照做犯罪教程。"
+        ],
+        "write": [
+          "为关键线索登记首次出现、当时解释、后续新解释、谁能接触它。",
+          "每次安全解释之后，新事实应改变嫌疑人、危险位置或求救选择；同义恐惧句不算推进。",
+          "主角的验证动作要带回新证据或失去资源，不能只听旁人讲答案。",
+          "专业和法律细节只作为人物推理，事实核验不足时简化，不写成可照做犯罪教程。"
+        ],
+        "review": [
+          "假警察、假朋友连续叠加而无先前可复查线索，会让反转任意。",
+          "热门犯罪故事里的法理和毒理说法不自动可靠，不能直接编入知识事实。"
+        ],
+        "package": [
+          "可用普通地点/职业＋异常后果；也保留《美人村》《唐僧之死》这类短名，不能强制所有标题两段反转。",
+          "标题提出核心谜面或威胁，不能许诺正文未出现的案件或身份。"
+        ]
+      },
+      "evidence_ids": [
+        "speculative:7437041543476691481",
+        "speculative:7478582451080069656",
+        "speculative:7551237414983846974",
+        "speculative:7438835253424161305"
+      ],
+      "limits": "深读的公开预览都未确证全文结局；推理只有第三方关键词候选，没有独立推理标签完整覆盖。"
+    },
+    {
+      "id": "rule_survival",
+      "parent_family": "mystery_rules",
+      "track": "general",
+      "tags": [
+        "规则怪谈",
+        "无限流",
+        "求生"
+      ],
+      "keywords": [],
+      "stages": {
+        "ideation": [
+          "约束真实生效，聪明行动能付出合理代价改善处境",
+          "明确异常规则或不对称能力，使读者能提出“怎样活下来”的具体问题。"
+        ],
+        "opening": [
+          "每条关键规则应写清触发条件、后果和已知例外，只展示本场面马上影响选择的规则。",
+          "尽早以小规模验证或已有受害者说明规则有代价，随后让主角改变行为。"
+        ],
+        "plan": [
+          "建立资源账：时间、身份暴露、钱、装备、关系和可行动地点；每轮优势至少影响一项。",
+          "解法必须使用先前公开的规则、能力和物件，不能临时增设免死外挂。",
+          "敌方能够学习或资源能够耗尽，迫使成功后的策略调整。",
+          "伪装任务需登记当前谎言、知道真相的人、暴露触发与代价。"
+        ],
+        "write": [
+          "建立资源账：时间、身份暴露、钱、装备、关系和可行动地点；每轮优势至少影响一项。",
+          "解法必须使用先前公开的规则、能力和物件，不能临时增设免死外挂。",
+          "敌方能够学习或资源能够耗尽，迫使成功后的策略调整。",
+          "伪装任务需登记当前谎言、知道真相的人、暴露触发与代价。"
+        ],
+        "review": [
+          "为了堵住主角聪明解法临时追加规则，会破坏读者求解体验。",
+          "《规则怪谈：我的异能你猜不透》复杂算式能力有难以核对之处，不能以难懂代替公平谜面。",
+          "低赞《404女寝规则怪谈》从真实经历宣称和入住铺垫进入，只能作为不同开篇对照，不能判它必然失败。"
+        ],
+        "package": [
+          "明确异常规则或不对称能力，使读者能提出“怎样活下来”的具体问题。"
+        ]
+      },
+      "evidence_ids": [
+        "speculative:7481978466716369470",
+        "speculative:7639714095427505177",
+        "speculative:7652603972187851838"
+      ],
+      "limits": "规则怪谈有深读证据；无限流仅关键词查询无可靠独立样本，不能声称已覆盖该标签。"
+    },
+    {
+      "id": "fantasy_deconstruction",
+      "parent_family": "speculative_choice",
+      "track": "general",
+      "tags": [
+        "玄幻仙侠",
+        "奇妙物语",
+        "都市异能",
+        "幻想言情"
+      ],
+      "keywords": [],
+      "stages": {
+        "ideation": [
+          "熟悉幻想惯例被重解释，人物用自己的行动取得选择权",
+          "用既有类型惯例＋可理解的反常解释，如飞升、救公主、杀妻证道、蛇报恩。",
+          "概念反差必须进入人物当下困境，不只停在新奇名词。"
+        ],
+        "opening": [
+          "让熟悉仪式出现一个不符合常识的身体细节或关系要求。",
+          "主角要有此刻可能失去的人、自由或生命，世界知识从危险行动中释放。"
+        ],
+        "plan": [
+          "反转应重新解释已经出现的意象或动作，而不是中途换成另一种世界。",
+          "制度否认、保护者控制、能力代价应实际妨碍主角求证或逃离。",
+          "主角的最终选择要改变权力或关系归属，不能只听一次设定讲解。"
+        ],
+        "write": [
+          "反转应重新解释已经出现的意象或动作，而不是中途换成另一种世界。",
+          "制度否认、保护者控制、能力代价应实际妨碍主角求证或逃离。",
+          "主角的最终选择要改变权力或关系归属，不能只听一次设定讲解。"
+        ],
+        "review": [
+          "把飞升是骗局等单一设定解释十次而不改变行动，是新奇设定的流水账。",
+          "父亲控制、囚禁、物化和无同意亲密不是通用甜宠示范，只学习目标冲突与关系变化。"
+        ],
+        "package": [
+          "用既有类型惯例＋可理解的反常解释，如飞升、救公主、杀妻证道、蛇报恩。",
+          "概念反差必须进入人物当下困境，不只停在新奇名词。"
+        ]
+      },
+      "evidence_ids": [
+        "speculative:7639714095427505177",
+        "speculative:7595883812756655129",
+        "speculative:7604732687114308670",
+        "speculative:7468500786775851545"
+      ],
+      "limits": "蛇类、无情道样本只读开篇，父女和飞升深读也只有免费预览；未观察完整类型结局。"
+    },
+    {
+      "id": "historical_power_comedy",
+      "parent_family": "ancient_power",
+      "track": "general",
+      "tags": [
+        "历史古代",
+        "架空",
+        "宫斗宅斗",
+        "权谋",
+        "沙雕搞笑"
+      ],
+      "keywords": [],
+      "stages": {
+        "ideation": [
+          "受威胁地位通过看得懂的策略被重置，荒诞效果有因果",
+          "具体地位或资源＋越界命令/荒诞方案，让权力反差可视化。",
+          "数字要代表积累的代价或可用资源，不添加与剧情无关的任意金额兵力。"
+        ],
+        "opening": [
+          "在朝堂、婚礼、军帐等公共场面直接发生错误归功、威胁或身份错位。",
+          "解释各方依靠谁、害怕什么，避免反派仅为等主角打脸而无动机。"
+        ],
+        "plan": [
+          "馊主意的结果应符合人的利益：自污降低忌惮、认弱换取依靠、退让造成资源回流等。",
+          "每次解法支付脸面、钱、机会或关系成本，成功也可以引来新的对手。",
+          "重复笑点需带来新的权力变化或信息，不能只是增加相同惊讶人群。",
+          "写政治资源与后果，不自动用杀掉传令者等极端动作替代复杂回击。"
+        ],
+        "write": [
+          "馊主意的结果应符合人的利益：自污降低忌惮、认弱换取依靠、退让造成资源回流等。",
+          "每次解法支付脸面、钱、机会或关系成本，成功也可以引来新的对手。",
+          "重复笑点需带来新的权力变化或信息，不能只是增加相同惊讶人群。",
+          "写政治资源与后果，不自动用杀掉传令者等极端动作替代复杂回击。"
+        ],
+        "review": [
+          "《我那谋士出的全是馊主意》并非单纯随机发疯，政治威胁才使荒诞方案成立。",
+          "权力全知、对手一直愚蠢、制裁无资源成本会把爽文写成同一场景重复。"
+        ],
+        "package": [
+          "具体地位或资源＋越界命令/荒诞方案，让权力反差可视化。",
+          "数字要代表积累的代价或可用资源，不添加与剧情无关的任意金额兵力。"
+        ]
+      },
+      "evidence_ids": [
+        "speculative:7659820525065210905",
+        "speculative:7642224173053381657",
+        "speculative:7648052406910979134",
+        "speculative:7529547964910406681"
+      ],
+      "limits": "历史与架空标签有官方短篇确证；权谋/宫斗仅机制跨类映射，未获得独立标签热度分布。"
+    },
+    {
+      "id": "system_meta",
+      "parent_family": "speculative_choice",
+      "track": "general",
+      "tags": [
+        "系统",
+        "金手指",
+        "脑洞",
+        "穿越",
+        "重生"
+      ],
+      "keywords": [],
+      "stages": {
+        "ideation": [
+          "特殊信息让主角获得新选择，但仍要主动验证并承担结果",
+          "能力＋反常选择或可量化后果；不能只有绑定系统、获得无敌能力。"
+        ],
+        "opening": [
+          "任务/预言/弹幕必须改变当前交易、求助或逃离选择，不能只解释规则。",
+          "用时间、进度、既往失败显示能力的价值与付出的成本。"
+        ],
+        "plan": [
+          "外部信息区分已验证事实、未来预告、评论者解释，主角要做测试和自行判断。",
+          "能力要在场景里实际改变判断、资源或行动；若承诺升级爽感，新权限须通过主角争取，并在高潮中现场使用。风险与责任按本篇承诺安排，不强制抵消奖励。",
+          "先写主角为何想要系统给的东西；拒绝须由具体越界任务、已知后果或关系边界触发，并付出代价。记录任务对象、惩罚与能力边界。"
+        ],
+        "write": [
+          "外部信息区分已验证事实、未来预告、评论者解释，主角要做测试和自行判断。",
+          "能力要在场景里实际改变判断、资源或行动；若承诺升级爽感，新权限须通过主角争取，并在高潮中现场使用。风险与责任按本篇承诺安排，不强制抵消奖励。",
+          "先写主角为何想要系统给的东西；拒绝须由具体越界任务、已知后果或关系边界触发，并付出代价。记录任务对象、惩罚与能力边界。"
+        ],
+        "review": [
+          "弹幕全知并替主角作出全部判断，会失去行动张力。",
+          "100％好感度不代表双方同意，也不能给胁迫关系自动打上甜宠。"
+        ],
+        "package": [
+          "能力＋反常选择或可量化后果；不能只有绑定系统、获得无敌能力。"
+        ]
+      },
+      "evidence_ids": [
+        "speculative:7552502440415726617",
+        "speculative:7626620058810207294",
+        "speculative:7654537605890984984",
+        "speculative:7657765888942148633"
+      ],
+      "limits": "系统/脑洞样本部分为情感类交叉；未证明数值标题优于短名或无数字标题。"
+    },
+    {
+      "id": "apocalypse_stockpile",
+      "parent_family": "survival",
+      "track": "general",
+      "tags": [
+        "科幻末世",
+        "末日求生",
+        "求生",
+        "重生",
+        "都市日常",
+        "养崽文"
+      ],
+      "keywords": [],
+      "stages": {
+        "ideation": [
+          "在真实资源约束中守住安全与亲密关系，获得可见的小满足",
+          "灾害环境＋具体安居画面或反向准备决策；火锅、温泉、山洞比泛称我很强更可想象。"
+        ],
+        "opening": [
+          "前世损失应解释这次改变谁的信任、哪笔交易或何种资源安排。",
+          "给出剩余时间及一个马上必须作出的选择，不重复整段末世设定。"
+        ],
+        "plan": [
+          "保留采购和安居的满足，但按将要兑现的危险归组资源；同功能清单重复压缩。",
+          "储备之后至少出现一次实际使用、保护关系或资源不足，让准备产生剧情。",
+          "用有限信任和家庭边界形成冲突，不让所有家人都无条件恶人。",
+          "日期、库存、现金、交通与空间必须核对；超自然能力和普通工程能力分开。",
+          "灾害持续时长会改变囤货价值，预言可信度需要主角当下验证。"
+        ],
+        "write": [
+          "保留采购和安居的满足，但按将要兑现的危险归组资源；同功能清单重复压缩。",
+          "储备之后至少出现一次实际使用、保护关系或资源不足，让准备产生剧情。",
+          "用有限信任和家庭边界形成冲突，不让所有家人都无条件恶人。",
+          "日期、库存、现金、交通与空间必须核对；超自然能力和普通工程能力分开。",
+          "灾害持续时长会改变囤货价值，预言可信度需要主角当下验证。"
+        ],
+        "review": [
+          "热门《不激活系统只老实囤物资》有长清单及日记，不能硬编码所有热门必须每段反转。",
+          "《末世重生全家在山洞里吃火锅》开篇把1月14至2月14写成10天，热度不能代替质量核验。",
+          "低于1000赞的《末世3天就结束》只作反向选择对照，不据此证明不囤货路线更热门。"
+        ],
+        "package": [
+          "灾害环境＋具体安居画面或反向准备决策；火锅、温泉、山洞比泛称我很强更可想象。"
+        ]
+      },
+      "evidence_ids": [
+        "speculative:7552502440415726617",
+        "speculative:7626620058810207294",
+        "speculative:7443439737274106392",
+        "speculative:7538672699489389630",
+        "speculative:7493122474373038617"
+      ],
+      "limits": "末世关键词与重生交叉样本可证；科幻技术、星际、基建独立标签未完成热门确证，不提供该类专业写法结论。"
+    },
+    {
+      "id": "comic_disguise",
+      "parent_family": "comedy",
+      "track": "general",
+      "tags": [
+        "沙雕搞笑",
+        "搞笑轻松",
+        "穿越",
+        "校园"
+      ],
+      "keywords": [],
+      "stages": {
+        "ideation": [
+          "误会带来即时可见的笑与关系收益，也持续增加新难题",
+          "身份角色＋同一误会带来的关系反差，承诺后续会如何变复杂。"
+        ],
+        "opening": [
+          "先让误会处理一次眼前问题，立刻留下更难维持身份的后果。"
+        ],
+        "plan": [
+          "每个笑场必须改变信息、暴露风险或关系位置，不能只加围观弹幕。",
+          "旧误会在新场景被验证或受到威胁；给主角一个真正需要保持或摆脱的身份。",
+          "笑点来源于行为和利益错配，不用残障、族群或职业人格低劣作为默认原因。"
+        ],
+        "write": [
+          "每个笑场必须改变信息、暴露风险或关系位置，不能只加围观弹幕。",
+          "旧误会在新场景被验证或受到威胁；给主角一个真正需要保持或摆脱的身份。",
+          "笑点来源于行为和利益错配，不用残障、族群或职业人格低劣作为默认原因。"
+        ],
+        "review": [
+          "把恐怖NPC轮流写成亲戚后不引入未知身份，会只剩同一句笑话。",
+          "笨蛋伪装仍需要清楚的聪明行动，不能靠作者宣布主角天才。"
+        ],
+        "package": [
+          "身份角色＋同一误会带来的关系反差，承诺后续会如何变复杂。"
+        ]
+      },
+      "evidence_ids": [
+        "speculative:7652603972187851838",
+        "speculative:7659820525065210905",
+        "speculative:7632203567918484505",
+        "speculative:7618546133517749273"
+      ],
+      "limits": "已深读两类喜剧的免费预览；不等于整体搞笑标签分布，不能给固定笑点数量下平台门槛。"
+    },
+    {
+      "id": "enrichment_fantasy_care_disguise",
+      "parent_family": "speculative_choice",
+      "track": "general",
+      "tags": [
+        "奇妙物语",
+        "无限流"
+      ],
+      "keywords": [
+        "怪物",
+        "副本",
+        "伪装",
+        "扮笨"
+      ],
+      "stages": {
+        "ideation": [
+          "把求生办法与被关爱的欲望接在同一行动上，明确伪装带来的资源和限制。"
+        ],
+        "opening": [
+          "从伪装面临可见暴露压力入场，照护动作必须同时影响生存或自主权。"
+        ],
+        "plan": [
+          "同一照护资源改变用途：先满足生活，再提供行动机会，又产生暴露成本；角色须发展新策略。"
+        ],
+        "write": [
+          "同一照护资源改变用途：先满足生活，再提供行动机会，又产生暴露成本；角色须发展新策略。"
+        ],
+        "review": [
+          "核对关心与控制的区别，不把暴力伤害其他人当温暖证明；未读到的治愈或揭穿不可声称已验证。"
+        ],
+        "package": [
+          "可用危险身份与日常照护的反差做标题，但标题里的关系要在第一场影响行动。"
+        ]
+      },
+      "evidence_ids": [
+        "speculative:7652603972187851838"
+      ],
+      "limits": "来自2026-10-06逐篇公开正文前3500字符的编辑观察；未读结局。第三方历史点赞是选样依据，不能证明写法导致热门。"
+    },
+    {
+      "id": "enrichment_service_trust_network",
+      "parent_family": "mystery_rules",
+      "track": "general",
+      "tags": [
+        "民间奇闻"
+      ],
+      "keywords": [
+        "夜班",
+        "外卖",
+        "奶茶",
+        "客户",
+        "服务"
+      ],
+      "stages": {
+        "ideation": [
+          "从谋生、客户差异和持续服务选题；旧日帮助怎样换来新信息和新责任。"
+        ],
+        "opening": [
+          "异常订单落在一件熟悉工作上，同时给主角继续做的具体理由。"
+        ],
+        "plan": [
+          "先以服务争取信任，信任提供信息，信息再迫使主角承担新责任；援助须有前因。"
+        ],
+        "write": [
+          "先以服务争取信任，信任提供信息，信息再迫使主角承担新责任；援助须有前因。"
+        ],
+        "review": [
+          "不能连续换怪物却不改变选择；现实职业、工程和应急细节另查，不把小说设定当事实。"
+        ],
+        "package": [
+          "熟悉职业加异常委托即可构成发现入口，不用追加豪门身份或背叛。"
+        ]
+      },
+      "evidence_ids": [
+        "fanqie:7594791359270095896"
+      ],
+      "limits": "来自2026-10-06逐篇公开正文前3500字符的编辑观察；未读结局。第三方历史点赞是选样依据，不能证明写法导致热门。"
+    },
+    {
+      "id": "enrichment_double_role_collision",
+      "parent_family": "mystery_rules",
+      "track": "general",
+      "tags": [
+        "犯罪"
+      ],
+      "keywords": [
+        "双重身份",
+        "职业",
+        "校园",
+        "委托"
+      ],
+      "stages": {
+        "ideation": [
+          "设计两个身份怎样在同一事件相撞：各自掌握的信息、责任和关系须不同。"
+        ],
+        "opening": [
+          "第一份委托或任务触及主角已有私人关系，让职业身份立即影响选择。"
+        ],
+        "plan": [
+          "一个场域的行动须在另一场域产生压力；秘密曝光风险不能永远靠他人失智解决。"
+        ],
+        "write": [
+          "一个场域的行动须在另一场域产生压力；秘密曝光风险不能永远靠他人失智解决。"
+        ],
+        "review": [
+          "区分人物声称与事实，专业身份不保证万能；仅迁移身份与信息结构，不复制违法处理过程。"
+        ],
+        "package": [
+          "标题或导语呈现身份反差和具体碰撞，不只宣告主角很厉害。"
+        ]
+      },
+      "evidence_ids": [
+        "fanqie:7473705586152964633"
+      ],
+      "limits": "来自2026-10-06逐篇公开正文前3500字符的编辑观察；未读结局。第三方历史点赞是选样依据，不能证明写法导致热门。"
+    },
+    {
+      "id": "enrichment_comic_foreign_order",
+      "parent_family": "comedy",
+      "track": "general",
+      "tags": [
+        "历史古代",
+        "历史",
+        "沙雕搞笑"
+      ],
+      "keywords": [
+        "朝堂",
+        "暴君",
+        "社畜",
+        "加班费"
+      ],
+      "stages": {
+        "ideation": [
+          "让人物用熟悉方法解释陌生秩序；第一次误会成功后必须面对期限或新要求。"
+        ],
+        "opening": [
+          "错误理解要造成具体回应与处境变化，少用长篇确认穿越来延迟标题承诺。"
+        ],
+        "plan": [
+          "误会换来机会后，把机会转成必须证明的能力；不同场次使用不同代价。"
+        ],
+        "write": [
+          "误会换来机会后，把机会转成必须证明的能力；不同场次使用不同代价。"
+        ],
+        "review": [
+          "核对荒谬回应的动机，不能永久靠对手好奇保命；军师能力不能只在导语出现。"
+        ],
+        "package": [
+          "严肃处境与人物日常目标错位可以形成喜剧标题，第一场需兑现该错位。"
+        ]
+      },
+      "evidence_ids": [
+        "speculative:7642224173053381657"
+      ],
+      "limits": "来自2026-10-06逐篇公开正文前3500字符的编辑观察；未读结局。第三方历史点赞是选样依据，不能证明写法导致热门。"
+    },
+    {
+      "id": "enrichment_marriage_signal_test",
+      "parent_family": "romance",
+      "track": "general",
+      "tags": [
+        "先婚后爱"
+      ],
+      "keywords": [
+        "误会",
+        "试探",
+        "验证",
+        "弹幕",
+        "不愿生育"
+      ],
+      "stages": {
+        "ideation": [
+          "从关系信息不对等或个人愿望选择婚配；主角为何接受这段关系必须具体。"
+        ],
+        "opening": [
+          "给一个能观察的信号，让主角试探后改变判断；旁白与弹幕不替代行动。"
+        ],
+        "plan": [
+          "主角的最初愿望进入下一场考验，沟通与边界可创造波折，不强制插入第三者。"
+        ],
+        "write": [
+          "主角的最初愿望进入下一场考验，沟通与边界可创造波折，不强制插入第三者。"
+        ],
+        "review": [
+          "不把强制接近当甜感通用方法，也不抹掉主角原先愿望；未知结局不得按套路补齐。"
+        ],
+        "package": [
+          "社会评价与主角真实目标相反可形成钩子；标题承诺在导语和第一场保持一致。"
+        ]
+      },
+      "evidence_ids": [
+        "fanqie:7602143674314542104",
+        "fanqie:7590967658690923544"
+      ],
+      "limits": "来自2026-10-06逐篇公开正文前3500字符的编辑观察；未读结局。第三方历史点赞是选样依据，不能证明写法导致热门。"
+    },
+    {
+      "id": "enrichment_literal_compliance",
+      "parent_family": "family_growth",
+      "track": "general",
+      "tags": [
+        "真假千金"
+      ],
+      "keywords": [
+        "顺从",
+        "乖巧",
+        "听话"
+      ],
+      "stages": {
+        "ideation": [
+          "同一顺从行为为何被控制者与旁观者理解不同，主角最终要争取什么选择权。"
+        ],
+        "opening": [
+          "用相反人物反应呈现顺从中的异常，不单靠旁白声称主角已改变。"
+        ],
+        "plan": [
+          "每次服从改变具体待遇或关系，随后主角争取实际资源；不要只重复辱骂和后悔。"
+        ],
+        "write": [
+          "每次服从改变具体待遇或关系，随后主角争取实际资源；不要只重复辱骂和后悔。"
+        ],
+        "review": [
+          "精神障碍不等于危险或惩罚，不能把暴力当通用反击；导语预告的反击须在正文合理推进。"
+        ],
+        "package": [
+          "结果预告可建立期待，但正文开场要给不同决定的证据，避免漫长重复受辱。"
+        ]
+      },
+      "evidence_ids": [
+        "fanqie:7452552366517142078"
+      ],
+      "limits": "来自2026-10-06逐篇公开正文前3500字符的编辑观察；未读结局。第三方历史点赞是选样依据，不能证明写法导致热门。"
+    }
+  ],
+  "evidence": {
+    "fanqie:7474053813238759961": {
+      "source_id": "fanqie:7474053813238759961",
+      "title": "节俭婆婆，独信偏方",
+      "source_url": "https://fanqienovel.com/page/7474053813238759961",
+      "reader_url": "https://fanqienovel.com/reader/7474053165634044441",
+      "observed_at": "2026-10-04T02:04:24.838523+00:00",
+      "read_scope": {
+        "kind": "sampled_public_body",
+        "unit": "decoded_public_text_character_offset_0_based",
+        "ranges": [
+          [
+            0,
+            3100
+          ],
+          [
+            5607,
+            6207
+          ]
+        ],
+        "public_text_chars": 6207,
+        "official_word_number": 10998,
+        "note": "公开可见正文选段；跳过区间未读。末段可能只是试读截止，不能据此推定小说完结。"
+      },
+      "full_text_read": false,
+      "opening_type": "重复救助反遭责备，重生后撤回帮助",
+      "title_construction": {
+        "scope": "title_only",
+        "mechanism": "事件前提+结果/反常回应",
+        "requires_long_title": false
+      },
+      "reader_promise": "停止免费救火能否保护自己与孩子",
+      "progression_observations": [
+        "救助被嫌花钱→孩子遭遇不可逆伤害→重来后退出医疗照护责任并谋求经济独立"
+      ],
+      "ending_observed": false,
+      "limitations": [
+        "未核验官网读过人数；第三方赞不等于官方当天指标",
+        "公开正文分段阅读，不属于全篇实读",
+        "偏方/过敏后果是小说情节，不能生成医学事实；不得把伤害儿童作为必选爆点"
+      ],
+      "heat_qualified": false,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ]
+    },
+    "fanqie:7653726033375398936": {
+      "source_id": "fanqie:7653726033375398936",
+      "title": "妈妈不让我和年级第一上北大，五年后我懂了",
+      "source_url": "https://fanqienovel.com/page/7653726033375398936",
+      "reader_url": "https://fanqienovel.com/reader/7653705091915989528",
+      "observed_at": "2026-10-04T02:04:25.447285+00:00",
+      "read_scope": {
+        "kind": "sampled_public_body",
+        "unit": "decoded_public_text_character_offset_0_based",
+        "ranges": [
+          [
+            0,
+            3100
+          ],
+          [
+            3699,
+            4299
+          ]
+        ],
+        "public_text_chars": 4299,
+        "official_word_number": 11832,
+        "note": "公开可见正文选段；跳过区间未读。末段可能只是试读截止，不能据此推定小说完结。"
+      },
+      "full_text_read": false,
+      "opening_type": "母亲阻止恋爱升学与五年后理解形成认知落差",
+      "title_construction": {
+        "scope": "title_only",
+        "mechanism": "事件前提+结果/反常回应",
+        "requires_long_title": false
+      },
+      "reader_promise": "母亲干涉背后到底是什么",
+      "progression_observations": [
+        "录取成绩贴近→男友把共同努力解释成女主欠他→争夺填报志愿手机；控制逐渐落到实际选择权上"
+      ],
+      "ending_observed": false,
+      "limitations": [
+        "未核验官网读过人数；第三方赞不等于官方当天指标",
+        "公开正文分段阅读，不属于全篇实读",
+        "未见五年后结论，不能断言母亲正确；自伤威胁不能当正向教育手段"
+      ],
+      "heat_qualified": true,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ]
+    },
+    "fanqie:7447455579645166105": {
+      "source_id": "fanqie:7447455579645166105",
+      "title": "妈妈，猪精体质还给你",
+      "source_url": "https://fanqienovel.com/page/7447455579645166105",
+      "reader_url": "https://fanqienovel.com/reader/7447452829251289625",
+      "observed_at": "2026-10-04T02:04:25.456634+00:00",
+      "read_scope": {
+        "kind": "sampled_public_body",
+        "unit": "decoded_public_text_character_offset_0_based",
+        "ranges": [
+          [
+            0,
+            2758
+          ],
+          [
+            2158,
+            2758
+          ]
+        ],
+        "public_text_chars": 2758,
+        "official_word_number": 7560,
+        "note": "公开可见正文选段；跳过区间未读。末段可能只是试读截止，不能据此推定小说完结。"
+      },
+      "full_text_read": false,
+      "opening_type": "系统交换体质的二十年代价与七天期限",
+      "title_construction": {
+        "scope": "title_only",
+        "mechanism": "事件前提+结果/反常回应",
+        "requires_long_title": false
+      },
+      "reader_promise": "女儿能否终止身体资源被持续索取",
+      "progression_observations": [
+        "直播穿衣事故制造公开羞辱→倒计时逼迫重新决定→母亲夜间劝食再次检验关心真假"
+      ],
+      "ending_observed": false,
+      "limitations": [
+        "未核验官网读过人数；第三方赞不等于官方当天指标",
+        "公开正文分段阅读，不属于全篇实读",
+        "不能把胖瘦与人格价值绑定；未见交换解除"
+      ],
+      "heat_qualified": false,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ]
+    },
+    "fanqie:7593538121354972222": {
+      "source_id": "fanqie:7593538121354972222",
+      "title": "婆媳联手，侯府搬空.",
+      "source_url": "https://fanqienovel.com/page/7593538121354972222",
+      "reader_url": "https://fanqienovel.com/reader/7593263436448924222",
+      "observed_at": "2026-10-04T02:07:11.859900+00:00",
+      "read_scope": {
+        "kind": "sampled_public_body",
+        "unit": "decoded_public_text_character_offset_0_based",
+        "ranges": [
+          [
+            0,
+            1300
+          ],
+          [
+            3356,
+            3856
+          ],
+          [
+            6363,
+            6713
+          ]
+        ],
+        "public_text_chars": 6713,
+        "official_word_number": 18380,
+        "note": "公开可见正文选段；跳过区间未读。末段可能只是试读截止，不能据此推定小说完结。"
+      },
+      "full_text_read": false,
+      "opening_type": "公爹和丈夫同时引进新妻，婆婆异常热情",
+      "title_construction": {
+        "scope": "title_only",
+        "mechanism": "事件前提+结果/反常回应",
+        "requires_long_title": false
+      },
+      "reader_promise": "婆婆真心迎娶还是正在筹备退路",
+      "progression_observations": [
+        "共享被替代处境→婆婆调度库房人员车马→一小时出府→原有镖局人脉提供迁移资源"
+      ],
+      "ending_observed": false,
+      "limitations": [
+        "未核验官网读过人数；第三方赞不等于官方当天指标",
+        "公开正文分段阅读，不属于全篇实读",
+        "女性盟友替代婆媳互害；涉及财物权属需内部说明；未见搬空后的最终生活"
+      ],
+      "heat_qualified": false,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ]
+    },
+    "fanqie:7624892191982242841": {
+      "source_id": "fanqie:7624892191982242841",
+      "title": "给霸总当替身两年后，金丝雀不干了",
+      "source_url": "https://fanqienovel.com/page/7624892191982242841",
+      "reader_url": "https://fanqienovel.com/reader/7624891490283569689",
+      "observed_at": "2026-10-04T02:07:10.501690+00:00",
+      "read_scope": {
+        "kind": "sampled_public_body",
+        "unit": "decoded_public_text_character_offset_0_based",
+        "ranges": [
+          [
+            0,
+            1300
+          ],
+          [
+            1420,
+            1920
+          ],
+          [
+            2491,
+            2841
+          ]
+        ],
+        "public_text_chars": 2841,
+        "official_word_number": 8856,
+        "note": "公开可见正文选段；跳过区间未读。末段可能只是试读截止，不能据此推定小说完结。"
+      },
+      "full_text_read": false,
+      "opening_type": "第三人称镜前模仿仪式暴露替身控制",
+      "title_construction": {
+        "scope": "title_only",
+        "mechanism": "事件前提+结果/反常回应",
+        "requires_long_title": false
+      },
+      "reader_promise": "表面顺从如何换成教育与照护资源",
+      "progression_observations": [
+        "衣物眼神被纠正→私下银行余额与保研信息揭示自我目标→破坏旧衣表达脱离意愿"
+      ],
+      "ending_observed": false,
+      "limitations": [
+        "未核验官网读过人数；第三方赞不等于官方当天指标",
+        "公开正文分段阅读，不属于全篇实读",
+        "股票积累暴富缺证；公开正文还未退出，不判定标题已兑现"
+      ],
+      "heat_qualified": false,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ]
+    },
+    "fanqie:7614732144153218072": {
+      "source_id": "fanqie:7614732144153218072",
+      "title": "车祸后能读心，我养的人全想弄死我",
+      "source_url": "https://fanqienovel.com/page/7614732144153218072",
+      "reader_url": "https://fanqienovel.com/reader/7614728202174333464",
+      "observed_at": "2026-10-04T02:07:11.154864+00:00",
+      "read_scope": {
+        "kind": "sampled_public_body",
+        "unit": "decoded_public_text_character_offset_0_based",
+        "ranges": [
+          [
+            0,
+            1300
+          ],
+          [
+            2009,
+            2509
+          ],
+          [
+            3669,
+            4019
+          ]
+        ],
+        "public_text_chars": 4019,
+        "official_word_number": 9597,
+        "note": "公开可见正文选段；跳过区间未读。末段可能只是试读截止，不能据此推定小说完结。"
+      },
+      "full_text_read": false,
+      "opening_type": "导语读心揭露亲属加害，正文先写伪灵堂幻景",
+      "title_construction": {
+        "scope": "title_only",
+        "mechanism": "事件前提+结果/反常回应",
+        "requires_long_title": false
+      },
+      "reader_promise": "重伤主角如何取得可验证证据救母",
+      "progression_observations": [
+        "读心提供情报但不能直接证明→装认知受损降低警惕→侵吞财产发布会与母亲安全形成双重期限"
+      ],
+      "ending_observed": false,
+      "limitations": [
+        "未核验官网读过人数；第三方赞不等于官方当天指标",
+        "公开正文分段阅读，不属于全篇实读",
+        "幻景/病房切换负荷高；不能把心理症状演示或医疗机构污名化当默认方法"
+      ],
+      "heat_qualified": false,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ]
+    },
+    "fanqie:7435668527794635326": {
+      "source_id": "fanqie:7435668527794635326",
+      "title": "将军要和离",
+      "source_url": "https://fanqienovel.com/page/7435668527794635326",
+      "reader_url": "https://fanqienovel.com/reader/7435665000812790334",
+      "observed_at": "2026-10-04T02:04:27.835395+00:00",
+      "read_scope": {
+        "kind": "sampled_public_body",
+        "unit": "decoded_public_text_character_offset_0_based",
+        "ranges": [
+          [
+            0,
+            1400
+          ],
+          [
+            1655,
+            2355
+          ],
+          [
+            2960,
+            3310
+          ]
+        ],
+        "public_text_chars": 3310,
+        "official_word_number": 8679,
+        "note": "公开可见正文选段；跳过区间未读。末段可能只是试读截止，不能据此推定小说完结。"
+      },
+      "full_text_read": false,
+      "opening_type": "丈夫提和离，妻子高兴索要女户路引",
+      "title_construction": {
+        "scope": "title_only",
+        "mechanism": "短身份/意象/关系标题",
+        "requires_long_title": false
+      },
+      "reader_promise": "婚姻退出能否变成自主生活",
+      "progression_observations": [
+        "和离先谈行动资格→离开情感竞争→边地照护与作战→要求战报实名，把能力转成公开认可"
+      ],
+      "ending_observed": false,
+      "limitations": [
+        "未核验官网读过人数；第三方赞不等于官方当天指标",
+        "公开正文分段阅读，不属于全篇实读",
+        "仅见公开中段；独立目标不能全由新男主提供"
+      ],
+      "heat_qualified": true,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ]
+    },
+    "fanqie:7513838702229979710": {
+      "source_id": "fanqie:7513838702229979710",
+      "title": "小姑子每天都在模仿小说女主",
+      "source_url": "https://fanqienovel.com/page/7513838702229979710",
+      "reader_url": "https://fanqienovel.com/reader/7513838507031265854",
+      "observed_at": "2026-10-04T02:04:30.155942+00:00",
+      "read_scope": {
+        "kind": "sampled_public_body",
+        "unit": "decoded_public_text_character_offset_0_based",
+        "ranges": [
+          [
+            0,
+            1100
+          ],
+          [
+            7991,
+            8491
+          ],
+          [
+            15732,
+            15982
+          ]
+        ],
+        "public_text_chars": 15982,
+        "official_word_number": 15088,
+        "note": "公开可见正文选段；跳过区间未读。末段可能只是试读截止，不能据此推定小说完结。"
+      },
+      "full_text_read": false,
+      "opening_type": "小姑子模仿小说角色造成家庭真实成本",
+      "title_construction": {
+        "scope": "title_only",
+        "mechanism": "短身份/意象/关系标题",
+        "requires_long_title": false
+      },
+      "reader_promise": "停止代为补救后谁来承担失控后果",
+      "progression_observations": [
+        "学校家务与商业声誉受损→留存记录而非替她善后→尾段女主新事业家庭收束"
+      ],
+      "ending_observed": true,
+      "limitations": [
+        "未核验官网读过人数；第三方赞不等于官方当天指标",
+        "公开正文分段阅读，不属于全篇实读",
+        "不移植鼓励未成年人危险行为或以精神病院代替司法惩罚"
+      ],
+      "heat_qualified": false,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ]
+    },
+    "fanqie:7645234294624881726": {
+      "source_id": "fanqie:7645234294624881726",
+      "title": "真千金归来，我哥让我滚，但他才是抱错的啊",
+      "source_url": "https://fanqienovel.com/page/7645234294624881726",
+      "reader_url": "https://fanqienovel.com/reader/7645215423482298942",
+      "observed_at": "2026-10-04T02:04:25.684234+00:00",
+      "read_scope": {
+        "kind": "sampled_public_body",
+        "unit": "decoded_public_text_character_offset_0_based",
+        "ranges": [
+          [
+            0,
+            1400
+          ],
+          [
+            2126,
+            2826
+          ],
+          [
+            3902,
+            4252
+          ]
+        ],
+        "public_text_chars": 4252,
+        "official_word_number": 10431,
+        "note": "公开可见正文选段；跳过区间未读。末段可能只是试读截止，不能据此推定小说完结。"
+      },
+      "full_text_read": false,
+      "opening_type": "年龄差反转真假千金的归属",
+      "title_construction": {
+        "scope": "title_only",
+        "mechanism": "事件前提+结果/反常回应",
+        "requires_long_title": false
+      },
+      "reader_promise": "抱错的究竟是谁，身份纠错会改变谁的利益",
+      "progression_observations": [
+        "十六与十八的年龄差提前埋证→父亲按性别分配爵位权益→两名女孩结盟→礼物颜色陷阱改换受赠者"
+      ],
+      "ending_observed": false,
+      "limitations": [
+        "未核验官网读过人数；第三方赞不等于官方当天指标",
+        "公开正文分段阅读，不属于全篇实读",
+        "滴血验亲不作医学事实；女性结盟可替代固定雌竞"
+      ],
+      "heat_qualified": true,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ]
+    },
+    "fanqie:7551072509202795582": {
+      "source_id": "fanqie:7551072509202795582",
+      "title": "真千金她不哭不闹，全家却慌了",
+      "source_url": "https://fanqienovel.com/page/7551072509202795582",
+      "reader_url": "https://fanqienovel.com/reader/7551071286361850430",
+      "observed_at": "2026-10-04T02:04:26.184760+00:00",
+      "read_scope": {
+        "kind": "sampled_public_body",
+        "unit": "decoded_public_text_character_offset_0_based",
+        "ranges": [
+          [
+            0,
+            1400
+          ],
+          [
+            5158,
+            5858
+          ],
+          [
+            9967,
+            10317
+          ]
+        ],
+        "public_text_chars": 10317,
+        "official_word_number": 20246,
+        "note": "公开可见正文选段；跳过区间未读。末段可能只是试读截止，不能据此推定小说完结。"
+      },
+      "full_text_read": false,
+      "opening_type": "全家拥抱新人，女主在框外纠正姓名",
+      "title_construction": {
+        "scope": "title_only",
+        "mechanism": "事件前提+结果/反常回应",
+        "requires_long_title": false
+      },
+      "reader_promise": "平静退出会让偏爱者失去什么",
+      "progression_observations": [
+        "名字被叫错、音乐能力被误判、教学要求与家庭照片缺位逐项呈现排除；外部同学提供微小承认"
+      ],
+      "ending_observed": false,
+      "limitations": [
+        "未核验官网读过人数；第三方赞不等于官方当天指标",
+        "公开正文分段阅读，不属于全篇实读",
+        "试读未见全家慌，标题兑现不能据标题判定已完成"
+      ],
+      "heat_qualified": true,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ]
+    },
+    "fanqie:7544516788965346366": {
+      "source_id": "fanqie:7544516788965346366",
+      "title": "假千金复仇，真家族破产",
+      "source_url": "https://fanqienovel.com/page/7544516788965346366",
+      "reader_url": "https://fanqienovel.com/reader/7544516287511151166",
+      "observed_at": "2026-10-04T02:04:26.169084+00:00",
+      "read_scope": {
+        "kind": "sampled_public_body",
+        "unit": "decoded_public_text_character_offset_0_based",
+        "ranges": [
+          [
+            0,
+            1400
+          ],
+          [
+            3705,
+            4405
+          ],
+          [
+            7061,
+            7411
+          ]
+        ],
+        "public_text_chars": 7411,
+        "official_word_number": 22931,
+        "note": "公开可见正文选段；跳过区间未读。末段可能只是试读截止，不能据此推定小说完结。"
+      },
+      "full_text_read": false,
+      "opening_type": "生日揭露身份，逐项剥夺物品和归属",
+      "title_construction": {
+        "scope": "title_only",
+        "mechanism": "事件前提+结果/反常回应",
+        "requires_long_title": false
+      },
+      "reader_promise": "被逐出者如何取得复仇能力",
+      "progression_observations": [
+        "身份揭露→离家时物品查验→交通与服务工作资源下降，先呈现实代价"
+      ],
+      "ending_observed": false,
+      "limitations": [
+        "未核验官网读过人数；第三方赞不等于官方当天指标",
+        "公开正文分段阅读，不属于全篇实读",
+        "公开段落尚未见复仇或家族破产；高赞不证明长时间受辱是通用最优开篇"
+      ],
+      "heat_qualified": false,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ]
+    },
+    "fanqie:7603586933201046553": {
+      "source_id": "fanqie:7603586933201046553",
+      "title": "姐姐高考751？我一句满分才750，全家炸翻天",
+      "source_url": "https://fanqienovel.com/page/7603586933201046553",
+      "reader_url": "https://fanqienovel.com/reader/7603579627025465881",
+      "observed_at": "2026-10-04T02:04:26.420134+00:00",
+      "read_scope": {
+        "kind": "sampled_public_body",
+        "unit": "decoded_public_text_character_offset_0_based",
+        "ranges": [
+          [
+            0,
+            1100
+          ],
+          [
+            5618,
+            6118
+          ],
+          [
+            10986,
+            11236
+          ]
+        ],
+        "public_text_chars": 11236,
+        "official_word_number": 28680,
+        "note": "公开可见正文选段；跳过区间未读。末段可能只是试读截止，不能据此推定小说完结。"
+      },
+      "full_text_read": false,
+      "opening_type": "分数超过满分的一句话揭穿异常",
+      "title_construction": {
+        "scope": "title_only",
+        "mechanism": "事件前提+结果/反常回应",
+        "requires_long_title": false
+      },
+      "reader_promise": "证据如此明显，家人为何仍维护姐姐",
+      "progression_observations": [
+        "数字破绽→家庭拒绝核查→旧日替罪经历→姐姐有病被提出为新解释"
+      ],
+      "ending_observed": false,
+      "limitations": [
+        "未核验官网读过人数；第三方赞不等于官方当天指标",
+        "公开正文分段阅读，不属于全篇实读",
+        "高考满分与加分制度需故事内部说明；不能靠全员失智维持冲突"
+      ],
+      "heat_qualified": true,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ]
+    },
+    "fanqie:7484631111927071294": {
+      "source_id": "fanqie:7484631111927071294",
+      "title": "室友的疯批哥哥竟然暗恋我",
+      "source_url": "https://fanqienovel.com/page/7484631111927071294",
+      "reader_url": "https://fanqienovel.com/reader/7483534644994900542",
+      "observed_at": "2026-10-04T02:04:28.725152+00:00",
+      "read_scope": {
+        "kind": "sampled_public_body",
+        "unit": "decoded_public_text_character_offset_0_based",
+        "ranges": [
+          [
+            0,
+            1400
+          ],
+          [
+            1484,
+            2184
+          ],
+          [
+            2619,
+            2969
+          ]
+        ],
+        "public_text_chars": 2969,
+        "official_word_number": 9222,
+        "note": "公开可见正文选段；跳过区间未读。末段可能只是试读截止，不能据此推定小说完结。"
+      },
+      "full_text_read": false,
+      "opening_type": "学校生活铺垫后出现哥哥对两人的反差",
+      "title_construction": {
+        "scope": "title_only",
+        "mechanism": "短身份/意象/关系标题",
+        "requires_long_title": false
+      },
+      "reader_promise": "冷厉哥哥为什么唯独对她温柔",
+      "progression_observations": [
+        "同一人对妹妹与女主态度不同→介绍微信时身份遮掩→虚拟男友照护与真实身份形成差距"
+      ],
+      "ending_observed": false,
+      "limitations": [
+        "未核验官网读过人数；第三方赞不等于官方当天指标",
+        "公开正文分段阅读，不属于全篇实读",
+        "开篇学校背景较长，是节奏结构对照；疯批标签不等于要写强制亲密"
+      ],
+      "heat_qualified": true,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ]
+    },
+    "fanqie:7633659708116569150": {
+      "source_id": "fanqie:7633659708116569150",
+      "title": "我把暗恋写成小说，他把重逢变成蓄谋",
+      "source_url": "https://fanqienovel.com/page/7633659708116569150",
+      "reader_url": "https://fanqienovel.com/reader/7633616532517438014",
+      "observed_at": "2026-10-04T02:04:28.972331+00:00",
+      "read_scope": {
+        "kind": "sampled_public_body",
+        "unit": "decoded_public_text_character_offset_0_based",
+        "ranges": [
+          [
+            0,
+            1400
+          ],
+          [
+            1710,
+            2410
+          ],
+          [
+            3070,
+            3420
+          ]
+        ],
+        "public_text_chars": 3420,
+        "official_word_number": 10163,
+        "note": "公开可见正文选段；跳过区间未读。末段可能只是试读截止，不能据此推定小说完结。"
+      },
+      "full_text_read": false,
+      "opening_type": "匿名暗恋小说被现实对象读到",
+      "title_construction": {
+        "scope": "title_only",
+        "mechanism": "事件前提+结果/反常回应",
+        "requires_long_title": false
+      },
+      "reader_promise": "重逢巧合还是对方早已知道",
+      "progression_observations": [
+        "笔名和真名造成身份风险→投资改编提供接触理由→工作细节与图书馆座位记忆逐渐否定巧合"
+      ],
+      "ending_observed": false,
+      "limitations": [
+        "未核验官网读过人数；第三方赞不等于官方当天指标",
+        "公开正文分段阅读，不属于全篇实读",
+        "反复猜测必须带来新事实或关系选择；未见告白及结局"
+      ],
+      "heat_qualified": true,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ]
+    },
+    "fanqie:7606728686829571134": {
+      "source_id": "fanqie:7606728686829571134",
+      "title": "综艺上，我接到竹马视频让我续火花",
+      "source_url": "https://fanqienovel.com/page/7606728686829571134",
+      "reader_url": "https://fanqienovel.com/reader/7606727446326428222",
+      "observed_at": "2026-10-04T02:04:29.675838+00:00",
+      "read_scope": {
+        "kind": "sampled_public_body",
+        "unit": "decoded_public_text_character_offset_0_based",
+        "ranges": [
+          [
+            0,
+            1400
+          ],
+          [
+            5596,
+            6296
+          ],
+          [
+            10843,
+            11193
+          ]
+        ],
+        "public_text_chars": 11193,
+        "official_word_number": 12818,
+        "note": "公开可见正文选段；跳过区间未读。末段可能只是试读截止，不能据此推定小说完结。"
+      },
+      "full_text_read": false,
+      "opening_type": "综艺视频暴露九百多天私密聊天习惯",
+      "title_construction": {
+        "scope": "title_only",
+        "mechanism": "事件前提+结果/反常回应",
+        "requires_long_title": false
+      },
+      "reader_promise": "公开亲密记录与口头朋友关系何时对齐",
+      "progression_observations": [
+        "可计数的长期习惯被第三人看见→综艺任务恢复接触→音乐与职业选择提供暗恋线索"
+      ],
+      "ending_observed": false,
+      "limitations": [
+        "未核验官网读过人数；第三方赞不等于官方当天指标",
+        "公开正文分段阅读，不属于全篇实读",
+        "成年角色；未见最终关系确认；不要把火花天数写成爱情唯一依据"
+      ],
+      "heat_qualified": true,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ]
+    },
+    "fanqie:7494244792503648830": {
+      "source_id": "fanqie:7494244792503648830",
+      "title": "和死对头联姻后，先婚后爱了！",
+      "source_url": "https://fanqienovel.com/page/7494244792503648830",
+      "reader_url": "https://fanqienovel.com/reader/7492040850155782718",
+      "observed_at": "2026-10-04T02:04:29.412365+00:00",
+      "read_scope": {
+        "kind": "sampled_public_body",
+        "unit": "decoded_public_text_character_offset_0_based",
+        "ranges": [
+          [
+            0,
+            1400
+          ],
+          [
+            1935,
+            2635
+          ],
+          [
+            3520,
+            3870
+          ]
+        ],
+        "public_text_chars": 3870,
+        "official_word_number": 11421,
+        "note": "公开可见正文选段；跳过区间未读。末段可能只是试读截止，不能据此推定小说完结。"
+      },
+      "full_text_read": false,
+      "opening_type": "联姻交易宣言与亲密关心矛盾",
+      "title_construction": {
+        "scope": "title_only",
+        "mechanism": "事件前提+结果/反常回应",
+        "requires_long_title": false
+      },
+      "reader_promise": "死对头的关照什么时候超出交易",
+      "progression_observations": [
+        "金钱激励与契约先说明→戒指/接送/临时取消会议等行动变化→女主把关心误解为别有所爱"
+      ],
+      "ending_observed": false,
+      "limitations": [
+        "未核验官网读过人数；第三方赞不等于官方当天指标",
+        "公开正文分段阅读，不属于全篇实读",
+        "亲密动作要体现主动选择与关系变化，不用一次保护证明全部爱情"
+      ],
+      "heat_qualified": true,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ]
+    },
+    "fanqie:7441493365201322558": {
+      "source_id": "fanqie:7441493365201322558",
+      "title": "重生后我与竹马天南地北不相见",
+      "source_url": "https://fanqienovel.com/page/7441493365201322558",
+      "reader_url": "https://fanqienovel.com/reader/7441492476075983422",
+      "observed_at": "2026-10-04T02:04:26.970326+00:00",
+      "read_scope": {
+        "kind": "sampled_public_body",
+        "unit": "decoded_public_text_character_offset_0_based",
+        "ranges": [
+          [
+            0,
+            1100
+          ],
+          [
+            8494,
+            8994
+          ],
+          [
+            16739,
+            16989
+          ]
+        ],
+        "public_text_chars": 16989,
+        "official_word_number": 15367,
+        "note": "公开可见正文选段；跳过区间未读。末段可能只是试读截止，不能据此推定小说完结。"
+      },
+      "full_text_read": false,
+      "opening_type": "重生后倒计时改志愿，退出竹马轨道",
+      "title_construction": {
+        "scope": "title_only",
+        "mechanism": "短身份/意象/关系标题",
+        "requires_long_title": false
+      },
+      "reader_promise": "长期默认服务撤回后能否真正分离",
+      "progression_observations": [
+        "升学期限提供不可逆节点→礼物与照护重新分配→尾段男方遗憾而女主另有生活"
+      ],
+      "ending_observed": true,
+      "limitations": [
+        "未核验官网读过人数；第三方赞不等于官方当天指标",
+        "公开正文分段阅读，不属于全篇实读",
+        "看到收束段；追妻不必复合，不能抹去此前伤害兑现甜结局"
+      ],
+      "heat_qualified": true,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ]
+    },
+    "fanqie:7665385794974075966": {
+      "source_id": "fanqie:7665385794974075966",
+      "title": "弹幕劝我破镜重圆，我反手把前任送进局子",
+      "source_url": "https://fanqienovel.com/page/7665385794974075966",
+      "reader_url": "https://fanqienovel.com/reader/7665385541763875390",
+      "observed_at": "2026-10-04T02:07:41.639760+00:00",
+      "read_scope": {
+        "kind": "sampled_public_body",
+        "unit": "decoded_public_text_character_offset_0_based",
+        "ranges": [
+          [
+            0,
+            1300
+          ],
+          [
+            2896,
+            3396
+          ],
+          [
+            5443,
+            5793
+          ]
+        ],
+        "public_text_chars": 5793,
+        "official_word_number": 11737,
+        "note": "公开可见正文选段；跳过区间未读。末段可能只是试读截止，不能据此推定小说完结。"
+      },
+      "full_text_read": false,
+      "opening_type": "弹幕把强闯住宅包装为浪漫，女主先报警",
+      "title_construction": {
+        "scope": "title_only",
+        "mechanism": "事件前提+结果/反常回应",
+        "requires_long_title": false
+      },
+      "reader_promise": "主角如何拒绝强制复合并保住考试生活",
+      "progression_observations": [
+        "入侵留录音→警察介入→母亲旧观念被讨论→新偷拍威胁出现后继续固定证据"
+      ],
+      "ending_observed": false,
+      "limitations": [
+        "未核验官网读过人数；第三方赞不等于官方当天指标",
+        "公开正文分段阅读，不属于全篇实读",
+        "破镜重圆标签可以用于拒绝复合的批判性反转；不把强吻当爱情证据；未见司法结局"
+      ],
+      "heat_qualified": false,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ]
+    },
+    "fanqie:7492025963224498750": {
+      "source_id": "fanqie:7492025963224498750",
+      "title": "霸总的白月光回国后，我消失了",
+      "source_url": "https://fanqienovel.com/page/7492025963224498750",
+      "reader_url": "https://fanqienovel.com/reader/7492024504802099774",
+      "observed_at": "2026-10-04T02:04:30.926134+00:00",
+      "read_scope": {
+        "kind": "sampled_public_body",
+        "unit": "decoded_public_text_character_offset_0_based",
+        "ranges": [
+          [
+            0,
+            1100
+          ],
+          [
+            1688,
+            2188
+          ],
+          [
+            3126,
+            3376
+          ]
+        ],
+        "public_text_chars": 3376,
+        "official_word_number": 10245,
+        "note": "公开可见正文选段；跳过区间未读。末段可能只是试读截止，不能据此推定小说完结。"
+      },
+      "full_text_read": false,
+      "opening_type": "白月光回国分手支票，女主反常立即收钱",
+      "title_construction": {
+        "scope": "title_only",
+        "mechanism": "事件前提+结果/反常回应",
+        "requires_long_title": false
+      },
+      "reader_promise": "她为何急于拿钱而非挽留",
+      "progression_observations": [
+        "付费关系转移到独立资源目标；隐藏寿命因素增添撤离期限；公开歌唱场面反驳贬低"
+      ],
+      "ending_observed": false,
+      "limitations": [
+        "未核验官网读过人数；第三方赞不等于官方当天指标",
+        "公开正文分段阅读，不属于全篇实读",
+        "试读未見消失后果；交易亲密不作为普适甜宠模型"
+      ],
+      "heat_qualified": false,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ]
+    },
+    "fanqie:7447774462579065369": {
+      "source_id": "fanqie:7447774462579065369",
+      "title": "大昭皇后",
+      "source_url": "https://fanqienovel.com/page/7447774462579065369",
+      "reader_url": "https://fanqienovel.com/reader/7447771985284694553",
+      "observed_at": "2026-10-04T02:04:27.124864+00:00",
+      "read_scope": {
+        "kind": "sampled_public_body",
+        "unit": "decoded_public_text_character_offset_0_based",
+        "ranges": [
+          [
+            0,
+            1400
+          ],
+          [
+            6223,
+            6923
+          ],
+          [
+            12096,
+            12446
+          ]
+        ],
+        "public_text_chars": 12446,
+        "official_word_number": 11564,
+        "note": "公开可见正文选段；跳过区间未读。末段可能只是试读截止，不能据此推定小说完结。"
+      },
+      "full_text_read": false,
+      "opening_type": "短身份标题配皇后隐瞒所爱之人",
+      "title_construction": {
+        "scope": "title_only",
+        "mechanism": "短身份/意象/关系标题",
+        "requires_long_title": false
+      },
+      "reader_promise": "皇后真正在意谁，为什么不怕母族被诛",
+      "progression_observations": [
+        "帝王嫉妒与皇后反常冷静制造秘密；母族世代垄断皇后之位限制人生；尾段见到离宫及新朝安排"
+      ],
+      "ending_observed": true,
+      "limitations": [
+        "未核验官网读过人数；第三方赞不等于官方当天指标",
+        "公开正文分段阅读，不属于全篇实读",
+        "看到了收束段但中间未连续读完；短标题靠正文信息差成立，不能禁止所有短标题"
+      ],
+      "heat_qualified": true,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ]
+    },
+    "fanqie:7654102855837568062": {
+      "source_id": "fanqie:7654102855837568062",
+      "title": "太子改娶我后，爱装清高的嫡姐傻眼了",
+      "source_url": "https://fanqienovel.com/page/7654102855837568062",
+      "reader_url": "https://fanqienovel.com/reader/7654101756921512510",
+      "observed_at": "2026-10-04T02:04:28.529713+00:00",
+      "read_scope": {
+        "kind": "sampled_public_body",
+        "unit": "decoded_public_text_character_offset_0_based",
+        "ranges": [
+          [
+            0,
+            1400
+          ],
+          [
+            6562,
+            7262
+          ],
+          [
+            12775,
+            13125
+          ]
+        ],
+        "public_text_chars": 13125,
+        "official_word_number": 29486,
+        "note": "公开可见正文选段；跳过区间未读。末段可能只是试读截止，不能据此推定小说完结。"
+      },
+      "full_text_read": false,
+      "opening_type": "嫡姐拒婚太子立即改娶妹妹",
+      "title_construction": {
+        "scope": "title_only",
+        "mechanism": "事件前提+结果/反常回应",
+        "requires_long_title": false
+      },
+      "reader_promise": "地位逆转后能否保住资产与新权利",
+      "progression_observations": [
+        "婚约改变早兑现标题→清算母亲资产→皇后支持改变仆从站队→假信件与宗族压力升级争夺"
+      ],
+      "ending_observed": false,
+      "limitations": [
+        "未核验官网读过人数；第三方赞不等于官方当天指标",
+        "公开正文分段阅读，不属于全篇实读",
+        "不把拒婚自由本身污名化；真假证据必须交代来源与用途"
+      ],
+      "heat_qualified": true,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ]
+    },
+    "fanqie:7434411367341244952": {
+      "source_id": "fanqie:7434411367341244952",
+      "title": "重生后，我让嫡姐圆了嫁小厮梦",
+      "source_url": "https://fanqienovel.com/page/7434411367341244952",
+      "reader_url": "https://fanqienovel.com/reader/7434408422264554008",
+      "observed_at": "2026-10-04T02:04:28.497332+00:00",
+      "read_scope": {
+        "kind": "sampled_public_body",
+        "unit": "decoded_public_text_character_offset_0_based",
+        "ranges": [
+          [
+            0,
+            1100
+          ],
+          [
+            5447,
+            5947
+          ],
+          [
+            10645,
+            10895
+          ]
+        ],
+        "public_text_chars": 10895,
+        "official_word_number": 9977,
+        "note": "公开可见正文选段；跳过区间未读。末段可能只是试读截止，不能据此推定小说完结。"
+      },
+      "full_text_read": false,
+      "opening_type": "重生撤回劝阻，让嫡姐自己承担所选婚事",
+      "title_construction": {
+        "scope": "title_only",
+        "mechanism": "事件前提+结果/反常回应",
+        "requires_long_title": false
+      },
+      "reader_promise": "妹妹如何选择自己的政治路径",
+      "progression_observations": [
+        "上一世替姐承担入宫与惨祸→不再建议→宫内援助小辈换取资源→尾段看到长期新秩序"
+      ],
+      "ending_observed": true,
+      "limitations": [
+        "未核验官网读过人数；第三方赞不等于官方当天指标",
+        "公开正文分段阅读，不属于全篇实读",
+        "看过尾段未读完整过程；政策与继位阻力不可全部一句带过"
+      ],
+      "heat_qualified": false,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ]
+    },
+    "fanqie:7499773293440811582": {
+      "source_id": "fanqie:7499773293440811582",
+      "title": "娘娘重生后摆烂了",
+      "source_url": "https://fanqienovel.com/page/7499773293440811582",
+      "reader_url": "https://fanqienovel.com/reader/7499714006379151897",
+      "observed_at": "2026-10-04T02:04:26.916784+00:00",
+      "read_scope": {
+        "kind": "sampled_public_body",
+        "unit": "decoded_public_text_character_offset_0_based",
+        "ranges": [
+          [
+            0,
+            1400
+          ],
+          [
+            12294,
+            12994
+          ],
+          [
+            24238,
+            24588
+          ]
+        ],
+        "public_text_chars": 24588,
+        "official_word_number": 26440,
+        "note": "公开可见正文选段；跳过区间未读。末段可能只是试读截止，不能据此推定小说完结。"
+      },
+      "full_text_read": false,
+      "opening_type": "冷宫死亡回到争宠前，选择保护妊娠",
+      "title_construction": {
+        "scope": "title_only",
+        "mechanism": "短身份/意象/关系标题",
+        "requires_long_title": false
+      },
+      "reader_promise": "停止争宠后是否仍有主动权",
+      "progression_observations": [
+        "改变嫉妒竞争习惯→保护孩子→新宠与她交换政治资源；摆烂外观下仍有目标与联盟"
+      ],
+      "ending_observed": false,
+      "limitations": [
+        "未核验官网读过人数；第三方赞不等于官方当天指标",
+        "公开正文分段阅读，不属于全篇实读",
+        "不能把摆烂写成无行动日常；未见最终宫廷胜负"
+      ],
+      "heat_qualified": true,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ]
+    },
+    "fanqie:7670212497537895486": {
+      "source_id": "fanqie:7670212497537895486",
+      "title": "皇后无嗣，独坐宫墙三十年",
+      "source_url": "https://fanqienovel.com/page/7670212497537895486",
+      "reader_url": "https://fanqienovel.com/reader/7670077149792961086",
+      "observed_at": "2026-10-04T02:07:12.787522+00:00",
+      "read_scope": {
+        "kind": "sampled_public_body",
+        "unit": "decoded_public_text_character_offset_0_based",
+        "ranges": [
+          [
+            0,
+            1300
+          ],
+          [
+            4031,
+            4531
+          ],
+          [
+            7712,
+            8062
+          ]
+        ],
+        "public_text_chars": 8062,
+        "official_word_number": 18562,
+        "note": "公开可见正文选段；跳过区间未读。末段可能只是试读截止，不能据此推定小说完结。"
+      },
+      "full_text_read": false,
+      "opening_type": "待归人女子被圣旨强行带入宫，政治约束先于爱情",
+      "title_construction": {
+        "scope": "title_only",
+        "mechanism": "事件前提+结果/反常回应",
+        "requires_long_title": false
+      },
+      "reader_promise": "被夺人生的皇后怎样改变权力安排",
+      "progression_observations": [
+        "家族避险失败→皇后接手大量内务账目→宠妃保留情感特权却推卸行政成本→试读尾段产难待决"
+      ],
+      "ending_observed": false,
+      "limitations": [
+        "未核验官网读过人数；第三方赞不等于官方当天指标",
+        "公开正文分段阅读，不属于全篇实读",
+        "开篇背景与修饰长，为结构对照且热度未知；未见三十年最终走向"
+      ],
+      "heat_qualified": false,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ]
+    },
+    "fanqie:7657957500146175000": {
+      "source_id": "fanqie:7657957500146175000",
+      "title": "分手后，我取消了前女友87项自动代付功能",
+      "source_url": "https://fanqienovel.com/page/7657957500146175000",
+      "reader_url": "https://fanqienovel.com/reader/7657956883315032600",
+      "observed_at": "2026-10-04T02:07:00.271449+00:00",
+      "read_scope": "公开试读4060字全部读完，止于残留信用卡欠款；未见结尾",
+      "analysis_depth": "public_body_analysis",
+      "full_text_read": false,
+      "opening_type": "吃粉时平静接受分手，立即关闭自动代付",
+      "title_construction": "分手行动＋精确数量的隐形付出清单",
+      "reader_promise": "撤回供养后依赖如何显形，主人公能否彻底切断旧关系",
+      "progression_observations": [
+        "会员失效、余额不足、车贷逾期逐级改变现实处境",
+        "闺蜜和父母把私人关系冲突扩大到人际压力",
+        "附属卡剩余债务让第一次退出仍有未解决后果"
+      ],
+      "ending_observed": false,
+      "limitations": [
+        "无官网热度标签",
+        "公开试读可能截断，未声称完整",
+        "完整阅读状态以read_scope为准，full_text_read=False；公开试读边界不能推断付费结尾"
+      ],
+      "heat_qualified": true,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ]
+    },
+    "fanqie:7641643753958034457": {
+      "source_id": "fanqie:7641643753958034457",
+      "title": "总裁老婆说离婚，我同意后她疯了",
+      "source_url": "https://fanqienovel.com/page/7641643753958034457",
+      "reader_url": "https://fanqienovel.com/reader/7641586229900739097",
+      "observed_at": "2026-10-04T02:05:47.062776+00:00",
+      "read_scope": "公开试读3657字全部读完；未见结尾",
+      "analysis_depth": "public_body_analysis",
+      "full_text_read": false,
+      "opening_type": "收到离婚信息后立刻同意、拉黑、收拾行李",
+      "title_construction": "妻子提离婚＋男主照做＋对方失控结果预告",
+      "reader_promise": "控制关系结束后男主能否恢复自主，前任为什么反而追来",
+      "progression_observations": [
+        "炸鸡、游戏、睡觉把自由写成可见生活动作",
+        "朋友见证退出后的变化",
+        "多次来电形成追夫反应，但公开部分尚缺新层次的代价"
+      ],
+      "ending_observed": false,
+      "limitations": [
+        "无官网热度标签",
+        "公开试读可能截断，未声称完整",
+        "完整阅读状态以read_scope为准，full_text_read=False；公开试读边界不能推断付费结尾"
+      ],
+      "heat_qualified": false,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ]
+    },
+    "fanqie:7639578920903248920": {
+      "source_id": "fanqie:7639578920903248920",
+      "title": "前女友成了影后想看我多惨，结果录像带一播全网笑疯了",
+      "source_url": "https://fanqienovel.com/page/7639578920903248920",
+      "reader_url": "https://fanqienovel.com/reader/7639576655014412824",
+      "observed_at": "2026-10-04T02:06:59.606166+00:00",
+      "read_scope": "公开试读2683字全部读完，止于录像播放前；未见结尾",
+      "analysis_depth": "public_body_analysis",
+      "full_text_read": false,
+      "opening_type": "直播传出男主已死，镜头外的男主却在吃烧烤",
+      "title_construction": "前任地位上涨＋期待我惨＋公开媒介反转",
+      "reader_promise": "自我感动的旧爱如何被真实生活录像推翻",
+      "progression_observations": [
+        "直播观众相信悲情解释，男主视角提供反证",
+        "受控生活回忆解释退出的原因",
+        "录像即将播放把私人真相转成公共兑现"
+      ],
+      "ending_observed": false,
+      "limitations": [
+        "无官网热度标签",
+        "公开试读可能截断，未声称完整",
+        "完整阅读状态以read_scope为准，full_text_read=False；公开试读边界不能推断付费结尾"
+      ],
+      "heat_qualified": true,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ]
+    },
+    "fanqie:7655368153093901336": {
+      "source_id": "fanqie:7655368153093901336",
+      "title": "民政局第二次被放鸽子，角落姑娘问我：领不领？",
+      "source_url": "https://fanqienovel.com/page/7655368153093901336",
+      "reader_url": "https://fanqienovel.com/reader/7655325785791676990",
+      "observed_at": "2026-10-04T02:05:48.319380+00:00",
+      "read_scope": "公开正文前两章及第三章起段；试读未见结尾",
+      "analysis_depth": "public_body_analysis",
+      "full_text_read": false,
+      "opening_type": "民政局再次失约，第三方登记员见证，陌生姑娘给出短时限",
+      "title_construction": "重复受辱次数＋陌生人主动选择＋一句决策问话",
+      "reader_promise": "失约者能否与另一位被辜负者建立可信的新关系",
+      "progression_observations": [
+        "先作登记决定，把身份改变放在熟悉之前",
+        "火锅、约定期限、搬家与猫承担关系落地",
+        "前任发现变化形成外部反应"
+      ],
+      "ending_observed": false,
+      "limitations": [
+        "公开试读可能截断，未声称完整",
+        "截图显示值与官网抓取时间不必相同",
+        "完整阅读状态以read_scope为准，full_text_read=False；公开试读边界不能推断付费结尾"
+      ],
+      "heat_qualified": true,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ]
+    },
+    "fanqie:7642502815025220633": {
+      "source_id": "fanqie:7642502815025220633",
+      "title": "我俩互演穷鬼，领证那天民政局笑疯了",
+      "source_url": "https://fanqienovel.com/page/7642502815025220633",
+      "reader_url": "https://fanqienovel.com/reader/7642502062659338777",
+      "observed_at": "2026-10-04T02:05:49.201350+00:00",
+      "read_scope": "公开试读首2100字与末700字；中段未连续读完；未见结尾",
+      "analysis_depth": "public_body_analysis",
+      "full_text_read": false,
+      "opening_type": "隐瞒财富的基层男生把节俭同事的昂贵手表解释为富家伪装",
+      "title_construction": "双方互相伪装＋领证公共场景＋喜剧结果",
+      "reader_promise": "身份猜测揭开时，选择是否基于真实相处",
+      "progression_observations": [
+        "廉价购物与名表形成证据冲突",
+        "裁员风险变成男主失去工作",
+        "女生在男主处境下降时主动改变关系"
+      ],
+      "ending_observed": false,
+      "limitations": [
+        "无官网热度标签",
+        "公开试读可能截断，未声称完整",
+        "完整阅读状态以read_scope为准，full_text_read=False；公开试读边界不能推断付费结尾"
+      ],
+      "heat_qualified": true,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ]
+    },
+    "fanqie:7650168982875409433": {
+      "source_id": "fanqie:7650168982875409433",
+      "title": "相亲吃了八盘虾，对面千金说嫁了",
+      "source_url": "https://fanqienovel.com/page/7650168982875409433",
+      "reader_url": "https://fanqienovel.com/reader/7648544871526957630",
+      "observed_at": "2026-10-04T02:07:15.909352+00:00",
+      "read_scope": "公开正文首2100字与末700字；未连续读完；未见结尾",
+      "analysis_depth": "public_body_analysis",
+      "full_text_read": false,
+      "opening_type": "高价相亲场合被男主当成自助餐，围绕食物争夺建立喜剧",
+      "title_construction": "低姿态具体食欲＋高身份女生出乎意料选择",
+      "reader_promise": "在展示身份的场合，谁会因真实个性而作选择",
+      "progression_observations": [
+        "食物道具替代履历介绍，表现男主社交失配",
+        "高管权力展示与男主吃虾并列",
+        "公开范围未观察到女生最后选择男主的具体理由"
+      ],
+      "ending_observed": false,
+      "limitations": [
+        "无官网热度标签",
+        "公开试读可能截断，未声称完整",
+        "完整阅读状态以read_scope为准，full_text_read=False；公开试读边界不能推断付费结尾"
+      ],
+      "heat_qualified": true,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ]
+    },
+    "fanqie:7666722078548085822": {
+      "source_id": "fanqie:7666722078548085822",
+      "title": "总裁老婆白月光归来，我成了他的白月光",
+      "source_url": "https://fanqienovel.com/page/7666722078548085822",
+      "reader_url": "https://fanqienovel.com/reader/7666721628364997182",
+      "observed_at": "2026-10-04T02:06:36.552528+00:00",
+      "read_scope": "公开试读首段及第四至七节；共6800字可访问，未连续读完；未见结尾",
+      "analysis_depth": "public_body_analysis",
+      "full_text_read": false,
+      "opening_type": "合约丈夫把妻子接机装扮解释成旧爱回归，并准备按合同退出",
+      "title_construction": "协议婚姻＋旧爱归来＋代词指向反常",
+      "reader_promise": "谁才是谁的旧爱，叙述者对三角关系的理解是否错误",
+      "progression_observations": [
+        "旧爱对现任丈夫的反应与预期竞争相反",
+        "妻子醉酒挽留与叙述者冷静算合同形成信息差",
+        "旧爱留宿做早餐后，离婚提议触发妻子异常反应"
+      ],
+      "ending_observed": false,
+      "limitations": [
+        "无官网热度标签",
+        "公开试读可能截断，未声称完整",
+        "完整阅读状态以read_scope为准，full_text_read=False；公开试读边界不能推断付费结尾"
+      ],
+      "heat_qualified": false,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ]
+    },
+    "fanqie:7441942893285081624": {
+      "source_id": "fanqie:7441942893285081624",
+      "title": "彩礼贴小舅子？那不如我娶他女友",
+      "source_url": "https://fanqienovel.com/page/7441942893285081624",
+      "reader_url": "https://fanqienovel.com/reader/7441449452876874265",
+      "observed_at": "2026-10-04T02:07:01.708246+00:00",
+      "read_scope": "公开正文首2100字与末700字；中段未完整读；看见【完】结尾",
+      "analysis_depth": "public_body_analysis",
+      "full_text_read": false,
+      "opening_type": "彩礼三次上涨，资金去向逐渐指向女友弟弟婚事",
+      "title_construction": "彩礼被转移＋家庭责任不公＋更换婚配选择",
+      "reader_promise": "主人公能否止损，并建立不靠道德绑架的关系",
+      "progression_observations": [
+        "有限存款与房贷使索取有具体成本",
+        "对方用感情资格压制边界",
+        "结尾两名分别分手的人由双方家庭牵线，女生主动提出试试"
+      ],
+      "ending_observed": true,
+      "limitations": [
+        "无官网热度标签",
+        "公开试读可能截断，未声称完整",
+        "完整阅读状态以read_scope为准，full_text_read=False；公开试读边界不能推断付费结尾"
+      ],
+      "heat_qualified": true,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ]
+    },
+    "fanqie:7451484620782043710": {
+      "source_id": "fanqie:7451484620782043710",
+      "title": "同事死后，我娶了他的老婆",
+      "source_url": "https://fanqienovel.com/page/7451484620782043710",
+      "reader_url": "https://fanqienovel.com/reader/7451153405940089406",
+      "observed_at": "2026-10-04T02:06:07.014998+00:00",
+      "read_scope": "公开试读2954字全部读完，止于旧恋人女儿追问；未见结尾",
+      "analysis_depth": "public_body_analysis",
+      "full_text_read": false,
+      "opening_type": "救命恩人身亡，代为养家多年，却遭母子误解并离婚退出",
+      "title_construction": "伦理压力关系＋死亡触发的新婚姻",
+      "reader_promise": "被误解的偿债者能否重新选择自己的人生，并承担真正遗漏的责任",
+      "progression_observations": [
+        "公墓卸下债务，再退出错误婚姻",
+        "恢复翻译工作与旧恋人重逢",
+        "女孩身份把单向受害叙事改写为主人公也欠责任"
+      ],
+      "ending_observed": false,
+      "limitations": [
+        "公开试读可能截断，未声称完整",
+        "截图显示值与官网抓取时间不必相同",
+        "完整阅读状态以read_scope为准，full_text_read=False；公开试读边界不能推断付费结尾"
+      ],
+      "heat_qualified": true,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ]
+    },
+    "fanqie:7592301611842554905": {
+      "source_id": "fanqie:7592301611842554905",
+      "title": "青梅很野",
+      "source_url": "https://fanqienovel.com/page/7592301611842554905",
+      "reader_url": "https://fanqienovel.com/reader/7592297329005183513",
+      "observed_at": "2026-10-04T02:05:51.310746+00:00",
+      "read_scope": "公开试读3887字全部读完，止于童年告白回忆；未见结尾",
+      "analysis_depth": "public_body_analysis",
+      "full_text_read": false,
+      "opening_type": "亲密预告后，正文由告白另一女生失败、误送花给青梅切入",
+      "title_construction": "短人物关系词＋性格反差；不是所有热门标题都是长事件句",
+      "reader_promise": "熟悉的人是否早已把日常善意当作爱情",
+      "progression_observations": [
+        "同一束花先是剩余物，再被她珍藏",
+        "男生逃避与女生主动推动产生视角差",
+        "她知道花的来源仍珍惜，改变男生对旧关系的理解"
+      ],
+      "ending_observed": false,
+      "limitations": [
+        "公开试读可能截断，未声称完整",
+        "截图显示值与官网抓取时间不必相同",
+        "完整阅读状态以read_scope为准，full_text_read=False；公开试读边界不能推断付费结尾"
+      ],
+      "heat_qualified": true,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ]
+    },
+    "fanqie:7655735456444714046": {
+      "source_id": "fanqie:7655735456444714046",
+      "title": "青梅偷改我志愿送我进军校，十年后她的婚礼全场安静了",
+      "source_url": "https://fanqienovel.com/page/7655735456444714046",
+      "reader_url": "https://fanqienovel.com/reader/7655688019684377150",
+      "observed_at": "2026-10-04T02:05:52.282085+00:00",
+      "read_scope": "公开正文首2100字与末700字；未连续读完；未见结尾",
+      "analysis_depth": "public_body_analysis",
+      "full_text_read": false,
+      "opening_type": "旧青梅婚礼请帖寄到营区，战友揭示篡改志愿的往事",
+      "title_construction": "过去关键人生被侵害＋十年时间跨越＋公开重逢结果",
+      "reader_promise": "过去被牺牲的人，如今是否仍要接受别人对自己的解释",
+      "progression_observations": [
+        "男主先决定与现任一起参加，不先追着旧爱索说法",
+        "战友、母亲、现任分别提供反应与关系支撑",
+        "婚宴对手把旧伤说成浪漫，公开范围尚未到完整回应"
+      ],
+      "ending_observed": false,
+      "limitations": [
+        "无官网热度标签",
+        "公开试读可能截断，未声称完整",
+        "完整阅读状态以read_scope为准，full_text_read=False；公开试读边界不能推断付费结尾"
+      ],
+      "heat_qualified": true,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ]
+    },
+    "fanqie:7612214828379147288": {
+      "source_id": "fanqie:7612214828379147288",
+      "title": "公司出事，老板想要栽赃我？看我反手送他入狱",
+      "source_url": "https://fanqienovel.com/page/7612214828379147288",
+      "reader_url": "https://fanqienovel.com/reader/7612213878079898136",
+      "observed_at": "2026-10-04T02:06:48.430671+00:00",
+      "read_scope": "公开试读3790字读完，止于准备调取卡口照片；未见结尾",
+      "analysis_depth": "public_body_analysis",
+      "full_text_read": false,
+      "opening_type": "会议上异常ETC账单公开指控，三天期限与家庭开销形成压力",
+      "title_construction": "职场栽赃触发＋反向承担后果的结果预告",
+      "reader_promise": "普通中年员工能否用可检验的证据洗清栽赃",
+      "progression_observations": [
+        "先核对账单时间与代驾、医院、会议记录",
+        "再查权限转移和车库录像，查明内部证据受阻",
+        "转向外部卡口照片，证据目标比单纯争辩更具体"
+      ],
+      "ending_observed": false,
+      "limitations": [
+        "无官网热度标签",
+        "公开试读可能截断，未声称完整",
+        "完整阅读状态以read_scope为准，full_text_read=False；公开试读边界不能推断付费结尾"
+      ],
+      "heat_qualified": false,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ]
+    },
+    "fanqie:7644605073082829848": {
+      "source_id": "fanqie:7644605073082829848",
+      "title": "老婆别烧了，阎王都开始管我借钱了",
+      "source_url": "https://fanqienovel.com/page/7644605073082829848",
+      "reader_url": "https://fanqienovel.com/reader/7644110423528047166",
+      "observed_at": "2026-10-04T02:07:04.443157+00:00",
+      "read_scope": "公开正文首2100字与末700字；未连续读完；未见结尾",
+      "analysis_depth": "public_body_analysis",
+      "full_text_read": false,
+      "opening_type": "死后穷困的丈夫突然被妻子烧来的钱砸塌住处",
+      "title_construction": "亲密称呼＋极端动作＋世界权威反向求助",
+      "reader_promise": "活人伴侣的牵挂如何改写另一个世界的规则",
+      "progression_observations": [
+        "钱由生活改善升级为管理费和地府地位",
+        "权力人物索取后，二次巨款再次改变博弈",
+        "男主开始担心妻子付出，喜剧资源转回关系情绪"
+      ],
+      "ending_observed": false,
+      "limitations": [
+        "无官网热度标签",
+        "公开试读可能截断，未声称完整",
+        "完整阅读状态以read_scope为准，full_text_read=False；公开试读边界不能推断付费结尾"
+      ],
+      "heat_qualified": true,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ]
+    },
+    "fanqie:7683339479330950206": {
+      "source_id": "fanqie:7683339479330950206",
+      "title": "系统靠发型识别性别后，职场大乱了",
+      "source_url": "https://fanqienovel.com/page/7683339479330950206",
+      "reader_url": "https://fanqienovel.com/reader/7683342590980129342",
+      "observed_at": "2026-10-04T02:06:44.886477+00:00",
+      "read_scope": "公开正文首2100字与末700字；未连续读完；未见结尾",
+      "analysis_depth": "public_body_analysis",
+      "full_text_read": false,
+      "opening_type": "系统按发型错认兄妹性别，把摆烂和事业任务分错人",
+      "title_construction": "错误识别机制＋日常组织＋群体失序后果",
+      "reader_promise": "两人能否利用错配争取各自想要的人生",
+      "progression_observations": [
+        "兄妹先互认需求并合作隐瞒",
+        "妹妹利用财务判断获得认可，男生获得休息空间",
+        "同一任务因选择不同对象而变成对真正对手的反击"
+      ],
+      "ending_observed": false,
+      "limitations": [
+        "无官网热度标签",
+        "公开试读可能截断，未声称完整",
+        "完整阅读状态以read_scope为准，full_text_read=False；公开试读边界不能推断付费结尾"
+      ],
+      "heat_qualified": false,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ]
+    },
+    "speculative:7437041543476691481": {
+      "source_id": "speculative:7437041543476691481",
+      "title": "外卖惊魂",
+      "source_url": "https://fanqienovel.com/page/7437041543476691481",
+      "reader_url": "https://fanqienovel.com/reader/7437039542957244953",
+      "observed_at": "2026-10-04T10:07:01.194384+08:00",
+      "read_scope": "整段免费公开预览已读，共9300字符；不等于全文",
+      "read_depth": "public_preview_deep",
+      "full_text_read": false,
+      "opening_type": "外卖敲门威胁转成屋内潜伏",
+      "title_construction": "普通工作场景＋惊魂类型承诺",
+      "reader_promise": "住处、朋友和求救途径是否真的安全",
+      "progression_observations": [
+        "门外异常先获得暂时解释，平台距离和马桶脚印又把危险指向屋内。",
+        "报警、朋友到来、厨房位置等具体条件不断改变可用的求救机会。",
+        "假通话获得短暂行动时间，真手机暴露又让计划失效，失败来自已出现的物件。",
+        "已读公开段末尾出现杀人后愉悦的反转提示；未核验其是否为整篇终点，不写作完整结局。"
+      ],
+      "ending_observed": false,
+      "limitations": [
+        "辅助热度为第三方榜同bookId快照，非官网自然曝光或实时数据",
+        "只取免费公开文本，没有绕支付限制",
+        "仅由公开可读段形成机制假设，未确认全篇反转、结局或推荐因果",
+        "本站短篇付费标识确认格式；标题关键词或聚合榜标签不等于应用内完整官方标签体系"
+      ],
+      "heat_qualified": false,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ]
+    },
+    "speculative:7478582451080069656": {
+      "source_id": "speculative:7478582451080069656",
+      "title": "完美犯罪：死无对证",
+      "source_url": "https://fanqienovel.com/page/7478582451080069656",
+      "reader_url": "https://fanqienovel.com/reader/7478581968251142680",
+      "observed_at": "2026-10-04T10:07:01.194384+08:00",
+      "read_scope": "整段免费公开预览已读，共5283字符；不等于全文",
+      "read_depth": "public_preview_deep",
+      "full_text_read": false,
+      "opening_type": "课堂问题转成刑事质询",
+      "title_construction": "犯罪术语＋证据缺失的矛盾",
+      "reader_promise": "缺席的被害人、证据和自白会怎样互相推翻",
+      "progression_observations": [
+        "课堂中的死亡证人讨论被警察拿来质问教师，知识话题立刻变成个人风险。",
+        "财产代管、脚印、攀岩照片分别改变可能作案者和作案条件。",
+        "讲述童年伤害改变读者的情感站位，但不能替代物证判断。",
+        "免费段以母亲仍活着推翻自白，重新提出顶罪问题；未读完整破案结果。"
+      ],
+      "ending_observed": false,
+      "limitations": [
+        "辅助热度为第三方榜同bookId快照，非官网自然曝光或实时数据",
+        "只取免费公开文本，没有绕支付限制",
+        "仅由公开可读段形成机制假设，未确认全篇反转、结局或推荐因果",
+        "本站短篇付费标识确认格式；标题关键词或聚合榜标签不等于应用内完整官方标签体系"
+      ],
+      "heat_qualified": true,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ]
+    },
+    "speculative:7551237414983846974": {
+      "source_id": "speculative:7551237414983846974",
+      "title": "昆虫学家的完美犯罪",
+      "source_url": "https://fanqienovel.com/page/7551237414983846974",
+      "reader_url": "https://fanqienovel.com/reader/7551035828307247678",
+      "observed_at": "2026-10-04T10:07:01.194384+08:00",
+      "read_scope": "整段免费公开预览已读，共5927字符；不等于全文",
+      "read_depth": "public_preview_deep",
+      "full_text_read": false,
+      "opening_type": "专家表现与专长相矛盾",
+      "title_construction": "职业知识＋完美犯罪承诺",
+      "reader_promise": "用昆虫线索重新解释一串看似意外的死亡",
+      "progression_observations": [
+        "昆虫学家惧怕昆虫的反常表现构成首个疑问。",
+        "妻子、孩子和邻居的意外以及保险收入形成相关性，学生提问承担读者求证动作。",
+        "课堂讲故事结构容许不断补充旧案信息，专业物件被重新解释。",
+        "免费段转入妻子失踪当夜的真实情形，仍未看到最后揭露；医学毒理和法律说法未经事实核验。"
+      ],
+      "ending_observed": false,
+      "limitations": [
+        "辅助热度为第三方榜同bookId快照，非官网自然曝光或实时数据",
+        "只取免费公开文本，没有绕支付限制",
+        "仅由公开可读段形成机制假设，未确认全篇反转、结局或推荐因果",
+        "本站短篇付费标识确认格式；标题关键词或聚合榜标签不等于应用内完整官方标签体系"
+      ],
+      "heat_qualified": true,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ]
+    },
+    "speculative:7438835253424161305": {
+      "source_id": "speculative:7438835253424161305",
+      "title": "美人村",
+      "source_url": "https://fanqienovel.com/page/7438835253424161305",
+      "reader_url": "https://fanqienovel.com/reader/7438830850550022681",
+      "observed_at": "2026-10-04T10:05:12.915640+08:00",
+      "read_scope": "整段免费公开预览已读，共3216字符；不等于全文",
+      "read_depth": "public_preview_deep",
+      "full_text_read": false,
+      "opening_type": "怪物叙述者寻找恶人",
+      "title_construction": "地点名短标题，正文提供捕食目的",
+      "reader_promise": "人贩子的猎物可能才是更危险的捕食者",
+      "progression_observations": [
+        "蛇女需要恶人心脏，17次失败与当前年轻男友形成验证任务。",
+        "男友的善良表象和恶人痣先让判断不确定；绑架使先前怀疑得到行为验证。",
+        "村内买卖和囚禁场景扩展恶行的参与者，主角表面恐惧、内心期待形成优势信息。",
+        "免费段止于蛇瞳显现，尚未看到报复兑现。"
+      ],
+      "ending_observed": false,
+      "limitations": [
+        "热度为第三方榜单同 bookId 快照，非官网自然曝光或实时数据；无去重口径",
+        "正文只取免费公开部分，未绕支付限制",
+        "仅由公开可读段形成机制假设，未确认全篇反转、结局或推荐因果",
+        "本站短篇付费标识确认格式；标题关键词或聚合榜标签不等于应用内完整官方标签体系"
+      ],
+      "heat_qualified": true,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ]
+    },
+    "speculative:7481978466716369470": {
+      "source_id": "speculative:7481978466716369470",
+      "title": "规则怪谈：我的异能你猜不透",
+      "source_url": "https://fanqienovel.com/page/7481978466716369470",
+      "reader_url": "https://fanqienovel.com/reader/7481978116064166462",
+      "observed_at": "2026-10-04T10:05:12.915640+08:00",
+      "read_scope": "整段免费公开预览已读，共3339字符；不等于全文",
+      "read_depth": "public_preview_deep",
+      "full_text_read": false,
+      "opening_type": "规则公开且能力必须保密",
+      "title_construction": "类型标识＋难以识破的能力承诺",
+      "reader_promise": "在能力会被观众猜中并抹杀的规则中生存",
+      "progression_observations": [
+        "候选人、观众和死亡条件规定各方可做什么；首位参与者暴露能力后死亡，让规则有真实代价。",
+        "主角选择难猜的能力结构，随后把钱和日常需求转为生存资源。",
+        "观众整理错题集，过去有效的能力被破解，敌方学习迫使策略更新。",
+        "公开段进入赠送手机行动，未看到最终胜者；复杂能力仍需可核对的作用边界。"
+      ],
+      "ending_observed": false,
+      "limitations": [
+        "热度为第三方榜单同 bookId 快照，非官网自然曝光或实时数据；无去重口径",
+        "正文只取免费公开部分，未绕支付限制",
+        "仅由公开可读段形成机制假设，未确认全篇反转、结局或推荐因果",
+        "本站短篇付费标识确认格式；标题关键词或聚合榜标签不等于应用内完整官方标签体系"
+      ],
+      "heat_qualified": true,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ]
+    },
+    "speculative:7639714095427505177": {
+      "source_id": "speculative:7639714095427505177",
+      "title": "飞升不是成仙，是上钩",
+      "source_url": "https://fanqienovel.com/page/7639714095427505177",
+      "reader_url": "https://fanqienovel.com/reader/7639708078782300697",
+      "observed_at": "2026-10-04T10:05:12.915640+08:00",
+      "read_scope": "整段免费公开预览已读，共3256字符；不等于全文",
+      "read_depth": "public_preview_deep",
+      "full_text_read": false,
+      "opening_type": "仙道惯例遭物证推翻",
+      "title_construction": "概念否定：飞升不是成仙，而是被钓走",
+      "reader_promise": "查明天界真相，逃出以飞升为诱饵的捕食秩序",
+      "progression_observations": [
+        "老师飞升时出现鱼钩；仪式的吉祥解释与身体异状形成冲突。",
+        "宗门把目击者判为失心疯并隔离，求证开始付出行动代价。",
+        "扫地老人、鱼鳞警告和师兄威胁重复解释同一钓鱼意象，线索逐步改变含义。",
+        "公开段停在师兄解释鱼线，尚未看到逃脱或制度真相的完整兑现。"
+      ],
+      "ending_observed": false,
+      "limitations": [
+        "热度为第三方榜单同 bookId 快照，非官网自然曝光或实时数据；无去重口径",
+        "正文只取免费公开部分，未绕支付限制",
+        "仅由公开可读段形成机制假设，未确认全篇反转、结局或推荐因果",
+        "本站短篇付费标识确认格式；标题关键词或聚合榜标签不等于应用内完整官方标签体系"
+      ],
+      "heat_qualified": true,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ]
+    },
+    "speculative:7652603972187851838": {
+      "source_id": "speculative:7652603972187851838",
+      "title": "我是副本大boss养的笨蛋人类",
+      "source_url": "https://fanqienovel.com/page/7652603972187851838",
+      "reader_url": "https://fanqienovel.com/reader/7652603531811111486",
+      "observed_at": "2026-10-06T20:15:50.959748+08:00",
+      "tags": [
+        "沙雕搞笑",
+        "甜宠",
+        "穿越",
+        "奇妙物语"
+      ],
+      "read_scope": {
+        "kind": "continuous_public_preview",
+        "unit": "decoded_public_text_character_offset_0_based",
+        "ranges": [
+          [
+            0,
+            3500
+          ]
+        ],
+        "public_text_chars": 3846,
+        "official_word_number": 11719,
+        "note": "逐篇实际阅读前3500字符；其余公开缓存与结尾未读，不将导语预告当正文兑现。"
+      },
+      "full_text_read": false,
+      "ending_observed": false,
+      "opening_type": "认出学神的玩家使伪装遇到压力，怪物把身份称呼误读为名字。",
+      "title_construction": {
+        "scope": "title_only",
+        "mechanism": "题材前提与目标、身份或解释错位；依案例判断",
+        "requires_long_title": false
+      },
+      "reader_promise": "求生伪装带来真实照护；聪明人怎样继续扮笨而不失去行动能力。",
+      "progression_observations": [
+        "认出学神的玩家使伪装遇到压力，怪物把身份称呼误读为名字。",
+        "拒绝不合适食物、争取独立穿衣，以扮笨动作改变照护方式。",
+        "手机作为玩具被送来，却为主角提供副本线索和逃跑准备。",
+        "选题可把求生办法与被关爱的欲望接在同一行动上；每次误会同时给资源和新限制，不能只重复大家觉得她笨。"
+      ],
+      "limitations": [
+        "已读范围仅公开正文前3500字符；未读结尾；导语预告和正文实际兑现分开。第三方历史点赞不证明平台推荐因果；迁移原创机制，不迁移句子与情节。",
+        "怪物集体低智为伪装提供方便；杀害其他玩家和受照护的甜感并存，不宜概括成普遍温暖。",
+        "养母旧事仅刚进入回忆，不能据此声称创伤得到修复。"
+      ],
+      "heat_qualified": true,
+      "heat": {
+        "metrics": [
+          {
+            "name": "third_party_likes",
+            "value": 19254
+          }
+        ],
+        "source": "https://www.wangwendashuju.com/api/wangwen/story/ranking",
+        "statistical_date": "2026-10-05 00:00:00",
+        "observed_at": "2026-10-06T20:14:57.777723+08:00",
+        "qualified": true,
+        "scope": "同 bookId、书名、作者核验的第三方历史点赞；readCnt不用作读者量或热度资格"
+      },
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ],
+      "body_sha256": "e8f3b07ba69289e2d562d4988dd69c4c22e479decb328dd2cacf4ed547ed9f61",
+      "analysis_source": "local-research-snapshot-not-distributed"
+    },
+    "speculative:7595883812756655129": {
+      "source_id": "speculative:7595883812756655129",
+      "title": "都说了我家公主用不着王子救",
+      "source_url": "https://fanqienovel.com/page/7595883812756655129",
+      "reader_url": "https://fanqienovel.com/reader/7595882668634423833",
+      "observed_at": "2026-10-04T10:05:12.915640+08:00",
+      "read_scope": "整段免费公开预览已读，共2891字符；不等于全文",
+      "read_depth": "public_preview_deep",
+      "full_text_read": false,
+      "opening_type": "救公主童话被父亲质疑",
+      "title_construction": "熟悉童话角色＋拒绝默认救援方式",
+      "reader_promise": "父亲训练女儿掌握自己的力量，并挑战王子救援叙事",
+      "progression_observations": [
+        "导语先承诺未来救援冲突，正文回到幼年父女关系。",
+        "母亲死亡与婚后地位信息推动父亲改变养育方式，行为有个人动机。",
+        "剑、训练和童话对话把权力观念落到物件与选择上。",
+        "父亲的保护与控制使女儿反感；已读部分止于争执，未见成年反击。"
+      ],
+      "ending_observed": false,
+      "limitations": [
+        "热度为第三方榜单同 bookId 快照，非官网自然曝光或实时数据；无去重口径",
+        "正文只取免费公开部分，未绕支付限制",
+        "仅由公开可读段形成机制假设，未确认全篇反转、结局或推荐因果",
+        "本站短篇付费标识确认格式；标题关键词或聚合榜标签不等于应用内完整官方标签体系"
+      ],
+      "heat_qualified": true,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ]
+    },
+    "speculative:7604732687114308670": {
+      "source_id": "speculative:7604732687114308670",
+      "title": "前任勿扰，我要飞升证道",
+      "source_url": "https://fanqienovel.com/page/7604732687114308670",
+      "reader_url": "https://fanqienovel.com/reader/7604731404852675134",
+      "observed_at": "2026-10-04T10:05:12.915640+08:00",
+      "read_scope": "仅认真阅读免费公开正文前400字符；未分析中后段",
+      "read_depth": "opening_only",
+      "full_text_read": false,
+      "opening_type": "杀妻证道遭另一个丈夫打断",
+      "title_construction": "拒绝前任＋修道目标",
+      "reader_promise": "受害预期如何被女主隐藏关系扭转",
+      "progression_observations": [
+        "刀尖与婚书真假让规则矛盾具体，另一个同修夫君带来解法与新问题。"
+      ],
+      "ending_observed": false,
+      "limitations": [
+        "热度为第三方榜单同 bookId 快照，非官网自然曝光或实时数据；无去重口径",
+        "正文只取免费公开部分，未绕支付限制",
+        "仅由公开可读段形成机制假设，未确认全篇反转、结局或推荐因果",
+        "本站短篇付费标识确认格式；标题关键词或聚合榜标签不等于应用内完整官方标签体系"
+      ],
+      "heat_qualified": true,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "package"
+      ]
+    },
+    "speculative:7468500786775851545": {
+      "source_id": "speculative:7468500786775851545",
+      "title": "蛇定终身",
+      "source_url": "https://fanqienovel.com/page/7468500786775851545",
+      "reader_url": "https://fanqienovel.com/reader/7468498340976542233",
+      "observed_at": "2026-10-04T10:05:12.915640+08:00",
+      "read_scope": "仅认真阅读免费公开正文前400字符；未分析中后段",
+      "read_depth": "opening_only",
+      "full_text_read": false,
+      "opening_type": "宠物缠绕被误认捕食",
+      "title_construction": "成语谐音：蛇与终身",
+      "reader_promise": "怕蛇的主人和报恩蛇的亲密误会",
+      "progression_observations": [
+        "短视频警告改变缠绕含义，放生后回归对白再次解释同一动作。"
+      ],
+      "ending_observed": false,
+      "limitations": [
+        "热度为第三方榜单同 bookId 快照，非官网自然曝光或实时数据；无去重口径",
+        "正文只取免费公开部分，未绕支付限制",
+        "仅由公开可读段形成机制假设，未确认全篇反转、结局或推荐因果",
+        "本站短篇付费标识确认格式；标题关键词或聚合榜标签不等于应用内完整官方标签体系"
+      ],
+      "heat_qualified": true,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "package"
+      ]
+    },
+    "speculative:7659820525065210905": {
+      "source_id": "speculative:7659820525065210905",
+      "title": "我那谋士出的全是馊主意，但每次都管用",
+      "source_url": "https://fanqienovel.com/page/7659820525065210905",
+      "reader_url": "https://fanqienovel.com/reader/7659230436182196760",
+      "observed_at": "2026-10-04T10:05:12.915640+08:00",
+      "read_scope": "整段免费公开预览已读，共5030字符；不等于全文",
+      "read_depth": "public_preview_deep",
+      "full_text_read": false,
+      "opening_type": "权力威胁中引入荒诞解法",
+      "title_construction": "失格方案＋持续有效的矛盾句式",
+      "reader_promise": "看似馊主意如何帮助权臣摆脱杀身之祸",
+      "progression_observations": [
+        "幼帝忌惮宰相，哭泣不是无缘由笑料，而是以丢脸换安全的政治信号。",
+        "朝堂痛哭利用先帝关系让幼帝害怕失去依靠，但宰相同时承受声名代价。",
+        "养鸡替代聚集武士再次降低谋反观感，老谋士离开构成重复笑点。",
+        "另一官员开始攻击，把策略成功转成新对手的进入；免费段止于其登场。"
+      ],
+      "ending_observed": false,
+      "limitations": [
+        "热度为第三方榜单同 bookId 快照，非官网自然曝光或实时数据；无去重口径",
+        "正文只取免费公开部分，未绕支付限制",
+        "仅由公开可读段形成机制假设，未确认全篇反转、结局或推荐因果",
+        "本站短篇付费标识确认格式；标题关键词或聚合榜标签不等于应用内完整官方标签体系"
+      ],
+      "heat_qualified": true,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ]
+    },
+    "speculative:7642224173053381657": {
+      "source_id": "speculative:7642224173053381657",
+      "title": "暴君从乱葬岗捡了个祖宗",
+      "source_url": "https://fanqienovel.com/page/7642224173053381657",
+      "reader_url": "https://fanqienovel.com/reader/7641847344299786814",
+      "observed_at": "2026-10-06T20:15:52.902290+08:00",
+      "tags": [
+        "历史古代",
+        "打脸逆袭",
+        "爽文"
+      ],
+      "read_scope": {
+        "kind": "continuous_public_preview",
+        "unit": "decoded_public_text_character_offset_0_based",
+        "ranges": [
+          [
+            0,
+            3500
+          ]
+        ],
+        "public_text_chars": 6354,
+        "official_word_number": 19784,
+        "note": "逐篇实际阅读前3500字符；其余公开缓存与结尾未读，不将导语预告当正文兑现。"
+      },
+      "full_text_read": false,
+      "ending_observed": false,
+      "opening_type": "尸堆和带刀者构成即时生存问题，主角却按老板身份索要报酬。",
+      "title_construction": {
+        "scope": "title_only",
+        "mechanism": "题材前提与目标、身份或解释错位；依案例判断",
+        "requires_long_title": false
+      },
+      "reader_promise": "职场本能撞上暴君，错误称呼为何能换来暂时生存。",
+      "progression_observations": [
+        "尸堆和带刀者构成即时生存问题，主角却按老板身份索要报酬。",
+        "暴君因好奇带走他，错话暂时变成保命资源。",
+        "听说前次被认为有意思的人被杀，先前成功留下期限压力。",
+        "早朝里以职场经验观察权力人物，语言错位持续制造误会。",
+        "喜剧选题可让主角用熟悉的方法解释陌生秩序；第一次侥幸成功之后，应逼他把误会转换成实际能力和新代价。"
+      ],
+      "limitations": [
+        "已读范围仅公开正文前3500字符；未读结尾；导语预告和正文实际兑现分开。第三方历史点赞不证明平台推荐因果；迁移原创机制，不迁移句子与情节。",
+        "正文用很长篇幅重复穿越确认和职场比喻，导语预告的军师主意迟迟未进入。",
+        "暴君好奇即可保命是便利设置；角色不能在新风险下永远重复口误。"
+      ],
+      "heat_qualified": true,
+      "heat": {
+        "metrics": [
+          {
+            "name": "third_party_likes",
+            "value": 9101
+          }
+        ],
+        "source": "https://www.wangwendashuju.com/api/wangwen/story/ranking",
+        "statistical_date": "2026-10-02 00:00:00",
+        "observed_at": "2026-10-06T20:14:58.656760+08:00",
+        "qualified": true,
+        "scope": "同 bookId、书名、作者核验的第三方历史点赞；readCnt不用作读者量或热度资格"
+      },
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ],
+      "body_sha256": "1bf0e2fded693f5c0a43e0217988a81d6456ee8bcac5ab418e4100f340642925",
+      "analysis_source": "local-research-snapshot-not-distributed"
+    },
+    "speculative:7648052406910979134": {
+      "source_id": "speculative:7648052406910979134",
+      "title": "我装了八年哑巴，开口把番邦使臣骂哭了",
+      "source_url": "https://fanqienovel.com/page/7648052406910979134",
+      "reader_url": "https://fanqienovel.com/reader/7646810984304099902",
+      "observed_at": "2026-10-04T10:05:12.915640+08:00",
+      "read_scope": "仅认真阅读免费公开正文前400字符；未分析中后段",
+      "read_depth": "opening_only",
+      "full_text_read": false,
+      "opening_type": "弱势皇子藏锋但国难迫其开口",
+      "title_construction": "八年压抑＋一开口造成公共结果",
+      "reader_promise": "被低估者如何解决大殿危局",
+      "progression_observations": [
+        "军权和母族资源解释隐忍动机；使臣割城把沉默选择变为有代价的决定。"
+      ],
+      "ending_observed": false,
+      "limitations": [
+        "热度为第三方榜单同 bookId 快照，非官网自然曝光或实时数据；无去重口径",
+        "正文只取免费公开部分，未绕支付限制",
+        "仅由公开可读段形成机制假设，未确认全篇反转、结局或推荐因果",
+        "本站短篇付费标识确认格式；标题关键词或聚合榜标签不等于应用内完整官方标签体系"
+      ],
+      "heat_qualified": true,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "package"
+      ]
+    },
+    "speculative:7529547964910406681": {
+      "source_id": "speculative:7529547964910406681",
+      "title": "手握五十万大军，你让我回京道歉",
+      "source_url": "https://fanqienovel.com/page/7529547964910406681",
+      "reader_url": "https://fanqienovel.com/reader/7529545484336120345",
+      "observed_at": "2026-10-04T10:05:12.915640+08:00",
+      "read_scope": "仅认真阅读免费公开正文前400字符；未分析中后段",
+      "read_depth": "opening_only",
+      "full_text_read": false,
+      "opening_type": "功臣资源与羞辱命令冲突",
+      "title_construction": "五十万资源＋不合理道歉要求",
+      "reader_promise": "掌兵者如何反击朝廷的越界要求",
+      "progression_observations": [
+        "军帐与圣旨直接呈现矛盾，斩使兑现拒绝；政治后果尚未读。"
+      ],
+      "ending_observed": false,
+      "limitations": [
+        "热度为第三方榜单同 bookId 快照，非官网自然曝光或实时数据；无去重口径",
+        "正文只取免费公开部分，未绕支付限制",
+        "仅由公开可读段形成机制假设，未确认全篇反转、结局或推荐因果",
+        "本站短篇付费标识确认格式；标题关键词或聚合榜标签不等于应用内完整官方标签体系"
+      ],
+      "heat_qualified": true,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "package"
+      ]
+    },
+    "speculative:7552502440415726617": {
+      "source_id": "speculative:7552502440415726617",
+      "title": "末日降临人人都有系统，我不激活系统只老实囤物资",
+      "source_url": "https://fanqienovel.com/page/7552502440415726617",
+      "reader_url": "https://fanqienovel.com/reader/7552492738382414361",
+      "observed_at": "2026-10-04T10:05:12.915640+08:00",
+      "read_scope": "整段免费公开预览已读，共10436字符；不等于全文",
+      "read_depth": "public_preview_deep",
+      "full_text_read": false,
+      "opening_type": "全民系统热潮中拒绝绑定",
+      "title_construction": "主流升级路线＋反向囤货选择",
+      "reader_promise": "别人靠系统升级，主角靠拒绝任务与储备获得安全",
+      "progression_observations": [
+        "祖母告诫与钟坠让主角发现系统的惩罚和提示，决定不绑定。",
+        "采购、改造、繁殖和日记占据大量篇幅，提供储备与安居满足，不能概括成每段反转。",
+        "杀猪与护猪等相互冲突的任务揭示系统秩序隐患；强者变异使避开系统兑现一次。",
+        "伪装地堡回收房东资源，后续出现巨型丧尸发现最后人类；公开段止于威胁，未读最终解释。"
+      ],
+      "ending_observed": false,
+      "limitations": [
+        "热度为第三方榜单同 bookId 快照，非官网自然曝光或实时数据；无去重口径",
+        "正文只取免费公开部分，未绕支付限制",
+        "仅由公开可读段形成机制假设，未确认全篇反转、结局或推荐因果",
+        "本站短篇付费标识确认格式；标题关键词或聚合榜标签不等于应用内完整官方标签体系"
+      ],
+      "heat_qualified": true,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ]
+    },
+    "speculative:7626620058810207294": {
+      "source_id": "speculative:7626620058810207294",
+      "title": "末世3天就结束，弹幕让我别囤货",
+      "source_url": "https://fanqienovel.com/page/7626620058810207294",
+      "reader_url": "https://fanqienovel.com/reader/7626617347045851710",
+      "observed_at": "2026-10-04T10:05:12.915640+08:00",
+      "read_scope": "整段免费公开预览已读，共3937字符；不等于全文",
+      "read_depth": "public_preview_deep",
+      "full_text_read": false,
+      "opening_type": "末世囤货惯例被短灾害时长否定",
+      "title_construction": "限定时间＋弹幕反向建议",
+      "reader_promise": "撤回一笔错误囤货投入，同时识别买卖骗局与背叛",
+      "progression_observations": [
+        "付款前收到大米质量与剧情提示，信息改变当下高额交易。",
+        "主角检查后排米袋并听到男友电话，分别验证物资风险与关系风险。",
+        "弹幕修正对人物的初始判断，说明外部信息也有解释层次。",
+        "让男友接手原交易，利用对方欲望转移损失；免费段未见灾害全程或兑现结局。"
+      ],
+      "ending_observed": false,
+      "limitations": [
+        "热度为第三方榜单同 bookId 快照，非官网自然曝光或实时数据；无去重口径",
+        "正文只取免费公开部分，未绕支付限制",
+        "仅由公开可读段形成机制假设，未确认全篇反转、结局或推荐因果",
+        "本站短篇付费标识确认格式；标题关键词或聚合榜标签不等于应用内完整官方标签体系"
+      ],
+      "heat_qualified": false,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ]
+    },
+    "speculative:7654537605890984984": {
+      "source_id": "speculative:7654537605890984984",
+      "title": "出国后，我成了所有人的白月光",
+      "source_url": "https://fanqienovel.com/page/7654537605890984984",
+      "reader_url": "https://fanqienovel.com/reader/7654533666764243480",
+      "observed_at": "2026-10-04T10:05:12.915640+08:00",
+      "read_scope": "仅认真阅读免费公开正文前400字符；未分析中后段",
+      "read_depth": "opening_only",
+      "full_text_read": false,
+      "opening_type": "十年进度被新人清零",
+      "title_construction": "离开事件＋众人追悔期待",
+      "reader_promise": "停止攻略能否比持续付出更有效",
+      "progression_observations": [
+        "十年与三月、80％与清零把代价可视化，出国是当下行动。"
+      ],
+      "ending_observed": false,
+      "limitations": [
+        "热度为第三方榜单同 bookId 快照，非官网自然曝光或实时数据；无去重口径",
+        "正文只取免费公开部分，未绕支付限制",
+        "仅由公开可读段形成机制假设，未确认全篇反转、结局或推荐因果",
+        "本站短篇付费标识确认格式；标题关键词或聚合榜标签不等于应用内完整官方标签体系"
+      ],
+      "heat_qualified": true,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "package"
+      ]
+    },
+    "speculative:7657765888942148633": {
+      "source_id": "speculative:7657765888942148633",
+      "title": "听懂物品说话后，我暴富封神",
+      "source_url": "https://fanqienovel.com/page/7657765888942148633",
+      "reader_url": "https://fanqienovel.com/reader/7657765108688355865",
+      "observed_at": "2026-10-04T10:05:12.915640+08:00",
+      "read_scope": "仅认真阅读免费公开正文前400字符；未分析中后段",
+      "read_depth": "opening_only",
+      "full_text_read": false,
+      "opening_type": "日常小能力听见犯罪物证",
+      "title_construction": "听物品说话＋财富地位奖励",
+      "reader_promise": "普通物品声音如何变成侦查能力",
+      "progression_observations": [
+        "早餐碎肉机异常把校园偷看的小用处提升为人命风险，报警是首个主动验证。"
+      ],
+      "ending_observed": false,
+      "limitations": [
+        "热度为第三方榜单同 bookId 快照，非官网自然曝光或实时数据；无去重口径",
+        "正文只取免费公开部分，未绕支付限制",
+        "仅由公开可读段形成机制假设，未确认全篇反转、结局或推荐因果",
+        "本站短篇付费标识确认格式；标题关键词或聚合榜标签不等于应用内完整官方标签体系"
+      ],
+      "heat_qualified": true,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "package"
+      ]
+    },
+    "speculative:7443439737274106392": {
+      "source_id": "speculative:7443439737274106392",
+      "title": "赚了一千万，极寒末世来了。",
+      "source_url": "https://fanqienovel.com/page/7443439737274106392",
+      "reader_url": "https://fanqienovel.com/reader/7441934594544255513",
+      "observed_at": "2026-10-04T10:07:01.194384+08:00",
+      "read_scope": "仅认真阅读免费公开正文前400字符；未分析中后段",
+      "read_depth": "opening_only",
+      "full_text_read": false,
+      "opening_type": "财富自由被末世夺走后重生",
+      "title_construction": "一千万资源＋极寒剥夺",
+      "reader_promise": "第二次拥有财富怎样避免出卖",
+      "progression_observations": [
+        "一袋面价格衡量前世贬值，回到签约日先用热面兑现最小安居感。"
+      ],
+      "ending_observed": false,
+      "limitations": [
+        "辅助热度为第三方榜同bookId快照，非官网自然曝光或实时数据",
+        "只取免费公开文本，没有绕支付限制",
+        "仅由公开可读段形成机制假设，未确认全篇反转、结局或推荐因果",
+        "本站短篇付费标识确认格式；标题关键词或聚合榜标签不等于应用内完整官方标签体系"
+      ],
+      "heat_qualified": false,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "package"
+      ]
+    },
+    "speculative:7538672699489389630": {
+      "source_id": "speculative:7538672699489389630",
+      "title": "极寒末世，我涮着火锅泡着温泉",
+      "source_url": "https://fanqienovel.com/page/7538672699489389630",
+      "reader_url": "https://fanqienovel.com/reader/7538268849523671614",
+      "observed_at": "2026-10-04T10:07:01.194384+08:00",
+      "read_scope": "仅认真阅读免费公开正文前400字符；未分析中后段",
+      "read_depth": "opening_only",
+      "full_text_read": false,
+      "opening_type": "救家人遭背叛后重生拒绝",
+      "title_construction": "极寒背景＋火锅温泉的安居对照",
+      "reader_promise": "隔绝剥削者后如何保住物资与舒服生活",
+      "progression_observations": [
+        "前世保护家人造成灾祸，七天期限把边界选择和资源准备联系。"
+      ],
+      "ending_observed": false,
+      "limitations": [
+        "辅助热度为第三方榜同bookId快照，非官网自然曝光或实时数据",
+        "只取免费公开文本，没有绕支付限制",
+        "仅由公开可读段形成机制假设，未确认全篇反转、结局或推荐因果",
+        "本站短篇付费标识确认格式；标题关键词或聚合榜标签不等于应用内完整官方标签体系"
+      ],
+      "heat_qualified": false,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "package"
+      ]
+    },
+    "speculative:7493122474373038617": {
+      "source_id": "speculative:7493122474373038617",
+      "title": "末世重生全家在山洞里吃火锅",
+      "source_url": "https://fanqienovel.com/page/7493122474373038617",
+      "reader_url": "https://fanqienovel.com/reader/7493101749876572697",
+      "observed_at": "2026-10-04T10:07:01.194384+08:00",
+      "read_scope": "仅认真阅读免费公开正文前400字符；未分析中后段",
+      "read_depth": "opening_only",
+      "full_text_read": false,
+      "opening_type": "忠诚情侣双重重生",
+      "title_construction": "全家集体目标＋山洞火锅的安全画面",
+      "reader_promise": "守住家人与物资抵抗极寒",
+      "progression_observations": [
+        "拥抱确认共同记忆后才定准备任务；开篇1月14至2月14被写成10天，说明热样本仍可能有时间错误。"
+      ],
+      "ending_observed": false,
+      "limitations": [
+        "辅助热度为第三方榜同bookId快照，非官网自然曝光或实时数据",
+        "只取免费公开文本，没有绕支付限制",
+        "仅由公开可读段形成机制假设，未确认全篇反转、结局或推荐因果",
+        "本站短篇付费标识确认格式；标题关键词或聚合榜标签不等于应用内完整官方标签体系"
+      ],
+      "heat_qualified": false,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "package"
+      ]
+    },
+    "speculative:7632203567918484505": {
+      "source_id": "speculative:7632203567918484505",
+      "title": "女扮男装混成四大才子，装断袖他们却当真了",
+      "source_url": "https://fanqienovel.com/page/7632203567918484505",
+      "reader_url": "https://fanqienovel.com/reader/7629990677786411545",
+      "observed_at": "2026-10-04T10:05:12.915640+08:00",
+      "read_scope": "仅认真阅读免费公开正文前400字符；未分析中后段",
+      "read_depth": "opening_only",
+      "full_text_read": false,
+      "opening_type": "择婿宴身份遮掩变成新误会",
+      "title_construction": "女扮男装＋假声明被当真",
+      "reader_promise": "同伴怎样应对主角声明的新亲密可能",
+      "progression_observations": [
+        "束胸出汗对应当下暴露风险；父母误解预言解释男装来由。"
+      ],
+      "ending_observed": false,
+      "limitations": [
+        "热度为第三方榜单同 bookId 快照，非官网自然曝光或实时数据；无去重口径",
+        "正文只取免费公开部分，未绕支付限制",
+        "仅由公开可读段形成机制假设，未确认全篇反转、结局或推荐因果",
+        "本站短篇付费标识确认格式；标题关键词或聚合榜标签不等于应用内完整官方标签体系"
+      ],
+      "heat_qualified": true,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "package"
+      ]
+    },
+    "speculative:7618546133517749273": {
+      "source_id": "speculative:7618546133517749273",
+      "title": "误入恐怖副本后，发现全是熟人",
+      "source_url": "https://fanqienovel.com/page/7618546133517749273",
+      "reader_url": "https://fanqienovel.com/reader/7618536665727894041",
+      "observed_at": "2026-10-04T10:05:12.915640+08:00",
+      "read_scope": "仅认真阅读免费公开正文前400字符；未分析中后段",
+      "read_depth": "opening_only",
+      "full_text_read": false,
+      "opening_type": "恐怖副本变亲属认领大会",
+      "title_construction": "危险类型＋全是熟人的安全反差",
+      "reader_promise": "关系保护如何抵御副本以及未知父亲",
+      "progression_observations": [
+        "多次称亲后出现不认识的父亲，安全感承诺仍留下一处身份裂缝。"
+      ],
+      "ending_observed": false,
+      "limitations": [
+        "热度为第三方榜单同 bookId 快照，非官网自然曝光或实时数据；无去重口径",
+        "正文只取免费公开部分，未绕支付限制",
+        "仅由公开可读段形成机制假设，未确认全篇反转、结局或推荐因果",
+        "本站短篇付费标识确认格式；标题关键词或聚合榜标签不等于应用内完整官方标签体系"
+      ],
+      "heat_qualified": true,
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "package"
+      ]
+    },
+    "fanqie:7602143674314542104": {
+      "source_id": "fanqie:7602143674314542104",
+      "title": "和冰山老公分房睡，弹幕劝我别作死",
+      "source_url": "https://fanqienovel.com/page/7602143674314542104",
+      "reader_url": "https://fanqienovel.com/reader/7601822594223850008",
+      "observed_at": "2026-10-06T20:15:50.959350+08:00",
+      "tags": [
+        "脑洞",
+        "打脸逆袭",
+        "先婚后爱",
+        "霸总",
+        "爽文"
+      ],
+      "read_scope": {
+        "kind": "continuous_public_preview",
+        "unit": "decoded_public_text_character_offset_0_based",
+        "ranges": [
+          [
+            0,
+            3500
+          ]
+        ],
+        "public_text_chars": 5043,
+        "official_word_number": 15718,
+        "note": "逐篇实际阅读前3500字符；其余公开缓存与结尾未读，不将导语预告当正文兑现。"
+      },
+      "full_text_read": false,
+      "ending_observed": false,
+      "opening_type": "分房被解释为无意接近，弹幕提出相反解释并预告炮灰风险。",
+      "title_construction": {
+        "scope": "title_only",
+        "mechanism": "题材前提与目标、身份或解释错位；依案例判断",
+        "requires_long_title": false
+      },
+      "reader_promise": "冷淡是拒绝还是克制；女主是否能验证信息并改变对婚姻的判断。",
+      "progression_observations": [
+        "分房被解释为无意接近，弹幕提出相反解释并预告炮灰风险。",
+        "女主去门边观察，门把手转动后停下，出现可见但仍有多种解释的信号。",
+        "早餐主动制造接近机会，丈夫接住她又退开，初步改变她的判断。",
+        "白小姐到来将关系验证转为对第三方说辞的辨别。",
+        "关系选题可以围绕两人对同一行为的不同解释；开篇给一个可检验信号，再让试探改变下一场的关系位置。"
+      ],
+      "limitations": [
+        "已读范围仅公开正文前3500字符；未读结尾；导语预告和正文实际兑现分开。第三方历史点赞不证明平台推荐因果；迁移原创机制，不迁移句子与情节。",
+        "弹幕几乎全知，主角自主判断空间偏小；频繁重复身体反应和观众兴奋拖慢推进。",
+        "接住人和杯子不洒一滴的能力过度理想化，不能迁移为现实能力要求。"
+      ],
+      "heat_qualified": true,
+      "heat": {
+        "metrics": [
+          {
+            "name": "third_party_likes",
+            "value": 18800
+          }
+        ],
+        "source": "https://www.wangwendashuju.com/api/wangwen/story/ranking",
+        "statistical_date": "2026-10-05 00:00:00",
+        "observed_at": "2026-10-06T20:14:57.778212+08:00",
+        "qualified": true,
+        "scope": "同 bookId、书名、作者核验的第三方历史点赞；readCnt不用作读者量或热度资格"
+      },
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ],
+      "body_sha256": "8320d657211c0d869503cf739d32d5c7c3c3282159d17b7eebc74682e2953bab",
+      "analysis_source": "local-research-snapshot-not-distributed"
+    },
+    "fanqie:7452552366517142078": {
+      "source_id": "fanqie:7452552366517142078",
+      "title": "别惹真千金，她易燃易爆炸",
+      "source_url": "https://fanqienovel.com/page/7452552366517142078",
+      "reader_url": "https://fanqienovel.com/reader/7452551201469514302",
+      "observed_at": "2026-10-06T20:15:50.959870+08:00",
+      "tags": [
+        "女生生活",
+        "病娇",
+        "家庭",
+        "真假千金"
+      ],
+      "read_scope": {
+        "kind": "continuous_public_preview",
+        "unit": "decoded_public_text_character_offset_0_based",
+        "ranges": [
+          [
+            0,
+            3500
+          ]
+        ],
+        "public_text_chars": 5802,
+        "official_word_number": 16942,
+        "note": "逐篇实际阅读前3500字符；其余公开缓存与结尾未读，不将导语预告当正文兑现。"
+      },
+      "full_text_read": false,
+      "ending_observed": false,
+      "opening_type": "接人时哥哥认可乖顺，院长却害怕同一动作，形成解释落差。",
+      "title_construction": {
+        "scope": "title_only",
+        "mechanism": "题材前提与目标、身份或解释错位；依案例判断",
+        "requires_long_title": false
+      },
+      "reader_promise": "家人以为她被驯服，读者看到异常顺从中的反击意味。",
+      "progression_observations": [
+        "接人时哥哥认可乖顺，院长却害怕同一动作，形成解释落差。",
+        "回家吃饭需询问许可，哥哥在羞辱和短暂心疼之间摇摆。",
+        "假千金破坏照片并要求她动手，女主按字面听话，原有指控再次发生。",
+        "女主展示出院证明并接受搬进杂物间，服从不能消除哥哥的愤怒。",
+        "可以让同一服从行为被不同人物读成不同含义，靠旁观者反应形成钩子；规划时要让主角取得实际选择权，避免只写对方后悔。"
+      ],
+      "limitations": [
+        "已读范围仅公开正文前3500字符；未读结尾；导语预告和正文实际兑现分开。第三方历史点赞不证明平台推荐因果；迁移原创机制，不迁移句子与情节。",
+        "家人重复不信和羞辱，行动增量有限；精神障碍与危险性捆绑，不能当医学或照护常识。",
+        "导语已展示更强反击，正文仍长时间重复受辱，存在承诺延迟。"
+      ],
+      "heat_qualified": true,
+      "heat": {
+        "metrics": [
+          {
+            "name": "third_party_likes",
+            "value": 49197
+          }
+        ],
+        "source": "https://www.wangwendashuju.com/api/wangwen/story/ranking",
+        "statistical_date": "2026-10-05 00:00:00",
+        "observed_at": "2026-10-06T20:14:57.992242+08:00",
+        "qualified": true,
+        "scope": "同 bookId、书名、作者核验的第三方历史点赞；readCnt不用作读者量或热度资格"
+      },
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ],
+      "body_sha256": "b9c4e050c677659a481917f51632188b6f73184381c8c4f4f7c2f4c4e4b837aa",
+      "analysis_source": "local-research-snapshot-not-distributed"
+    },
+    "fanqie:7473705586152964633": {
+      "source_id": "fanqie:7473705586152964633",
+      "title": "你好，死了吗保洁，上门服务",
+      "source_url": "https://fanqienovel.com/page/7473705586152964633",
+      "reader_url": "https://fanqienovel.com/reader/7473704080544629273",
+      "observed_at": "2026-10-06T20:15:51.902861+08:00",
+      "tags": [
+        "女生生活",
+        "大女主",
+        "犯罪",
+        "复仇",
+        "校园"
+      ],
+      "read_scope": {
+        "kind": "continuous_public_preview",
+        "unit": "decoded_public_text_character_offset_0_based",
+        "ranges": [
+          [
+            0,
+            3500
+          ]
+        ],
+        "public_text_chars": 5741,
+        "official_word_number": 11798,
+        "note": "逐篇实际阅读前3500字符；其余公开缓存与结尾未读，不将导语预告当正文兑现。"
+      },
+      "full_text_read": false,
+      "ending_observed": false,
+      "opening_type": "夜间接单的对象正是白天欺负她的同学，日常关系与特殊职业碰撞。",
+      "title_construction": {
+        "scope": "title_only",
+        "mechanism": "题材前提与目标、身份或解释错位；依案例判断",
+        "requires_long_title": false
+      },
+      "reader_promise": "白天的被欺负者为何出现在夜间委托现场，两个身份怎样互相影响。",
+      "progression_observations": [
+        "夜间接单的对象正是白天欺负她的同学，日常关系与特殊职业碰撞。",
+        "叙述者表现冷静并声称自己专业，读者知道的身份比同学多。",
+        "同学失踪后家庭与校园对她的阶层身份重新解释。",
+        "警方问询进入校园，叙述者的双重角色面临更大暴露压力。",
+        "职业题材选题先设计两个场域怎样撞上同一人物或事件；用信息差驱动选择，职业细节须另行核验，不能照搬违法操作或万能专业保证。"
+      ],
+      "limitations": [
+        "已读范围仅公开正文前3500字符；未读结尾；导语预告和正文实际兑现分开。第三方历史点赞不证明平台推荐因果；迁移原创机制，不迁移句子与情节。",
+        "关于警方无法发现的保证只是人物声称，未获正文实证；问询过度方便，悬疑可信度有限。",
+        "叙述者将受害与贫困作为嘲讽对象，不能把其判断当作品支持的现实事实。"
+      ],
+      "heat_qualified": true,
+      "heat": {
+        "metrics": [
+          {
+            "name": "third_party_likes",
+            "value": 25515
+          }
+        ],
+        "source": "https://www.wangwendashuju.com/api/wangwen/story/ranking",
+        "statistical_date": "2026-10-05 00:00:00",
+        "observed_at": "2026-10-06T20:14:57.992242+08:00",
+        "qualified": true,
+        "scope": "同 bookId、书名、作者核验的第三方历史点赞；readCnt不用作读者量或热度资格"
+      },
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ],
+      "body_sha256": "d3b1239a69ce9ab0cd27e372eb015742a9c9ad4a547272d7d666ac0c499564e6",
+      "analysis_source": "local-research-snapshot-not-distributed"
+    },
+    "fanqie:7594791359270095896": {
+      "source_id": "fanqie:7594791359270095896",
+      "title": "青鸾山夜班惊魂",
+      "source_url": "https://fanqienovel.com/page/7594791359270095896",
+      "reader_url": "https://fanqienovel.com/reader/7594785078111126040",
+      "observed_at": "2026-10-06T20:15:52.124028+08:00",
+      "tags": [
+        "民间奇闻",
+        "直播",
+        "沙雕搞笑",
+        "现代",
+        "大女主",
+        "爽文",
+        "惊悚"
+      ],
+      "read_scope": {
+        "kind": "continuous_public_preview",
+        "unit": "decoded_public_text_character_offset_0_based",
+        "ranges": [
+          [
+            0,
+            3500
+          ]
+        ],
+        "public_text_chars": 3877,
+        "official_word_number": 10131,
+        "note": "逐篇实际阅读前3500字符；其余公开缓存与结尾未读，不将导语预告当正文兑现。"
+      },
+      "full_text_read": false,
+      "ending_observed": false,
+      "opening_type": "贷款和三万月薪使她接受异常夜间配送，而非无理由冒险。",
+      "title_construction": {
+        "scope": "title_only",
+        "mechanism": "题材前提与目标、身份或解释错位；依案例判断",
+        "requires_long_title": false
+      },
+      "reader_promise": "高薪山顶夜班的异常客户是什么，服务关系会把她带到什么责任中。",
+      "progression_observations": [
+        "贷款和三万月薪使她接受异常夜间配送，而非无理由冒险。",
+        "同事补充封山事实推翻露营解释，新的提成使她继续上岗。",
+        "主动回应松鼠的加料问题，从假装没看见转为沟通。",
+        "持续照护客户后进入群聊，得到索道风险预警。",
+        "向工作人员预警失败，怪物客户协助阻止运行，服务网络第一次反过来帮助她。",
+        "日常能力可以先换收入，再换信任和责任；波折来自被服务者反过来需要主角行动，避免只以职业身份亮相然后跳到豪门打脸。"
+      ],
+      "limitations": [
+        "已读范围仅公开正文前3500字符；未读结尾；导语预告和正文实际兑现分开。第三方历史点赞不证明平台推荐因果；迁移原创机制，不迁移句子与情节。",
+        "前期多单配送重复惊吓，但沟通后目标出现变化；后来救援若继续同套路仍会疲劳。",
+        "索道损伤和处置属于小说设定，不能作为工程诊断或救援指南。"
+      ],
+      "heat_qualified": true,
+      "heat": {
+        "metrics": [
+          {
+            "name": "third_party_likes",
+            "value": 18558
+          }
+        ],
+        "source": "https://www.wangwendashuju.com/api/wangwen/story/ranking",
+        "statistical_date": "2026-10-05 00:00:00",
+        "observed_at": "2026-10-06T20:14:58.419682+08:00",
+        "qualified": true,
+        "scope": "同 bookId、书名、作者核验的第三方历史点赞；readCnt不用作读者量或热度资格"
+      },
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ],
+      "body_sha256": "5fbb0f3aee9573db4c1fe0d682245f02d8f3c94eadaf3a33fb3de091887f5f61",
+      "analysis_source": "local-research-snapshot-not-distributed"
+    },
+    "fanqie:7590967658690923544": {
+      "source_id": "fanqie:7590967658690923544",
+      "title": "听说嫁给太监不用生孩子，我欢喜的嫁了过去",
+      "source_url": "https://fanqienovel.com/page/7590967658690923544",
+      "reader_url": "https://fanqienovel.com/reader/7588037372000862782",
+      "observed_at": "2026-10-06T20:15:52.313719+08:00",
+      "tags": [
+        "甜宠",
+        "古代",
+        "架空"
+      ],
+      "read_scope": {
+        "kind": "continuous_public_preview",
+        "unit": "decoded_public_text_character_offset_0_based",
+        "ranges": [
+          [
+            0,
+            3500
+          ]
+        ],
+        "public_text_chars": 18386,
+        "official_word_number": 21681,
+        "note": "逐篇实际阅读前3500字符；其余公开缓存与结尾未读，不将导语预告当正文兑现。"
+      },
+      "full_text_read": false,
+      "ending_observed": false,
+      "opening_type": "家人悲愤和女主欢喜同时出现，目标差异先于爱情建立。",
+      "title_construction": {
+        "scope": "title_only",
+        "mechanism": "题材前提与目标、身份或解释错位；依案例判断",
+        "requires_long_title": false
+      },
+      "reader_promise": "众人视为惩罚的婚事为何满足她的个人愿望，成婚后愿望会遇到什么压力。",
+      "progression_observations": [
+        "家人悲愤和女主欢喜同时出现，目标差异先于爱情建立。",
+        "回忆母亲难产说明不愿生育的来源，婚配被她理解为解决办法。",
+        "新郎缺席拜堂未改变她的选择，但实际见面后温柔与危险同时存在。",
+        "新郎追问嫁因，她回避真正动机；强势接近使最初的生活预期受到压力。",
+        "选题可用旁人避之不及但主角确有需要的安排，动机须具体；正文要让新关系考验最初愿望，并通过表达边界推进，而不是抹掉该愿望。"
+      ],
+      "limitations": [
+        "已读范围仅公开正文前3500字符；未读结尾；导语预告和正文实际兑现分开。第三方历史点赞不证明平台推荐因果；迁移原创机制，不迁移句子与情节。",
+        "父母和姐姐多次重复同一反应；强制肢体接近与恐惧被包装成暧昧，不能作为健康甜宠的通用写法。",
+        "是否隐瞒身份、是否生育都未读到结果，不根据题材惯例补结尾。"
+      ],
+      "heat_qualified": true,
+      "heat": {
+        "metrics": [
+          {
+            "name": "third_party_likes",
+            "value": 1987
+          }
+        ],
+        "source": "https://www.wangwendashuju.com/api/wangwen/story/ranking",
+        "statistical_date": "2026-10-05 00:00:00",
+        "observed_at": "2026-10-06T20:14:58.459170+08:00",
+        "qualified": true,
+        "scope": "同 bookId、书名、作者核验的第三方历史点赞；readCnt不用作读者量或热度资格"
+      },
+      "supports_stages": [
+        "ideation",
+        "opening",
+        "plan",
+        "write",
+        "review",
+        "package"
+      ],
+      "body_sha256": "c6f9f0e571bd5eb27bb307131fb148692b5a8dcc7ac57d6593ac7b2b955530a7",
+      "analysis_source": "local-research-snapshot-not-distributed"
+    }
+  },
+  "stage_checks": {
+    "ideation": [
+      "说明目标读者、具体困境、异常机制、主角主动选择与结尾承诺；四案的因果解法不同。"
+    ],
+    "opening": [
+      "提出三种不同切入点：关系/行动、具体矛盾、异常线索；按本题材适用性选择，不强制全部套用。"
+    ],
+    "plan": [
+      "逐场写目标、行动、后果、关系/信息/资源变化及尚未兑现问题；相邻场功能重复时合并。"
+    ],
+    "write": [
+      "每个重点场面给动作、对白、环境与后果；背景只补当前理解所需。甜宠、积累与悬疑允许不同节奏。"
+    ],
+    "review": [
+      "只引用正文判断读者承诺与因果是否成立；识别标题兑现、入口流失风险和中段重复，编辑判断不能冒充真实留存。"
+    ],
+    "package": [
+      "三个标题采取不同信息组织方式并指出误读风险；简介保留核心疑问，不能把未发生事实编入标题。"
+    ]
+  },
+  "additional_sources": [
+    "local-research-snapshot-not-distributed"
+  ]
+}

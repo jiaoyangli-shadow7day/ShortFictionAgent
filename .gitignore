@@ -1,0 +1,34 @@
+# Local projects and generated manuscripts
+local-runs/
+local-trials/
+exports/
+content/
+production/
+research/
+
+# Credentials and runtime state
+.env
+.env.*
+!.env.example
+**/config/model.yaml
+*.db
+*.db-shm
+*.db-wal
+*.sqlite*
+*.log
+logs/
+
+# Python/build/editor state
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+.pytest_cache/
+.DS_Store
+.idea/
+.vscode/
+node_modules/
+.playwright-mcp/

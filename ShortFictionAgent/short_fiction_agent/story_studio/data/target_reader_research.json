@@ -1,0 +1,87 @@
+{
+  "version": "2026-10-11-v1-original-target-reader",
+  "source": "local-research-snapshot-not-distributed",
+  "scope": "官方创作建议与8份连续公开试读的编辑归纳；试读均未见结局，不代表全站人口画像或推流模型。只迁移机制，不复制原文和情节。",
+  "selection_limit": 2,
+  "mechanisms": [
+    {
+      "id": "rebirth_actual_advantage",
+      "match_terms": [
+        "重生",
+        "查询",
+        "改命",
+        "脑洞",
+        "系统"
+      ],
+      "reader_desire": "信息或能力优势真正改变选择和结果，过去失去的机会获得新走向。",
+      "realization": "先明确主角当前想得到什么，再写能力收益、主动争取、实际回应和回报后出现的新选择；限制帮助形成赢法。",
+      "failure_mode": "开头用一次能力即完成设定，其后只讲接受未知；或者每次增加限制、教育主角，却没有新的收益。",
+      "sources": [
+        "https://fanqienovel.com/writer/zone/article/7624047712786202686",
+        "https://fanqienovel.com/writer/zone/article/7652285832664973374",
+        "https://fanqienovel.com/writer/zone/article/7678898394189791256"
+      ],
+      "scope_limit": "不强制用完次数、每场开挂、必定发财或无限碾压；实际作用须服务本篇主线。"
+    },
+    {
+      "id": "romance_specific_choice",
+      "match_terms": [
+        "恋爱",
+        "校园",
+        "偏爱",
+        "甜宠",
+        "青梅",
+        "心动"
+      ],
+      "reader_desire": "有魅力的人为何对主角好奇、主动争取，彼此试探与回应如何形成独有关系。",
+      "realization": "用具体物件、行动、隐瞒被揭开或主动认领改变前面互动的含义。男性第一人称须落实男主欲望和女方选择，不原样照搬女主代入模板。",
+      "failure_mode": "反复安排、纠正、协商和认可，只换年级或职业便宣称关系升级；把讲清边界当作整场恋爱回报。",
+      "sources": [
+        "https://fanqienovel.com/writer/zone/article/7673335215351152702",
+        "https://fanqienovel.com/writer/zone/article/7638908973290111038",
+        "local-research-snapshot-not-distributed"
+      ],
+      "scope_limit": "安静照顾、玩笑和生活安排可以有效；青梅样本为3709字符公开试读，其重复犹豫不作为范例。"
+    },
+    {
+      "id": "counterattack_opponent_response",
+      "match_terms": [
+        "逆袭",
+        "反击",
+        "分手",
+        "背叛",
+        "复仇",
+        "夺回"
+      ],
+      "reader_desire": "受损处境被逆转，主角拿回具体利益或尊严，对手的反扑使赢法更值得看。",
+      "realization": "上一轮选择和结果改变下一轮手段、资源或公开关系。对手会调整，主角有接招与后手，胜负留下后果。",
+      "failure_mode": "对手一出现便认错或消失；换人来电和轮流震惊冒充升级；赢了却无法说清拿回什么。",
+      "sources": [
+        "https://fanqienovel.com/writer/zone/article/7688608349599825982",
+        "local-research-snapshot-not-distributed",
+        "local-research-snapshot-not-distributed"
+      ],
+      "scope_limit": "对应反击或争夺承诺，不强迫纯爱、家庭喜剧添加恶毒反派；两份原文只读公开试读。"
+    },
+    {
+      "id": "warmth_consequence_and_reframing",
+      "match_terms": [
+        "温情",
+        "父亲",
+        "家庭",
+        "父爱",
+        "成长",
+        "报恩"
+      ],
+      "reader_desire": "善意得到回报，熟悉的人显出新的一面，艰难行动改变处境和关系。",
+      "realization": "反差产生不同的新行动；新事实改变对一个人的理解与决定；跨年仍以明确因果和回报连接。",
+      "failure_mode": "换日期记录同类小事，反复证明懂事或成熟；只用旁白解释意义，实际关系与选择没有变化。",
+      "sources": [
+        "https://fanqienovel.com/writer/zone/article/7655218642967085118",
+        "https://fanqienovel.com/writer/zone/article/7678898394189791256",
+        "local-research-snapshot-not-distributed"
+      ],
+      "scope_limit": "温暖和成长不等于缺乏吸引力；父爱样本只读4848字符试读，反复考试与惊讶也应压缩。"
+    }
+  ]
+}

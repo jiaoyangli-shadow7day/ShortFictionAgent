@@ -1,0 +1,34 @@
+fixture_id: xuanhuan_ch1
+genre: 玄幻
+title: 评测·玄幻
+setting:
+  protagonist:
+    name: 萧尘
+    identity: 被夺去血脉、贬为废材的家族弃子
+    personality: 隐忍腹黑，伺机翻盘，护短
+    speaking_style: 话不多，落子见血，少说狠话
+    golden_finger: 重生归来 + 上古吞噬血脉（吞噬有反噬代价，需逐步炼化）
+    forbidden_behaviors: [禁止降智平推, 禁止凭空打脸]
+  relationship_state:
+    relationship_stage: 起步
+  world_setting:
+    name: 青云宗
+    power_system: ["炼气→筑基→金丹→元婴(每阶战力与寿元有明确边界)"]
+    factions: ["宗门长老把持资源", "夺其血脉的二房少主萧承为近敌"]
+    features: ["主角三年前被夺血脉贬为废材", "重生带先知但已因蝴蝶效应部分失效", "宗门大比将至"]
+chapter_outline:
+  chapter_id: 1
+  reader_hook: 重生归来的废材，在宗门考核当众被二房少主羞辱，却觉醒了上古吞噬血脉
+  story_question: 萧尘能否在考核上当众翻盘、夺回属于自己的资源与尊严？
+  character_desire: 萧尘要夺回被夺走的血脉与家族地位
+  main_event: 宗门年度考核，萧尘被二房少主萧承当众羞辱、判为废材逐出，随即觉醒吞噬血脉反杀
+  obstacle: 萧承实力高出一阶，长老偏袒二房，废材身份被全宗看轻
+  action: 萧尘以吞噬血脉越级接下萧承一击，当众夺回考核资格
+  cost: 吞噬血脉反噬重伤经脉，先知优势暴露引来长老警觉
+  relationship_turn: 全宗对萧尘从看轻废材转为忌惮的变数
+  irreversible_change: 萧尘不再是任人欺压的废材，而是站上牌桌的对手
+  viral_scene: 当众被判废材逐出时，萧尘越级一掌震退萧承，全场死寂
+  emotional_intensity: 5
+  ending_hook: 翻盘后长老冷冷开口——他认得这门早已失传的吞噬血脉
+  next_chapter_question: 长老为何认得吞噬血脉？萧尘的身世会不会因此暴露？
+  forbidden_items: [禁止全场哗然式旁白, 禁止无因羞辱, 禁止降智平推]

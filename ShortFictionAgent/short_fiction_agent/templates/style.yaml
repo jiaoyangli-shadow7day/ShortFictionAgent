@@ -1,0 +1,21 @@
+# 写作风格配置模板
+narrative_style: "第三人称有限视角"
+dialogue_style: "自然口语化，像中国学生真实对话"
+description_style: "重细节轻抒情，用场景说话"
+pace_style: "中等偏慢，注重日常积累"
+chapter_length: "2000-3500字"
+
+prohibited_expressions:
+  - "命运的齿轮开始转动"
+  - "他不知道的是"
+  - "少年少女"
+  - "青春的气息"
+  - "心像小鹿乱撞"
+  - "一眼万年"
+  - "命中注定"
+
+required_elements:
+  - "具体校园生活细节"
+  - "动作而非心理总结"
+  - "对话而非旁白解释"
+  - "场景感官细节（声音、光线、气味）"

@@ -1,0 +1,40 @@
+fixture_id: urban_ch1
+genre: 都市
+title: 评测·都市
+setting:
+  protagonist_male:
+    name: 顾沉
+    personality: 落魄却深藏不露，隐忍，伺机翻盘
+    speaking_style: 克制有潜台词，少说狠话
+    forbidden_behaviors: [禁止凭空打脸, 禁止降智碾压]
+  protagonist_female:
+    name: 苏晚
+    personality: 要强独立，重事业与尊严
+    speaking_style: 干脆利落，谈条件留余地
+    forbidden_behaviors: [禁止恋爱脑, 禁止为发糖放弃立场]
+  relationship_state:
+    relationship_stage: 利益结盟
+    romance_level: 8
+    trust_level: 12
+    conflict_level: 20
+  world_setting:
+    school_name: 锦城地产集团
+    location: 江城CBD
+    features: [家族控股的地产集团, 主角三年前被退婚扫地出门, 如今带底牌归来]
+    daily_schedule: ["上午股东会", "下午谈判"]
+chapter_outline:
+  chapter_id: 1
+  reader_hook: 三年前被退婚扫地出门的落魄少爷，带着收购协议出现在集团股东会上
+  story_question: 顾沉能否在股东会上揭穿对手、拿回本属于自己的位置？
+  character_desire: 顾沉要夺回被夺走的家族控制权
+  main_event: 顾沉在股东会现身，被当众羞辱，随后甩出对赌与收购协议反杀
+  obstacle: 对手掌握董事会多数席位，债务与旧账压在顾沉身上
+  action: 顾沉拿出协议，拨通一通电话，当众摊牌
+  cost: 一旦输掉对赌就彻底出局，旧债被翻出，名声尽毁
+  relationship_turn: 苏晚从看轻顾沉转为意识到他手里有底牌
+  irreversible_change: 顾沉不再是被退婚的落魄少爷，而是站上牌桌的对手
+  viral_scene: 当众羞辱后顾沉冷静甩出收购协议，全场反转
+  emotional_intensity: 5
+  ending_hook: 协议签字前，对手亮出一份顾沉以为早已销毁的旧合同
+  next_chapter_question: 那份旧合同会不会让顾沉的反杀功亏一篑？
+  forbidden_items: [禁止全场震惊式旁白, 禁止无因羞辱]

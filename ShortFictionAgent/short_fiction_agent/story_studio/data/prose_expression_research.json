@@ -1,0 +1,417 @@
+{
+  "version": "prose-expression-2026-10-08-v1",
+  "audit": "local-research-snapshot-not-distributed",
+  "scope": "已读连续公开试读与本地节选的表达证据；只迁移抽象机制；不复制原情节；不证明市场效果",
+  "selection_limit": 2,
+  "evidence": [
+    {
+      "id": "prose_sweet_response",
+      "title": "青梅很野",
+      "families": [
+        "romance",
+        "male_relationship"
+      ],
+      "match_terms": [
+        "青梅",
+        "校园",
+        "邻居"
+      ],
+      "source": {
+        "path": "ShortFictionAgent/tests/fixtures/prose_examples/prose_sweet_response.txt",
+        "url": "https://fanqienovel.com/reader/7592297329005183513",
+        "sha256": "7904c3025eb772d49ba470c851ad17f3871c9fb91098b91978dfd318a1a1c362",
+        "read_scope": "bundled_short_quotes; original_read_scope_recorded_separately",
+        "read_ranges": [
+          [
+            0,
+            35
+          ]
+        ],
+        "full_story_read": false,
+        "ending_observed": false,
+        "platform_submission_binding": "unverified",
+        "original_sha256": "ad5d226cd6bb84526314452919a0eed7a1204c6530d89e106fec81ae78b20034",
+        "original_read_ranges": [
+          [
+            0,
+            3709
+          ]
+        ]
+      },
+      "evidence": [
+        {
+          "quote": "“这花……该不会是送给我的吧？”",
+          "span": [
+            0,
+            16
+          ],
+          "original_span": [
+            340,
+            356
+          ]
+        },
+        {
+          "quote": "“花还留着啊。”",
+          "span": [
+            17,
+            25
+          ],
+          "original_span": [
+            975,
+            983
+          ]
+        },
+        {
+          "quote": "“开得挺好的。”",
+          "span": [
+            26,
+            34
+          ],
+          "original_span": [
+            1003,
+            1011
+          ]
+        }
+      ],
+      "expression_mechanism": "一方把尴尬转成可接的话，另一方当场送出回应；后续安静的保留和一句答话让原有物件成为被珍惜的证据，读者等待双方如何理解这份偏爱。",
+      "counterexample_limit": "只迁移试探—动作—回应和细节承载偏爱的表达机制。试读有比喻和心理段，不因此删描写；未读完整结局，人物年龄和后续亲密情节不作为迁移模板。"
+    },
+    {
+      "id": "prose_sweet_plain_reply",
+      "title": "室友的疯批哥哥竟然暗恋我",
+      "families": [
+        "romance",
+        "male_relationship"
+      ],
+      "match_terms": [
+        "甜宠",
+        "暗恋",
+        "室友",
+        "网恋"
+      ],
+      "source": {
+        "path": "ShortFictionAgent/tests/fixtures/prose_examples/prose_sweet_plain_reply.txt",
+        "url": "https://fanqienovel.com/reader/7483534644994900542",
+        "sha256": "acc6733e7a8847244799545545c5dce0f3e867eb569e01492653d19e0eb7c55b",
+        "read_scope": "bundled_short_quotes; original_read_scope_recorded_separately",
+        "read_ranges": [
+          [
+            0,
+            40
+          ]
+        ],
+        "full_story_read": false,
+        "ending_observed": false,
+        "platform_submission_binding": "unverified",
+        "original_sha256": "9b9626cfad509803c34f32e6417a15dc750d8d2d232f080e8c21ab1a3c88c045",
+        "original_read_ranges": [
+          [
+            0,
+            2869
+          ]
+        ]
+      },
+      "evidence": [
+        {
+          "quote": "“包养你们，我有什么好处？”",
+          "span": [
+            0,
+            14
+          ],
+          "original_span": [
+            411,
+            425
+          ]
+        },
+        {
+          "quote": "【S:宝宝不喜欢吗？那宝宝喜欢什么样的，我换。】",
+          "span": [
+            15,
+            39
+          ],
+          "original_span": [
+            2404,
+            2428
+          ]
+        }
+      ],
+      "expression_mechanism": "问句给对方留下真实接招空间；关系已经建立时，一句愿意按对方喜好调整的答复也能确认偏爱，稳定相处不必靠新误会维持。",
+      "counterexample_limit": "只参考说话动作怎样得到相应回应。不能复制包养/大小姐/网恋身份组合；尊重作者人物尊严，不迁移该试读的控制性言行。历史点赞不证明这些句子导致留存。"
+    },
+    {
+      "id": "prose_family_visible_choice",
+      "title": "婚假值班表",
+      "families": [
+        "family_growth",
+        "revenge_status"
+      ],
+      "match_terms": [
+        "婚姻",
+        "家庭",
+        "婆婆",
+        "婚假"
+      ],
+      "source": {
+        "path": "ShortFictionAgent/tests/fixtures/prose_examples/prose_family_visible_choice.txt",
+        "url": null,
+        "sha256": "1e63fc57dfb710b964987b777518d43fda73ad59759a51ff5f12b482366184d9",
+        "read_scope": "bundled_short_quotes; original_read_scope_recorded_separately",
+        "read_ranges": [
+          [
+            0,
+            35
+          ]
+        ],
+        "full_story_read": false,
+        "ending_observed": false,
+        "platform_submission_binding": "unverified",
+        "original_sha256": "e37a073aa00c8e96208bf08db072df985e8c33258f1112fd831a02c992dab266",
+        "original_read_ranges": [
+          [
+            0,
+            1700
+          ],
+          [
+            4022,
+            5122
+          ],
+          [
+            8244,
+            9144
+          ]
+        ]
+      },
+      "evidence": [
+        {
+          "quote": "我拿起笔，把每一格里的“沈宜”划掉，改成了丈夫的名字。",
+          "span": [
+            0,
+            27
+          ],
+          "original_span": [
+            45,
+            72
+          ]
+        },
+        {
+          "quote": "“那我呢？”",
+          "span": [
+            28,
+            34
+          ],
+          "original_span": [
+            103,
+            109
+          ]
+        }
+      ],
+      "expression_mechanism": "先做改变分工的动作，对方立即质问，再用指向同一利益分配的短问句接招；物件和职业式排班术语变成争夺休息权的现场。",
+      "counterexample_limit": "排班表有作用不等于所有清单都有作用。保留改变行动权限的条目，压缩没有新回应的流程；此卡仅来自首中尾节选，不声称完整正文有效或平台验证。"
+    },
+    {
+      "id": "prose_family_detail_reframes",
+      "title": "八百块婚礼当爹",
+      "families": [
+        "family_growth",
+        "grief_regret",
+        "daily_competence"
+      ],
+      "match_terms": [
+        "父亲",
+        "婚礼",
+        "亲情",
+        "父子"
+      ],
+      "source": {
+        "path": "ShortFictionAgent/tests/fixtures/prose_examples/prose_family_detail_reframes.txt",
+        "url": null,
+        "sha256": "45c2a985f3382d790bc2ce9bc6f18d7917fe66f1c555235841c09028ae4656b1",
+        "read_scope": "bundled_short_quotes; original_read_scope_recorded_separately",
+        "read_ranges": [
+          [
+            0,
+            38
+          ]
+        ],
+        "full_story_read": false,
+        "ending_observed": false,
+        "platform_submission_binding": "unverified",
+        "original_sha256": "cede679097cf827e1be7fc41b5531ae5a36aa7b3d5503726039524a701168d11",
+        "original_read_ranges": [
+          [
+            0,
+            1700
+          ],
+          [
+            3598,
+            4698
+          ],
+          [
+            7396,
+            8296
+          ]
+        ]
+      },
+      "evidence": [
+        {
+          "quote": "“祝 | 两个孩子 | 和和美美。”",
+          "span": [
+            0,
+            18
+          ],
+          "original_span": [
+            1019,
+            1037
+          ]
+        },
+        {
+          "quote": "他看见了我的胸花，伸过来的手停住了。",
+          "span": [
+            19,
+            37
+          ],
+          "original_span": [
+            1197,
+            1215
+          ]
+        }
+      ],
+      "expression_mechanism": "重复练习祝词和看见胸花后停手，让读者从陌生洗碗工改看为被替代的父亲；描写改变叙述者的理解与接下来是否替他开口的选择。",
+      "counterexample_limit": "细节可以承担发现、迟疑和关系回应，不按段长删除；不把普通人物描写一律当冗余。此卡来自已审节选，不迁移收费代父和婚礼揭示的情节。"
+    },
+    {
+      "id": "prose_professional_countermove",
+      "title": "被盗刷二十万没挂失，我去银行取了五百块",
+      "families": [
+        "revenge_status",
+        "daily_competence",
+        "survival"
+      ],
+      "match_terms": [
+        "银行",
+        "职业",
+        "职场",
+        "盗刷"
+      ],
+      "source": {
+        "path": "ShortFictionAgent/tests/fixtures/prose_examples/prose_professional_countermove.txt",
+        "url": "https://fanqienovel.com/reader/7645336898524693054",
+        "sha256": "f43c93dc052be6e5681920dd4c9f2f65e5004321b58149cf7c182b417ae78e2b",
+        "read_scope": "bundled_short_quotes; original_read_scope_recorded_separately",
+        "read_ranges": [
+          [
+            0,
+            31
+          ]
+        ],
+        "full_story_read": false,
+        "ending_observed": false,
+        "platform_submission_binding": "unverified",
+        "original_sha256": "13eb89340fbb5a1dbe3c0135b274d624257d4d5d46ab6928e0e74d74a2c6e43f",
+        "original_read_ranges": [
+          [
+            0,
+            4636
+          ]
+        ]
+      },
+      "evidence": [
+        {
+          "quote": "\"你说人话。\"",
+          "span": [
+            0,
+            7
+          ],
+          "original_span": [
+            999,
+            1006
+          ]
+        },
+        {
+          "quote": "\"你确定不受理？\"",
+          "span": [
+            8,
+            17
+          ],
+          "original_span": [
+            3182,
+            3191
+          ]
+        },
+        {
+          "quote": "\"今天的对话我录了音。\"",
+          "span": [
+            18,
+            30
+          ],
+          "original_span": [
+            3303,
+            3315
+          ]
+        }
+      ],
+      "expression_mechanism": "专业解释受到当场追问和拒绝，主角转向明确要求、确认对方决定并留下可用回应；术语参与利益交锋，读者在看对方下一步怎样接招。",
+      "counterexample_limit": "只迁移知识—反应—改策的表达。样本法律条款、银行程序和证据论证未经本任务验证，不能当金融/法律事实沿用；有术语不自动好看，手续完整也不能替代关系戏。"
+    },
+    {
+      "id": "prose_professional_resource_stakes",
+      "title": "父债关店",
+      "families": [
+        "revenge_status",
+        "daily_competence"
+      ],
+      "match_terms": [
+        "职业",
+        "债务",
+        "库存",
+        "店",
+        "生意"
+      ],
+      "source": {
+        "path": "ShortFictionAgent/tests/fixtures/prose_examples/prose_professional_resource_stakes.txt",
+        "url": null,
+        "sha256": "c7bc893cb891c0bf6156e7b36fd91a6d3d2a7a05d55352dd4d457e86dbb6a5e9",
+        "read_scope": "bundled_short_quotes; original_read_scope_recorded_separately",
+        "read_ranges": [
+          [
+            0,
+            17
+          ]
+        ],
+        "full_story_read": false,
+        "ending_observed": false,
+        "platform_submission_binding": "unverified",
+        "original_sha256": "7c4b0b70fd906e38c75d9668b1add7b627ae4ecaed30a233cf5fc7dcc17b33b1",
+        "original_read_ranges": [
+          [
+            0,
+            1700
+          ],
+          [
+            4649,
+            5749
+          ],
+          [
+            9498,
+            10398
+          ]
+        ]
+      },
+      "evidence": [
+        {
+          "quote": "父亲抓起座机翻开客户联络簿冷笑：",
+          "span": [
+            0,
+            16
+          ],
+          "original_span": [
+            114,
+            130
+          ]
+        }
+      ],
+      "expression_mechanism": "库存、机器和客户联络簿分别对应可失去的资产及客户信任，对方拿起电话改变眼下威胁，专业细节让拒签之后的损失可见。",
+      "counterexample_limit": "只参考资源名如何参与实际威胁，不迁移欠款金额、设备组合或父债情节；不以出现具体文件和参数就认定有交锋。本地节选尚未绑定平台提交哈希。"
+    }
+  ]
+}

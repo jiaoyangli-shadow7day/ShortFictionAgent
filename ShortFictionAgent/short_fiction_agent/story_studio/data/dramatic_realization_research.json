@@ -1,0 +1,49 @@
+{
+  "version": "dramatic-realization-2026-10-06-v1",
+  "reviewed_at": "2026-10-06T10:56:16.249434+08:00",
+  "scope": "回看已有实读标注的编辑推断，不增加实读篇数、不预测爆款；只迁移机制。",
+  "rules": [
+    "事件存在、办事合理不等于戏已展开。核心回报写出期待、尝试、对方回应、局面改写及兑现。",
+    "关键胜利改变后续问题的性质，不能只是换人重复同种打脸；奖励可以保留，不强制每次扣光所得。",
+    "关系张力来自有后果的试探、选择与回应。安静甜蜜也能推进，不机械制造误会、死亡或背叛。",
+    "压缩流程与制度说明，把作者要求的篇幅留给主要交锋、关系变化与决战；不能以提高效率为由自动缩短正文。"
+  ],
+  "evidence": [
+    {
+      "book_id": "7654102855837568062",
+      "title": "太子改娶我后，爱装清高的嫡姐傻眼了",
+      "families": [
+        "ancient_power"
+      ],
+      "source_url": "https://fanqienovel.com/page/7654102855837568062",
+      "read_scope": "continuous_public_preview",
+      "ending_observed": false,
+      "mechanism": "公开名分的胜利招来家内财产反击，再成为太子政治把柄；旧仆与旧信跨场改变作用。",
+      "caveat": "主角要有自己的反制；不要照搬强援预备所有证人、重复辱骂的缺陷。"
+    },
+    {
+      "book_id": "7447774462579065369",
+      "title": "大昭皇后",
+      "families": [
+        "ancient_power"
+      ],
+      "source_url": "https://fanqienovel.com/page/7447774462579065369",
+      "read_scope": "full_story_and_ending",
+      "ending_observed": true,
+      "mechanism": "回溯每次重估当下关系：以为是体恤或爱情的行为逐渐露出权力与保护的另一种含义。",
+      "caveat": "不复制结尾迟到补设的七年谋划；重要能力提前发挥作用。"
+    },
+    {
+      "book_id": "7648052406910979134",
+      "title": "我装了八年哑巴，开口把番邦使臣骂哭了",
+      "families": [
+        "ancient_power"
+      ],
+      "source_url": "https://fanqienovel.com/page/7648052406910979134",
+      "read_scope": "continuous_public_preview",
+      "ending_observed": false,
+      "mechanism": "当前危机迫使主角放弃曾保护自己与母亲的安全策略；开口有实际情感基础。",
+      "caveat": "不能用震惊和断言替代交锋或证据；发声后的后果还需场景兑现。"
+    }
+  ]
+}
